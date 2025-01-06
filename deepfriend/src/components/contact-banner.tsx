@@ -3,25 +3,17 @@
 import { RootState } from "@/store/store";
 import { useSelector } from "react-redux";
 
-import PrivacyPolicyBackgroundDark from "../../public/backgrounds/legal-banner-background-dark.svg";
-import PrivacyPolicyBackgroundLight from "../../public/backgrounds/legal-banner-background-light.png";
-
 import ContactBannerImageWhite from "../../public/images/contact-banner-image-white.png";
 
 import Image from "next/image";
-import { CSSProperties } from "react";
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "@/app/layout";
 
 export default function ContactBannerComponent() {
     const { systemColor } = useSelector((state: RootState) => state.systemColor);
 
-    const cardStyle: CSSProperties = {
-        //backgroundImage: `url(${systemColor === "light" ? PrivacyPolicyBackgroundLight.src : PrivacyPolicyBackgroundDark.src})`,
-    };
-
     return (
         <div className="page-banner-wrapper">
-            <div className="page-banner-container" style={cardStyle}>
+            <div className="page-banner-container">
                 <div className="page-banner-letters-0-container" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
                     <h1 className="home-properties-1-title">
                         Meet our comunication chanels
