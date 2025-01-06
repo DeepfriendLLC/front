@@ -17,11 +17,6 @@ import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "@/app/layout";
 export default function HomeProperties0Component() {
   const { systemColor } = useSelector((state: RootState) => state.systemColor);
 
-  const imageStyle: CSSProperties = {
-    width: 54,
-    height: 54,
-  };
-
   return (
     <div className="home-properties-0-container">
       <div className="home-properties-0-card" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>

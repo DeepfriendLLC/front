@@ -8,8 +8,13 @@ import HomeProperties2Component from "@/components/home-properties-2";
 import HomeProperties30Component from "@/components/home-properties-3-0";
 import HomeProperties31Component from "@/components/home-properties-3-1";
 import HomeProperties4Component from "@/components/home-properties-4";
+import { useSelector } from "react-redux";
+import { RootState } from "@/store/store";
+import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "./layout";
 
 export default function Home() {
+  const { systemColor } = useSelector((state: RootState) => state.systemColor);
+
   const containerStyle: CSSProperties = {
     flex: 1,
     display: "flex",
@@ -26,6 +31,9 @@ export default function Home() {
         <HomeProperties30Component />
         <HomeProperties31Component />
       </div>
+      <h1 className="home-properties-4-title" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
+        Try the Welcome Package for a unique payment of <strong>$1</strong>
+      </h1>
       <HomeProperties4Component />
     </div>
   );

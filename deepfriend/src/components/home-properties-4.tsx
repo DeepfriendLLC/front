@@ -1,7 +1,5 @@
 "use client";
 
-import { CSSProperties } from "react";
-
 import ImageProperties4White from "../../public/icons/home-properties-4-check-white.png";
 import ImageProperties4Dark from "../../public/icons/home-properties-4-check-dark.png";
 
@@ -18,9 +16,6 @@ export default function HomeProperties4Component() {
 
   return (
     <div className="home-properties-4-container">
-      <h1 className="home-properties-1-title" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
-        Try the Welcome Package for a unique payment of <strong>$1</strong>
-      </h1>
       <div className="home-properties-4-cards-row">
         <div className="home-properties-4-card-container-big" style={{ color: systemColor === "dark" ? BASIC_LIGHT_COLOR : BASIC_DARK_COLOR, borderColor: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
           <div className="home-properties-4-card-container-big-letters-container">

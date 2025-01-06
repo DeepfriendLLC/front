@@ -37,11 +37,6 @@ export default function HomeBannerComponent() {
         alignSelf: "center"
     };
 
-    const imageStyle: CSSProperties = {
-        width: 400,
-        height: 400,
-    };
-
     return (
         <div className="home-banner-wrapper">
             <div className="home-banner-download-container">
