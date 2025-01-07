@@ -2,7 +2,7 @@ export function Head() {
     return (
         <head>
             <title>Deepfriend</title>
-            <meta name="author" content="Deepfriend LLC" />
+            <meta name="author" content="Pablo Vallejo, Deepfriend LLC" />
 
             <meta charSet="utf-8" />
             <meta

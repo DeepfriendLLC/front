@@ -3,9 +3,6 @@
 import { RootState } from "@/store/store";
 import { useSelector } from "react-redux";
 
-import PrivacyPolicyBackgroundDark from "../../public/backgrounds/legal-banner-background-dark.svg";
-import PrivacyPolicyBackgroundLight from "../../public/backgrounds/legal-banner-background-light.png";
-
 import AboutBannerImageWhite from "../../public/images/about-banner-image-white.png";
 
 import Image from "next/image";
