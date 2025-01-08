@@ -5,10 +5,11 @@ import { useSelector } from "react-redux";
 import { RootState } from "@/store/store";
 
 import PricingProperties1MessageWhite from "../../public/images/pricing-properties-1-message-white.png";
-import PricingProperties1MessageDark from "../../public/images/pricing-properties-1-message-white.png";
+import PricingProperties1MessageDark from "../../public/images/pricing-properties-1-message-dark.png";
 
 import PricingProperties1AudioWhite from "../../public/images/pricing-properties-1-audio-white.png";
-import PricingProperties1AudioDark from "../../public/images/pricing-properties-1-audio-white.png";
+import PricingProperties1AudioDark from "../../public/images/pricing-properties-1-audio-dark.png";
+
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "@/app/layout";
 
 export default function PricingProperties1Component() {

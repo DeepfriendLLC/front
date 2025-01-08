@@ -7,7 +7,7 @@ import PrivacyPolicyBackgroundDark from "../../public/backgrounds/legal-banner-b
 import PrivacyPolicyBackgroundLight from "../../public/backgrounds/legal-banner-background-light.png";
 
 import PrivacyPolicyImageWhite from "../../public/images/privacy-policy-banner-image-white.png";
-import PrivacyPolicyImageDark from "../../public/images/privacy-policy-banner-image-white.png";
+import PrivacyPolicyImageDark from "../../public/images/privacy-policy-banner-image-dark.png";
 
 import Image from "next/image";
 import { CSSProperties } from "react";
@@ -34,7 +34,6 @@ export default function PrivacyPolicyBannerComponent() {
                 <div className="privacy-policy-banner-image-container">
                     <Image
                         alt="DF Privacy Policy image"
-                        layout="responsive"
                         src={systemColor === "light" ? PrivacyPolicyImageWhite : PrivacyPolicyImageDark}
                         className="privacy-policy-banner-image-image"
                     />

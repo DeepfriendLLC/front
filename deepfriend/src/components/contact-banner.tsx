@@ -4,6 +4,7 @@ import { RootState } from "@/store/store";
 import { useSelector } from "react-redux";
 
 import ContactBannerImageWhite from "../../public/images/contact-banner-image-white.png";
+import ContactBannerImageDark from "../../public/images/contact-banner-image-dark.png";
 
 import Image from "next/image";
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "@/app/layout";
@@ -22,7 +23,7 @@ export default function ContactBannerComponent() {
                 <div className="page-banner-image-container">
                     <Image
                         alt="DF Contact banner image"
-                        src={systemColor === "light" ? ContactBannerImageWhite : ContactBannerImageWhite}
+                        src={systemColor === "light" ? ContactBannerImageWhite : ContactBannerImageDark}
                         className="contact-banner-image-image"
                     />
                 </div>

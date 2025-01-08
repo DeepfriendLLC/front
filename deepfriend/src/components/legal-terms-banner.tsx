@@ -7,7 +7,7 @@ import PrivacyPolicyBackgroundDark from "../../public/backgrounds/legal-banner-b
 import PrivacyPolicyBackgroundLight from "../../public/backgrounds/legal-banner-background-light.png";
 
 import LegalTermsImageWhite from "../../public/images/legal-terms-banner-image-white.png";
-import LegalTermsImageDark from "../../public/images/legal-terms-banner-image-white.png";
+import LegalTermsImageDark from "../../public/images/legal-terms-banner-image-dark.png";
 
 import Image from "next/image";
 import { CSSProperties } from "react";

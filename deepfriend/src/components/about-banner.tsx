@@ -4,21 +4,17 @@ import { RootState } from "@/store/store";
 import { useSelector } from "react-redux";
 
 import AboutBannerImageWhite from "../../public/images/about-banner-image-white.png";
+import AboutBannerImageDark from "../../public/images/about-banner-image-dark.png";
 
 import Image from "next/image";
-import { CSSProperties } from "react";
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "@/app/layout";
 
 export default function AboutBannerComponent() {
     const { systemColor } = useSelector((state: RootState) => state.systemColor);
 
-    const cardStyle: CSSProperties = {
-        //backgroundImage: `url(${systemColor === "light" ? PrivacyPolicyBackgroundLight.src : PrivacyPolicyBackgroundDark.src})`,
-    };
-
     return (
         <div className="page-banner-wrapper">
-            <div className="page-banner-container" style={cardStyle}>
+            <div className="page-banner-container">
                 <div className="page-banner-letters-0-container" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
                     <h1 className="home-properties-1-title">
                         Meet our team
@@ -29,7 +25,7 @@ export default function AboutBannerComponent() {
                 <div className="page-banner-image-container">
                     <Image
                         alt="DF About banner image"
-                        src={systemColor === "light" ? AboutBannerImageWhite : AboutBannerImageWhite}
+                        src={systemColor === "light" ? AboutBannerImageWhite : AboutBannerImageDark}
                         className="about-banner-image-image"
                     />
                 </div>

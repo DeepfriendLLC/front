@@ -497,7 +497,6 @@ a {
 
   .home-properties-2-card-letters {
     width: 60%;
-    height: 100%;
 
     display: flex;
     flex-direction: column;
@@ -563,7 +562,7 @@ a {
     width: 40%;
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-content: center;
 
@@ -571,6 +570,14 @@ a {
 
     margin: 0px;
     padding: 0px;
+  }
+
+  .home-properties-2-image-image {
+    width: 411.2px;
+    height: 273.6px;
+
+    align-self: "center";
+    padding: 8px;
   }
 
   .home-properties-3-wrapped {
@@ -858,7 +865,7 @@ a {
   }
 
   .privacy-policy-banner-letters-container {
-    width: 50%;
+    width: 60%;
 
     display: flex;
     flex-direction: column;
@@ -872,7 +879,7 @@ a {
   }
 
   .privacy-policy-banner-image-container {
-    width: 50%;
+    width: 40%;
 
     display: flex;
     flex-direction: column;
@@ -886,8 +893,8 @@ a {
   }
 
   .privacy-policy-banner-image-image {
-    width: 551.39px;
-    height: 276.73px;
+    width: 413.54px;
+    height: 207.54px;
 
     align-self: center;
   }
@@ -2147,7 +2154,7 @@ a {
     width: 100%;
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-content: center;
 
@@ -2155,6 +2162,14 @@ a {
 
     margin: 0px;
     padding: 0px;
+  }
+
+  .home-properties-2-image-image {
+    width: 254px;
+    height: 171px;
+    
+    align-self: "center";
+    padding: 8px;
   }
 
   .home-properties-3-wrapped {

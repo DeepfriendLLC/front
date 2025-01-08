@@ -21,7 +21,8 @@ export default function HomeProperties2Component() {
   const imageStyle: CSSProperties = {
     width: 514,
     height: 342,
-    alignSelf: "center"
+    alignSelf: "center",
+    padding: 24
   };
 
   const imageLetters0Style: CSSProperties = {
@@ -33,7 +34,7 @@ export default function HomeProperties2Component() {
   const imageLetters1Style: CSSProperties = {
     width: 157.5,
     height: 52.5,
-    alignSelf: "center"
+    alignSelf: "center",
   };
 
   return (
@@ -43,8 +44,7 @@ export default function HomeProperties2Component() {
           <Image
             alt="DF Web icon"
             src={systemColor === "dark" ? ImageProperties2Dark : ImageProperties2White}
-            layout="responsive"
-            style={imageStyle}
+            className="home-properties-2-image-image"
           />
         </div>
         <div className="home-properties-2-card-letters">

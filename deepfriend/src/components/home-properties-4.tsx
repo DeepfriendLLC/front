@@ -64,7 +64,7 @@ export default function HomeProperties4Component() {
           </h1>
           <h1 className="home-properties-4-card-money-text">
             <strong style={{ fontSize: 54, marginRight: 4 }}>
-              $30
+              $29
             </strong>
             per month
           </h1>
@@ -93,7 +93,7 @@ export default function HomeProperties4Component() {
           </h1>
           <h1 className="home-properties-4-card-money-text">
             <strong style={{ fontSize: 54, marginRight: 4 }}>
-              $50
+              $57
             </strong>
             per month
           </h1>
