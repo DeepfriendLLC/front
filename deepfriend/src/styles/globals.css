@@ -375,6 +375,9 @@ a {
   }
 
   .dropdown-wrapper {
+    width: 0px;
+    height: 0px;
+
     visibility: hidden;
   }
 
@@ -644,7 +647,7 @@ a {
     padding-right: 10%;
 
     margin-top: 8px;
-    margin-bottom: 24px;
+    margin-bottom: 54px;
   }
 
   .home-properties-4-cards-row {
@@ -1083,7 +1086,7 @@ a {
     padding: 0px;
     margin: 0px;
 
-    margin-top: 32px;
+    margin-top: -22px;
     margin-bottom: 54px;
 
     padding-left: 10%;
@@ -1297,7 +1300,7 @@ a {
 
   .contact-properties-0-inner-container-text {
     font-family: "Montserrat";
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
 
     margin: 0px;
@@ -1360,7 +1363,7 @@ a {
   .about-properties-0-pablo-text {
     width: 100%;
     font-family: "Montserrat";
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
 
     margin: 0px;
@@ -1379,7 +1382,7 @@ a {
   }
 
   .about-properties-0-letters-container {
-    width: 60%;
+    width: Calc(60% + 10rem);
 
     display: flex;
     flex-direction: column;
@@ -1657,8 +1660,8 @@ a {
   .home-banner-wrapper {
     width: 100%;
 
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 24px;
+    padding-right: 24px;
 
     margin-top: 24px;
   }
@@ -1736,8 +1739,8 @@ a {
     margin: 0px;
     padding: 0px;
 
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 24px;
+    padding-right: 24px;
 
     margin-top: 24px;
     padding-top: 40px;
@@ -2075,8 +2078,8 @@ a {
     padding-top: 32px;
     padding-bottom: 32px;
 
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 24px;
+    padding-right: 24px;
 
     border-radius: 32px;
   }
@@ -2185,8 +2188,8 @@ a {
     padding-top: 32px;
     padding-bottom: 32px;
 
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 24px;
+    padding-right: 24px;
 
     border-radius: 32px;
   }
@@ -2230,6 +2233,7 @@ a {
     padding-right: 24px;
 
     margin-top: 0px;
+    margin-bottom: 24px;
   }
 
   .home-properties-4-cards-row {
@@ -2561,7 +2565,6 @@ a {
     padding-right: 24px;
 
     margin-top: 24px;
-    margin-bottom: 24px;
   }
 
   .page-banner-container {
@@ -2634,6 +2637,8 @@ a {
 
     padding-left: 24px;
     padding-right: 24px;
+
+    margin-top: 32px;
   }
 
   .pricing-text {
@@ -2663,7 +2668,8 @@ a {
     padding: 0px;
     margin: 0px;
 
-    margin-top: 32px;
+    margin-top: 8px;
+    margin-bottom: 24px;
 
     padding-left: 24px;
     padding-right: 24px;
@@ -2771,7 +2777,7 @@ a {
     padding-left: 24px;
     padding-right: 24px;
 
-    margin-top: 0px;
+    margin-top: 24px;
     margin-bottom: 24px;
   }
 
@@ -2876,6 +2882,284 @@ a {
   }
 
   .contact-properties-0-inner-container-text {
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 400;
+
+    margin: 0px;
+    padding: 0px;
+
+    margin-top: 8px;
+  }
+
+  .about-properties-0-container {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-content: center;
+
+    padding: 0px;
+    margin: 0px;
+
+    margin-top: 32px;
+
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .about-properties-0-pablo-container {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    padding: 0px;
+    margin: 0px;
+
+    margin-top: 24px;
+  }
+
+  .about-properties-0-pablo-title {
+    width: 100%;
+    font-family: "Cormorant";
+    font-size: 28px;
+    font-weight: 700;
+
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .about-properties-0-pablo-founder-text {
+    width: 100%;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 700;
+
+    margin: 0px;
+    padding: 0px;
+
+    margin-top: 8px;
+  }
+
+  .about-properties-0-pablo-text {
+    width: 100%;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 400;
+
+    margin: 0px;
+    padding: 0px;
+
+    margin-top: 8px;
+  }
+
+  .about-properties-0-pablo-image {
+    width: 250px;
+    height: 250px;
+
+    border-radius: 48px;
+
+    margin-bottom: 16px;
+  }
+
+  .about-properties-0-letters-container {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .about-properties-0-title {
+    font-family: "Cormorant";
+    font-size: 40px;
+    font-weight: 700;
+
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .about-properties-0-text {
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 400;
+
+    margin: 0px;
+    padding: 0px;
+
+    margin-top: 8px;
+  }
+
+  .about-properties-1-container {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    padding: 0px;
+    margin: 0px;
+
+    margin-top: 32px;
+
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .about-properties-1-cards-container {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .about-properties-1-cards-image {
+    width: 88px;
+    height: 88px;
+
+    border-radius: 98px;
+
+    padding: 8px;
+    align-self: center;
+  }
+
+  .about-properties-1-cards-container-card-icon {
+    width: 0px;
+    height: 0px;
+
+    visibility: hidden;
+  }
+
+  .about-properties-1-cards-container-card-icon-image {}
+
+  .about-properties-1-cards-container-card-big {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    padding: 0px;
+    margin: 0px;
+
+    margin-top: 24px;
+
+    border-width: 1px;
+    border-style: inset;
+
+    padding: 24px;
+
+    border-radius: 16px;
+  }
+
+  .about-properties-1-cards-container-card-little {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    align-self: center;
+
+    padding: 0px;
+    margin: 0px;
+
+    margin-top: 24px;
+    margin-bottom: 24px;
+
+    border-width: 1px;
+    border-style: inset;
+
+    padding: 24px;
+
+    border-radius: 16px;
+  }
+
+  .about-properties-1-cards-container-card-container-image {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .about-properties-1-cards-container-card-container-letters {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+
+    padding: 0px;
+    margin: 0px;
+
+    margin-top: 8px;
+  }
+
+  .about-properties-1-cards-container-card-container-link {
+    width: 100%;
+    height: 24px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: flex-end;
+
+    padding: 0px;
+    margin: 0px;
+
+    margin-top: 24px;
+  }
+
+  .about-properties-1-cards-container-card-container-link-image {
+    width: 24px;
+    height: 24px;
+
+    align-self: flex-end;
+  }
+
+  .about-properties-1-card-title {
+    font-family: "Cormorant";
+    font-size: 28px;
+    font-weight: 700;
+
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .about-properties-1-card-subtitle {
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 400;
+
+    margin: 0px;
+    padding: 0px;
+
+    margin-top: 8px;
+  }
+
+  .about-properties-1-card-text {
     font-family: "Montserrat";
     font-size: 16px;
     font-weight: 400;

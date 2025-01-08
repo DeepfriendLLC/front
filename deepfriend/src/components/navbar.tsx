@@ -132,7 +132,7 @@ export function Navbar(props: { pathname: string, systemColor: "light" | "dark",
                     <div className="navbar-navigation-card">
                         <h1 className="navbar-navigation-text" style={{
                             ...(pathname === "/" ?
-                                { color: systemColor === "light" ? "#7DB3D7" : "#7DB3D7", fontWeight: "800", }
+                                { color: "#7DB3D7", fontWeight: "800", }
                                 : { color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR, fontWeight: "500", })
                         }}>
                             Home

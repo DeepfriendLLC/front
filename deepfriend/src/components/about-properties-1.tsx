@@ -30,14 +30,12 @@ export default function AboutProperties1Component() {
 
     return (
         <div className="about-properties-1-container" style={{ color: systemColor === "dark" ? BASIC_LIGHT_COLOR : BASIC_DARK_COLOR }}>
-            <div className="col-lg-12 mx-auto">
-                <h1 className="about-properties-0-title">
-                    The Building Blocks
-                </h1>
-                <h1 className="about-properties-0-text">
-                    This app is the result of the cooperative and harmonious work of diverse teams united by a common purpose. Specialists in their respective fields, agencies, and professionals have built a product for you, guided by our mision.
-                </h1>
-            </div>
+            <h1 className="about-properties-0-title">
+                The Building Blocks
+            </h1>
+            <h1 className="about-properties-0-text">
+                This app is the result of the cooperative and harmonious work of diverse teams united by a common purpose. Specialists in their respective fields, agencies, and professionals have built a product for you, guided by our mision.
+            </h1>
             <div className="about-properties-1-cards-container">
                 <div className="about-properties-1-cards-container-card-big" style={{ borderColor: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
                     <div className="about-properties-1-cards-container-card-container-image">
