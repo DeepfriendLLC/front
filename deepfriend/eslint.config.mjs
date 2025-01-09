@@ -15,7 +15,9 @@ const eslintConfig = [
     rules: {
       "react/no-unescaped-entities": "off",
       "react/jsx-key": "off",
-      "no-console": "warn"
+      "no-console": "warn",
+      "@typescript-eslint/no-unused-vars": "warn",
+      "react/no-children-prop": "off"
     }
   }
 ];
