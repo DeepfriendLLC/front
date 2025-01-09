@@ -619,7 +619,7 @@ a {
     width: 40%;
 
     margin-top: 32px;
-    
+
     align-self: center;
   }
 
@@ -2644,7 +2644,7 @@ a {
 
   .pricing-subtitle {
     font-family: "Cormonant";
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 700;
 
     margin: 0px;
@@ -2653,7 +2653,7 @@ a {
     padding-left: 24px;
     padding-right: 24px;
 
-    margin-top: 32px;
+    padding-top: 32px;
   }
 
   .pricing-text {
@@ -2722,7 +2722,7 @@ a {
 
   .pricing-properties-1-container-letters-title {
     font-family: "Cormorant";
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 700;
 
     margin: 0px;
