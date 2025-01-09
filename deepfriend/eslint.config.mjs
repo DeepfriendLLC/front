@@ -17,6 +17,7 @@ const eslintConfig = [
       "react/jsx-key": "off",
       "no-console": "warn"
     }
+  }
 ];
 
 export default eslintConfig;
