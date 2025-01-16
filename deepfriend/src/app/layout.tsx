@@ -17,6 +17,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  console.log('Para que te lo gozes, crack!');
+  console.log('Y no, no es un wordpress🤦');
 
   return (
     <Provider store={store}>
