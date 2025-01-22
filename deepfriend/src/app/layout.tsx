@@ -17,7 +17,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  console.log('No, no es un wordpress crack🤦');
+  const mensajito = `La verdad siempre sale a la luz, el tiempo no borra lo ocurrido y sus secretos siguen vivos en el presente, observando silenciosamente a quienes creen estar ocultos. Nunca una mentira será verdad por mucho que se repita, y la conciencia es el juez más implacable.🖕`;
+  console.log(mensajito);
 
   return (
     <Provider store={store}>
