@@ -1,6 +1,9 @@
 export function Head() {
     return (
         <head>
+            <link rel="icon" href="/favicon.ico" sizes="any" />
+            <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+            
             <title>Deepfriend</title>
             <meta name="author" content="Pablo Vallejo, Deepfriend LLC" />
 
