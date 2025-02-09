@@ -22,10 +22,10 @@ export function Footer() {
                     Contact Us
                 </h1>
                 <h1 className="footer-letters-text">
-                    marketing@dfbubbles.com
+                    hello@dfbubbles.com
                 </h1>
                 <h1 className="footer-letters-text">
-                    it@dfbubbles.com
+                    help@dfbubbles.com
                 </h1>
             </div>
             <div className="footer-letters-legal-container">

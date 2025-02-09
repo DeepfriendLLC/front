@@ -160,7 +160,7 @@ export default function LegalTermsTextContainerComponent() {
                 Deepfriend LLC
             </h1>
             <h1 className="legal-text text-center">
-                Email: it@dfbubbles.com
+                Email: hello@dfbubbles.com
             </h1>
             <h1 className="legal-title">
                 19. Our Commitment to You

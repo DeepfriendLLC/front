@@ -94,7 +94,10 @@ export default function AboutProperties1Component() {
                             Adrián Gonzalez
                         </h1>
                         <h1 className="about-properties-1-card-text">
-                            Degree in psychology with honors. More than 7 years providing therapy to adults, mainly focused on cognitive behavioral.
+                            Licensed psychologist with honors specialized in cognitive-behavioral therapy (CBT) with 7+ years of clinical experience.
+                            Focused on anxiety, stress and depression crafting personalized strategies to empower growth.
+                            Passionate about guiding clients to unlock their potential through collaborative, present-focused therapy.
+                            Dedicated to fostering resilience in private and corporate settings.
                         </h1>
                         <div className="about-properties-1-cards-container-card-container-link">
                             <Link href={"https://psicoterapiadriangonzalez.simdif.com/"} target="_blank" className="about-properties-1-cards-container-card-container-link-image">
@@ -122,21 +125,18 @@ export default function AboutProperties1Component() {
                         src={CanaryDesignLogo}
                         className="about-properties-1-cards-image"
                     />
-                    <Image
-                        alt="Matias logo"
-                        src={MatiasLogo}
-                        className="about-properties-1-cards-image"
-                    />
                 </div>
                 <div className="about-properties-1-cards-container-card-container-letters">
                     <h1 className="about-properties-1-card-title">
-                        Logo design & web development
+                        Bubbles design
                     </h1>
                     <h1 className="about-properties-1-card-subtitle">
-                        Ivan y Mathias Benigno
+                        Ivan @canary_design
                     </h1>
                     <h1 className="about-properties-1-card-text">
-                        Ivan @canary_design has designed Bubbles logo and Mathias has brought this website to life.
+                        Self-taught graphic & web designer with a focus on brand identity and logo creation.
+                        Combining years of freelance experience with relentless attention to detail, I craft polished, business-driven designs.
+                        Ivan is the designer who has been in charge of creating the look of Bubbles.
                     </h1>
                     <div className="about-properties-1-cards-container-card-container-link">
                         <Link href={"https://www.fiverr.com/canary_design"} target="_blank" className="about-properties-1-cards-container-card-container-link-image">

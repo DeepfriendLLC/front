@@ -100,7 +100,7 @@ export default function PrivacyPolicyTextContainerComponent() {
                 · Request deletion of your data
             </h1>
             <h1 className="legal-text">
-                To exercise these rights, please send a request from your registered email address to it@dfbubbles.com.
+                To exercise these rights, please send a request from your registered email address to hello@dfbubbles.com.
             </h1>
             <h1 className="legal-title">
                 9. Use of Artificial Intelligence
@@ -112,7 +112,7 @@ export default function PrivacyPolicyTextContainerComponent() {
                 10. Legal Requests
             </h1>
             <h1 className="legal-text">
-                We take user trust seriously. If we receive a legal request for information, we will respond as promptly as possible. Users can make inquiries about such requests by emailing it@dfbubbles.com from their registered email address.
+                We take user trust seriously. If we receive a legal request for information, we will respond as promptly as possible. Users can make inquiries about such requests by emailing hello@dfbubbles.com from their registered email address.
             </h1>
             <h1 className="legal-title">
                 11. Marketing and Advertising
@@ -148,7 +148,7 @@ export default function PrivacyPolicyTextContainerComponent() {
                 Deepfriend LLC
             </h1>
             <h1 className="legal-text text-center">
-                Email: it@dfbubbles.com
+                Email: hello@dfbubbles.com
             </h1>
             <h1 className="legal-title">
                 16. Governing Law

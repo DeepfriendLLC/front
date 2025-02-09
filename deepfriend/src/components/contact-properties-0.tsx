@@ -48,10 +48,10 @@ export default function ContactProperties0Component() {
                     </div>
                     <div className="contact-properties-0-letters-inner-letters-container">
                         <h1 className="contact-properties-0-inner-container-text">
-                            marketing@dfbubbles.com
+                            hello@dfbubbles.com
                         </h1>
                         <h1 className="contact-properties-0-inner-container-text">
-                            it@dfbubbles.com
+                            help@dfbubbles.com
                         </h1>
                     </div>
                 </div>
