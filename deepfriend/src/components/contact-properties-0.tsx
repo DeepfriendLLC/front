@@ -65,7 +65,7 @@ export default function ContactProperties0Component() {
                     </div>
                     <div className="contact-properties-0-letters-inner-letters-container">
                         <h1 className="contact-properties-0-inner-container-text">
-                            @dfbubbles
+                            @dfbubbles_app
                         </h1>
                         <div className="contact-properties-0-letters-inner-letters-social-container">
                             <Link className="contact-properties-0-letters-inner-letters-social-link" href={'https://www.instagram.com/dfbubbles_app/'} target="_blank">
