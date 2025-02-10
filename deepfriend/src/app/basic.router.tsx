@@ -9,14 +9,18 @@ import { setSystemColorStore } from "@/store/slice/systemColor";
 import { Navbar } from "@/components/navbar";
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "./layout";
 import { Footer } from "@/components/footer";
+import { useRouter } from "next/navigation";
 
 export default function BasicRouter({ children }: { children: React.ReactNode }) {
+  const router = useRouter();
+
   const pathname = usePathname();
   const [cookies, setCookie, removeCookie] = useCookies(['systemColor']);
 
   const { systemColor } = useSelector((state: RootState) => state.systemColor);
   const dispatch = useDispatch();
 
+  if (router && !['/', '/about', '/contact', '/pricing', '/legal-terms', '/privacy-policy'].includes(pathname)) router.push('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
 
   const updateInitialSystemColor = () => {
     if (!cookies.systemColor) {
