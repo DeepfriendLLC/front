@@ -42,7 +42,7 @@ export default function HomeProperties4Component() {
             <h1 className="home-properties-4-card-dashed-text">
               1DF = 0,01 dollars
             </h1>
-            <Link href={'https://play.google.com/store/apps/details?id=com.deepfriend.deepfriend'} target={"_blank"}>
+            <Link href={'https://play.google.com/store/apps/details?id=com.dfbubbles.deepfriend'} target={"_blank"}>
               <button className="home-properties-4-card-button" style={{ backgroundColor: systemColor === "dark" ? BASIC_LIGHT_COLOR : BASIC_DARK_COLOR, color: systemColor === "light" ? BASIC_LIGHT_COLOR : BASIC_DARK_COLOR }}>
                 <h1 className="home-properties-4-card-button-text">
                   Try Deepfriend
@@ -79,7 +79,7 @@ export default function HomeProperties4Component() {
           <h1 className="home-properties-4-card-dashed-text">
             1DF = 0,006 dollars
           </h1>
-          <Link href={'https://play.google.com/store/apps/details?id=com.deepfriend.deepfriend'} target={"_blank"}>
+          <Link href={'https://play.google.com/store/apps/details?id=com.dfbubbles.deepfriend'} target={"_blank"}>
             <button className="home-properties-4-card-button" style={{ backgroundColor: systemColor === "dark" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR, color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
               <h1 className="home-properties-4-card-button-text">
                 Suscribe
@@ -108,7 +108,7 @@ export default function HomeProperties4Component() {
           <h1 className="home-properties-4-card-dashed-text">
             1DF = 0,005 dollars
           </h1>
-          <Link href={'https://play.google.com/store/apps/details?id=com.deepfriend.deepfriend'} target={"_blank"}>
+          <Link href={'https://play.google.com/store/apps/details?id=com.dfbubbles.deepfriend'} target={"_blank"}>
             <button className="home-properties-4-card-button" style={{ backgroundColor: BASIC_DARK_COLOR, color: BASIC_LIGHT_COLOR }}>
               <h1 className="home-properties-4-card-button-text">
                 Suscribe

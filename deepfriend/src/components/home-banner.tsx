@@ -46,7 +46,7 @@ export default function HomeBannerComponent() {
                     Download at
                 </h1>
                 <div style={lettersSubContainer}>
-                    <Link href={"https://play.google.com/store/apps/details?id=com.deepfriend.deepfriend"} target={"_blank"}>
+                    <Link href={"https://play.google.com/store/apps/details?id=com.dfbubbles.deepfriend"} target={"_blank"}>
                         <button className="btn" style={buttonStoresStyle}>
                             <Image
                                 alt="DF Phone screenshot"
