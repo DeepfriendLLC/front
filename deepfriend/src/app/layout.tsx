@@ -17,7 +17,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const mensajito = `La verdad siempre sale a la luz, el tiempo no borra lo ocurrido y sus secretos siguen vivos en el presente, observando silenciosamente a quienes creen estar ocultos. Nunca una mentira será verdad por mucho que se repita, y la conciencia es el juez más implacable.🖕`;
+  const mensajito = `Veritas liberabit vos.`;
   console.log(mensajito);
 
   return (
