@@ -24,7 +24,7 @@ export default function PricingProperties1Component() {
           </h1>
           <h1 className="pricing-properties-1-container-letters-text">
             These are the digital currency used within our platform to access messages and calls.
-            Each message to Bubbles costs 1 DF, while each call costs 2 DF.
+            Each message to Bubbles costs 1 DF, while each call costs 10 DF.
             We are committed to transparency and strive to be clear about any transaction involving DFs.
             <strong> You can unsubscribe from any plan whenever you desire.</strong>
           </h1>
@@ -46,7 +46,7 @@ export default function PricingProperties1Component() {
             className="pricing-properties-1-image-audio"
           />
           <h1 className="pricing-properties-1-image-text">
-            Make a call for 2 DF per input
+            Make a call for 10 DF per input
           </h1>
         </div>
       </div>
