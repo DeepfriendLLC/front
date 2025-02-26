@@ -1,7 +1,7 @@
 export function Head() {
     return (
         <head>
-            <link rel="icon" href="/favicon.ico" sizes="any" />
+            <link rel="icon" href="/icon.ico" sizes="any" />
             <link rel="icon" href="/favicon-16x16.png" sizes="16x16" />
             <link rel="icon" href="/favicon-32x32.png" sizes="32x32" />
             <link rel="icon" href="/android-chrome-512x512.png" sizes="512x512" />
