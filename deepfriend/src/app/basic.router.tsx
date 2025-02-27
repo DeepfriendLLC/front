@@ -20,7 +20,11 @@ export default function BasicRouter({ children }: { children: React.ReactNode })
   const { systemColor } = useSelector((state: RootState) => state.systemColor);
   const dispatch = useDispatch();
 
-  if (router && !['/', '/about', '/contact', '/pricing', '/legal-terms', '/privacy-policy'].includes(pathname)) router.push('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+  const allowedRoutes = ['/', '/about', '/contact', '/pricing', '/legal-terms', '/privacy-policy'];
+
+  useEffect(() => {
+    if (router && !allowedRoutes.includes(pathname)) router.push('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+  }, []);
 
   const updateInitialSystemColor = () => {
     if (!cookies.systemColor) {
