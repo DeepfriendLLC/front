@@ -19,11 +19,12 @@ export default function BasicRouter({ children }: { children: React.ReactNode })
 
   const { systemColor } = useSelector((state: RootState) => state.systemColor);
   const dispatch = useDispatch();
-
+  
   const allowedRoutes = ['/', '/about', '/contact', '/pricing', '/legal-terms', '/privacy-policy'];
+  const redirectTo = `https://soundcloud.com/pablo-vallejo-907366850/sets/bubbles-love-you`;
 
   useEffect(() => {
-    if (router && !allowedRoutes.includes(pathname)) router.push('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+    if (router && !allowedRoutes.includes(pathname)) router.push(redirectTo);
   }, []);
 
   const updateInitialSystemColor = () => {
