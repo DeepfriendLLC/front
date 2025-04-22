@@ -20,7 +20,7 @@ export default function BasicRouter({ children }: { children: React.ReactNode })
   const { systemColor } = useSelector((state: RootState) => state.systemColor);
   const dispatch = useDispatch();
   
-  const allowedRoutes = ['/', '/about', '/contact', '/pricing', '/legal-terms', '/privacy-policy'];
+  const allowedRoutes = ['/', '/about', '/contact', '/pricing', '/legal-terms', '/privacy-policy', '/admin/login'];
   const redirectTo = `https://soundcloud.com/pablo-vallejo-907366850/sets/bubbles-love-you`;
 
   useEffect(() => {
