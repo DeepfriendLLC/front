@@ -20,7 +20,7 @@ export default function PricingProperties1Component() {
       <div className="pricing-properties-1-container" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
         <div className="pricing-properties-1-container-letters">
           <h1 className="pricing-properties-1-container-letters-title">
-            DF stands for DeepFriend tokens
+            DF stands for Deepfriend tokens
           </h1>
           <h1 className="pricing-properties-1-container-letters-text">
             These are the digital currency used within our platform to access messages and calls.

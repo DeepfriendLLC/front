@@ -58,7 +58,7 @@ export default function AboutProperties1Component() {
                             ESTUDIO ASTORA
                         </h1>
                         <h1 className="about-properties-1-card-text">
-                            We are a professional team dedicated to brand creation, packaging, and digital product design. We craft the visual aspect, interaction, and user experience of DeepFriend. We extend the graphic universe into a comprehensive visual world.
+                            We are a professional team dedicated to brand creation, packaging, and digital product design. We craft the visual aspect, interaction, and user experience of Deepfriend. We extend the graphic universe into a comprehensive visual world.
                         </h1>
                         <div className="about-properties-1-cards-container-card-container-link">
                             <Link href={"https://estudioastora.com/"} target="_blank" className="about-properties-1-cards-container-card-container-link-image">

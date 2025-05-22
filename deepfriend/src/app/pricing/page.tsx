@@ -17,7 +17,7 @@ export default function Pricing() {
         How our subscription works
       </h1>
       <h1 className="pricing-text">
-      At DeepFriend, we recognize that each person's path to mental wellness is unique. Choose the package that suits you best. Your DFs accumulate if you don't spend them.
+      At Deepfriend, we recognize that each person's path to mental wellness is unique. Choose the package that suits you best. Your DFs accumulate if you don't spend them.
       </h1>
       <HomeProperties4Component />
       <PricingProperties1Component />
