@@ -40,7 +40,7 @@ export default function HomeProperties4Component() {
               100 DF
             </h1>
             <h1 className="home-properties-4-card-dashed-text">
-              1DF = 0,01 dollars
+              1DF = 0,01$
             </h1>
             <Link href={'https://play.google.com/store/apps/details?id=com.dfbubbles.deepfriend'} target={"_blank"}>
               <button className="home-properties-4-card-button" style={{ backgroundColor: systemColor === "dark" ? BASIC_LIGHT_COLOR : BASIC_DARK_COLOR, color: systemColor === "light" ? BASIC_LIGHT_COLOR : BASIC_DARK_COLOR }}>
@@ -74,10 +74,10 @@ export default function HomeProperties4Component() {
               src={systemColor === "dark" ? ImageProperties4Dark : ImageProperties4White}
               className="home-properties-4-card-check-image"
             />
-            5000 DF
+            5 000 DF
           </h1>
           <h1 className="home-properties-4-card-dashed-text">
-            1DF = 0,006 dollars
+            1DF = 0,006$
           </h1>
           <Link href={'https://play.google.com/store/apps/details?id=com.dfbubbles.deepfriend'} target={"_blank"}>
             <button className="home-properties-4-card-button" style={{ backgroundColor: systemColor === "dark" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR, color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
@@ -103,10 +103,10 @@ export default function HomeProperties4Component() {
               src={ImageProperties4Dark}
               className="home-properties-4-card-check-image"
             />
-            10000 DF
+            10 000 DF
           </h1>
           <h1 className="home-properties-4-card-dashed-text">
-            1DF = 0,005 dollars
+            1DF = 0,005$
           </h1>
           <Link href={'https://play.google.com/store/apps/details?id=com.dfbubbles.deepfriend'} target={"_blank"}>
             <button className="home-properties-4-card-button" style={{ backgroundColor: BASIC_DARK_COLOR, color: BASIC_LIGHT_COLOR }}>
