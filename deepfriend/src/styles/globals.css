@@ -104,7 +104,7 @@ a {
   .home-properties-0-text {
     font-family: 'Montserrat';
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
 
     margin: 0px;
     padding: 0px;
@@ -982,25 +982,25 @@ a {
     margin-top: 8px;
     margin-left: 64px;
   }
-  
+
   .admin-login-container {
     width: 100%;
     min-height: Calc(100vh - 64px);
-    
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
   }
-  
+
   .admin-login-inner-container {
     width: 32vw;
     height: 48vh;
 
     align-self: center;
-    
+
   }
-  
+
   .admin-login-title {
     font-family: "Cormonant";
     font-size: 32px;
@@ -1009,7 +1009,7 @@ a {
     margin: 0px;
     padding: 0px;
   }
-  
+
   .admin-login-subtitle {
     font-family: "Montserrat";
     font-size: 16px;
@@ -1034,7 +1034,7 @@ a {
 
     background-color: transparent;
   }
-  
+
   .admin-login-forgot-password-text {
     font-family: "Montserrat";
     font-size: 18px;
@@ -1448,7 +1448,7 @@ a {
   .about-properties-0-pablo-text {
     width: 100%;
     font-family: "Montserrat";
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
 
     margin: 0px;
@@ -1458,8 +1458,8 @@ a {
   }
 
   .about-properties-0-pablo-image {
-    width: 250px;
-    height: 250px;
+    width: 180px;
+    height: 180px;
 
     border-radius: 48px;
 
@@ -2245,7 +2245,7 @@ a {
   .home-properties-2-image-image {
     width: 254px;
     height: 171px;
-    
+
     align-self: "center";
     padding: 8px;
   }
@@ -3051,12 +3051,14 @@ a {
   }
 
   .about-properties-0-pablo-image {
-    width: 250px;
-    height: 250px;
+    width: 180px;
+    height: 180px;
 
     border-radius: 48px;
 
     margin-bottom: 16px;
+
+    align-self: center;
   }
 
   .about-properties-0-letters-container {

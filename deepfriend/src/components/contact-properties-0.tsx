@@ -34,7 +34,7 @@ export default function ContactProperties0Component() {
                     Get in Touch
                 </h1>
                 <h1 className="contact-properties-0-text">
-                    Feel free to contact us for suggestions and comments. We would be happy to know your opinion or help you if you need assistance or wish to report an issue with the app.
+                    Feel free to contact us for suggestions and comments. We are happy to know your opinion or help you if you need assistance or wish to report an issue of the app.
                 </h1>
             </div>
             <div className="contact-properties-0-letters-container">

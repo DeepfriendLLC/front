@@ -26,7 +26,7 @@ export default function AboutProperties0Component() {
                     Founder
                 </h1>
                 <h1 className="about-properties-0-pablo-text">
-                    Just a Spanish developer trying to give my best to society with my pretty dog called Naia.
+                    Spanish developer trying to give my best to society with my pretty dog called Naia.
                 </h1>
             </div>
             <div className="about-properties-0-letters-container">
@@ -34,7 +34,12 @@ export default function AboutProperties0Component() {
                     Thinking and Crafting
                 </h1>
                 <h1 className="about-properties-0-text">
-                    In recent years the mental health of our society has been getting worse and worse, making it more difficult to find a psychologist who cares about you and doesn't see you as a slot machine. This is where the idea of Deepfriend was born, a platform that puts patients first, giving you the maximum freedom and transparency about treatment, being able to go it alone with Bubbles or hand in hand with a trusted professional psychologist. Bubbles gives you the freedom to have the therapy you deserve.
+                    Deepfriend was born from the need of many people to receive professional,
+                    transparent, scientifically based and affordable mental health support.
+                    Deepfriend's main mission is to democratize mental health,
+                    establishing scientific standards to help as many people as possible and generating anonymous and rigorous studies to advance the psychology of the future.
+                    Here, users can understand the entire process and their current status in a completely transparent manner,
+                    while also allowing them to customize the process to their liking. Deepfriend is a patient-first company.
                 </h1>
             </div>
         </div>

@@ -14,10 +14,11 @@ export default function Pricing() {
     <div className="basic-container" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
       <PricingBannerComponent />
       <h1 className="pricing-subtitle">
-        How our subscription works
+        A plan for every circumstance
       </h1>
       <h1 className="pricing-text">
-      At Deepfriend, we recognize that each person's path to mental wellness is unique. Choose the package that suits you best. Your DFs accumulate if you don't spend them.
+        At Deepfriend, we recognize that each person's path to mental wellness is unique.
+        Choose the package that suits you best. Your DFs accumulate if you don't spend them, they never expire.
       </h1>
       <HomeProperties4Component />
       <PricingProperties1Component />

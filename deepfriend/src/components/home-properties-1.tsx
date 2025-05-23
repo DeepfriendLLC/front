@@ -29,7 +29,7 @@ export default function HomeProperties1Component() {
         Designed with a psychologist's mind and a friend's heart.
       </h1>
       <h1 className="home-properties-1-text" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
-        Supervised by mental health professionals
+        Supervised by psychology professionals
       </h1>
     </div>
   );

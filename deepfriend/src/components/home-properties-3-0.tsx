@@ -24,7 +24,9 @@ export default function HomeProperties30Component() {
         Customize your experience
       </h1>
       <h1 className="home-properties-2-card-text" style={{ color: systemColor === "dark" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
-        Choose the type of therapy you need. Tell Bubbles your goal to help her understand what you are looking for.
+        We understand that each person is unique and therefore needs unique and tailored support.
+        With Bubbles, you can customize the entire process,
+        choose the type of support and ensure you receive what you truly want and need.
       </h1>
       <div className="home-properties-3-card-image">
         <Image

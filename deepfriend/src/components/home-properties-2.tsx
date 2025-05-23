@@ -49,10 +49,17 @@ export default function HomeProperties2Component() {
         </div>
         <div className="home-properties-2-card-letters">
           <h1 className="home-properties-2-card-title" style={{ color: systemColor === "dark" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
-            Chat with Bubbles
+            Talk with Bubbles
           </h1>
           <h1 className="home-properties-2-card-text" style={{ color: systemColor === "dark" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
-            She will support you during difficult times. Your AI whale is a reliable friend who will remember your experiences, progress, and improvements, whether in <strong>individual</strong> or <strong>group sessions</strong>.
+            Communicate freely in your good and bad times.
+            It features the best technology and the most advanced psychological techniques to provide the best possible support with a <strong> complex psychological analysis system </strong> that allows it to fully understand your current and past situation to help you in the best possible way.
+            <br/>
+            <br/>
+            At Deepfriend, we rely on the <strong> Cognitive Behavioral Therapy CBT </strong> solution because it offers support based on scientific evidence and proven practice.
+            <br/>
+            <br/>
+            You can also <strong> communicate </strong> with Bubbles <strong> alone </strong> or <strong> create a group </strong> with your friends and/or psychologist to talk together.
           </h1>
           <div className="home-properties-2-card-letters-row">
             <Image
