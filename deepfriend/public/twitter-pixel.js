@@ -5,3 +5,5 @@
         a = t.getElementsByTagName(n)[0], a.parentNode.insertBefore(u, a))
 }(window, document, 'script');
 twq('config', 'pu3u0');
+
+twq('event', 'tw-pu3u0-pu3u3', {});
