@@ -11,6 +11,7 @@ import HomeProperties4Component from "@/components/home-properties-4";
 import { useSelector } from "react-redux";
 import { RootState } from "@/store/store";
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "./layout";
+import Script from 'next/script';
 
 export default function Home() {
   const { systemColor } = useSelector((state: RootState) => state.systemColor);
@@ -35,6 +36,10 @@ export default function Home() {
         Try the Welcome Package for a unique payment of <strong>$1</strong>
       </h1>
       <HomeProperties4Component />
+      <Script
+        src="/twitter-pixel.js"
+        strategy="lazyOnload"
+      />
     </div>
   );
 }
