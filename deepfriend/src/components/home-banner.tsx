@@ -32,8 +32,8 @@ export default function HomeBannerComponent() {
     };
 
     const imageStoresStyle: CSSProperties = {
-        width: 145,
-        height: 46.5,
+        width: 141,
+        height: 41,
         alignSelf: "center"
     };
 

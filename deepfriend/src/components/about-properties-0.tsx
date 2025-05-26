@@ -3,7 +3,7 @@
 import { RootState } from "@/store/store";
 import { useSelector } from "react-redux";
 
-import PabloImage from "../../public/images/pablo.png";
+import PabloImage from "../../public/images/pablo.jpg";
 
 import Image from "next/image";
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "@/app/layout";
@@ -26,7 +26,7 @@ export default function AboutProperties0Component() {
                     Founder
                 </h1>
                 <h1 className="about-properties-0-pablo-text">
-                    Spanish developer trying to give my best to society with my pretty dog called Naia.
+                    Spanish developer trying to give my best to society.
                 </h1>
             </div>
             <div className="about-properties-0-letters-container">
