@@ -18,11 +18,11 @@ export function Head() {
             />
             <meta
                 name="description"
-                content="Deepfriend is an AI app for mental wellness. Click and meet Bubbles, your trusted whale designed with a psychologist's mind and a friend's heart."
+                content="Scientifically based mental health app CBT at an affordable price. Bubbles is our AI mental health expert, who uses a complex memory system and techniques to provide you with the care you deserve."
             />
             <meta
                 name="keywords"
-                content="Deepfriend, Deep friend, Deep Friend, app ia, app ia mental health, mental health, ia mental health, freedom, app mental wellness"
+                content="best, best ai mental health, best psycology AI, AI psycology, ai mental, AI mental health app, Mental health app, app mental, cientific mental health, cbt app, cbt mental health app, Bubbles AI, Bubbles mental health, Deepfriend, Deep friend."
             />
 
             <link rel="preconnect" href="https://fonts.googleapis.com" />
