@@ -18,7 +18,7 @@ export default function PricingBannerComponent() {
                 <div className="page-banner-letters-0-container" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
                     <h1 className="home-properties-1-title">
                         Try Deepfriend now and receive
-                        <strong> 118 </strong>
+                        <strong> 18 </strong>
                          tokens for
                         <strong> FREE </strong>
                         {
