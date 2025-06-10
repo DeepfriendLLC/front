@@ -62,13 +62,13 @@ export default function HomeBannerComponent() {
                     <h1 className="home-banner-title" style={{
                         color: BASIC_LIGHT_COLOR,
                     }}>
-                        Democratizing
+                        Deepen your
                         <br/> Mental Health
                     </h1>
                     <h1 className="home-banner-text" style={{
                         color: BASIC_LIGHT_COLOR,
                     }}>
-                        Understand the process, customize it and improve for a healthier tomorrow.
+                        Understand yourself, choose your path, tailor it and heal.
                     </h1>
                 </div>
                 <div className="home-banner-image-container">
