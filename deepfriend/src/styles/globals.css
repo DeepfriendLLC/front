@@ -436,6 +436,7 @@ a {
 
   .home-properties-1-container {
     width: 100%;
+    min-height: 65vh;
 
     display: flex;
     flex-direction: column;
@@ -2101,6 +2102,7 @@ a {
 
   .home-properties-1-container {
     width: 100%;
+    min-height: 75vh;
 
     display: flex;
     flex-direction: column;
