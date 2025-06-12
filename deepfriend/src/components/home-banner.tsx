@@ -68,7 +68,7 @@ export default function HomeBannerComponent() {
                     <h1 className="home-banner-text" style={{
                         color: BASIC_LIGHT_COLOR,
                     }}>
-                        Understand yourself, choose your path, tailor it and heal.
+                        Beat the stages with Bubbles and level up your Mental Health🚀
                     </h1>
                 </div>
                 <div className="home-banner-image-container">
