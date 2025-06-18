@@ -62,7 +62,7 @@ export default function HomeBannerComponent() {
                     <h1 className="home-banner-title" style={{
                         color: BASIC_LIGHT_COLOR,
                     }}>
-                        Improve your Mental Health with science
+                        The fun, scientific and cheap way to heal
                     </h1>
                     <h1 className="home-banner-text" style={{
                         color: BASIC_LIGHT_COLOR,
@@ -76,6 +76,13 @@ export default function HomeBannerComponent() {
                         src={HomePhone}
                         className="home-banner-image-image"
                     />
+                </div>
+                <div className="home-banner-download-container">
+                    <h1 className="home-banner-downlowad-text" style={{
+                        color: BASIC_LIGHT_COLOR,
+                    }}>
+                        Download at
+                    </h1>
                 </div>
             </div>
         </div>
