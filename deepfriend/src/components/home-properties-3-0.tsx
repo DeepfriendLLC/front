@@ -21,7 +21,7 @@ export default function HomeProperties30Component() {
   return (
     <div className="home-properties-3-container" style={{ backgroundColor: "#7DB3D7" }}>
       <h1 className="home-properties-2-card-title" style={{ color: systemColor === "dark" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
-        Customize your experience
+        Customize
       </h1>
       <h1 className="home-properties-2-card-text" style={{ color: systemColor === "dark" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
         We understand that each person is unique and therefore needs unique and tailored support.

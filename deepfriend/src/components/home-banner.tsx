@@ -6,7 +6,7 @@ import { BASIC_LIGHT_COLOR } from "../app/layout";
 
 import HomeBackgroundDark from "../../public/backgrounds/home_background_0_dark.svg";
 import HomeBackgroundLight from "../../public/backgrounds/home_background_0_light.svg";
-import HomePhone from "../../public/phones/home_phone_0.svg";
+import HomePhone from "../../public/phones/home_phone_1.svg";
 import GoogleplayLogo from "../../public/icons/googleplay-logo.png";
 
 import Image from "next/image";
@@ -62,13 +62,12 @@ export default function HomeBannerComponent() {
                     <h1 className="home-banner-title" style={{
                         color: BASIC_LIGHT_COLOR,
                     }}>
-                        Deepen your
-                        <br/> Mental Health
+                        Improve your Mental Health with science
                     </h1>
                     <h1 className="home-banner-text" style={{
                         color: BASIC_LIGHT_COLOR,
                     }}>
-                        Beat the stages with Bubbles and level up your Mental Health🚀
+                        Meet Bubbles, our super AI expert in psychology and specialized in CBT
                     </h1>
                 </div>
                 <div className="home-banner-image-container">

@@ -21,7 +21,7 @@ export default function HomeProperties31Component() {
   return (
     <div className="home-properties-3-container" style={{ backgroundColor: "#24998B" }}>
       <h1 className="home-properties-2-card-title" style={{ color: systemColor === "dark" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
-        Speak freely
+        Speak
       </h1>
       <h1 className="home-properties-2-card-text" style={{ color: systemColor === "dark" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
         Deepfriend is a safe,

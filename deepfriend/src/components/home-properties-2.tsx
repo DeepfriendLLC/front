@@ -5,6 +5,8 @@ import { CSSProperties } from "react";
 import ImageProperties2White from "../../public/images/image-properties-2-white.png";
 import ImageProperties2Dark from "../../public/images/image-properties-2-dark.png";
 
+import ImageProperties2Phone from "../../public/phones/home-properties-2.svg";
+
 import ImageProperties2Letters0White from "../../public/images/image-properties-2-letters-0-white.png";
 import ImageProperties2Letters1White from "../../public/images/image-properties-2-letters-1-white.png";
 import ImageProperties2Letters0Dark from "../../public/images/image-properties-2-letters-0-dark.png";
@@ -28,13 +30,13 @@ export default function HomeProperties2Component() {
   const imageLetters0Style: CSSProperties = {
     width: 90,
     height: 52.5,
-    alignSelf: "center"
+    alignSelf: "flex-end",
   };
 
   const imageLetters1Style: CSSProperties = {
     width: 157.5,
     height: 52.5,
-    alignSelf: "center",
+    alignSelf: "flex-end",
   };
 
   return (
@@ -43,24 +45,26 @@ export default function HomeProperties2Component() {
         <div className="home-properties-2-card-image">
           <Image
             alt="DF Web icon"
-            src={systemColor === "dark" ? ImageProperties2Dark : ImageProperties2White}
+            src={ImageProperties2Phone}
             className="home-properties-2-image-image"
           />
         </div>
         <div className="home-properties-2-card-letters">
           <h1 className="home-properties-2-card-title" style={{ color: systemColor === "dark" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
-            Talk with Bubbles
+            What is Bubbles?
           </h1>
           <h1 className="home-properties-2-card-text" style={{ color: systemColor === "dark" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
-            Communicate freely in your good and bad times.
-            It features the best technology and the most advanced psychological techniques to provide the best possible support with a <strong> complex psychological analysis system </strong> that allows it to fully understand your current and past situation to help you in the best possible way.
-            <br/>
-            <br/>
-            At Deepfriend, we rely on the <strong> Cognitive Behavioral Therapy CBT </strong> solution because it offers support based on scientific evidence and proven practice.
-            <br/>
-            <br/>
-            You can also <strong> communicate </strong> with Bubbles <strong> alone </strong> or <strong> create a group </strong> with your friends and/or psychologist to talk together.
+            Bubbles is a <strong> super AI whale </strong> expert in psychology and specialized in <strong> Cognitive Behavioral Therapy CBT </strong>.
+            <br />
+            <br />
+            It is <strong> not a simple chatGPT with prompts</strong>,
+            is a complex system of multiple AIs perfectly interconnected to form the most powerful psychological tool on the market.
+            <br />
+            <br />
+            Has the ability to apply the most complex and innovative psychological techniques and has an <strong> incredible memory </strong> that allows it to remember everything you talk about.
           </h1>
+          {
+            /*
           <div className="home-properties-2-card-letters-row">
             <Image
               alt="DF Web icon"
@@ -73,6 +77,8 @@ export default function HomeProperties2Component() {
               style={imageLetters1Style}
             />
           </div>
+            */
+          }
         </div>
       </div>
     </div>
