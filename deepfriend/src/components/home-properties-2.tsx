@@ -62,6 +62,9 @@ export default function HomeProperties2Component() {
             <br />
             <br />
             Has the ability to apply the most complex and innovative psychological techniques and has an <strong> incredible memory </strong> that allows it to remember everything you talk about.
+            <br/>
+            <br/>
+            Bubbles is not a psychologist, it is a whale, if your situation is serious seek medical attention.
           </h1>
           {
             /*
