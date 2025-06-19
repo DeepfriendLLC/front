@@ -25,9 +25,10 @@ export default function HomeProperties31Component() {
         Speak
       </h1>
       <h1 className="home-properties-2-card-text" style={{ color: systemColor === "dark" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
-        Deepfriend is a safe,
-        non-judgmental space where you can talk without restrictions or fear in a completely private setting.
-        We maintain high standards of technology and security so you can grow freely and without worries.
+        You don't need to write it all down,
+        here you can <strong> talk directly to Bubbles</strong>.
+        Express yourself comfortably in a safe environment.
+        Enter the call and discover how <strong> easy and fun it can be to heal</strong>.
       </h1>
       <div className="home-properties-3-card-image">
         <Image
