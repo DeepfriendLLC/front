@@ -38,10 +38,10 @@ export default function HomeProperties4Component() {
                 src={systemColor === "light" ? ImageProperties4Dark : ImageProperties4White}
                 className="home-properties-4-card-check-image"
               />
-              18 DF
+              25 DF
             </h1>
             <h1 className="home-properties-4-card-dashed-text">
-              1DF = 0,05$
+              1DF = 0,04$
             </h1>
             <Link href={'https://play.google.com/store/apps/details?id=com.dfbubbles.deepfriend'} target={"_blank"}>
               <button className="home-properties-4-card-button" style={{ backgroundColor: systemColor === "dark" ? BASIC_LIGHT_COLOR : BASIC_DARK_COLOR, color: systemColor === "light" ? BASIC_LIGHT_COLOR : BASIC_DARK_COLOR }}>
@@ -75,10 +75,10 @@ export default function HomeProperties4Component() {
               src={systemColor === "dark" ? ImageProperties4Dark : ImageProperties4White}
               className="home-properties-4-card-check-image"
             />
-            700 DF
+            800 DF
           </h1>
           <h1 className="home-properties-4-card-dashed-text">
-            1DF = 0.04$
+            1DF = 0.036$
           </h1>
           <Link href={'https://play.google.com/store/apps/details?id=com.dfbubbles.deepfriend'} target={"_blank"}>
             <button className="home-properties-4-card-button" style={{ backgroundColor: systemColor === "dark" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR, color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
@@ -107,7 +107,7 @@ export default function HomeProperties4Component() {
             1 800 DF
           </h1>
           <h1 className="home-properties-4-card-dashed-text">
-            1DF = 0,03$
+            1DF = 0,031$
           </h1>
           <Link href={'https://play.google.com/store/apps/details?id=com.dfbubbles.deepfriend'} target={"_blank"}>
             <button className="home-properties-4-card-button" style={{ backgroundColor: BASIC_DARK_COLOR, color: BASIC_LIGHT_COLOR }}>
