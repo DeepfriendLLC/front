@@ -3,6 +3,7 @@
 import { CSSProperties } from "react";
 
 import ImageProperties2White from "../../public/images/home-properties-3-screenshot-1.svg";
+import ImageProperties31 from "../../public/phones/home-properties-3-screenshot-1.svg";
 
 import Image from "next/image";
 import { useSelector } from "react-redux";
@@ -30,10 +31,9 @@ export default function HomeProperties31Component() {
       </h1>
       <div className="home-properties-3-card-image">
         <Image
-          alt="DF Web screenshot"
-          src={ImageProperties2White}
-          layout="responsive"
-          style={imageStyle}
+          alt="Deepfriend app screenshot"
+          src={ImageProperties31}
+          className="home-properties-3-image"
         />
       </div>
     </div>

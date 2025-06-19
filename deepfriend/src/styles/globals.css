@@ -626,11 +626,13 @@ a {
   }
 
   .home-properties-3-card-image {
-    width: 40%;
+    width: 100%;
+    height: 100%;
+  }
 
-    margin-top: 32px;
-
-    align-self: center;
+  .home-properties-3-image {
+    width: 100%;
+    height: 100%;
   }
 
   .home-properties-4-title {
@@ -2305,7 +2307,7 @@ a {
     margin-top: 24px;
 
     padding-top: 32px;
-    padding-bottom: 32px;
+    padding-bottom: 0px;
 
     padding-left: 24px;
     padding-right: 24px;
@@ -2314,9 +2316,18 @@ a {
   }
 
   .home-properties-3-card-image {
-    width: 80%;
+    width: 100%;
+    height: 100%;
 
-    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .home-properties-3-image {
+    width: 500px;
+    height: 375px;
 
     align-self: center;
   }
