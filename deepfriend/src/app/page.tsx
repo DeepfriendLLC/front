@@ -33,7 +33,7 @@ export default function Home() {
         <HomeProperties31Component />
       </div>
       <h1 className="home-properties-4-title" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
-        Try the Welcome Package for a unique payment of <strong>$1</strong>
+        Download Deepfriend now and receive a<strong> free Penguin Plan</strong>
       </h1>
       <HomeProperties4Component />
       <Script
