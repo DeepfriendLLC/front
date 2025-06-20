@@ -17,9 +17,9 @@ export default function PricingBannerComponent() {
             <div className="page-banner-container">
                 <div className="page-banner-letters-0-container" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
                     <h1 className="home-properties-1-title">
-                        Try Deepfriend now and receive
-                        <strong> 18 </strong>
-                         tokens for
+                        Try Deepfriend and receive a
+                        <strong> Penguin Plan </strong>
+                         for
                         <strong> FREE </strong>
                         {
                             /*

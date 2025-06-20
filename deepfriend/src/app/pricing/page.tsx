@@ -14,7 +14,7 @@ export default function Pricing() {
     <div className="basic-container" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
       <PricingBannerComponent />
       <h1 className="pricing-subtitle">
-        A plan for every circumstance
+        A plan for each case
       </h1>
       <h1 className="pricing-text">
         At Deepfriend, we recognize that each person's path to mental wellness is unique.

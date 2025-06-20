@@ -1751,7 +1751,9 @@ a {
   .home-banner-downlowad-text {
     font-family: 'Cormorant';
     font-weight: 700;
-    font-size: 22px;
+    font-size: 18px;
+
+    text-align: center;
   }
 
   .home-banner-wrapper {
@@ -1804,6 +1806,9 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    padding-left: 32px;
+    padding-right: 32px;
   }
 
   .home-banner-image-container {
@@ -2157,6 +2162,7 @@ a {
     padding: 0px;
 
     margin-top: 16px;
+    text-align: center;
   }
 
   .home-properties-2-wrapped {
