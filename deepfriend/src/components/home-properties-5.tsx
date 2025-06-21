@@ -1,12 +1,8 @@
 "use client";
 
-import ImageProperties4White from "../../public/icons/home-properties-4-check-white.png";
-import ImageProperties4Dark from "../../public/icons/home-properties-4-check-dark.png";
-
 import AdrianImage from "../../public/images/adrian-sin-fondo.svg";
 
 import Image from "next/image";
-import Link from "next/link";
 
 import { useSelector } from "react-redux";
 import { RootState } from "@/store/store";

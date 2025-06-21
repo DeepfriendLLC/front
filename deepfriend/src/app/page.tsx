@@ -13,6 +13,7 @@ import { RootState } from "@/store/store";
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "./layout";
 import Script from 'next/script';
 import HomeProperties5Component from "@/components/home-properties-5";
+import HomeProperties6Component from "@/components/home-properties-6";
 
 export default function Home() {
   const { systemColor } = useSelector((state: RootState) => state.systemColor);
@@ -41,6 +42,10 @@ export default function Home() {
         Download Deepfriend now and receive a<strong> free Penguin Plan</strong>
       </h1>
       <HomeProperties4Component />
+      <h1 className="home-properties-4-title" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
+        History and motivation
+      </h1>
+      <HomeProperties6Component />
       <Script
         src="/twitter-pixel.js"
         strategy="lazyOnload"
