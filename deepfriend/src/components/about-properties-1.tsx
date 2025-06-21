@@ -91,7 +91,7 @@ export default function AboutProperties1Component() {
                             Psicology
                         </h1>
                         <h1 className="about-properties-1-card-subtitle">
-                            Adrián Gonzalez
+                            Adrián González
                         </h1>
                         <h1 className="about-properties-1-card-text">
                             Licensed psychologist with honors specialized in cognitive-behavioral therapy (CBT) with 7+ years of clinical experience.

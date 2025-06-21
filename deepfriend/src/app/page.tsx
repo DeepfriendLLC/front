@@ -12,6 +12,7 @@ import { useSelector } from "react-redux";
 import { RootState } from "@/store/store";
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "./layout";
 import Script from 'next/script';
+import HomeProperties5Component from "@/components/home-properties-5";
 
 export default function Home() {
   const { systemColor } = useSelector((state: RootState) => state.systemColor);
@@ -32,6 +33,10 @@ export default function Home() {
         <HomeProperties30Component />
         <HomeProperties31Component />
       </div>
+      <h1 className="home-properties-4-title" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
+        The psychologist behind Bubbles
+      </h1>
+      <HomeProperties5Component />
       <h1 className="home-properties-4-title" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
         Download Deepfriend now and receive a<strong> free Penguin Plan</strong>
       </h1>

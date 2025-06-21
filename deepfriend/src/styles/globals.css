@@ -669,6 +669,26 @@ a {
     margin-bottom: 54px;
   }
 
+  .home-properties-5-container {
+    width: 100%;
+    min-height: 65vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    text-align: left;
+
+    margin: 0px;
+    padding: 0px;
+
+    padding-left: 10%;
+    padding-right: 10%;
+
+    margin-top: 24px;
+  }
+
   .home-properties-4-cards-row {
     width: 100%;
 
@@ -683,6 +703,24 @@ a {
     padding: 0px;
 
     margin-top: 24px;
+  }
+
+  .home-properties-5-card {
+    width: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    text-align: left;
+
+    margin: 0px;
+    padding: 24px;
+
+    border-radius: 24px;
+
+    align-self: center;
   }
 
   .home-properties-4-card-container-big {
@@ -799,6 +837,24 @@ a {
     color: #6D6D6D;
   }
 
+  .home-properties-5-title {
+    font-family: "Cormorant";
+    font-size: 32px;
+    font-weight: bold;
+
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .home-properties-5-text {
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 400;
+
+    margin: 0px;
+    padding: 0px;
+  }
+
   .home-properties-4-card-tokens-text {
     font-family: "Montserrat";
     font-size: 18px;
@@ -827,6 +883,20 @@ a {
     align-self: center;
 
     margin-right: 8px;
+  }
+
+  .home-properties-5-card-image {
+    width: 350px;
+    height: 350px;
+
+    margin: 0px;
+    padding: 0px;
+
+    align-self: center;
+
+    border-radius: 24px;
+
+    margin-top: 24px;
   }
 
   .home-properties-4-card-button {
@@ -2372,6 +2442,25 @@ a {
     margin-bottom: 24px;
   }
 
+  .home-properties-5-container {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    text-align: left;
+
+    margin: 0px;
+    padding: 0px;
+
+    padding-left: 24px;
+    padding-right: 24px;
+
+    margin-top: 24px;
+  }
+
   .home-properties-4-cards-row {
     width: 100%;
 
@@ -2386,6 +2475,24 @@ a {
     padding: 0px;
 
     margin-top: 24px;
+  }
+  
+  .home-properties-5-card {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    text-align: left;
+
+    margin: 0px;
+    padding: 24px;
+
+    border-radius: 24px;
+
+    align-self: center;
   }
 
   .home-properties-4-card-container-big {
@@ -2500,6 +2607,25 @@ a {
     color: #6D6D6D;
   }
 
+  .home-properties-5-title {
+    font-family: "Cormorant";
+    font-size: 28px;
+    font-weight: bold;
+
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .home-properties-5-text {
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 400;
+
+    margin: 0px;
+    padding: 0px;
+  }
+
+
   .home-properties-4-card-tokens-text {
     font-family: "Montserrat";
     font-size: 18px;
@@ -2528,6 +2654,20 @@ a {
     align-self: center;
 
     margin-right: 8px;
+  }
+
+  .home-properties-5-card-image {
+    width: 100%;
+    height: 100%;
+
+    margin: 0px;
+    padding: 0px;
+
+    align-self: center;
+
+    border-radius: 24px;
+
+    margin-top: 24px;
   }
 
   .home-properties-4-card-button {
