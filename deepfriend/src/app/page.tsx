@@ -35,7 +35,7 @@ export default function Home() {
         <HomeProperties31Component />
       </div>
       <h1 className="home-properties-4-title" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
-        The psychologist behind Bubbles
+        The Psychologist behind Bubbles
       </h1>
       <HomeProperties5Component />
       <h1 className="home-properties-4-title" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
