@@ -8,8 +8,10 @@ import PricingBannerImageDark from "../../public/images/pricing-banner-image-dar
 
 import Image from "next/image";
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "@/app/layout";
+import { TranslationTexts } from "@/store/translations/translations";
 
 export default function PricingBannerComponent() {
+    const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
     const { systemColor } = useSelector((state: RootState) => state.systemColor);
 
     return (
@@ -17,16 +19,7 @@ export default function PricingBannerComponent() {
             <div className="page-banner-container">
                 <div className="page-banner-letters-0-container" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
                     <h1 className="home-properties-1-title">
-                        Try Deepfriend and receive a
-                        <strong> Penguin Plan </strong>
-                         for
-                        <strong> FREE </strong>
-                        {
-                            /*
-                            Try the welcome Package for
-                            <strong> a unique $1</strong>
-                            */
-                        }
+                        {TranslationTexts[systemLanguage].pricing_banner_title}
                     </h1>
                 </div>
                 <div className="page-banner-image-container">
@@ -38,7 +31,7 @@ export default function PricingBannerComponent() {
                 </div>
                 <div className="page-banner-letters-1-container" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
                     <h1 className="home-properties-1-text">
-                        Choose the plan that best suits your needs and start your journey to better mental health today.
+                        {TranslationTexts[systemLanguage].pricing_banner_text}
                     </h1>
                 </div>
             </div>

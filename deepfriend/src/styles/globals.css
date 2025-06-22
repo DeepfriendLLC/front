@@ -149,7 +149,7 @@ a {
 
   .home-banner-container {
     width: 100%;
-    height: 475px;
+    height: 525px;
 
     background-size: cover;
     background-repeat: no-repeat;
@@ -182,7 +182,7 @@ a {
 
     position: absolute;
 
-    top: 425px;
+    top: 475px;
     left: Calc(12.8% + 32px);
 
     z-index: 2;
@@ -1933,7 +1933,7 @@ a {
 
   .home-banner-container {
     width: 100%;
-    height: 625px;
+    height: 700px;
 
     background-size: cover;
     background-repeat: no-repeat;
@@ -1961,7 +1961,7 @@ a {
   .home-banner-download-container {
     width: 100%;
     position: absolute;
-    top: 590px;
+    top: 650px;
     left: 0px;
 /*
     top: 620px;

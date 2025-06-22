@@ -11,8 +11,10 @@ import Link from "next/link";
 import { useSelector } from "react-redux";
 import { RootState } from "@/store/store";
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "@/app/layout";
+import { TranslationTexts } from "@/store/translations/translations";
 
 export default function HomeProperties4Component() {
+  const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
   const { systemColor } = useSelector((state: RootState) => state.systemColor);
 
   return (
@@ -21,16 +23,16 @@ export default function HomeProperties4Component() {
         <div className="home-properties-4-card-container-big" style={{ color: systemColor === "dark" ? BASIC_LIGHT_COLOR : BASIC_DARK_COLOR, borderColor: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
           <div className="home-properties-4-card-container-big-letters-container">
             <h1 className="home-properties-4-card-title">
-              Penguin Plan
+              {TranslationTexts[systemLanguage].home_properties_4_0_title}
             </h1>
             <h1 className="home-properties-4-card-money-text">
               <strong style={{ fontSize: 54, marginRight: 4 }}>
                 $1
               </strong>
-              single payment
+              {TranslationTexts[systemLanguage].home_properties_4_0_0_text}
             </h1>
             <h1 className="home-properties-4-card-penguin-text">
-              Available to buy with or without a subscription
+              {TranslationTexts[systemLanguage].home_properties_4_0_1_text}
             </h1>
             <h1 className="home-properties-4-card-tokens-text">
               <Image
@@ -46,7 +48,7 @@ export default function HomeProperties4Component() {
             <Link href={'https://play.google.com/store/apps/details?id=com.dfbubbles.deepfriend'} target={"_blank"}>
               <button className="home-properties-4-card-button" style={{ backgroundColor: systemColor === "dark" ? BASIC_LIGHT_COLOR : BASIC_DARK_COLOR, color: systemColor === "light" ? BASIC_LIGHT_COLOR : BASIC_DARK_COLOR }}>
                 <h1 className="home-properties-4-card-button-text">
-                  Try Deepfriend
+                  {TranslationTexts[systemLanguage].home_properties_4_0_button}
                 </h1>
               </button>
             </Link>
@@ -61,13 +63,13 @@ export default function HomeProperties4Component() {
         </div>
         <div className="home-properties-4-card-container-little" style={{ color: systemColor === "dark" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR, backgroundColor: systemColor === 'light' ? "#011C2F" : BASIC_LIGHT_COLOR }}>
           <h1 className="home-properties-4-card-title">
-            Dolphin
+            {TranslationTexts[systemLanguage].home_properties_4_1_title}
           </h1>
           <h1 className="home-properties-4-card-money-text">
             <strong style={{ fontSize: 54, marginRight: 4 }}>
               $29
             </strong>
-            per month
+            {TranslationTexts[systemLanguage].home_properties_4_1_text}
           </h1>
           <h1 className="home-properties-4-card-tokens-text">
             <Image
@@ -83,20 +85,20 @@ export default function HomeProperties4Component() {
           <Link href={'https://play.google.com/store/apps/details?id=com.dfbubbles.deepfriend'} target={"_blank"}>
             <button className="home-properties-4-card-button" style={{ backgroundColor: systemColor === "dark" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR, color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
               <h1 className="home-properties-4-card-button-text">
-                Suscribe
+                {TranslationTexts[systemLanguage].home_properties_4_1_button}
               </h1>
             </button>
           </Link>
         </div>
         <div className="home-properties-4-card-container-little" style={{ color: BASIC_DARK_COLOR }}>
           <h1 className="home-properties-4-card-title">
-            Blue Whale
+            {TranslationTexts[systemLanguage].home_properties_4_2_title}
           </h1>
           <h1 className="home-properties-4-card-money-text">
             <strong style={{ fontSize: 54, marginRight: 4 }}>
               $57
             </strong>
-            per month
+            {TranslationTexts[systemLanguage].home_properties_4_2_text}
           </h1>
           <h1 className="home-properties-4-card-tokens-text">
             <Image
@@ -112,7 +114,7 @@ export default function HomeProperties4Component() {
           <Link href={'https://play.google.com/store/apps/details?id=com.dfbubbles.deepfriend'} target={"_blank"}>
             <button className="home-properties-4-card-button" style={{ backgroundColor: BASIC_DARK_COLOR, color: BASIC_LIGHT_COLOR }}>
               <h1 className="home-properties-4-card-button-text">
-                Suscribe
+                {TranslationTexts[systemLanguage].home_properties_4_1_button}
               </h1>
             </button>
           </Link>

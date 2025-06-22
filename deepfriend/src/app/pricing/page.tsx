@@ -6,19 +6,20 @@ import { RootState } from "@/store/store";
 import { useSelector } from "react-redux";
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "../layout";
 import PricingProperties1Component from "@/components/pricing-properties-1";
+import { TranslationTexts } from "@/store/translations/translations";
 
 export default function Pricing() {
+  const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
   const { systemColor } = useSelector((state: RootState) => state.systemColor);
 
   return (
     <div className="basic-container" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
       <PricingBannerComponent />
       <h1 className="pricing-subtitle">
-        A plan for each case
+        {TranslationTexts[systemLanguage].pricing_properties_0_title}
       </h1>
       <h1 className="pricing-text">
-        At Deepfriend, we recognize that each person's path to mental wellness is unique.
-        Choose the package that suits you best. Your DFs accumulate if you don't spend them, they never expire.
+        {TranslationTexts[systemLanguage].pricing_properties_0_text}
       </h1>
       <HomeProperties4Component />
       <PricingProperties1Component />

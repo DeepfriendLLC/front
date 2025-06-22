@@ -6,8 +6,10 @@ import Image from "next/image";
 import { useSelector } from "react-redux";
 import { RootState } from "@/store/store";
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "@/app/layout";
+import { TranslationTexts } from "@/store/translations/translations";
 
 export default function HomeProperties1Component() {
+  const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
   const { systemColor } = useSelector((state: RootState) => state.systemColor);
 
   return (
@@ -18,13 +20,10 @@ export default function HomeProperties1Component() {
         src={Phones}
       />
       <h1 className="home-properties-1-title" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
-        Level up to achieve your goals
+        {TranslationTexts[systemLanguage].home_properties_1_title}
       </h1>
       <h1 className="home-properties-1-text" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
-        Tell Bubbles what your goals are,
-        such as “overcome insomnia”, “reduce anxiety” or “overcome depression”,
-        let it guide you and pass all the levels to become a happier person.
-        Feel day by day how you improve.
+        {TranslationTexts[systemLanguage].home_properties_1_text}
       </h1>
     </div >
   );

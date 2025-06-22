@@ -24,17 +24,19 @@ import AboutProperties1CardIconIvanDark from "../../public/icons/about-propertie
 import Image from "next/image";
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "@/app/layout";
 import Link from "next/link";
+import { TranslationTexts } from "@/store/translations/translations";
 
 export default function AboutProperties1Component() {
+    const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
     const { systemColor } = useSelector((state: RootState) => state.systemColor);
 
     return (
         <div className="about-properties-1-container" style={{ color: systemColor === "dark" ? BASIC_LIGHT_COLOR : BASIC_DARK_COLOR }}>
             <h1 className="about-properties-0-title">
-                The Building Blocks
+                {TranslationTexts[systemLanguage].about_properties_1_title}
             </h1>
             <h1 className="about-properties-0-text">
-                This app is the result of the cooperative and harmonious work of diverse teams united by a common purpose. Specialists in their respective fields, agencies, and professionals have built a product for you, guided by our mision.
+                {TranslationTexts[systemLanguage].about_properties_1_subtitle}
             </h1>
             <div className="about-properties-1-cards-container">
                 <div className="about-properties-1-cards-container-card-big" style={{ borderColor: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
@@ -52,13 +54,13 @@ export default function AboutProperties1Component() {
                     </div>
                     <div className="about-properties-1-cards-container-card-container-letters">
                         <h1 className="about-properties-1-card-title">
-                            User Interface and Experience design
+                            {TranslationTexts[systemLanguage].about_properties_1_0_title}
                         </h1>
                         <h1 className="about-properties-1-card-subtitle">
                             ESTUDIO ASTORA
                         </h1>
                         <h1 className="about-properties-1-card-text">
-                            We are a professional team dedicated to brand creation, packaging, and digital product design. We craft the visual aspect, interaction, and user experience of Deepfriend. We extend the graphic universe into a comprehensive visual world.
+                            {TranslationTexts[systemLanguage].about_properties_1_0_text}
                         </h1>
                         <div className="about-properties-1-cards-container-card-container-link">
                             <Link href={"https://estudioastora.com/"} target="_blank" className="about-properties-1-cards-container-card-container-link-image">
@@ -88,16 +90,13 @@ export default function AboutProperties1Component() {
                     </div>
                     <div className="about-properties-1-cards-container-card-container-letters">
                         <h1 className="about-properties-1-card-title">
-                            Psicology
+                            {TranslationTexts[systemLanguage].about_properties_1_1_title}
                         </h1>
                         <h1 className="about-properties-1-card-subtitle">
                             Adrián González
                         </h1>
                         <h1 className="about-properties-1-card-text">
-                            Licensed psychologist with honors specialized in cognitive-behavioral therapy (CBT) with 7+ years of clinical experience.
-                            Focused on anxiety, stress and depression crafting personalized strategies to empower growth.
-                            Passionate about guiding clients to unlock their potential through collaborative, present-focused therapy.
-                            Dedicated to fostering resilience in private and corporate settings.
+                            {TranslationTexts[systemLanguage].about_properties_1_1_text}
                         </h1>
                         <div className="about-properties-1-cards-container-card-container-link">
                             <Link href={"https://psicoterapiadriangonzalez.simdif.com/"} target="_blank" className="about-properties-1-cards-container-card-container-link-image">
@@ -128,15 +127,13 @@ export default function AboutProperties1Component() {
                 </div>
                 <div className="about-properties-1-cards-container-card-container-letters">
                     <h1 className="about-properties-1-card-title">
-                        Bubbles design
+                        {TranslationTexts[systemLanguage].about_properties_1_2_title}
                     </h1>
                     <h1 className="about-properties-1-card-subtitle">
                         Ivan @canary_design
                     </h1>
                     <h1 className="about-properties-1-card-text">
-                        Self-taught graphic & web designer with a focus on brand identity and logo creation.
-                        Combining years of freelance experience with relentless attention to detail, I craft polished, business-driven designs.
-                        Ivan is the designer who has been in charge of creating the look of Bubbles.
+                        {TranslationTexts[systemLanguage].about_properties_1_2_text}
                     </h1>
                     <div className="about-properties-1-cards-container-card-container-link">
                         <Link href={"https://www.fiverr.com/canary_design"} target="_blank" className="about-properties-1-cards-container-card-container-link-image">

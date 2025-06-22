@@ -14,8 +14,10 @@ import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "./layout";
 import Script from 'next/script';
 import HomeProperties5Component from "@/components/home-properties-5";
 import HomeProperties6Component from "@/components/home-properties-6";
+import { TranslationTexts } from "@/store/translations/translations";
 
 export default function Home() {
+  const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
   const { systemColor } = useSelector((state: RootState) => state.systemColor);
 
   const containerStyle: CSSProperties = {
@@ -35,15 +37,15 @@ export default function Home() {
         <HomeProperties31Component />
       </div>
       <h1 className="home-properties-4-title" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
-        The Psychologist behind Bubbles
+        {TranslationTexts[systemLanguage].home_properties_5_title}
       </h1>
       <HomeProperties5Component />
       <h1 className="home-properties-4-title" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
-        Download Deepfriend now and receive a<strong> free Penguin Plan</strong>
+        {TranslationTexts[systemLanguage].home_properties_4_title}
       </h1>
       <HomeProperties4Component />
       <h1 className="home-properties-4-title" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
-        History and motivation
+        {TranslationTexts[systemLanguage].home_properties_6_title}
       </h1>
       <HomeProperties6Component />
       <Script

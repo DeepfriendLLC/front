@@ -16,25 +16,22 @@ import InstagramWhite from "../../public/icons/instagram_white.png";
 import InstagramDark from "../../public/icons/instagram_dark.png";
 
 import Image from "next/image";
-import { CSSProperties } from "react";
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "@/app/layout";
 import Link from "next/link";
+import { TranslationTexts } from "@/store/translations/translations";
 
 export default function ContactProperties0Component() {
+    const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
     const { systemColor } = useSelector((state: RootState) => state.systemColor);
-
-    const cardStyle: CSSProperties = {
-        //backgroundImage: `url(${systemColor === "light" ? PrivacyPolicyBackgroundLight.src : PrivacyPolicyBackgroundDark.src})`,
-    };
 
     return (
         <div className="contact-properties-0-container" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
             <div className="contact-properties-0-letters-container">
                 <h1 className="contact-properties-0-title">
-                    Get in Touch
+                    {TranslationTexts[systemLanguage].contact_properties_0_title}
                 </h1>
                 <h1 className="contact-properties-0-text">
-                    Feel free to contact us for suggestions and comments. We are happy to know your opinion or help you if you need assistance or wish to report an issue of the app.
+                    {TranslationTexts[systemLanguage].contact_properties_0_text}
                 </h1>
             </div>
             <div className="contact-properties-0-letters-container">

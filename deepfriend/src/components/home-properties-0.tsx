@@ -11,8 +11,10 @@ import Image from "next/image";
 import { useSelector } from "react-redux";
 import { RootState } from "@/store/store";
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "@/app/layout";
+import { TranslationTexts } from "@/store/translations/translations";
 
 export default function HomeProperties0Component() {
+  const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
   const { systemColor } = useSelector((state: RootState) => state.systemColor);
 
   return (
@@ -24,13 +26,10 @@ export default function HomeProperties0Component() {
           className="home-properties-0-icon"
         />
         <h1 className="home-properties-0-title">
-          Improve your mental health with goals
+          {TranslationTexts[systemLanguage].home_properties_0_0_title}
         </h1>
         <h1 className="home-properties-0-text">
-          Set a goal you want to achieve,
-          such as "overcoming anxiety," share it with Bubbles,
-          customize the process to your liking,
-          and work your way up to achieve your goals.
+          {TranslationTexts[systemLanguage].home_properties_0_0_text}
         </h1>
       </div>
       <div className="home-properties-0-card" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
@@ -40,12 +39,10 @@ export default function HomeProperties0Component() {
           className="home-properties-0-icon"
         />
         <h1 className="home-properties-0-title">
-          More than a chatGPT prompt
+          {TranslationTexts[systemLanguage].home_properties_0_1_title}
         </h1>
         <h1 className="home-properties-0-text">
-          Bubbles is a complex system of multiple AIs united into a large and wise whale.
-          Has a great memory to remember everything you discuss,
-          and is so intelligent that will truly understand you and not just give you immediate solutions.
+          {TranslationTexts[systemLanguage].home_properties_0_1_text}
         </h1>
       </div>
       <div className="home-properties-0-card" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
@@ -55,11 +52,10 @@ export default function HomeProperties0Component() {
           className="home-properties-0-icon"
         />
         <h1 className="home-properties-0-title">
-          Science behind
+          {TranslationTexts[systemLanguage].home_properties_0_2_title}
         </h1>
         <h1 className="home-properties-0-text">
-          Deepfriend implements the newest and most solid scientific advances in psychology.
-          We are based on Cognitive Behavioral Therapy (CBT).
+          {TranslationTexts[systemLanguage].home_properties_0_2_text}
         </h1>
       </div>
     </div>

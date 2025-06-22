@@ -17,11 +17,23 @@ import InstagramDark from "../../public/icons/instagram_dark.png";
 
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "@/app/layout";
 import { CSSProperties } from "react";
+import { TranslationTexts } from "@/store/translations/translations";
+import { AllowedLanguagesEncodedType } from "@/store/slice/systemLanguage";
 
-export function Navbar(props: { pathname: string, systemColor: "light" | "dark", updateSystemColor: (_systemColor: "light" | "dark") => void }) {
+export function Navbar(props: {
+    pathname: string,
+    systemColor: "light" | "dark",
+    updateSystemColor: (_systemColor: "light" | "dark") => void,
+    systemLanguage: AllowedLanguagesEncodedType,
+    updateSystemLanguage: (_systemLanguage: AllowedLanguagesEncodedType) => void,
+}) {
     const pathname = props.pathname;
+
     const systemColor = props.systemColor;
     const updateSystemColor = props.updateSystemColor;
+
+    const systemLanguage = props.systemLanguage;
+    const updateSystemLanguage = props.updateSystemLanguage;
 
     const checkbox = <div className="dropdown-change-theme-checkbox-container">
         <label className="theme-switch">
@@ -80,7 +92,6 @@ export function Navbar(props: { pathname: string, systemColor: "light" | "dark",
         alignSelf: "center"
     };
 
-
     return (
         <div className="navbar-container" id="🫧">
             <div className="navbar-logo-container">
@@ -105,22 +116,22 @@ export function Navbar(props: { pathname: string, systemColor: "light" | "dark",
                     <div className="dropdown-content" style={{ backgroundColor: systemColor === "light" ? BASIC_LIGHT_COLOR : BASIC_DARK_COLOR }}>
                         <Link href={'/'}>
                             <h1 className="dropdown-content-text" style={{ color: systemColor === "dark" ? BASIC_LIGHT_COLOR : BASIC_DARK_COLOR }}>
-                                Home
+                                {TranslationTexts[systemLanguage].navbar_0}
                             </h1>
                         </Link>
                         <Link href={'/about'}>
                             <h1 className="dropdown-content-text" style={{ color: systemColor === "dark" ? BASIC_LIGHT_COLOR : BASIC_DARK_COLOR }}>
-                                About
+                                {TranslationTexts[systemLanguage].navbar_1}
                             </h1>
                         </Link>
                         <Link href={'/contact'}>
                             <h1 className="dropdown-content-text" style={{ color: systemColor === "dark" ? BASIC_LIGHT_COLOR : BASIC_DARK_COLOR }}>
-                                Contact
+                                {TranslationTexts[systemLanguage].navbar_2}
                             </h1>
                         </Link>
                         <Link href={'/pricing'}>
                             <h1 className="dropdown-content-text" style={{ color: systemColor === "dark" ? BASIC_LIGHT_COLOR : BASIC_DARK_COLOR }}>
-                                Pricing
+                                {TranslationTexts[systemLanguage].navbar_3}
                             </h1>
                         </Link>
                         {checkbox}
@@ -135,7 +146,7 @@ export function Navbar(props: { pathname: string, systemColor: "light" | "dark",
                                 { color: "#7DB3D7", fontWeight: "800", }
                                 : { color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR, fontWeight: "500", })
                         }}>
-                            Home
+                            {TranslationTexts[systemLanguage].navbar_0}
                         </h1>
                     </div>
                 </Link>
@@ -146,7 +157,7 @@ export function Navbar(props: { pathname: string, systemColor: "light" | "dark",
                                 { color: "#7DB3D7", fontWeight: "800", }
                                 : { color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR, fontWeight: "500", })
                         }}>
-                            About
+                            {TranslationTexts[systemLanguage].navbar_1}
                         </h1>
                     </div>
                 </Link>
@@ -157,7 +168,7 @@ export function Navbar(props: { pathname: string, systemColor: "light" | "dark",
                                 { color: "#7DB3D7", fontWeight: "800", }
                                 : { color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR, fontWeight: "500", })
                         }}>
-                            Contact
+                            {TranslationTexts[systemLanguage].navbar_2}
                         </h1>
                     </div>
                 </Link>
@@ -168,7 +179,7 @@ export function Navbar(props: { pathname: string, systemColor: "light" | "dark",
                                 { color: "#7DB3D7", fontWeight: "800", }
                                 : { color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR, fontWeight: "500", })
                         }}>
-                            Pricing
+                            {TranslationTexts[systemLanguage].navbar_3}
                         </h1>
                     </div>
                 </Link>

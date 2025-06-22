@@ -12,8 +12,10 @@ import GoogleplayLogo from "../../public/icons/googleplay-logo.png";
 import Image from "next/image";
 import { CSSProperties } from "react";
 import Link from "next/link";
+import { TranslationTexts } from "@/store/translations/translations";
 
 export default function HomeBannerComponent() {
+    const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
     const { systemColor } = useSelector((state: RootState) => state.systemColor);
 
     const cardStyle: CSSProperties = {
@@ -43,7 +45,7 @@ export default function HomeBannerComponent() {
                 <h1 className="home-banner-downlowad-text" style={{
                     color: BASIC_LIGHT_COLOR,
                 }}>
-                    Download now to get a FREE Penguin Plan
+                    {TranslationTexts[systemLanguage].home_badge_download}
                 </h1>
                 <div style={lettersSubContainer}>
                     <Link href={"https://play.google.com/store/apps/details?id=com.dfbubbles.deepfriend"} target={"_blank"}>
@@ -62,12 +64,12 @@ export default function HomeBannerComponent() {
                     <h1 className="home-banner-title" style={{
                         color: BASIC_LIGHT_COLOR,
                     }}>
-                        The fun, scientific and cheap way to heal
+                        {TranslationTexts[systemLanguage].home_badge_title}
                     </h1>
                     <h1 className="home-banner-text" style={{
                         color: BASIC_LIGHT_COLOR,
                     }}>
-                        Meet Bubbles, our super AI expert in psychology and specialized in CBT
+                        {TranslationTexts[systemLanguage].home_badge_text}
                     </h1>
                 </div>
                 <div className="home-banner-image-container">

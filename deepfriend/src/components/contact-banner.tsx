@@ -8,8 +8,10 @@ import ContactBannerImageDark from "../../public/images/contact-banner-image-dar
 
 import Image from "next/image";
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "@/app/layout";
+import { TranslationTexts } from "@/store/translations/translations";
 
 export default function ContactBannerComponent() {
+    const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
     const { systemColor } = useSelector((state: RootState) => state.systemColor);
 
     return (
@@ -17,7 +19,7 @@ export default function ContactBannerComponent() {
             <div className="page-banner-container">
                 <div className="page-banner-letters-0-container" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
                     <h1 className="home-properties-1-title">
-                        Meet our comunication chanels
+                        {TranslationTexts[systemLanguage].contact_banner_title}
                     </h1>
                 </div>
                 <div className="page-banner-image-container">
@@ -29,7 +31,7 @@ export default function ContactBannerComponent() {
                 </div>
                 <div className="page-banner-letters-1-container" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
                     <h1 className="home-properties-1-text">
-                        We are always working to create a product that resonates with you. We want to hear your voice and have you be part of our process.
+                        {TranslationTexts[systemLanguage].contact_banner_text}
                     </h1>
                 </div>
             </div>

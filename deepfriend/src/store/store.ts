@@ -1,9 +1,11 @@
-import { configureStore } from '@reduxjs/toolkit'
-import { systemColorReducer } from './slice/systemColor'
+import { configureStore } from '@reduxjs/toolkit';
+import { systemColorReducer } from './slice/systemColor';
+import { systemLLanguageReducer } from './slice/systemLanguage';
 
 export const store = configureStore({
   reducer: {
     systemColor: systemColorReducer,
+    systemLanguage: systemLLanguageReducer,
   },
 })
 

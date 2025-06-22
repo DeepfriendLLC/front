@@ -11,8 +11,10 @@ import PricingProperties1AudioWhite from "../../public/images/pricing-properties
 import PricingProperties1AudioDark from "../../public/images/pricing-properties-1-audio-dark.png";
 
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "@/app/layout";
+import { TranslationTexts } from "@/store/translations/translations";
 
 export default function PricingProperties1Component() {
+  const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
   const { systemColor } = useSelector((state: RootState) => state.systemColor);
 
   return (
@@ -20,13 +22,10 @@ export default function PricingProperties1Component() {
       <div className="pricing-properties-1-container" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
         <div className="pricing-properties-1-container-letters">
           <h1 className="pricing-properties-1-container-letters-title">
-            DF stands for Deepfriend tokens
+            {TranslationTexts[systemLanguage].pricing_properties_1_title}
           </h1>
           <h1 className="pricing-properties-1-container-letters-text">
-            These are the digital currency used within our platform to access messages and calls.
-            Each message to Bubbles costs 1 DF, while each call costs 10 DF.
-            We are committed to transparency and strive to be clear about any transaction involving DFs.
-            <strong> You can unsubscribe from any plan whenever you desire.</strong>
+            {TranslationTexts[systemLanguage].pricing_properties_1_text}
           </h1>
         </div>
         <div className="pricing-properties-1-container-image">
@@ -36,7 +35,7 @@ export default function PricingProperties1Component() {
             className="pricing-properties-1-image-message"
           />
           <h1 className="pricing-properties-1-image-text">
-            Write a message for 1 DF
+            {TranslationTexts[systemLanguage].pricing_properties_1_0_text}
           </h1>
         </div>
         <div className="pricing-properties-1-container-image">
@@ -46,7 +45,7 @@ export default function PricingProperties1Component() {
             className="pricing-properties-1-image-audio"
           />
           <h1 className="pricing-properties-1-image-text">
-            Make a call for 10 DF per input
+            {TranslationTexts[systemLanguage].pricing_properties_1_1_text}
           </h1>
         </div>
       </div>
