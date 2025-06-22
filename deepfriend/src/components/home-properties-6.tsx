@@ -25,29 +25,23 @@ export default function HomeProperties6Component() {
           <h1 className="home-properties-6-text" style={{
             color: systemColor === "dark" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR,
           }}>
-            I started working as a waiter in Barcelona, but the covid came and I was out of work,
-            which led me to go through a deep depression.
+            My story begins when I lost my job as a waiter in Barcelona and that led me to fall into a deep depression.
             <br />
             <br />
-            I was looking for solutions, I couldn't afford a conventional therapy so I looked at mental health apps and I was disappointed.
-            I did a market analysis but did not find anything other than a simple ChatGPT with a prompt to act as a psychologist.
+            I couldn't afford a conventional therapy so I looked at mental health apps and I did a market analysis but did not find anything other than a simple ChatGPT with a prompt to act as a psychologist.
             <br />
             <br />
-            Thanks to God and a lot of effort and study I was able to develop myself as a totally self-taught software developer.
-            I was able to move to Madrid and develop my professional career in large technological companies to which I am very grateful.
+            Thanks to God and a lot of effort and study I was able to develop myself as a software developer in a completely self-taught way.
+            I was able to move to Madrid and develop my professional career.
             But depression is not so easy to overcome.
             <br />
             <br />
-            It was then when I lived one of the most frustrating and painful experiences of my life, my old partner,
-            who was also going through a hard depression attempted suicide.
-            There I could see how bad the mental health apps were and what is worse of all, the public care,
-            something that happens all over the West. I left the hospital really angry, not only did they not help us,
-            they treated us with contempt and arrogance.
-            Between laughter and contempt they asked questions like "why do you cut yourself? don't cut yourself".
+            In Madrid, I lived one of the worst experiences of my life, a person very close to me tried to commit suicide and we had to go to the hospital.
+            The situation was already bad but the public attention staff made it even worse, not only did they not help us but they treated us with arrogance and contempt.
+            I left really angry and looking on the internet I could see that this is something that happens all over the West.
             <br />
             <br />
-            Then I got serious, I analyzed the current state of technology,
-            I saw that it was possible and I got in touch with Adrian, our great psychologist, and I set up the company.
+            Then I promised myself that I had to help change this. I got serious, got in touch with Adrián, our great psychologist, and set up the company.
             <br />
             <br />
             It only remains for me to say that I am deeply proud of what we have managed to create and that thanks to Bubbles I have managed to overcome my own depression and become a new person.
