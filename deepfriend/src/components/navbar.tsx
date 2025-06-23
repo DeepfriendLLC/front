@@ -93,7 +93,7 @@ export function Navbar(props: {
     };
 
     return (
-        <div className="navbar-container" id="🫧">
+        <div className="navbar-container">
             <div className="navbar-logo-container">
                 <Image
                     alt="Deepfriend logo"

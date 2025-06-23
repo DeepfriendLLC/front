@@ -350,13 +350,18 @@ a {
   }
 
   .navbar-navigation-card {
+    /*
     width: 98px;
+    */
     height: 54px;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
+
+    margin-left: 16px;
+    margin-right: 16px;
   }
 
   .navbar-navigation-text {
