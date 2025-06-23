@@ -1,6 +1,6 @@
 "use client";
 
-import PabloImage from "../../public/images/pablo-sin-fondo.svg";
+import PabloImage from "../../public/images/pablo-sin-fondo.png";
 
 import Image from "next/image";
 
