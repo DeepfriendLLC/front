@@ -44,10 +44,14 @@ export default function Home() {
         {TranslationTexts[systemLanguage].home_properties_4_title}
       </h1>
       <HomeProperties4Component />
-      <h1 className="home-properties-4-title" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
-        {TranslationTexts[systemLanguage].home_properties_6_title}
-      </h1>
-      <HomeProperties6Component />
+      {
+        /*
+          <h1 className="home-properties-4-title" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
+            {TranslationTexts[systemLanguage].home_properties_6_title}
+          </h1>
+          <HomeProperties6Component />
+        */
+      }
       <Script
         src="/twitter-pixel.js"
         strategy="lazyOnload"
