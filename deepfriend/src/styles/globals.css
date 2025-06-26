@@ -447,6 +447,12 @@ a {
     align-self: center;
   }
 
+  .home-properties-7-container-image {
+    width: 320px;
+    height: 420px;
+    align-self: center;
+  }
+
   .home-properties-1-container {
     width: 100%;
     min-height: 90vh;
@@ -671,7 +677,7 @@ a {
     padding-right: 10%;
 
     margin-top: 8px;
-    margin-bottom: 0px;
+    margin-bottom: 54px;
   }
 
   .home-properties-5-container {
@@ -1354,7 +1360,7 @@ a {
     padding: 0px;
     margin: 0px;
 
-    margin-top: 24px;
+    margin-top: -24px;
     margin-bottom: 54px;
 
     padding-left: 10%;
@@ -2294,6 +2300,12 @@ a {
     align-self: center;
   }
 
+  .home-properties-7-container-image {
+    width: 240px;
+    height: 314px;
+    align-self: center;
+  }
+
   .home-properties-1-container {
     width: 100%;
     min-height: 75vh;
@@ -2540,7 +2552,7 @@ a {
     padding-right: 24px;
 
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 24px;
   }
 
   .home-properties-5-container {
@@ -3130,7 +3142,7 @@ a {
     padding: 0px;
     margin: 0px;
 
-    margin-top: 24px;
+    margin-top: 0px;
     margin-bottom: 24px;
 
     padding-left: 24px;

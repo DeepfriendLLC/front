@@ -46,6 +46,8 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         home_properties_4_2_text: "per month",
         home_properties_4_0_button: "Try Deepfriend",
         home_properties_4_1_button: "Suscribe",
+        home_properties_7_title: "Our commitment to privacy and security",
+        home_properties_7_text: "We are committed to keeping Deepfriend secure, private and discreet. You have the power to control all notifications. We are also committed to never sell or share any of your information with anyone. We have built a secure space with the most powerful and secure technologies on the market. See the Privacy Policy to check it out and exercise your rights.",
         contact_banner_title: "Meet our comunication chanels",
         contact_banner_text: "We are always working to create a product that resonates with you. We want to hear your voice and have you be part of our process.",
         contact_properties_0_title: "Get in Touch",

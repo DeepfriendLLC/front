@@ -15,6 +15,7 @@ import Script from 'next/script';
 import HomeProperties5Component from "@/components/home-properties-5";
 import HomeProperties6Component from "@/components/home-properties-6";
 import { TranslationTexts } from "@/store/translations/translations";
+import HomeProperties7Component from "@/components/home-properties-7";
 
 export default function Home() {
   const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
@@ -36,6 +37,7 @@ export default function Home() {
         <HomeProperties30Component />
         <HomeProperties31Component />
       </div>
+      <HomeProperties7Component/>
       <h1 className="home-properties-4-title" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
         {TranslationTexts[systemLanguage].home_properties_5_title}
       </h1>
