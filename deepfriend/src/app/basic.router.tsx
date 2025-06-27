@@ -36,12 +36,9 @@ export default function BasicRouter({ children }: { children: React.ReactNode })
 
       const initialSystemLanguage: AllowedLanguagesEncodedType = ['en', 'es', 'ja', 'de', 'fr', 'zh', 'ko', 'vi', 'hi', 'th'].includes(_systemLanguage) ? _systemLanguage as AllowedLanguagesEncodedType : "en";
 
-      console.log("MMM _systemLanguage initialSystemLanguage", _systemLanguage, initialSystemLanguage);
-
       setCookie('systemLanguage', initialSystemLanguage);
       dispatch(setSystemLanguageStore(initialSystemLanguage));
-    //} else dispatch(setSystemLanguageStore(cookies.systemLanguage));
-    } else dispatch(setSystemLanguageStore("en"));
+    } else dispatch(setSystemLanguageStore(cookies.systemLanguage));
   };
 
   const updateInitialSystemColor = () => {
