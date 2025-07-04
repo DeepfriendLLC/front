@@ -19,7 +19,8 @@ export default function HomeBannerComponent() {
     const { systemColor } = useSelector((state: RootState) => state.systemColor);
 
     const cardStyle: CSSProperties = {
-        backgroundImage: `url(${systemColor === "light" ? HomeBackgroundLight.src : HomeBackgroundDark.src})`,
+        //backgroundImage: `url(${systemColor === "light" ? HomeBackgroundLight.src : HomeBackgroundDark.src})`,
+        backgroundImage: `url(${HomeBackgroundDark.src})`,
     };
 
     const lettersSubContainer: CSSProperties = {
