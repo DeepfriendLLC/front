@@ -7,7 +7,6 @@ import AdrianImage from "../../public/images/adrian.png";
 import DeniseImage from "../../public/images/denise.png";
 import AstoraLogo from "../../public/images/astora-logo.png";
 import CanaryDesignLogo from "../../public/images/canary-design.png";
-import MatiasLogo from "../../public/images/matias-logo.png";
 
 import AboutProperties1LinkLogoWhite from "../../public/icons/about-properties-1-card-link-logo-white.png";
 import AboutProperties1LinkLogoDark from "../../public/icons/about-properties-1-card-link-logo-dark.png";

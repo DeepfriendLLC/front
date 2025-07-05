@@ -38,22 +38,6 @@ export default function HomeProperties2Component() {
             <br />
             {TranslationTexts[systemLanguage].home_properties_2_3_text}
           </h1>
-          {
-            /*
-          <div className="home-properties-2-card-letters-row">
-            <Image
-              alt="DF Web icon"
-              src={systemColor === "dark" ? ImageProperties2Letters0Dark : ImageProperties2Letters0White}
-              style={imageLetters0Style}
-            />
-            <Image
-              alt="DF Web icon"
-              src={systemColor === "dark" ? ImageProperties2Letters1Dark : ImageProperties2Letters1White}
-              style={imageLetters1Style}
-            />
-          </div>
-            */
-          }
         </div>
       </div>
     </div>

@@ -13,7 +13,6 @@ import { RootState } from "@/store/store";
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "./layout";
 import Script from 'next/script';
 import HomeProperties5Component from "@/components/home-properties-5";
-import HomeProperties6Component from "@/components/home-properties-6";
 import { TranslationTexts } from "@/store/translations/translations";
 import HomeProperties7Component from "@/components/home-properties-7";
 

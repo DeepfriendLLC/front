@@ -5,7 +5,7 @@ import { useSelector } from "react-redux";
 import { BASIC_LIGHT_COLOR } from "../app/layout";
 
 import HomeBackgroundDark from "../../public/backgrounds/home_background_0_dark.svg";
-import HomeBackgroundLight from "../../public/backgrounds/home_background_0_light.svg";
+//import HomeBackgroundLight from "../../public/backgrounds/home_background_0_light.svg";
 import HomePhone from "../../public/phones/home_phone_1.svg";
 import GoogleplayLogo from "../../public/icons/googleplay-logo.png";
 
@@ -16,7 +16,7 @@ import { TranslationTexts } from "@/store/translations/translations";
 
 export default function HomeBannerComponent() {
     const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
-    const { systemColor } = useSelector((state: RootState) => state.systemColor);
+    //const { systemColor } = useSelector((state: RootState) => state.systemColor);
 
     const cardStyle: CSSProperties = {
         //backgroundImage: `url(${systemColor === "light" ? HomeBackgroundLight.src : HomeBackgroundDark.src})`,
