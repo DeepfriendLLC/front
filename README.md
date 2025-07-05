@@ -1,0 +1,1 @@
+This is the front web page of Deepfriend, use any part of the code if you need but keep it open source because it is licensed with AGPL-3.0-only license to make it open source for everyone. Hope it helps comunity.
