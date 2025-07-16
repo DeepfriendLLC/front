@@ -9,7 +9,7 @@ import { Head } from "@/components/head";
 import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 
-export const BASIC_DARK_COLOR = "#031521";
+export const BASIC_DARK_COLOR = "black"; //"#031521";
 export const BASIC_LIGHT_COLOR = "#F8F8F8";
 
 export default function RootLayout({
