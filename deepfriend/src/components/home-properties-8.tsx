@@ -1,0 +1,44 @@
+"use client";
+
+import GooglePlayLogo from "../../public/icons/googleplay-logo.png";
+import BackgroundImage from "../../public/backgrounds/sea-and-boat.svg";
+
+import Image from "next/image";
+import { useSelector } from "react-redux";
+import { RootState } from "@/store/store";
+import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "@/app/layout";
+import { TranslationTexts } from "@/store/translations/translations";
+import Link from "next/link";
+import { CSSProperties } from "react";
+
+export default function HomeProperties8Component() {
+  const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
+  const { systemColor } = useSelector((state: RootState) => state.systemColor);
+
+  const cardStyle: CSSProperties = {
+    backgroundImage: `url('${BackgroundImage.src}')`,
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+  };
+
+  return (
+    <div className="home-properties-8-wrapper">
+      <div className="home-properties-8-container" style={cardStyle}>
+        <h1 className="home-properties-8-title" style={{ color: BASIC_LIGHT_COLOR }}>
+          {TranslationTexts[systemLanguage].home_properties_8_title}
+        </h1>
+        <h1 className="home-properties-8-text" style={{ color: BASIC_LIGHT_COLOR }}>
+          {TranslationTexts[systemLanguage].home_properties_8_text}
+        </h1>
+        <Link href={`https://play.google.com/store/apps/details?id=com.dfbubbles.deepfriend`} target="_blank">
+          <Image
+            alt="Google Play logo"
+            className="home-properties-8-container-image"
+            src={GooglePlayLogo}
+          />
+        </Link>
+      </div >
+    </div >
+  );
+}

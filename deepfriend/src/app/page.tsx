@@ -15,6 +15,7 @@ import Script from 'next/script';
 import HomeProperties5Component from "@/components/home-properties-5";
 import { TranslationTexts } from "@/store/translations/translations";
 import HomeProperties7Component from "@/components/home-properties-7";
+import HomeProperties8Component from "@/components/home-properties-8";
 
 export default function Home() {
   const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
@@ -31,6 +32,8 @@ export default function Home() {
       <HomeBannerComponent />
       <HomeProperties0Component />
       <HomeProperties1Component />
+      <HomeProperties8Component />
+      <HomeProperties4Component />
       <HomeProperties2Component />
       <div className="home-properties-3-wrapped">
         <HomeProperties30Component />

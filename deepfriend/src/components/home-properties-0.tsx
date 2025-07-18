@@ -12,6 +12,14 @@ import Icon4Dark from "../../public/icons/home-properties-0-robot-dark.svg";
 import Icon4White from "../../public/icons/home-properties-0-robot-light.svg";
 import Icon5Dark from "../../public/icons/home-properties-0-cheap-dark.png";
 import Icon5White from "../../public/icons/home-properties-0-cheap-light.png";
+import Icon6Dark from "../../public/icons/home-properties-0-messages-dark.svg";
+import Icon6White from "../../public/icons/home-properties-0-messages-light.svg";
+import Icon7Dark from "../../public/icons/home-properties-0-chart-dark.svg";
+import Icon7White from "../../public/icons/home-properties-0-chart-light.svg";
+import Icon8Dark from "../../public/icons/home-properties-0-tag-dark.svg";
+import Icon8White from "../../public/icons/home-properties-0-tag-light.svg";
+import Icon9Dark from "../../public/icons/home-properties-0-levelup-dark.svg";
+import Icon9White from "../../public/icons/home-properties-0-levelup-light.svg";
 
 import Image from "next/image";
 import { useSelector } from "react-redux";
@@ -46,7 +54,7 @@ export default function HomeProperties0Component() {
         <div className='home-properties-0-container-icon'>
           <Image
             alt="DF Web icon"
-            src={systemColor === "light" ? Icon4Dark : Icon4White}
+            src={systemColor === "light" ? Icon6Dark : Icon6White}
             className="home-properties-0-icon"
           />
         </div>
@@ -63,7 +71,7 @@ export default function HomeProperties0Component() {
         <div className='home-properties-0-container-icon'>
           <Image
             alt="DF Web icon"
-            src={systemColor === "light" ? Icon5Dark : Icon5White}
+            src={systemColor === "light" ? Icon8Dark : Icon8White}
             className="home-properties-0-icon"
           />
         </div>
@@ -80,7 +88,7 @@ export default function HomeProperties0Component() {
         <div className='home-properties-0-container-icon'>
           <Image
             alt="DF Web icon"
-            src={systemColor === "light" ? Icon0Dark : Icon0White}
+            src={systemColor === "light" ? Icon9Dark : Icon9White}
             className="home-properties-0-icon"
           />
         </div>
