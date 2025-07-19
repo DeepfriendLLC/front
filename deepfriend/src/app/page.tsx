@@ -40,14 +40,14 @@ export default function Home() {
         <HomeProperties31Component />
       </div>
       <h1 className="home-properties-4-title" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
-        {TranslationTexts[systemLanguage].home_properties_4_title}
-      </h1>
-      <HomeProperties4Component />
-      <HomeProperties7Component/>
-      <h1 className="home-properties-4-title" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
         {TranslationTexts[systemLanguage].home_properties_5_title}
       </h1>
       <HomeProperties5Component />
+      <HomeProperties7Component/>
+      <h1 className="home-properties-4-title" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
+        {TranslationTexts[systemLanguage].home_properties_4_title}
+      </h1>
+      <HomeProperties4Component />
       {
         /*
           <h1 className="home-properties-4-title" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
