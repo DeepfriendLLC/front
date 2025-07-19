@@ -56,7 +56,7 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         home_properties_8_text: "New accounts receive a Penguin Plan",
         home_properties_8_tag_0: "Secure & private",
         home_properties_8_tag_1: "CBT Science",
-        home_properties_8_tag_2: "Package from 1$",
+        home_properties_8_tag_2: "10 languages",
         home_properties_8_tag_3: "Call access",
         home_properties_8_tag_4: "Group creation",
         home_properties_8_tag_5: "Full Bubbles",
