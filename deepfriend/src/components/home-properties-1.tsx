@@ -22,12 +22,12 @@ export default function HomeProperties1Component() {
         />
       </div>
       <div className="home-properties-1-container-letters">
-      <h1 className="home-properties-1-title" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
-        {TranslationTexts[systemLanguage].home_properties_1_title}
-      </h1>
-      <h1 className="home-properties-1-text" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
-        {TranslationTexts[systemLanguage].home_properties_1_text}
-      </h1>
+        <h1 className="home-properties-1-title" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
+          {TranslationTexts[systemLanguage].home_properties_1_title}
+        </h1>
+        <h1 className="home-properties-1-text" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
+          {TranslationTexts[systemLanguage].home_properties_1_text}
+        </h1>
       </div>
     </div >
   );

@@ -113,7 +113,7 @@ a {
 
     margin-top: 8px;
   }
-  
+
   .home-properties-0-container-icon {
     display: flex;
     flex-direction: column;
@@ -125,33 +125,48 @@ a {
 
   .home-properties-0-container-letters {
     width: 100%;
-    
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
   }
 
   .home-properties-0-icon {
-    width: 48px;
-    height: 48px;
+    width: 40px;
+    height: 40px;
   }
 
   .home-banner-title {
     font-family: 'Cormorant';
     font-weight: 700;
-    font-size: 3.5vw;
+    font-size: 56px;
   }
 
   .home-banner-text {
     font-family: 'Montserrat';
-    font-weight: 400;
-    font-size: 1.25vw;
+    font-weight: 500;
+    font-size: 18px;
   }
 
   .home-banner-downlowad-text {
     font-family: 'Cormorant';
     font-weight: 700;
     font-size: 24px;
+  }
+
+  .basic-shadow {
+    box-shadow: 20px 20px 20px #bebebe,
+      -20px -20px 60px #F8F8F8;
+  }
+
+  .basic-shadow-up {
+    box-shadow: 20px 20px 60px #bebebe,
+      -20px -20px 60px #F8F8F8;
+  }
+
+  .basic-shadow-down {
+    box-shadow: 2px 2px 0px #959DB1,
+      0px 0px 0px #24998B;
   }
 
   .home-banner-wrapper {
@@ -444,14 +459,14 @@ a {
     margin: 0px;
     padding: 0px;
 
-    margin-top: 54px;
+    margin-top: 24px;
 
     padding-left: 10%;
     padding-right: 10%;
   }
 
   .home-properties-0-card {
-    width: 22%;
+    width: 23.5%;
 
     display: flex;
     flex-direction: row;
@@ -459,8 +474,15 @@ a {
     align-content: center;
 
     text-align: left;
+
+    border-radius: 24px;
+    padding: 8px;
+
+    padding-left: 16px;
+    padding-right: 16px;
   }
-/*
+
+  /*
   .home-properties-1-container-image {
     width: 600px;
     height: 450px;
@@ -530,7 +552,7 @@ a {
   }
 
   .home-properties-8-tag-text {
-    width: 80px;
+    width: 98px;
 
     display: flex;
     flex-direction: column;
@@ -540,6 +562,7 @@ a {
 
   .home-properties-1-container {
     width: 100%;
+    min-height: 64vh;
 
     display: flex;
     flex-direction: row;
@@ -550,7 +573,55 @@ a {
     padding: 0px;
 
     margin-top: 80px;
+    /*
     margin-bottom: 80px;
+    */
+
+    padding-left: 10%;
+    padding-right: 10%;
+
+    text-align: center;
+  }
+
+  .home-properties-9-container {
+    width: 100%;
+    min-height: 64vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+
+    margin: 0px;
+    padding: 0px;
+
+    /*
+    margin-top: 80px;
+    margin-bottom: 80px;
+    */
+
+    padding-left: 10%;
+    padding-right: 10%;
+
+    text-align: center;
+  }
+
+  .home-properties-10-container {
+    width: 100%;
+    min-height: 64vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+
+    margin: 0px;
+    padding: 0px;
+
+    /*
+    margin-top: 80px;
+    margin-bottom: 80px;
+    */
 
     padding-left: 10%;
     padding-right: 10%;
@@ -579,8 +650,8 @@ a {
   }
 
   .home-properties-8-container {
-    width: 900px;
-    height: 450px;
+    width: 100%;
+    height: 48vh;
 
     display: flex;
     flex-direction: column;
@@ -593,11 +664,52 @@ a {
     padding-left: 40px;
     padding-right: 40px;
 
-    text-align: left;
+    text-align: center;
 
     border-radius: 32px;
   }
-  
+
+  .home-properties-11-wrapper {
+    width: 100%;
+    min-height: 64vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    margin: 0px;
+    padding: 0px;
+
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+    padding-left: 10%;
+    padding-right: 10%;
+
+    text-align: center;
+  }
+
+  .home-properties-11-container {
+    width: 100%;
+    height: 48vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    margin: 0px;
+    padding: 32px;
+
+    padding-left: 40px;
+    padding-right: 40px;
+
+    text-align: center;
+
+    border-radius: 32px;
+  }
+
   .home-properties-1-container-image {
     width: 37%;
 
@@ -608,7 +720,7 @@ a {
 
     margin: 0px;
     padding: 0px;
-    
+
     text-align: center;
   }
 
@@ -634,16 +746,119 @@ a {
     align-self: center;
   }
 
+  .home-properties-9-card {
+    width: 63%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    margin: 0px;
+    padding: 0px;
+
+    text-align: left;
+    margin-left: 24px;
+  }
+
+  .home-properties-9-container-image {
+    width: 37%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    margin: 0px;
+    padding: 0px;
+
+    text-align: center;
+  }
+
+  .home-properties-9-image {
+    width: 288px;
+    height: 320px;
+
+    align-self: center;
+  }
+
+  .home-properties-9-title {
+    font-family: "Cormonant";
+    font-size: 40px;
+    font-weight: 700;
+
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .home-properties-9-text {
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 500;
+
+    margin: 0px;
+    padding: 0px;
+
+    margin-top: 16px;
+  }
+
+  .home-properties-10-card {
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 0px;
+    padding: 0px;
+
+    text-align: center;
+  }
+
+  .home-properties-10-image {
+    width: 240px;
+    height: 230px;
+
+    align-self: center;
+  }
+
   .home-properties-1-title {
     font-family: "Cormonant";
     font-size: 40px;
     font-weight: 700;
+
+    margin: 0px;
+    padding: 0px;
   }
 
   .home-properties-1-text {
     font-family: "Montserrat";
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 500;
+
+    margin: 0px;
+    padding: 0px;
+
+    margin-top: 16px;
+  }
+
+  .home-properties-10-title {
+    font-family: "Cormonant";
+    font-size: 40px;
+    font-weight: 700;
+
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .home-properties-10-text {
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 500;
+
+    margin: 0px;
+    padding: 0px;
+
+    margin-top: 16px;
   }
 
   .home-properties-8-title {
@@ -654,7 +869,7 @@ a {
     margin: 0px;
     padding: 0px;
   }
-  
+
   .home-properties-8-text {
     font-family: "Montserrat";
     font-size: 20px;
@@ -670,7 +885,7 @@ a {
     font-family: "Montserrat";
     font-size: 14px;
     font-weight: 700;
-    
+
     padding: 4px;
     margin: 0px;
   }
@@ -692,6 +907,8 @@ a {
 
     margin: 0px;
     padding: 0px;
+
+    margin-top: 80px;
 
     padding-top: 24px;
     padding-bottom: 0px;
@@ -718,7 +935,7 @@ a {
 
     padding-left: 8px;
     padding-right: 8px;
-    
+
     padding-bottom: 24px;
   }
 
@@ -847,7 +1064,48 @@ a {
     padding-right: 10%;
 
     margin-top: 54px;
+    align-self: center;
   }
+
+  .home-properties-5-title {
+    font-family: "Cormonant";
+    font-size: 40px;
+    font-weight: 700;
+
+    margin: 0px;
+    padding: 0px;
+
+    padding-left: 10%;
+    padding-right: 10%;
+
+    margin-top: 54px;
+  }
+  
+  .home-properties-5-subtitle {
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 500;
+
+    margin: 0px;
+    padding: 0px;
+    
+    padding-left: 10%;
+    padding-right: 10%;
+
+    margin-top: 16px;
+  }
+
+  .home-properties-1-text {
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 500;
+
+    margin: 0px;
+    padding: 0px;
+    
+    margin-top: 16px;
+  }
+
 
   .home-properties-4-container {
     width: 100%;
@@ -865,8 +1123,8 @@ a {
     padding-left: 10%;
     padding-right: 10%;
 
-    margin-top: 8px;
-    margin-bottom: 54px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 
   .home-properties-5-container {
@@ -1113,7 +1371,7 @@ a {
     color: #6D6D6D;
   }
 
-  .home-properties-5-title {
+  .home-properties-5-name {
     font-family: "Cormorant";
     font-size: 32px;
     font-weight: 700;
@@ -1124,8 +1382,8 @@ a {
 
   .home-properties-5-text {
     font-family: "Montserrat";
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 500;
 
     margin: 0px;
     padding: 0px;
@@ -2163,7 +2421,7 @@ a {
     position: absolute;
     top: 550px;
     left: 0px;
-/*
+    /*
     top: 620px;
     bottom: 0px;
 */
@@ -2495,19 +2753,19 @@ a {
 
   .home-properties-0-container-letters {
     width: 100%;
-    
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
   }
 
   .home-properties-0-icon {
-    width: 54px;
-    height: 54px;
+    width: 40px;
+    height: 40px;
 
     align-self: center;
   }
-  
+
   .home-properties-8-wrapper {
     width: 100%;
 
@@ -2519,14 +2777,15 @@ a {
     margin: 0px;
     padding: 0px;
 
-    margin-bottom: 80px;
+    margin-top: 80px;
+    margin-bottom: 0px;
 
     text-align: center;
   }
 
   .home-properties-8-container {
     width: 100%;
-    height: 400px;
+    height: 480px;
 
     display: flex;
     flex-direction: column;
@@ -2539,6 +2798,46 @@ a {
     text-align: center;
   }
 
+  .home-properties-11-wrapper {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+
+    margin: 0px;
+    padding: 0px;
+
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+    padding-left: 10%;
+    padding-right: 10%;
+
+    text-align: center;
+  }
+
+  .home-properties-11-container {
+    width: 100%;
+    height: 64vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    margin: 0px;
+    padding: 32px;
+
+    padding-left: 40px;
+    padding-right: 40px;
+
+    text-align: center;
+
+    border-radius: 32px;
+  }
+
   .home-properties-1-container-image {
     width: 100%;
     align-self: center;
@@ -2549,6 +2848,114 @@ a {
     height: 213px;
 
     align-self: center;
+  }
+
+  .home-properties-9-container {
+    width: 100%;
+    min-height: 64vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+
+    padding: 0px;
+    margin: 0px;
+
+    margin-top: 0px;
+    margin-bottom: 80px;
+
+    padding-left: 24px;
+    padding-right: 24px;
+
+    text-align: center;
+  }
+
+  .home-properties-9-container-image {
+    width: 288px;
+    height: 320px;
+
+    margin-top: 16px;
+
+    align-self: center;
+  }
+
+
+  .home-properties-9-image {
+    width: 288px;
+    height: 320px;
+
+    align-self: center;
+  }
+
+  .home-properties-9-title {
+    font-family: "Cormonant";
+    font-size: 32px;
+    font-weight: 700;
+
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .home-properties-9-text {
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 500;
+
+    margin: 0px;
+    padding: 0px;
+
+    margin-top: 8px;
+    text-align: center;
+  }
+
+  .home-properties-10-container {
+    width: 100%;
+    min-height: 64vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    padding: 0px;
+    margin: 0px;
+
+    margin-top: 0px;
+    margin-bottom: 80px;
+
+    padding-left: 24px;
+    padding-right: 24px;
+
+    text-align: center;
+  }
+
+  .home-properties-10-image {
+    width: 160px;
+    height: 153px;
+
+    align-self: center;
+  }
+
+  .home-properties-10-title {
+    font-family: "Cormonant";
+    font-size: 32px;
+    font-weight: 700;
+
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .home-properties-10-text {
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 500;
+
+    margin: 0px;
+    padding: 0px;
+
+    margin-top: 8px;
+    text-align: center;
   }
 
   .home-properties-1-container-letters {
@@ -2634,6 +3041,7 @@ a {
 
   .home-properties-1-container {
     width: 100%;
+    min-height: 64vh;
 
     display: flex;
     flex-direction: column;
@@ -2664,7 +3072,7 @@ a {
   .home-properties-1-text {
     font-family: "Montserrat";
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 500;
 
     margin: 0px;
     padding: 0px;
@@ -2675,18 +3083,18 @@ a {
 
   .home-properties-8-title {
     font-family: "Cormonant";
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 700;
 
     padding: 0px;
     margin: 0px;
   }
-  
+
   .home-properties-8-text {
     font-family: "Montserrat";
     font-size: 14px;
-    font-weight: 400;
-    
+    font-weight: 500;
+
     padding: 0px;
     margin: 0px;
 
@@ -2697,7 +3105,7 @@ a {
     font-family: "Montserrat";
     font-size: 14px;
     font-weight: 700;
-    
+
     padding: 4px;
     margin: 0px;
   }
@@ -2867,7 +3275,7 @@ a {
     justify-content: center;
     align-content: center;
   }
-  
+
   .home-properties-3-image {
     width: 500px;
     height: 375px;
@@ -2886,7 +3294,9 @@ a {
     padding-left: 24px;
     padding-right: 24px;
 
-    margin-top: 54px;
+    margin-top: 80px;
+
+    align-self: center;
   }
 
   .home-properties-4-container {
@@ -2906,7 +3316,7 @@ a {
     padding-right: 24px;
 
     margin-top: 0px;
-    margin-bottom: 24px;
+    margin-bottom: 0px;
   }
 
   .home-properties-5-container {
@@ -2964,7 +3374,7 @@ a {
 
     margin-top: 24px;
   }
-  
+
   .home-properties-5-card {
     width: 100%;
 
@@ -2976,7 +3386,10 @@ a {
     text-align: left;
 
     margin: 0px;
-    padding: 24px;
+    padding: 16px;
+
+    padding-left: 24px;
+    padding-right: 24px;
 
     border-radius: 24px;
 
@@ -3141,12 +3554,37 @@ a {
   }
 
   .home-properties-5-title {
-    font-family: "Cormorant";
+    font-family: "Cormonant";
     font-size: 28px;
     font-weight: 700;
 
     margin: 0px;
     padding: 0px;
+
+    padding-left: 24px;
+    padding-right: 24px;
+
+    margin-top: 80px;
+
+    text-align: center;
+    align-self: center;
+  }
+
+  .home-properties-5-subtitle {
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 500;
+
+    margin: 0px;
+    padding: 0px;
+    
+    padding-left: 24px;
+    padding-right: 24px;
+
+    margin-top: 8px;
+
+    text-align: center;
+    align-self: center;
   }
 
   .home-properties-5-text {

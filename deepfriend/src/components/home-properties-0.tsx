@@ -31,9 +31,11 @@ export default function HomeProperties0Component() {
   const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
   const { systemColor } = useSelector((state: RootState) => state.systemColor);
 
+  const shadow = "" //systemColor === "light" ? "basic-shadow-down" : "";
+
   return (
     <div className="home-properties-0-container">
-      <div className="home-properties-0-card" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
+      <div className={`home-properties-0-card ${shadow}`} style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
         <div className='home-properties-0-container-icon'>
           <Image
             alt="DF Web icon"
@@ -50,7 +52,7 @@ export default function HomeProperties0Component() {
           </h1>
         </div>
       </div>
-      <div className="home-properties-0-card" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
+      <div className={`home-properties-0-card ${shadow}`} style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
         <div className='home-properties-0-container-icon'>
           <Image
             alt="DF Web icon"
@@ -67,7 +69,7 @@ export default function HomeProperties0Component() {
           </h1>
         </div>
       </div>
-      <div className="home-properties-0-card" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
+      <div className={`home-properties-0-card ${shadow}`} style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
         <div className='home-properties-0-container-icon'>
           <Image
             alt="DF Web icon"
@@ -84,7 +86,7 @@ export default function HomeProperties0Component() {
           </h1>
         </div>
       </div>
-      <div className="home-properties-0-card" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
+      <div className={`home-properties-0-card ${shadow}`} style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
         <div className='home-properties-0-container-icon'>
           <Image
             alt="DF Web icon"

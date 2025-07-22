@@ -1,6 +1,6 @@
 "use client";
 
-import AdrianImage from "../../public/images/adrian-sin-fondo.svg";
+import AdrianImage from "../../public/images/adrian-1.svg";
 
 import Image from "next/image";
 
@@ -16,9 +16,9 @@ export default function HomeProperties5Component() {
   return (
     <div className="home-properties-5-container">
       <div className="home-properties-5-card" style={{
-        backgroundColor: systemColor === "dark" ? BASIC_LIGHT_COLOR : BASIC_DARK_COLOR,
+        backgroundColor: systemColor === "dark" ? BASIC_LIGHT_COLOR : "#011C2F",
       }}>
-        <h1 className="home-properties-5-title" style={{
+        <h1 className="home-properties-5-name" style={{
           color: systemColor === "dark" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR,
         }}>
           Adrián González

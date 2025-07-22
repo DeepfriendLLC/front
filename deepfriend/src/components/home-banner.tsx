@@ -7,6 +7,7 @@ import { BASIC_LIGHT_COLOR } from "../app/layout";
 import HomeBackgroundDark from "../../public/backgrounds/home_background_0_dark.svg";
 //import HomeBackgroundLight from "../../public/backgrounds/home_background_0_light.svg";
 import HomePhone from "../../public/phones/home_phone_1.svg";
+import HomePhone1 from "../../public/phones/home-banner.svg";
 import GoogleplayLogo from "../../public/icons/googleplay-logo.png";
 
 import Image from "next/image";
@@ -76,7 +77,7 @@ export default function HomeBannerComponent() {
                 <div className="home-banner-image-container">
                     <Image
                         alt="Deepfriend screenshot"
-                        src={HomePhone}
+                        src={HomePhone1}
                         className="home-banner-image-image"
                     />
                 </div>

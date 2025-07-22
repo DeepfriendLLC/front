@@ -2,7 +2,7 @@
 
 import Checkimage from "../../public/icons/check.svg";
 import GooglePlayLogo from "../../public/icons/googleplay-logo.png";
-import BackgroundImage from "../../public/backgrounds/sea-and-boat.svg";
+import BackgroundImage from "../../public/backgrounds/sea-and-boat-little.svg";
 
 import Image from "next/image";
 import { useSelector } from "react-redux";
