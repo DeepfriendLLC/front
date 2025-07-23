@@ -2,7 +2,8 @@
 
 import Checkimage from "../../public/icons/check.svg";
 import GooglePlayLogo from "../../public/icons/googleplay-logo.png";
-import BackgroundImage from "../../public/backgrounds/sea-and-boat-little.svg";
+//import BackgroundImage from "../../public/backgrounds/sea-and-boat-little.svg";
+import BackgroundImage from "../../public/backgrounds/home-properties-8-2.svg";
 
 import Image from "next/image";
 import { useSelector } from "react-redux";
@@ -18,14 +19,11 @@ export default function HomeProperties8Component() {
 
   const cardStyle: CSSProperties = {
     backgroundImage: `url('${BackgroundImage.src}')`,
-    backgroundPosition: "center",
-    backgroundRepeat: "no-repeat",
-    backgroundSize: "cover",
   };
 
   return (
     <div className="home-properties-8-wrapper">
-      <div className="home-properties-8-container" style={cardStyle}>
+      <div className="home-properties-8-container">
         <h1 className="home-properties-8-title" style={{ color: BASIC_LIGHT_COLOR }}>
           {TranslationTexts[systemLanguage].home_properties_8_title}
         </h1>

@@ -4,10 +4,11 @@ import { RootState } from "@/store/store";
 import { useSelector } from "react-redux";
 import { BASIC_LIGHT_COLOR } from "../app/layout";
 
-import HomeBackgroundDark from "../../public/backgrounds/home_background_0_dark.svg";
+//import HomeBackgroundDark from "../../public/backgrounds/home_background_0_dark.svg";
 //import HomeBackgroundLight from "../../public/backgrounds/home_background_0_light.svg";
-import HomePhone from "../../public/phones/home_phone_1.svg";
-import HomePhone1 from "../../public/phones/home-banner.svg";
+import HomeBackgroundLight from "../../public/backgrounds/home_background_0_light_2.svg";
+//import HomePhone from "../../public/phones/home_phone_1.svg";
+import HomePhone1 from "../../public/phones/home_phone_3.svg";
 import GoogleplayLogo from "../../public/icons/googleplay-logo.png";
 
 import Image from "next/image";
@@ -21,7 +22,7 @@ export default function HomeBannerComponent() {
 
     const cardStyle: CSSProperties = {
         //backgroundImage: `url(${systemColor === "light" ? HomeBackgroundLight.src : HomeBackgroundDark.src})`,
-        backgroundImage: `url(${HomeBackgroundDark.src})`,
+        backgroundImage: `url(${HomeBackgroundLight.src})`,
     };
 
     const lettersSubContainer: CSSProperties = {

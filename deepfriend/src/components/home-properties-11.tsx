@@ -25,7 +25,7 @@ export default function HomeProperties11Component() {
 
   return (
     <div className="home-properties-11-wrapper">
-      <div className="home-properties-11-container" style={cardStyle}>
+      <div className="home-properties-11-container">
         <h1 className="home-properties-8-title" style={{ color: BASIC_LIGHT_COLOR }}>
           {TranslationTexts[systemLanguage].home_properties_11_title}
         </h1>

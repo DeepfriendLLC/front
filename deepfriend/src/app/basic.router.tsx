@@ -39,7 +39,7 @@ export default function BasicRouter({ children }: { children: React.ReactNode })
       setCookie('systemLanguage', initialSystemLanguage);
       dispatch(setSystemLanguageStore(initialSystemLanguage));
     } else dispatch(setSystemLanguageStore(cookies.systemLanguage));
-   //dispatch(setSystemLanguageStore("en"));
+    //dispatch(setSystemLanguageStore("en"));
   };
 
   const updateInitialSystemColor = () => {
@@ -63,8 +63,8 @@ export default function BasicRouter({ children }: { children: React.ReactNode })
   };
 
   const updateSystemLanguage = (_systemLanguage: AllowedLanguagesEncodedType) => {
-      setCookie('systemLanguage', _systemLanguage);
-      dispatch(setSystemLanguageStore(_systemLanguage));
+    setCookie('systemLanguage', _systemLanguage);
+    dispatch(setSystemLanguageStore(_systemLanguage));
   };
 
   return (
