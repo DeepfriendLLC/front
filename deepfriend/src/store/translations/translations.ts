@@ -179,6 +179,7 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         about_properties_1_2_title: "Diseño de Bubbles",
         about_properties_1_2_text: "Diseñador gráfico y web autodidacta, especializado en identidad de marca y creación de logos. Combino años de experiencia freelance con atención meticulosa para crear diseños pulidos y orientados a negocios. Iván es el diseñador encargado de crear la apariencia de Bubbles.",
     },
+    /*
     ja: {
         navbar_0: "ホーム",
         navbar_1: "私たちについて",
@@ -891,4 +892,5 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         about_properties_1_2_title: "การออกแบบ Bubbles",
         about_properties_1_2_text: "นักออกแบบกราฟิกและเว็บที่เรียนรู้ด้วยตนเอง มุ่งเน้นเอกลักษณ์แบรนด์และการสร้างโลโก้ ผสมผสานประสบการณ์ฟรีแลนซ์หลายปีกับความใส่ใจในรายละเอียดอย่างไม่หยุดยั้งเพื่อการออกแบบที่ประณีตและขับเคลื่อนธุรกิจ Ivan คือนักออกแบบที่รับผิดชอบการสร้างรูปลักษณ์ของ Bubbles",
     }
+    */
 }

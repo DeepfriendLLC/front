@@ -34,12 +34,12 @@ export default function BasicRouter({ children }: { children: React.ReactNode })
     if (!cookies.systemLanguage) {
       const _systemLanguage = Intl.DateTimeFormat().resolvedOptions().locale.split(`-`)[0];
 
-      const initialSystemLanguage: AllowedLanguagesEncodedType = ['en', 'es', 'ja', 'de', 'fr', 'zh', 'ko', 'vi', 'hi', 'th'].includes(_systemLanguage) ? _systemLanguage as AllowedLanguagesEncodedType : "en";
+      const initialSystemLanguage: AllowedLanguagesEncodedType = ['en', 'es'].includes(_systemLanguage) ? _systemLanguage as AllowedLanguagesEncodedType : "en";
 
       setCookie('systemLanguage', initialSystemLanguage);
       dispatch(setSystemLanguageStore(initialSystemLanguage));
     } else dispatch(setSystemLanguageStore(cookies.systemLanguage));
-    //dispatch(setSystemLanguageStore("en"));
+    //dispatch(setSystemLanguageStore("th"));
   };
 
   const updateInitialSystemColor = () => {

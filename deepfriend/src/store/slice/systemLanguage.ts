@@ -1,8 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
 import type { PayloadAction } from "@reduxjs/toolkit";
 
-export type AllowedLanguagesEncodedType = "en" | "es" | "ja" | "de" | "fr" | "zh" | "ko" | "vi" | "hi" | "th";
-export type AllowedLanguagesType = "english" | "spanish" | "japanese" | "german" | "french" | "chinese" | "korean" | "vietnamese" | "hindi" | "thai";
+export type AllowedLanguagesEncodedType = "en" | "es";
+export type AllowedLanguagesType = "english" | "spanish";
 
 export interface ISystemColorState {
     systemLanguage: AllowedLanguagesEncodedType,
