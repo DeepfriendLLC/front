@@ -108,7 +108,7 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         home_properties_0_3_text: "Tu compañía del día a día, siempre allí para cuando lo necesites.",
         home_properties_0_4_title: "Barato",
         home_properties_0_4_text: "La tencología avanza y nuestros precios bajan, pero siempre mantenemos nuestro alto nivel de calidad.",
-        home_properties_1_title: "Ansiedad del trabajo? Soledad? Sana a tu manera",
+        home_properties_1_title: "Ansiedad por el trabajo? Soledad? Sana a tu manera",
 
         home_properties_1_text: "Descubre cómo la reestructuración cognitiva puede ayudarte a transformar pensamientos negativos en positivos. Es una técnica sólida respaldada por numerosos estudios. En Deepfriend, la hemos adaptado a objetivos para que la uses con Bubbles y logres tus metas, mejorando tu día a día a tu ritmo y a tu manera.",
         home_properties_2_title: "¿Qué es Bubbles?",
