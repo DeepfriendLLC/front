@@ -15,6 +15,9 @@ import XDark from "../../public/icons/x_dark.png";
 import InstagramWhite from "../../public/icons/instagram_white.png";
 import InstagramDark from "../../public/icons/instagram_dark.png";
 
+import USA from "../../public/icons/usa.png";
+import España from "../../public/icons/españa.png";
+
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "@/app/layout";
 import { CSSProperties } from "react";
 import { TranslationTexts } from "@/store/translations/translations";
@@ -34,6 +37,8 @@ export function Navbar(props: {
 
     const systemLanguage = props.systemLanguage;
     const updateSystemLanguage = props.updateSystemLanguage;
+
+    const updateLanguage = () => updateSystemLanguage(systemLanguage === "en" ? "es" : "en");
 
     const checkbox = <div className="dropdown-change-theme-checkbox-container">
         <label className="theme-switch">
@@ -207,6 +212,15 @@ export function Navbar(props: {
                         </button>
                     </div>
                 </Link>
+                <div className="col-lg-4 mx-auto" style={socialButtonContainerStyle}>
+                    <button className="btn" style={socialButtonStyle} onClick={updateLanguage}>
+                        <Image
+                            alt={systemLanguage === "en" ? "Bandera España" : "Bandera USA"}
+                            src={systemLanguage === "en" ? España : USA}
+                            style={socialImagenStyle}
+                        />
+                    </button>
+                </div>
                 <div className="col-lg-4 mx-auto" style={socialButtonContainerInputStyle}> {checkbox} </div>
             </div>
         </div>
