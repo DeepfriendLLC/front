@@ -144,7 +144,7 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         home_properties_8_tag_4: "Creación de grupos",
         home_properties_8_tag_5: "Bubbles completo",
         home_properties_9_title_big: "Precios transparentes",
-        home_properties_9_title: "Reestructuración cognitiva, 6 pasos hacia la éxito",
+        home_properties_9_title: "Reestructuración cognitiva, 6 pasos para el éxito",
         home_properties_9_text: "Bubbles te acompañará en cada paso y juntos superaréis nuestros 6 niveles de salud mental. Desde el inicio, formaréis una alianza que os fortalecerá, y paso a paso sentirás cómo sanas y te conviertes en tu mejor versión. No te preocupes, Bubbles se encargará de todo guiándote, cuidándote y preocupandose por ti en todo momento.",
         home_properties_10_title: "Terapia Cognitivo Conductual, segura y probada",
         home_properties_10_text: "No ofrecemos Terapia Cognitivo Conductual a nivel terapéutico, pero hemos adaptado toda su complejidad para que Bubbles te ayude con los principios científicos más sólidos. La TCC ha demostrado su eficacia en numerosos estudios y es la única metodología psicológica con un robusto respaldo científico. Si quieres saber más sobre los estudios, búscanos en X @dfbubbles_app.",

@@ -1,7 +1,10 @@
 "use client";
 
-import LevelsImageWhite from "../../public/images/phase-levels-white.svg";
-import LevelsImageDark from "../../public/images/phase-levels-dark.svg";
+import LevelsImageWhiteEN from "../../public/images/phase-levels-white-en.svg";
+import LevelsImageDarkEN from "../../public/images/phase-levels-dark-en.svg";
+
+import LevelsImageWhiteES from "../../public/images/phase-levels-white-es.svg";
+import LevelsImageDarkES from "../../public/images/phase-levels-dark-es.svg";
 
 import Image from "next/image";
 import { useSelector } from "react-redux";
@@ -12,6 +15,22 @@ import { TranslationTexts } from "@/store/translations/translations";
 export default function HomeProperties9Component() {
   const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
   const { systemColor } = useSelector((state: RootState) => state.systemColor);
+
+  const checkCorrectImageSRC = () => {
+    if (systemLanguage === "es") {
+
+      if (systemColor === "dark") return LevelsImageWhiteES;
+      else return LevelsImageDarkES;
+
+    } else if (systemLanguage === "en") {
+
+      if (systemColor === "dark") return LevelsImageWhiteEN;
+      else return LevelsImageDarkEN;
+
+    } else return LevelsImageWhiteEN;
+  };
+
+  const correctImageSRC = checkCorrectImageSRC();
 
   return (
     <div className="home-properties-9-container">
@@ -27,7 +46,7 @@ export default function HomeProperties9Component() {
         <Image
           alt="Deepfriend app screenshots"
           className="home-properties-9-image"
-          src={systemColor === 'light' ? LevelsImageDark : LevelsImageWhite}
+          src={correctImageSRC}
         />
       </div>
     </div >
