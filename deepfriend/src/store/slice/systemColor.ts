@@ -6,7 +6,7 @@ export interface ISystemColorState {
 }
 
 const initialState: ISystemColorState = {
-    systemColor: "dark",
+    systemColor: "light",
 };
 
 export const systemColorSlice = createSlice({

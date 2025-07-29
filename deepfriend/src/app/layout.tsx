@@ -8,6 +8,8 @@ import { Head } from "@/components/head";
 
 import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import { CookiesProvider } from "react-cookie";
+import Smartlook from "@/components/smartlock";
 
 export const BASIC_DARK_COLOR = "black"; //"#031521";
 export const BASIC_LIGHT_COLOR = "#F8F8F8";
@@ -25,9 +27,12 @@ export default function RootLayout({
       <html lang="en">
         <Head />
         <body>
-          <BasicRouter children={children} />
+          <CookiesProvider>
+            <BasicRouter children={children} />
+          </CookiesProvider>
           <Analytics />
           <SpeedInsights />
+          <Smartlook />
         </body>
       </html>
     </Provider>
