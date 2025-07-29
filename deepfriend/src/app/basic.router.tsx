@@ -12,6 +12,7 @@ import { Footer } from "@/components/footer";
 import { useRouter } from "next/navigation";
 import { AllowedLanguagesEncodedType, setSystemLanguageStore } from "@/store/slice/systemLanguage";
 import Clarity from '@microsoft/clarity';
+import { CreateStatView } from "@/api/api";
 
 export default function BasicRouter({ children }: { children: React.ReactNode }) {
   const router = useRouter();
@@ -27,8 +28,11 @@ export default function BasicRouter({ children }: { children: React.ReactNode })
   const allowedRoutes = ['/', '/about', '/contact', '/pricing', '/legal-terms', '/privacy-policy', '/admin/login'];
   const redirectTo = `https://soundcloud.com/pablo-vallejo-907366850/sets/bubbles-love-you`;
 
+  const sendStat = async () => CreateStatView(pathname);
+
   useEffect(() => {
     if (router && !allowedRoutes.includes(pathname)) router.push(redirectTo);
+    sendStat();
   }, []);
 
   const updateInitialSystemLanguage = () => {
