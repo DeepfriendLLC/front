@@ -14,6 +14,7 @@ import { AllowedLanguagesEncodedType, setSystemLanguageStore } from "@/store/sli
 import Clarity from '@microsoft/clarity';
 import { CreateStatView } from "@/api/api";
 
+
 export default function BasicRouter({ children }: { children: React.ReactNode }) {
   const router = useRouter();
 
@@ -28,7 +29,7 @@ export default function BasicRouter({ children }: { children: React.ReactNode })
   const allowedRoutes = ['/', '/about', '/contact', '/pricing', '/legal-terms', '/privacy-policy', '/admin/login'];
   const redirectTo = `https://soundcloud.com/pablo-vallejo-907366850/sets/bubbles-love-you`;
 
-  const sendStat = async () => CreateStatView(pathname);
+  const sendStat = async () => CreateStatView(pathname, window.navigator.userAgent, window.navigator.language);
 
   useEffect(() => {
     if (router && !allowedRoutes.includes(pathname)) router.push(redirectTo);
