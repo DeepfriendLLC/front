@@ -11,6 +11,7 @@ import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "./layout";
 import { Footer } from "@/components/footer";
 import { useRouter } from "next/navigation";
 import { AllowedLanguagesEncodedType, setSystemLanguageStore } from "@/store/slice/systemLanguage";
+import Clarity from '@microsoft/clarity';
 
 export default function BasicRouter({ children }: { children: React.ReactNode }) {
   const router = useRouter();
@@ -58,6 +59,8 @@ export default function BasicRouter({ children }: { children: React.ReactNode })
   useEffect(() => {
     updateInitialSystemColor();
     updateInitialSystemLanguage();
+
+    Clarity.init("smee02r8xp");
   }, []);
 
   const updateSystemColor = (_systemColor: "light" | "dark") => {
