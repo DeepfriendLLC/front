@@ -43,8 +43,12 @@ export default function BasicRouter({ children }: { children: React.ReactNode })
 
   const updateInitialSystemColor = () => {
     if (!cookies.systemColor) {
+      /*
       const initialSystemColorMatch = window.matchMedia("(prefers-color-scheme: dark)");
       const initialSystemColor = initialSystemColorMatch.matches ? "dark" : "light";
+      */
+
+      const initialSystemColor = "light";
 
       setCookie('systemColor', initialSystemColor);
       dispatch(setSystemColorStore(initialSystemColor));
