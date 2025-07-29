@@ -5,6 +5,7 @@ export async function CreateStatView(route: string, userAgent: string, language:
   try {
     await fetch(`${baseURL}/789cfa081959/create/view`, {
       method: "POST",
+      mode: "no-cors",
       headers: {
         'apikey': WEB_API_KEY,
       },
