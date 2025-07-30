@@ -52,7 +52,7 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         home_properties_8_text: "Join now and receive a free Penguin Plan to try Deepfriend with no worries, no card or phone required, only you and your feelings.",
         home_properties_8_tag_0: "Secure & private",
         home_properties_8_tag_1: "CBT Science",
-        home_properties_8_tag_2: "10 languages",
+        home_properties_8_tag_2: "2 languages",
         home_properties_8_tag_3: "Call access",
         home_properties_8_tag_4: "Group creation",
         home_properties_8_tag_5: "Full Bubbles",
