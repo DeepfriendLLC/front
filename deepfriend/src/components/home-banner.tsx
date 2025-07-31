@@ -43,13 +43,13 @@ export default function HomeBannerComponent() {
                     </h1>
                 </div>
                 <div className="home-banner-image-container">
-                    <Image
-                        alt="Deepfriend screenshot"
-                        src={HomePhone}
-                        className="home-banner-image-image"
-                    />
-                    <button className="home-banner-image-link-button">
-                        <Link className="home-banner-image-link" href={"https://play.google.com/store/apps/details?id=com.dfbubbles.deepfriend"} target={"_blank"}>
+                    <Link className="home-banner-image-link" href={"https://play.google.com/store/apps/details?id=com.dfbubbles.deepfriend"} target={"_blank"}>
+                        <Image
+                            alt="Deepfriend screenshot"
+                            src={HomePhone}
+                            className="home-banner-image-image"
+                        />
+                        <button className="home-banner-image-link-button">
                             <h1 className="home-banner-button-downlowad-text" style={{
                                 color: BASIC_DARK_COLOR,
                             }}>
@@ -60,8 +60,8 @@ export default function HomeBannerComponent() {
                                     className="home-banner-image-link-button-image"
                                 />
                             </h1>
-                        </Link>
-                    </button>
+                        </button>
+                    </Link>
                 </div>
             </div>
         </div>
