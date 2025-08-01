@@ -158,7 +158,7 @@ a {
 
     padding: 0px;
     margin: 0px;
-    
+
     display: flex;
     flex-direction: row;
 
@@ -283,14 +283,13 @@ a {
     padding-left: 32px;
     padding-right: 32px;
 
-    background-color: #F8F8F8;
-    border-color: transparent;
-    border-width: 0px;
-
     border-radius: 480px;
     margin-top: 16px;
 
     text-decoration: none;
+
+    background-color: #F8F8F8;
+    border: 2px solid #011C2F;
   }
 
   .home-banner-image-link-button-image {
@@ -2568,12 +2567,11 @@ a {
     padding-left: 32px;
     padding-right: 32px;
 
-    background-color: #F8F8F8;
-    border-color: transparent;
-    border-width: 0px;
-
     border-radius: 480px;
     margin-top: 16px;
+
+    background-color: #F8F8F8;
+    border: 2px solid #011C2F;
   }
 
   .home-banner-image-link-button-image {
