@@ -53,7 +53,7 @@ export default function HomeBannerComponent() {
                     <Image
                         alt="Deepfriend screenshot"
                         src={HomePhone}
-                        className="home-banner-image-image"
+                        className="home-banner-image"
                     />
                     <div className="home-banner-buttons-row">
                         <button className="button-0">
@@ -61,14 +61,14 @@ export default function HomeBannerComponent() {
                                 {TranslationTexts[systemLanguage].home_badge_button_download_0}
                             </h1>
                         </button>
-                        <Link className="home-banner-link" href={"https://play.google.com/store/apps/details?id=com.dfbubbles.deepfriend"} target={"_blank"} style={{ textDecoration: "none" }}>
+                        <Link href={"https://play.google.com/store/apps/details?id=com.dfbubbles.deepfriend"} target={"_blank"} style={{ textDecoration: "none" }}>
                             <button className="button-1">
                                 <h1 className="button-text" style={{ textDecoration: "none" }}>
                                     {TranslationTexts[systemLanguage].home_badge_button_download_1}
                                     <Image
                                         alt="DF Phone screenshot"
                                         src={GoogleplayLogo}
-                                        className="home-banner-button-image"
+                                        className="button-image"
                                     />
                                 </h1>
                             </button>

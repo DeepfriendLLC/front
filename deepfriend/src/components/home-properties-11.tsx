@@ -41,7 +41,7 @@ export default function HomeProperties11Component() {
                 <Image
                   alt="DF Phone screenshot"
                   src={GoogleplayLogo}
-                  className="home-banner-button-image"
+                  className="button-image"
                 />
               </h1>
             </button>
