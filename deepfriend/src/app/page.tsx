@@ -38,19 +38,19 @@ export default function Home() {
       <HomeProperties9Component />
       <HomeProperties8Component />
       <HomeProperties10Component />
+      <h1 className="home-properties-4-title" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
+        {TranslationTexts[systemLanguage].home_properties_9_title_big}
+      </h1>
+      <HomeProperties4Component />
       <HomeProperties2Component />
       <div className="home-properties-3-wrapped">
         <HomeProperties30Component />
         <HomeProperties31Component />
       </div>
-      <h1 className="home-properties-4-title" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
-        {TranslationTexts[systemLanguage].home_properties_9_title_big}
-      </h1>
-      <HomeProperties4Component />
-      <h1 className="home-properties-5-title" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
+      <h1 className="home-properties-5-title text-center" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
         {TranslationTexts[systemLanguage].home_properties_5_title}
       </h1>
-      <h1 className="home-properties-5-subtitle" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
+      <h1 className="home-properties-5-subtitle text-center" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
         {TranslationTexts[systemLanguage].home_properties_5_subtitle}
       </h1>
       <HomeProperties5Component />

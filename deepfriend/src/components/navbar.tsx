@@ -121,14 +121,16 @@ export function Navbar(props: {
     return (
         <div className="navbar-container">
             <div className="navbar-logo-container">
-                <Image
-                    alt="Deepfriend logo"
-                    src={systemColor === "light" ? HeadLogoDark : HeadLogoWhite}
-                    className="navbar-logo-image"
-                />
-                <h1 className="navbar-logo-text" style={{ color: systemColor === "dark" ? BASIC_LIGHT_COLOR : BASIC_DARK_COLOR }}>
-                    Deepfriend
-                </h1>
+                <Link className="navbar-logo-container-link" href={'/'}>
+                    <Image
+                        alt="Deepfriend logo"
+                        src={systemColor === "light" ? HeadLogoDark : HeadLogoWhite}
+                        className="navbar-logo-image"
+                    />
+                    <h1 className="navbar-logo-text" style={{ color: systemColor === "dark" ? BASIC_LIGHT_COLOR : BASIC_DARK_COLOR }}>
+                        Deepfriend
+                    </h1>
+                </Link>
             </div>
             <div className="dropdown-wrapper">
                 <div className="dropdown">

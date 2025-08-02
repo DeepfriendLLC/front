@@ -20,9 +20,9 @@ export default function HomeProperties4Component() {
   return (
     <div className="home-properties-4-container">
       <div className="home-properties-4-cards-row">
-        <div className="home-properties-4-card-container-big" style={{ color: systemColor === "dark" ? BASIC_LIGHT_COLOR : BASIC_DARK_COLOR, borderColor: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
+        <div className="home-properties-4-card-container-big" style={{ color: systemColor === "dark" ? BASIC_LIGHT_COLOR : BASIC_DARK_COLOR, borderColor: systemColor === "light" ? "#011C2F" : BASIC_LIGHT_COLOR }}>
           <div className="home-properties-4-card-container-big-letters-container">
-            <h1 className="home-properties-4-card-title">
+            <h1 className="home-properties-4-card-title" style={{ color: systemColor === "dark" ? BASIC_LIGHT_COLOR : "#011C2F" }}>
               {TranslationTexts[systemLanguage].home_properties_4_0_title}
             </h1>
             <h1 className="home-properties-4-card-money-text">
@@ -46,7 +46,7 @@ export default function HomeProperties4Component() {
               1DF = 0,05$
             </h1>
             <Link href={'https://play.google.com/store/apps/details?id=com.dfbubbles.deepfriend'} target={"_blank"}>
-              <button className="home-properties-4-card-button" style={{ backgroundColor: systemColor === "dark" ? BASIC_LIGHT_COLOR : BASIC_DARK_COLOR, color: systemColor === "light" ? BASIC_LIGHT_COLOR : BASIC_DARK_COLOR }}>
+              <button className="home-properties-4-card-button" style={{ backgroundColor: systemColor === "dark" ? BASIC_LIGHT_COLOR : "#011C2F", color: systemColor === "light" ? BASIC_LIGHT_COLOR : "#011C2F" }}>
                 <h1 className="home-properties-4-card-button-text">
                   {TranslationTexts[systemLanguage].home_properties_4_0_button}
                 </h1>
@@ -61,7 +61,7 @@ export default function HomeProperties4Component() {
             />
           </div>
         </div>
-        <div className="home-properties-4-card-container-little" style={{ color: systemColor === "dark" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR, backgroundColor: systemColor === 'light' ? "#011C2F" : BASIC_LIGHT_COLOR }}>
+        <div className="home-properties-4-card-container-little" style={{ color: systemColor === "dark" ? "#011C2F" : BASIC_LIGHT_COLOR, backgroundColor: systemColor === 'light' ? "#011C2F" : BASIC_LIGHT_COLOR }}>
           <h1 className="home-properties-4-card-title">
             {TranslationTexts[systemLanguage].home_properties_4_1_title}
           </h1>

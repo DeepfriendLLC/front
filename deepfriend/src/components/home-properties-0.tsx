@@ -31,11 +31,9 @@ export default function HomeProperties0Component() {
   const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
   const { systemColor } = useSelector((state: RootState) => state.systemColor);
 
-  const shadow = "" //systemColor === "light" ? "basic-shadow-down" : "";
-
   return (
     <div className="home-properties-0-container">
-      <div className={`home-properties-0-card ${shadow}`} style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
+      <div className={"home-properties-0-card"} style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
         <div className='home-properties-0-container-icon'>
           <Image
             alt="DF Web icon"
@@ -52,24 +50,7 @@ export default function HomeProperties0Component() {
           </h1>
         </div>
       </div>
-      <div className={`home-properties-0-card ${shadow}`} style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
-        <div className='home-properties-0-container-icon'>
-          <Image
-            alt="DF Web icon"
-            src={systemColor === "light" ? Icon6Dark : Icon6White}
-            className="home-properties-0-icon"
-          />
-        </div>
-        <div className="home-properties-0-container-letters">
-          <h1 className="home-properties-0-title">
-            {TranslationTexts[systemLanguage].home_properties_0_1_title}
-          </h1>
-          <h1 className="home-properties-0-text">
-            {TranslationTexts[systemLanguage].home_properties_0_1_text}
-          </h1>
-        </div>
-      </div>
-      <div className={`home-properties-0-card ${shadow}`} style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
+      <div className={"home-properties-0-card"} style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
         <div className='home-properties-0-container-icon'>
           <Image
             alt="DF Web icon"
@@ -86,7 +67,24 @@ export default function HomeProperties0Component() {
           </h1>
         </div>
       </div>
-      <div className={`home-properties-0-card ${shadow}`} style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
+      <div className={"home-properties-0-card"} style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
+        <div className='home-properties-0-container-icon'>
+          <Image
+            alt="DF Web icon"
+            src={systemColor === "light" ? Icon6Dark : Icon6White}
+            className="home-properties-0-icon"
+          />
+        </div>
+        <div className="home-properties-0-container-letters">
+          <h1 className="home-properties-0-title">
+            {TranslationTexts[systemLanguage].home_properties_0_1_title}
+          </h1>
+          <h1 className="home-properties-0-text">
+            {TranslationTexts[systemLanguage].home_properties_0_1_text}
+          </h1>
+        </div>
+      </div>
+      <div className={"home-properties-0-card"} style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
         <div className='home-properties-0-container-icon'>
           <Image
             alt="DF Web icon"

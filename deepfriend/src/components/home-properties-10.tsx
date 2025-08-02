@@ -13,7 +13,7 @@ export default function HomeProperties10Component() {
   const { systemColor } = useSelector((state: RootState) => state.systemColor);
 
   return (
-    <div className="home-properties-1-container">
+    <div className="home-properties-10-container">
       <div className="home-properties-1-card">
           <Image
             alt="Deepfriend app screenshots"
