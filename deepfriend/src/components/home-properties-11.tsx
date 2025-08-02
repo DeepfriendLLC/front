@@ -32,11 +32,11 @@ export default function HomeProperties11Component() {
           <h1 className="home-properties-8-title" style={{
             color: systemColor === "dark" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR
           }}>
-            {TranslationTexts[systemLanguage].home_properties_8_title}
+            {TranslationTexts[systemLanguage].home_properties_11_title}
           </h1>
           <div className="home-properties-8-container-image">
             <button className={systemColor === "light" ? "button-2" : "button-3"} style={{ alignSelf: "center", marginTop: 24 }}>
-              <h1 className="home-banner-button-text-1">
+              <h1 className="button-text">
                 {TranslationTexts[systemLanguage].home_badge_button_download_1}
                 <Image
                   alt="DF Phone screenshot"

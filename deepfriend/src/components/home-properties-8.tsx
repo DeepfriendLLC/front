@@ -108,7 +108,7 @@ export default function HomeProperties8Component() {
           </div>
           <div className="home-properties-8-container-image">
             <button className={systemColor === "light" ? "button-2" : "button-3"} style={{ alignSelf: "center" }}>
-              <h1 className="home-banner-button-text-1">
+              <h1 className="button-text">
                 {TranslationTexts[systemLanguage].home_badge_button_download_1}
                 <Image
                   alt="DF Phone screenshot"

@@ -57,13 +57,13 @@ export default function HomeBannerComponent() {
                     />
                     <div className="home-banner-buttons-row">
                         <button className="button-0">
-                            <h1 className="home-banner-button-text-0">
+                            <h1 className="button-text">
                                 {TranslationTexts[systemLanguage].home_badge_button_download_0}
                             </h1>
                         </button>
                         <Link className="home-banner-link" href={"https://play.google.com/store/apps/details?id=com.dfbubbles.deepfriend"} target={"_blank"} style={{ textDecoration: "none" }}>
                             <button className="button-1">
-                                <h1 className="home-banner-button-text-1" style={{ textDecoration: "none" }}>
+                                <h1 className="button-text" style={{ textDecoration: "none" }}>
                                     {TranslationTexts[systemLanguage].home_badge_button_download_1}
                                     <Image
                                         alt="DF Phone screenshot"

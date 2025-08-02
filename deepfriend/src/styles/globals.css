@@ -245,6 +245,10 @@ a {
     align-self: center;
   }
 
+  .basic-link {
+    flex: 1;
+  }
+
   .home-banner-link {
     display: flex;
     flex-direction: row;
@@ -275,6 +279,8 @@ a {
 
     border-radius: 480px;
     margin-right: 8px;
+
+    color: #F8F8F8;
 
     background-color: #011C2F;
     border: 2px solid #011C2F;
@@ -311,6 +317,37 @@ a {
     border: 2px solid #011C2F;
   }
 
+  .button-1-2 {
+    height: 48px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+
+    align-self: flex-end;
+
+    padding: 16px;
+    margin: 0px;
+
+    padding-left: 24px;
+    padding-right: 24px;
+
+    border-radius: 480px;
+
+    color: #011C2F;
+
+    background-color: transparent;
+    border: 2px solid #011C2F;
+  }
+
+  .button-1-2:hover {
+    color: #F8F8F8;
+
+    background-color: #011C2F;
+    border: 2px solid #011C2F;
+  }
+
   .button-2 {
     height: 48px;
 
@@ -331,7 +368,7 @@ a {
 
     color: #F8F8F8;
 
-    background-color: #011C2F;
+    background-color: transparent;
     border: 2px solid #F8F8F8;
   }
 
@@ -413,7 +450,7 @@ a {
     color: #F8F8F8;
   }
 
-  .home-banner-button-text-1 {
+  .button-text {
     font-family: 'Carmorant';
     font-weight: 700;
     font-size: 18px;
@@ -1498,7 +1535,6 @@ a {
 
   .home-properties-4-card-container-big-letters-container {
     width: 50%;
-    height: 100%;
 
     display: flex;
     flex-direction: column;
@@ -1511,7 +1547,6 @@ a {
 
   .home-properties-4-card-container-big-image-container {
     width: 50%;
-    height: 100%;
 
     display: flex;
     flex-direction: column;
@@ -2685,6 +2720,10 @@ a {
     align-self: center;
   }
 
+  .basic-link {
+    flex: 1;
+  }
+
   .home-banner-link {
     width: 100%;
 
@@ -3740,7 +3779,7 @@ a {
   }
 
   .home-properties-4-card-container-big {
-    width: 100%;
+    width: 50%;
     min-height: 320px;
 
     display: flex;
@@ -3758,7 +3797,7 @@ a {
   }
 
   .home-properties-4-card-container-big-letters-container {
-    width: 100%;
+    width: 50%;
     min-height: 320px;
 
     display: flex;
@@ -3771,7 +3810,7 @@ a {
   }
 
   .home-properties-4-card-container-big-image-container {
-    width: 100%;
+    width: 50%;
 
     display: flex;
     flex-direction: column;
