@@ -18,7 +18,6 @@ export default function HomeProperties9Component() {
 
   const checkCorrectImageSRC = () => {
     if (systemLanguage === "es") {
-
       if (systemColor === "dark") return LevelsImageWhiteES;
       else return LevelsImageDarkES;
 

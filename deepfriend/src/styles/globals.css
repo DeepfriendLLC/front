@@ -1,11 +1,11 @@
 :root {
-  --background: #031521;
+  --background: #011C2F;
   --foreground: #333;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #031521;
+    --background: #011C2F;
     --foreground: #ededed;
   }
 }
@@ -59,13 +59,13 @@ a {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #031521;
+  background: #011C2F;
   border-radius: 2px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #031521;
+  background: #011C2F;
 }
 
 .basic-container {
@@ -3290,6 +3290,7 @@ a {
 
   .home-properties-8-wrapper {
     width: 100%;
+    min-height: 64vh;
 
     display: flex;
     flex-direction: row;
@@ -3299,7 +3300,7 @@ a {
     margin: 0px;
     padding: 0px;
 
-    margin-top: 40px;
+    margin-top: 0px;
     margin-bottom: 0px;
 
     padding-left: 24px;
@@ -3310,6 +3311,9 @@ a {
 
   .home-properties-8-container {
     width: 100%;
+    height:fit-content;
+
+    align-self: center;
 
     display: flex;
     flex-direction: column;
@@ -3334,6 +3338,7 @@ a {
 
   .home-properties-11-wrapper {
     width: 100%;
+    min-height: 64vh;
 
     display: flex;
     flex-direction: row;
@@ -3343,8 +3348,8 @@ a {
     margin: 0px;
     padding: 0px;
 
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 
     padding-left: 10%;
     padding-right: 10%;
@@ -3354,7 +3359,7 @@ a {
 
   .home-properties-11-container {
     width: 100%;
-    height: 40vh;
+    height: fit-content;
 
     display: flex;
     flex-direction: column;
@@ -3376,6 +3381,7 @@ a {
   .home-properties-1-container-image {
     width: 100%;
     align-self: center;
+    margin-bottom: 8px;
   }
 
   .home-properties-1-image {
@@ -3391,7 +3397,7 @@ a {
 
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-content: center;
 
     padding: 0px;
@@ -3456,7 +3462,7 @@ a {
     padding: 0px;
     margin: 0px;
 
-    margin-top: 0px;
+    margin-top: 80px;
     margin-bottom: 80px;
 
     padding-left: 24px;
@@ -3467,9 +3473,11 @@ a {
 
   .home-properties-10-image {
     width: 160px;
-    height: 153px;
 
     align-self: center;
+
+    margin: 0px;
+    padding: 0px;
   }
 
   .home-properties-10-title {
@@ -3505,7 +3513,7 @@ a {
 
   .home-properties-7-container-image {
     width: 240px;
-    height: 314px;
+    height: 280px;
     align-self: center;
   }
 
@@ -3543,13 +3551,17 @@ a {
   }
 
   .home-properties-8-tag {
+    width: 200px;
+
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-content: center;
 
-    text-align: center;
+    text-align: left;
     align-self: center;
+
+    margin-top: 4px;
   }
 
   .home-properties-8-tag-container-image {
@@ -3832,7 +3844,7 @@ a {
     padding-left: 24px;
     padding-right: 24px;
 
-    margin-top: 80px;
+    margin-top: 40px;
 
     align-self: center;
   }
@@ -3874,6 +3886,7 @@ a {
     padding-right: 24px;
 
     margin-top: 24px;
+    margin-bottom: 40px;
   }
 
   .home-properties-6-container {
@@ -4100,7 +4113,7 @@ a {
     padding-left: 24px;
     padding-right: 24px;
 
-    margin-top: 80px;
+    margin-top: 120px;
 
     text-align: center;
     align-self: center;
