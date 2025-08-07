@@ -17,7 +17,7 @@ export default function HomeProperties8Component() {
   const { systemColor } = useSelector((state: RootState) => state.systemColor);
 
   return (
-    <div className="home-properties-8-wrapper">
+    <div className="home-properties-8-wrapper" id="🐬">
       <Link className="basic-link" href={"https://play.google.com/store/apps/details?id=com.dfbubbles.deepfriend"} target={"_blank"} style={{ textDecoration: "none" }}>
         <div className="home-properties-8-container" style={{
           backgroundColor: systemColor === "dark" ? BASIC_LIGHT_COLOR : "#011C2F",

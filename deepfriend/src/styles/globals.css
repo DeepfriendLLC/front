@@ -246,7 +246,12 @@ a {
   }
 
   .basic-link {
-    flex: 1;
+    width: 100%;
+    text-decoration: none;
+  }
+
+  .basic-link:hover {
+    text-decoration: none;
   }
 
   .home-banner-link {
@@ -1130,7 +1135,7 @@ a {
 
   .home-properties-8-text {
     font-family: "Montserrat";
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
 
     margin: 0px;
@@ -2721,11 +2726,16 @@ a {
   }
 
   .basic-link {
-    flex: 1;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
+    text-decoration: none;
+  }
+  
+  .basic-link:hover {
+    text-decoration: none;
   }
 
   .home-banner-link {
@@ -3229,14 +3239,18 @@ a {
   }
 
   .home-properties-0-card {
+/*
     width: 100%;
-
+*/
+    max-width: 480px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
 
     text-align: left;
+
+    align-self: center;
 
     margin-top: 16px;
     padding: 8px;
@@ -3386,7 +3400,7 @@ a {
 
   .home-properties-1-image {
     width: 320px;
-    height: 213px;
+    height: 320px;
 
     align-self: center;
   }
@@ -3773,6 +3787,8 @@ a {
 
   .home-properties-2-image-image {
     width: 100%;
+    max-width: 480px;
+
     height: 100%;
 
     align-self: flex-end;
@@ -3927,7 +3943,10 @@ a {
   }
 
   .home-properties-5-card {
+    /*
     width: 100%;
+    */
+    max-width: 480px;
 
     display: flex;
     flex-direction: column;

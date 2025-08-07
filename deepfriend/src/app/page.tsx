@@ -38,7 +38,7 @@ export default function Home() {
       <HomeProperties9Component />
       <HomeProperties8Component />
       <HomeProperties10Component />
-      <h1 className="home-properties-4-title" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
+      <h1 id="🐳" className="home-properties-4-title" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
         {TranslationTexts[systemLanguage].home_properties_9_title_big}
       </h1>
       <HomeProperties4Component />

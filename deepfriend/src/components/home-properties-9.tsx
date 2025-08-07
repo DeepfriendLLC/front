@@ -11,6 +11,7 @@ import { useSelector } from "react-redux";
 import { RootState } from "@/store/store";
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "@/app/layout";
 import { TranslationTexts } from "@/store/translations/translations";
+import Link from "next/link";
 
 export default function HomeProperties9Component() {
   const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
@@ -32,21 +33,25 @@ export default function HomeProperties9Component() {
   const correctImageSRC = checkCorrectImageSRC();
 
   return (
-    <div className="home-properties-9-container">
+    <div className="home-properties-9-container" id="🐧">
       <div className="home-properties-9-card">
-        <h1 className="home-properties-9-title" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
-          {TranslationTexts[systemLanguage].home_properties_9_title}
-        </h1>
+        <Link className="basic-link" href={`/#🐬`} target="_self" scroll>
+          <h1 className="home-properties-9-title" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
+            {TranslationTexts[systemLanguage].home_properties_9_title}
+          </h1>
+        </Link>
         <h1 className="home-properties-9-text" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
           {TranslationTexts[systemLanguage].home_properties_9_text}
         </h1>
       </div>
       <div className="home-properties-9-container-image">
-        <Image
-          alt="Deepfriend app screenshots"
-          className="home-properties-9-image"
-          src={correctImageSRC}
-        />
+        <Link className="basic-link" href={`/#🐬`} target="_self" scroll>
+          <Image
+            alt="Deepfriend app screenshots"
+            className="home-properties-9-image"
+            src={correctImageSRC}
+          />
+        </Link>
       </div>
     </div >
   );
