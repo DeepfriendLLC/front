@@ -12,10 +12,13 @@ import { RootState } from "@/store/store";
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "@/app/layout";
 import { TranslationTexts } from "@/store/translations/translations";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 export default function HomeProperties9Component() {
   const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
   const { systemColor } = useSelector((state: RootState) => state.systemColor);
+
+  const router = useRouter();
 
   const checkCorrectImageSRC = () => {
     if (systemLanguage === "es") {
@@ -32,26 +35,26 @@ export default function HomeProperties9Component() {
 
   const correctImageSRC = checkCorrectImageSRC();
 
+  const scrollToNext = () => {
+    router.push('#🐬', { scroll: true });
+  };
+  
   return (
-    <div className="home-properties-9-container" id="🐧">
+    <div className="home-properties-9-container click-pointer" id="🐧" onClick={scrollToNext}>
       <div className="home-properties-9-card">
-        <Link className="basic-link" href={`/#🐬`} target="_self" scroll>
-          <h1 className="home-properties-9-title" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
-            {TranslationTexts[systemLanguage].home_properties_9_title}
-          </h1>
-        </Link>
+        <h1 className="home-properties-9-title" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
+          {TranslationTexts[systemLanguage].home_properties_9_title}
+        </h1>
         <h1 className="home-properties-9-text" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
           {TranslationTexts[systemLanguage].home_properties_9_text}
         </h1>
       </div>
       <div className="home-properties-9-container-image">
-        <Link className="basic-link" href={`/#🐬`} target="_self" scroll>
-          <Image
-            alt="Deepfriend app screenshots"
-            className="home-properties-9-image"
-            src={correctImageSRC}
-          />
-        </Link>
+        <Image
+          alt="Deepfriend app screenshots"
+          className="home-properties-9-image"
+          src={correctImageSRC}
+        />
       </div>
     </div >
   );
