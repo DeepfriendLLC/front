@@ -1,8 +1,10 @@
 import { createSlice } from "@reduxjs/toolkit";
 import type { PayloadAction } from "@reduxjs/toolkit";
 
+export type SystemColorType = "light" | "dark";
+
 export interface ISystemColorState {
-    systemColor: "light" | "dark",
+    systemColor: SystemColorType,
 }
 
 const initialState: ISystemColorState = {

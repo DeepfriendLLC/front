@@ -1,13 +1,15 @@
 import { configureStore } from '@reduxjs/toolkit';
 import { systemColorReducer } from './slice/systemColor';
-import { systemLLanguageReducer } from './slice/systemLanguage';
+import { systemLanguageReducer } from './slice/systemLanguage';
+import { sessionIdReducer } from './slice/sessionId';
 
 export const store = configureStore({
   reducer: {
     systemColor: systemColorReducer,
-    systemLanguage: systemLLanguageReducer,
+    systemLanguage: systemLanguageReducer,
+    sessionId: sessionIdReducer,
   },
 })
 
-export type RootState = ReturnType<typeof store.getState>
-export type AppDispatch = typeof store.dispatch
+export type RootState = ReturnType<typeof store.getState>;
+export type AppDispatch = typeof store.dispatch;

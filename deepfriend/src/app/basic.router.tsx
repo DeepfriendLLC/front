@@ -5,73 +5,74 @@ import { useEffect } from "react";
 import { useCookies } from "react-cookie";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "@/store/store";
-import { setSystemColorStore } from "@/store/slice/systemColor";
+import { setSystemColorStore, SystemColorType } from "@/store/slice/systemColor";
 import { Navbar } from "@/components/navbar";
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "./layout";
 import { Footer } from "@/components/footer";
 import { useRouter } from "next/navigation";
 import { AllowedLanguagesEncodedType, setSystemLanguageStore } from "@/store/slice/systemLanguage";
 import Clarity from '@microsoft/clarity';
+import { SendMetricsSessionFocusAPI } from "@/components/client-api/client-api";
+import dayjs from "dayjs";
+import utc from 'dayjs/plugin/utc';
+import { setSessionIdStore } from "@/store/slice/sessionId";
+
+dayjs.extend(utc);
 
 export default function BasicRouter({ children }: { children: React.ReactNode }) {
   const router = useRouter();
-
   const pathname = usePathname();
-  const [cookies, setCookie, removeCookie] = useCookies(['systemColor', 'systemLanguage']);
+  const dispatch = useDispatch();
+
+  const [cookies, setCookie] = useCookies(['systemColor', 'systemLanguage']);
 
   const { systemColor } = useSelector((state: RootState) => state.systemColor);
   const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
 
-  const dispatch = useDispatch();
-
   const allowedRoutes = ['/', '/about', '/contact', '/pricing', '/legal-terms', '/privacy-policy', '/admin/login'];
-  const redirectTo = `https://soundcloud.com/pablo-vallejo-907366850/sets/bubbles-love-you`;
+  const redirectTo = `https://www.youtube.com/watch?v=dQw4w9WgXcQ`;
 
-  useEffect(() => {
+  const init = async () => {
     if (router && !allowedRoutes.includes(pathname)) router.push(redirectTo);
-  }, []);
 
-  const updateInitialSystemLanguage = () => {
+    const actualColor = getInitSystemColor();
+    const actualLanguage = getInitSystemLanguage();
+
+    const sessionId = dayjs().utc().unix().toString();
+
+    dispatch(setSessionIdStore(sessionId));
+
+    await SendMetricsSessionFocusAPI(sessionId, "/", "0", actualColor, actualLanguage);
+  };
+
+  const getInitSystemLanguage = () => {
+    let actualLanguage: AllowedLanguagesEncodedType = "en";
+
     if (!cookies.systemLanguage) {
       const _systemLanguage = Intl.DateTimeFormat().resolvedOptions().locale.split(`-`)[0];
+      const actualLanguage = ['en', 'es'].includes(_systemLanguage) ? _systemLanguage as AllowedLanguagesEncodedType : "en";
 
-      const initialSystemLanguage: AllowedLanguagesEncodedType = ['en', 'es'].includes(_systemLanguage) ? _systemLanguage as AllowedLanguagesEncodedType : "en";
+      setCookie('systemLanguage', actualLanguage);
+    } else actualLanguage = cookies.systemLanguage as AllowedLanguagesEncodedType;
 
-      setCookie('systemLanguage', initialSystemLanguage);
-      dispatch(setSystemLanguageStore(initialSystemLanguage));
-    } else dispatch(setSystemLanguageStore(cookies.systemLanguage));
-    //dispatch(setSystemLanguageStore("en"));
+    dispatch(setSystemLanguageStore(actualLanguage));
+
+    return actualLanguage;
   };
 
-  const updateInitialSystemColor = () => {
-    if (!cookies.systemColor) {
-      /*
+  const getInitSystemColor = () => {
+    let actualColor: SystemColorType = "light";
 
-      const initialSystemColorMatch = window.matchMedia("(prefers-color-scheme: dark)");
-      const initialSystemColor = initialSystemColorMatch.matches ? "dark" : "light";
+    if (!cookies.systemColor) setCookie('systemColor', actualColor);
+    else actualColor = cookies.systemColor;
 
-      */
-      const initialSystemColor = "light";
+    dispatch(setSystemColorStore(actualColor));
 
-      setCookie('systemColor', initialSystemColor);
-      dispatch(setSystemColorStore(initialSystemColor));
-    } else dispatch(setSystemColorStore(cookies.systemColor));
-    //dispatch(setSystemColorStore("light"));
-  };
-
-  const initialMetrics = async () => {
-    const response = await fetch("/api/external", {
-      method: "GET",
-      headers: { "Content-Type": "application/json" },
-    });
-
-    console.log("HERE CLIENT ip", await response.json());
+    return actualColor;
   };
 
   useEffect(() => {
-    initialMetrics();
-    updateInitialSystemColor();
-    updateInitialSystemLanguage();
+    init();
 
     Clarity.init("smee02r8xp");
   }, []);
@@ -98,7 +99,7 @@ export default function BasicRouter({ children }: { children: React.ReactNode })
       margin: 0
     }}>
       <Navbar pathname={pathname} systemColor={systemColor} updateSystemColor={updateSystemColor} systemLanguage={systemLanguage} updateSystemLanguage={updateSystemLanguage} />
-      {children}
+        {children}
       <Footer />
     </div>
   );

@@ -19,6 +19,7 @@ import HomeProperties8Component from "@/components/home-properties-8";
 import HomeProperties9Component from "@/components/home-properties-9";
 import HomeProperties10Component from "@/components/home-properties-10";
 import HomeProperties11Component from "@/components/home-properties-11";
+import VisibleTracker from "@/components/visible-tracker";
 
 export default function Home() {
   const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
@@ -30,11 +31,14 @@ export default function Home() {
     flexDirection: "column",
   };
 
+  const focus = () => console.log("EEPAAA FOCUSED");
+
   return (
     <div style={containerStyle}>
       <HomeBannerComponent />
       <HomeProperties0Component />
       <HomeProperties1Component />
+      <VisibleTracker onVisible={focus} />
       <HomeProperties9Component />
       <HomeProperties8Component />
       <HomeProperties10Component />

@@ -21,4 +21,4 @@ export const systemLanguageSlice = createSlice({
 });
 
 export const { setSystemLanguageStore } = systemLanguageSlice.actions;
-export const systemLLanguageReducer = systemLanguageSlice.reducer;
+export const systemLanguageReducer = systemLanguageSlice.reducer;
