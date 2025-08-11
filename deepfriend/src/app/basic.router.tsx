@@ -59,7 +59,17 @@ export default function BasicRouter({ children }: { children: React.ReactNode })
     //dispatch(setSystemColorStore("light"));
   };
 
+  const initialMetrics = async () => {
+    const response = await fetch("/api/external", {
+      method: "GET",
+      headers: { "Content-Type": "application/json" },
+    });
+
+    console.log("HERE CLIENT ip", await response.json());
+  };
+
   useEffect(() => {
+    initialMetrics();
     updateInitialSystemColor();
     updateInitialSystemLanguage();
 
