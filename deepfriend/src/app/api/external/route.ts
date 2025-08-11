@@ -6,7 +6,6 @@ export async function GET(req: NextRequest) {
     const ip =
       req.headers.get('x-forwarded-for')?.split(',')[0].trim() ||
       req.headers.get('x-real-ip') ||
-      req.ip ||
       'IP desconocida';
 
     const externalResponse = await fetch("https://api.dfbubbles.com/", {
