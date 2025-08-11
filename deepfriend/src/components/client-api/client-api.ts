@@ -39,7 +39,7 @@ export async function SendMetricsSessionClickAPI(
   language: AllowedLanguagesEncodedType,
 ) {
   try {
-    const response = await fetch("/api/metrics/focus", {
+    const response = await fetch("/api/metrics/click", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
