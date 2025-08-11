@@ -8,14 +8,17 @@ import { RootState } from "@/store/store";
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "@/app/layout";
 import { TranslationTexts } from "@/store/translations/translations";
 import { useRouter } from "next/navigation";
+import { SendMetricsSessionClickAPI } from "./client-api/client-api";
 
 export default function HomeProperties10Component() {
   const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
   const { systemColor } = useSelector((state: RootState) => state.systemColor);
+  const { sessionId } = useSelector((state: RootState) => state.sessionId);
 
   const router = useRouter();
 
-  const scrollToNext = () => {
+  const scrollToNext = async () => {
+    await SendMetricsSessionClickAPI(sessionId, "/", "4", "in", systemColor, systemLanguage);
     router.push('#🐳', { scroll: true });
   };
 

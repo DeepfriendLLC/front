@@ -1,8 +1,10 @@
 // src/app/api/external/route.ts
 import { NextRequest, NextResponse } from 'next/server';
 
-export async function POST(req: NextRequest) {
+const BASE_URL = `https://api.dfbubbles.com`;
+const API_KEY = `7bc1bf04-56f3-4321-a867-ce90e2873961`;
 
+export async function POST(req: NextRequest) {
     const ip =
         req.headers.get('x-forwarded-for')?.split(',')[0].trim() ||
         req.headers.get('x-real-ip') ||
@@ -13,36 +15,30 @@ export async function POST(req: NextRequest) {
         sessionId,
         route,
         section,
-        type,
+        clickType,
         color,
         language,
     } = await req.json();
 
-    const externalResponse = await fetch("https://api.dfbubbles.com/metrics/789cfa081959/create/session", {
+    const response = await fetch(`${BASE_URL}/metrics/789cfa081959/create/session`, {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
+            "apikey": API_KEY,
         },
         body: JSON.stringify({
             ip,
             sessionId,
             route,
             section,
-            type,
-            //click,
+            type: "click",
+            click: clickType,
             color,
             language,
             userAgent,
         })
     });
 
-    console.log("HERE SERVER", ip, userAgent);
-
-    const data = await externalResponse.json();
-    return NextResponse.json({ ip });
+    if (response.status === 201) return NextResponse.json({ success: true });
+    else return NextResponse.json({ success: false });
 }
-
-/*
-
-      "Authorization": `Bearer ${process.env.EXTERNAL_API_SECRET}` // Seguro
-      */

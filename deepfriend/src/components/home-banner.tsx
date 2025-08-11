@@ -15,23 +15,29 @@ import GoogleplayLogo from "../../public/icons/google-play-logo.png";
 
 import Image from "next/image";
 import { CSSProperties } from "react";
-import Link from "next/link";
 import { TranslationTexts } from "@/store/translations/translations";
 import { useRouter } from "next/navigation";
+import { SendMetricsSessionClickAPI } from "./client-api/client-api";
 
 export default function HomeBannerComponent() {
     const router = useRouter();
 
     const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
     const { systemColor } = useSelector((state: RootState) => state.systemColor);
+    const { sessionId } = useSelector((state: RootState) => state.sessionId);
 
     const cardStyle: CSSProperties = {
         backgroundImage: `url(${systemColor === "light" ? HomeBackgroundLight.src : HomeBackgroundDark.src})`,
-        //backgroundImage: `url(${HomeBackgroundLight.src})`,
     };
 
-    const scrollToNext = () => {
+    const scrollToNext = async () => {
+        await SendMetricsSessionClickAPI(sessionId, "/", "0", "in", systemColor, systemLanguage);
         router.push('#🫧', { scroll: true });
+    };
+
+    const goToGooglePlay = async () => {
+        await SendMetricsSessionClickAPI(sessionId, "/", "0", "out", systemColor, systemLanguage);
+        router.push(`https://play.google.com/store/apps/details?id=com.dfbubbles.deepfriend`);
     };
 
     return (
@@ -61,18 +67,16 @@ export default function HomeBannerComponent() {
                                 {TranslationTexts[systemLanguage].home_badge_button_download_0}
                             </h1>
                         </button>
-                        <Link href={"https://play.google.com/store/apps/details?id=com.dfbubbles.deepfriend"} target={"_blank"} style={{ textDecoration: "none" }}>
-                            <button className="button-1">
-                                <h1 className="button-text" style={{ textDecoration: "none" }}>
-                                    {TranslationTexts[systemLanguage].home_badge_button_download_1}
-                                    <Image
-                                        alt="DF Phone screenshot"
-                                        src={GoogleplayLogo}
-                                        className="button-image"
-                                    />
-                                </h1>
-                            </button>
-                        </Link>
+                        <button className="button-1" onClick={goToGooglePlay}>
+                            <h1 className="button-text" style={{ textDecoration: "none" }}>
+                                {TranslationTexts[systemLanguage].home_badge_button_download_1}
+                                <Image
+                                    alt="DF Phone screenshot"
+                                    src={GoogleplayLogo}
+                                    className="button-image"
+                                />
+                            </h1>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -82,6 +86,10 @@ export default function HomeBannerComponent() {
 
 
 /*
+                        <Link href={"https://play.google.com/store/apps/details?id=com.dfbubbles.deepfriend"} target={"_blank"} style={{ textDecoration: "none" }}>
+                        </Link>
+
+
 
             <div className="home-banner-download-container">
                 <h1 className="home-banner-downlowad-text" style={{
