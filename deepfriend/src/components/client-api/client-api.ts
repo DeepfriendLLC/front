@@ -34,7 +34,7 @@ export async function SendMetricsSessionClickAPI(
   sessionId: string,
   route: string,
   section: string,
-  clickType: "in" | "out",
+  clickType: "in" | "out" | "social",
   color: SystemColorType,
   language: AllowedLanguagesEncodedType,
 ) {

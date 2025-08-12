@@ -28,6 +28,7 @@ export default function BasicRouter({ children }: { children: React.ReactNode })
 
   const { systemColor } = useSelector((state: RootState) => state.systemColor);
   const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
+  const { sessionId } = useSelector((state: RootState) => state.sessionId);
 
   const allowedRoutes = ['/', '/about', '/contact', '/pricing', '/legal-terms', '/privacy-policy', '/admin/login'];
   const redirectTo = `https://www.youtube.com/watch?v=dQw4w9WgXcQ`;
@@ -38,11 +39,11 @@ export default function BasicRouter({ children }: { children: React.ReactNode })
     const actualColor = getInitSystemColor();
     const actualLanguage = getInitSystemLanguage();
 
-    const sessionId = dayjs().utc().unix().toString();
+    const _sessionId = dayjs().utc().unix().toString();
 
-    dispatch(setSessionIdStore(sessionId));
+    dispatch(setSessionIdStore(_sessionId));
 
-    await SendMetricsSessionFocusAPI(sessionId, "/", "0", actualColor, actualLanguage);
+    await SendMetricsSessionFocusAPI(_sessionId, pathname, "0", actualColor, actualLanguage);
   };
 
   const getInitSystemLanguage = () => {
@@ -61,14 +62,15 @@ export default function BasicRouter({ children }: { children: React.ReactNode })
   };
 
   const getInitSystemColor = () => {
-    let actualColor: SystemColorType = "light";
 /*
+    let actualColor: SystemColorType = "light";
+    
     if (!cookies.systemColor) setCookie('systemColor', actualColor);
     else actualColor = cookies.systemColor;
 
     dispatch(setSystemColorStore(actualColor));
 */
-    return actualColor;
+    return "light" as SystemColorType;
   };
 
   useEffect(() => {
@@ -98,7 +100,7 @@ export default function BasicRouter({ children }: { children: React.ReactNode })
       padding: 0,
       margin: 0
     }}>
-      <Navbar pathname={pathname} systemColor={systemColor} updateSystemColor={updateSystemColor} systemLanguage={systemLanguage} updateSystemLanguage={updateSystemLanguage} />
+      <Navbar pathname={pathname} sessionId={sessionId} systemColor={systemColor} updateSystemColor={updateSystemColor} systemLanguage={systemLanguage} updateSystemLanguage={updateSystemLanguage} />
         {children}
       <Footer />
     </div>

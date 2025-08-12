@@ -9,11 +9,10 @@ import HeadLogoDark from "../../public/logo/whale/logo_dark_blue.png";
 import NavbarDropdownImageWhite from "../../public/icons/navbar-dropdown-image-white.png";
 import NavbarDropdownImageDark from "../../public/icons/navbar-dropdown-image-dark.png";
 
-import XWhite from "../../public/icons/x_white.png";
-import XDark from "../../public/icons/x_dark.png";
 
-import InstagramWhite from "../../public/icons/instagram_white.png";
-import InstagramDark from "../../public/icons/instagram_dark.png";
+import XLogo from "../../public/icons/x.png";
+import TiktokLogo from "../../public/icons/tiktok.png";
+import InstagramLogo from "../../public/icons/instagram.png";
 
 import USA from "../../public/icons/usa.png";
 import España from "../../public/icons/españa.png";
@@ -22,15 +21,21 @@ import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "@/app/layout";
 import { CSSProperties } from "react";
 import { TranslationTexts } from "@/store/translations/translations";
 import { AllowedLanguagesEncodedType } from "@/store/slice/systemLanguage";
+import { SendMetricsSessionClickAPI } from "./client-api/client-api";
+import { useRouter } from "next/navigation";
 
 export function Navbar(props: {
     pathname: string,
+    sessionId: string,
     systemColor: "light" | "dark",
     updateSystemColor: (_systemColor: "light" | "dark") => void,
     systemLanguage: AllowedLanguagesEncodedType,
     updateSystemLanguage: (_systemLanguage: AllowedLanguagesEncodedType) => void,
 }) {
+    const router = useRouter();
+
     const pathname = props.pathname;
+    const sessionId = props.sessionId;
 
     const systemColor = props.systemColor;
     const updateSystemColor = props.updateSystemColor;
@@ -41,7 +46,7 @@ export function Navbar(props: {
     const updateLanguage = () => updateSystemLanguage(systemLanguage === "en" ? "es" : "en");
 
     const socialButtonContainerStyle: CSSProperties = {
-        width: 54,
+        width: 40,
         height: 64,
         display: "flex",
         flexDirection: "column",
@@ -49,13 +54,23 @@ export function Navbar(props: {
         alignContent: "center",
     };
 
-    const socialButtonContainerInputStyle: CSSProperties = {
-        width: 80,
+    const phoneSocialButtonContainerStyle: CSSProperties = {
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignContent: "center",
+        alignSelf: "center",
+        marginTop: 8,
+    };
+
+    const languageButtonContainerStyle: CSSProperties = {
+        width: 40,
         height: 64,
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
         alignContent: "center",
+        marginLeft: 8,
     };
 
     const socialButtonStyle: CSSProperties = {
@@ -111,12 +126,23 @@ export function Navbar(props: {
     const changeLanguage = <div className="col-lg-4 mx-auto" style={changeLanguageButtonStyle}>
         <button className="btn" style={socialButtonStyle} onClick={updateLanguage}>
             <Image
-                alt={systemLanguage === "en" ? "Bandera España" : "Bandera USA"}
-                src={systemLanguage === "en" ? España : USA}
+                alt={systemLanguage === "es" ? "Bandera España" : "Bandera USA"}
+                src={systemLanguage === "es" ? España : USA}
                 style={socialImagenStyle}
             />
         </button>
     </div>;
+
+    const socialUrls: Record<"x" | "instagram" | "tiktok", string> = {
+        x: `https://x.com/dfbubbles_app`,
+        instagram: `https://www.instagram.com/dfbubbles_app`,
+        tiktok: `https://www.tiktok.com/@dfbubbles_app`,
+    };
+
+    const goToSocial = async (type: "x" | "instagram" | "tiktok") => {
+        await SendMetricsSessionClickAPI(sessionId, pathname, "0", "social", systemColor, systemLanguage);
+        router.push(socialUrls[type]);
+    };
 
     return (
         <div className="navbar-container">
@@ -143,25 +169,68 @@ export function Navbar(props: {
                     </div>
                     <div className="dropdown-content" style={{ backgroundColor: systemColor === "light" ? BASIC_LIGHT_COLOR : BASIC_DARK_COLOR }}>
                         <Link href={'/'}>
-                            <h1 className="dropdown-content-text" style={{ color: systemColor === "dark" ? BASIC_LIGHT_COLOR : BASIC_DARK_COLOR }}>
+                            <h1 className="dropdown-content-text" style={{
+                                ...(pathname === "/" ?
+                                    { color: "#7DB3D7", fontWeight: "800", }
+                                    : { color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR, fontWeight: "500", })
+                            }}>
                                 {TranslationTexts[systemLanguage].navbar_0}
                             </h1>
                         </Link>
                         <Link href={'/about'}>
-                            <h1 className="dropdown-content-text" style={{ color: systemColor === "dark" ? BASIC_LIGHT_COLOR : BASIC_DARK_COLOR }}>
+                            <h1 className="dropdown-content-text" style={{
+                                ...(pathname === "/about" ?
+                                    { color: "#7DB3D7", fontWeight: "800", }
+                                    : { color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR, fontWeight: "500", })
+                            }}>
                                 {TranslationTexts[systemLanguage].navbar_1}
                             </h1>
                         </Link>
                         <Link href={'/contact'}>
-                            <h1 className="dropdown-content-text" style={{ color: systemColor === "dark" ? BASIC_LIGHT_COLOR : BASIC_DARK_COLOR }}>
+                            <h1 className="dropdown-content-text" style={{
+                                ...(pathname === "/contact" ?
+                                    { color: "#7DB3D7", fontWeight: "800", }
+                                    : { color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR, fontWeight: "500", })
+                            }}>
                                 {TranslationTexts[systemLanguage].navbar_2}
                             </h1>
                         </Link>
                         <Link href={'/pricing'}>
-                            <h1 className="dropdown-content-text" style={{ color: systemColor === "dark" ? BASIC_LIGHT_COLOR : BASIC_DARK_COLOR }}>
+                            <h1 className="dropdown-content-text" style={{
+                                ...(pathname === "/pricing" ?
+                                    { color: "#7DB3D7", fontWeight: "800", }
+                                    : { color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR, fontWeight: "500", })
+                            }}>
                                 {TranslationTexts[systemLanguage].navbar_3}
                             </h1>
                         </Link>
+                        <div className="col-lg-2 mx-auto" style={phoneSocialButtonContainerStyle}>
+                            <button className="btn" style={socialButtonStyle} onClick={async () => await goToSocial("instagram")}>
+                                <Image
+                                    alt="X logo"
+                                    src={InstagramLogo}
+                                    style={socialImagenStyle}
+                                />
+                            </button>
+                        </div>
+                        <div className="col-lg-2 mx-auto" style={phoneSocialButtonContainerStyle}>
+                            <button className="btn" style={socialButtonStyle} onClick={async () => await goToSocial("x")}>
+                                <Image
+                                    alt="X logo"
+                                    src={XLogo}
+                                    style={socialImagenStyle}
+                                />
+                            </button>
+                        </div>
+                        <div className="col-lg-2 mx-auto" style={phoneSocialButtonContainerStyle}>
+                            <button className="btn" style={socialButtonStyle} onClick={async () => await goToSocial("tiktok")}>
+                                <Image
+                                    alt="Tiktok logo"
+                                    src={TiktokLogo}
+                                    style={socialImagenStyle}
+                                />
+                            </button>
+                        </div>
                         {
                             changeLanguage
                         }
@@ -218,29 +287,34 @@ export function Navbar(props: {
                 </Link>
             </div>
             <div className="navbar-social-container">
-                <Link href={'https://x.com/dfbubbles_app'} target="_blank">
-                    <div className="col-lg-4 mx-auto" style={socialButtonContainerStyle}>
-                        <button className="btn" style={socialButtonStyle}>
-                            <Image
-                                alt="X logo"
-                                src={systemColor === "light" ? XDark : XWhite}
-                                style={socialImagenStyle}
-                            />
-                        </button>
-                    </div>
-                </Link>
-                <Link href={'https://www.instagram.com/dfbubbles_app/'} target="_blank">
-                    <div className="col-lg-4 mx-auto" style={socialButtonContainerStyle}>
-                        <button className="btn" style={socialButtonStyle}>
-                            <Image
-                                alt="X logo"
-                                src={systemColor == "light" ? InstagramDark : InstagramWhite}
-                                style={socialImagenStyle}
-                            />
-                        </button>
-                    </div>
-                </Link>
-                <div className="col-lg-4 mx-auto" style={socialButtonContainerStyle}>
+                <div className="col-lg-2 mx-auto" style={socialButtonContainerStyle}>
+                    <button className="btn" style={socialButtonStyle} onClick={async () => await goToSocial("instagram")}>
+                        <Image
+                            alt="X logo"
+                            src={InstagramLogo}
+                            style={socialImagenStyle}
+                        />
+                    </button>
+                </div>
+                <div className="col-lg-2 mx-auto" style={socialButtonContainerStyle}>
+                    <button className="btn" style={socialButtonStyle} onClick={async () => await goToSocial("x")}>
+                        <Image
+                            alt="X logo"
+                            src={XLogo}
+                            style={socialImagenStyle}
+                        />
+                    </button>
+                </div>
+                <div className="col-lg-2 mx-auto" style={socialButtonContainerStyle}>
+                    <button className="btn" style={socialButtonStyle} onClick={async () => await goToSocial("tiktok")}>
+                        <Image
+                            alt="Tiktok logo"
+                            src={TiktokLogo}
+                            style={socialImagenStyle}
+                        />
+                    </button>
+                </div>
+                <div className="col-lg-2 mx-auto" style={languageButtonContainerStyle}>
                     <button className="btn" style={socialButtonStyle} onClick={updateLanguage}>
                         <Image
                             alt={systemLanguage === "es" ? "Bandera España" : "Bandera USA"}
