@@ -4,6 +4,7 @@ import { RootState } from "@/store/store";
 import { useSelector } from "react-redux";
 import { BASIC_LIGHT_COLOR } from "../app/layout";
 
+import HomeBackground from "../../public/images/home-badge.png";
 import HomeBackgroundDark from "../../public/backgrounds/home_background_0_dark.svg";
 //import HomeBackgroundLight from "../../public/backgrounds/home_background_0_light.svg";
 import HomeBackgroundLight from "../../public/backgrounds/home_background_0_light_2.svg";
@@ -27,7 +28,7 @@ export default function HomeBannerComponent() {
     const { sessionId } = useSelector((state: RootState) => state.sessionId);
 
     const cardStyle: CSSProperties = {
-        backgroundImage: `url(${systemColor === "light" ? HomeBackgroundLight.src : HomeBackgroundDark.src})`,
+        backgroundImage: `url(${HomeBackground.src})`,
     };
 
     const scrollToNext = async () => {
