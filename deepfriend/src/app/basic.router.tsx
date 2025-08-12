@@ -62,12 +62,12 @@ export default function BasicRouter({ children }: { children: React.ReactNode })
 
   const getInitSystemColor = () => {
     let actualColor: SystemColorType = "light";
-
+/*
     if (!cookies.systemColor) setCookie('systemColor', actualColor);
     else actualColor = cookies.systemColor;
 
     dispatch(setSystemColorStore(actualColor));
-
+*/
     return actualColor;
   };
 

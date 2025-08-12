@@ -162,8 +162,12 @@ export function Navbar(props: {
                                 {TranslationTexts[systemLanguage].navbar_3}
                             </h1>
                         </Link>
-                        {changeLanguage}
-                        {checkbox}
+                        {
+                            changeLanguage
+                        }
+                        {
+                            //checkbox
+                        }
                     </div>
                 </div>
             </div>
@@ -239,13 +243,15 @@ export function Navbar(props: {
                 <div className="col-lg-4 mx-auto" style={socialButtonContainerStyle}>
                     <button className="btn" style={socialButtonStyle} onClick={updateLanguage}>
                         <Image
-                            alt={systemLanguage === "en" ? "Bandera España" : "Bandera USA"}
-                            src={systemLanguage === "en" ? España : USA}
+                            alt={systemLanguage === "es" ? "Bandera España" : "Bandera USA"}
+                            src={systemLanguage === "es" ? España : USA}
                             style={socialImagenStyle}
                         />
                     </button>
                 </div>
-                <div className="col-lg-4 mx-auto" style={socialButtonContainerInputStyle}> {checkbox} </div>
+                {
+                    //<div className="col-lg-4 mx-auto" style={socialButtonContainerInputStyle}> {checkbox} </div>
+                }
             </div>
         </div>
     );
