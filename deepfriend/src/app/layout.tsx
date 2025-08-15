@@ -11,7 +11,7 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 import { CookiesProvider } from "react-cookie";
 
 export const BASIC_DARK_COLOR = "black"; //"#031521";
-export const BASIC_LIGHT_COLOR = "#F8F8F8";
+export const BASIC_LIGHT_COLOR = "white";
 
 export default function RootLayout({
   children,

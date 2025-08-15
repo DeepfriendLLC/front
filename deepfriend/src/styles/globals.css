@@ -201,9 +201,6 @@ a {
     padding: 0px;
     margin: 0px;
 
-    padding-left: 6%;
-    padding-right: 6%;
-
     padding-top: 32px;
     padding-bottom: 32px;
 
@@ -214,7 +211,7 @@ a {
   }
 
   .home-banner-container-0 {
-    width: 55%;
+    width: 70%;
 
     display: flex;
     flex-direction: column;
@@ -234,12 +231,14 @@ a {
   }
 
   .home-banner-container-1 {
-    width: 45%;
+    width: 30%;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
+
+    padding: 24px;
   }
 
   .home-banner-image {
@@ -247,6 +246,7 @@ a {
     height: 100%;
 
     align-self: center;
+    border-radius: 24px;
   }
 
   .basic-link {
@@ -289,10 +289,10 @@ a {
     border-radius: 480px;
     margin-right: 8px;
 
-    color: #F8F8F8;
+    color: white;
 
-    background-color: #011C2F;
-    border: 2px solid #011C2F;
+    background-color: #24998B;
+    border: 2px solid #24998B;
   }
 
   .button-1 {
@@ -313,17 +313,17 @@ a {
 
     border-radius: 480px;
 
-    color: #011C2F;
+    color: #24998B;
 
-    background-color: #F8F8F8;
-    border: 2px solid #011C2F;
+    background-color: transparent;
+    border: 2px solid #24998B;
   }
 
   .button-1:hover {
-    color: #F8F8F8;
+    color: white;
 
-    background-color: #011C2F;
-    border: 2px solid #011C2F;
+    background-color: #24998B;
+    border: 2px solid #24998B;
   }
 
   .button-1-2 {
@@ -432,12 +432,12 @@ a {
   }
 
   .home-banner-buttons-row {
-    width: 100%;
+    flex: 1;
 
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    align-content: center;
+    justify-content: center;
+    align-content: flex-end;
 
     padding: 0px;
     margin: 0px;
@@ -2667,25 +2667,20 @@ a {
 
   .home-banner-container {
     width: 100%;
-
-    /*
-    height: 600px;
-    */
+    height: 78vh;
 
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
 
     border-radius: 32px;
-
-    padding-left: 8%;
-    padding-right: 8%;
-
-    padding-top: 8%;
-    padding-bottom: 8%;
+    
+    padding: 0px;
 
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-content: center;
   }
 
   .home-banner-container-0 {
@@ -2693,6 +2688,10 @@ a {
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    margin-top: 8px;
   }
 
   .home-banner-download-container {
@@ -2723,16 +2722,17 @@ a {
     align-content: center;
 
     margin: 0px;
-    padding: 0px;
+    padding: 8px;
 
-    margin-top: 16px;
+    padding-top: 0px;
   }
 
   .home-banner-image {
-    width: 100%;
+    width: 70%;
     height: 100%;
 
     align-self: center;
+    border-radius: 48px;
   }
 
   .basic-link {
@@ -2808,10 +2808,10 @@ a {
 
     align-self: center;
 
-    color: #F8F8F8;
+    color: white;
 
-    background-color: #011C2F;
-    border: 2px solid #011C2F;
+    background-color: #24998B;
+    border: 2px solid #24998B;
   }
 
   .button-1 {
@@ -2834,17 +2834,17 @@ a {
 
     align-self: center;
 
-    color: #011C2F;
+    color: #24998B;
 
-    background-color: #F8F8F8;
-    border: 2px solid #011C2F;
+    background-color: transparent;
+    border: 2px solid #24998B;
   }
 
   .button-1:hover {
-    color: #F8F8F8;
+    color: white;
 
-    background-color: #011C2F;
-    border: 2px solid #011C2F;
+    background-color: #24998B;
+    border: 2px solid #24998B;
   }
 
   .button-1-2 {
@@ -2951,7 +2951,7 @@ a {
     padding: 0px;
     margin: 0px;
 
-    margin-top: 16px;
+    margin-top: 24px;
   }
 
   .home-banner-image-link-button {

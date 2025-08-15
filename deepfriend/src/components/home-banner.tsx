@@ -2,15 +2,18 @@
 
 import { RootState } from "@/store/store";
 import { useSelector } from "react-redux";
-import { BASIC_LIGHT_COLOR } from "../app/layout";
+import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "../app/layout";
 
 import HomeBackground from "../../public/images/home-badge.png";
+//import HomeBackground from "../../public/images/home-banner-4.png";
 import HomeBackgroundDark from "../../public/backgrounds/home_background_0_dark.svg";
 //import HomeBackgroundLight from "../../public/backgrounds/home_background_0_light.svg";
 import HomeBackgroundLight from "../../public/backgrounds/home_background_0_light_2.svg";
 //import HomePhone from "../../public/phones/home_phone_1.svg";
 //import HomePhone1 from "../../public/phones/home_phone_3.svg";
-import HomePhone from "../../public/phones/home_phone.png";
+//import HomePhone from "../../public/images/chica-home.png";
+import HomePhone from "../../public/images/home-banner-4.png";
+//import HomePhone from "../../public/images/chica-phone.png";
 //import GoogleplayLogo from "../../public/icons/googleplay-logo.png";
 import GoogleplayLogo from "../../public/icons/google-play-logo.png";
 
@@ -28,7 +31,7 @@ export default function HomeBannerComponent() {
     const { sessionId } = useSelector((state: RootState) => state.sessionId);
 
     const cardStyle: CSSProperties = {
-        backgroundImage: `url(${HomeBackground.src})`,
+        //backgroundImage: `url(${HomeBackground.src})`,
     };
 
     const scrollToNext = async () => {
@@ -45,23 +48,18 @@ export default function HomeBannerComponent() {
         <div className="home-banner-wrapper">
             <div className="home-banner-container" style={cardStyle} onClick={scrollToNext}>
                 <div className="home-banner-container-0">
-                    <h1 className="home-banner-title" style={{
-                        color: BASIC_LIGHT_COLOR,
-                    }}>
-                        {TranslationTexts[systemLanguage].home_badge_title}
-                    </h1>
-                    <h1 className="home-banner-text" style={{
-                        color: BASIC_LIGHT_COLOR,
-                    }}>
-                        {TranslationTexts[systemLanguage].home_badge_text}
-                    </h1>
-                </div>
-                <div className="home-banner-container-1">
-                    <Image
-                        alt="Deepfriend screenshot"
-                        src={HomePhone}
-                        className="home-banner-image"
-                    />
+                    <div className="col">
+                        <h1 className="home-banner-title" style={{
+                            color: BASIC_DARK_COLOR,
+                        }}>
+                            {TranslationTexts[systemLanguage].home_badge_title}
+                        </h1>
+                        <h1 className="home-banner-text" style={{
+                            color: BASIC_DARK_COLOR,
+                        }}>
+                            {TranslationTexts[systemLanguage].home_badge_text}
+                        </h1>
+                    </div>
                     <div className="home-banner-buttons-row">
                         <button className="button-0">
                             <h1 className="button-text">
@@ -79,6 +77,13 @@ export default function HomeBannerComponent() {
                             </h1>
                         </button>
                     </div>
+                </div>
+                <div className="home-banner-container-1">
+                    <Image
+                        alt="Deepfriend screenshot"
+                        src={HomePhone}
+                        className="home-banner-image"
+                    />
                 </div>
             </div>
         </div>
