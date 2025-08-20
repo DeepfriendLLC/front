@@ -30,7 +30,7 @@ export default function BasicRouter({ children }: { children: React.ReactNode })
   const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
   const { sessionId } = useSelector((state: RootState) => state.sessionId);
 
-  const allowedRoutes = ['/', '/about', '/contact', '/pricing', '/legal-terms', '/privacy-policy', '/admin/login'];
+  const allowedRoutes = ['/', '/about', '/contact', '/pricing', '/legal-terms', '/privacy-policy', '/login', '/dashboard'];
   const redirectTo = `https://www.youtube.com/watch?v=dQw4w9WgXcQ`;
 
   const init = async () => {

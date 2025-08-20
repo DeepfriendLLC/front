@@ -21,6 +21,7 @@ import HomeProperties10Component from "@/components/home-properties-10";
 import HomeProperties11Component from "@/components/home-properties-11";
 import VisibleTracker from "@/components/visible-tracker";
 import { SendMetricsSessionFocusAPI } from "@/components/client-api/client-api";
+import HomeProperties12Component from "@/components/home-properties-12";
 
 export default function Home() {
   const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
@@ -44,6 +45,7 @@ export default function Home() {
       <VisibleTracker onVisible={async () => await focus("1")} />
       <HomeProperties1Component />
       <VisibleTracker onVisible={async () => await focus("2")} />
+      <HomeProperties12Component />
       <HomeProperties9Component />
       <VisibleTracker onVisible={async () => await focus("3")} />
       <HomeProperties8Component />

@@ -1,0 +1,9 @@
+import LoginComponent from "@/components/login";
+
+export default function Login() {
+  return (
+    <div className="basic-container">
+      <LoginComponent />
+    </div>
+  );
+}

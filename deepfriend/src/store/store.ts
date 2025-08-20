@@ -13,3 +13,14 @@ export const store = configureStore({
 
 export type RootState = ReturnType<typeof store.getState>;
 export type AppDispatch = typeof store.dispatch;
+
+export type SystemMessageType = 'text_own' | 'text_group' | 'voice_own' | 'tecnic_sheet' | 'tecnic_sheet_group' | 'patient_history' | 'patient_history_group';
+
+export interface SystemMessageEntity {
+    uuid: string;
+    userUuid: string;
+    instructions: string;
+    type: SystemMessageType;
+    updatedAt: string;
+    createdAt: string;
+};

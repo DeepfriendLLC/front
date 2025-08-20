@@ -1,6 +1,6 @@
 "use client";
 
-import Phones from "../../public/phones/home-properties-1.svg";
+import Phones from "../../public/images/asiatica-sonriendo.jpg";
 
 import Image from "next/image";
 import { useSelector } from "react-redux";
