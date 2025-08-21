@@ -1,5 +1,6 @@
 "use client";
 
+import Peep from "../../public/peeps/peep-22.png";
 import Phones from "../../public/images/asiatica-sonriendo.jpg";
 
 import Image from "next/image";
@@ -28,7 +29,7 @@ export default function HomeProperties1Component() {
         <Image
           alt="Deepfriend app screenshots"
           className="home-properties-1-image"
-          src={Phones}
+          src={Peep}
         />
       </div>
       <div className="home-properties-1-container-letters">

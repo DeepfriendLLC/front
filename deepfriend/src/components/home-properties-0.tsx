@@ -1,5 +1,10 @@
 "use client";
 
+import Science from "../../public/tag-icons/science.png";
+import Privacy from "../../public/tag-icons/incognito.png";
+import Security from "../../public/tag-icons/shield.png";
+import Heal from "../../public/tag-icons/heal.png";
+
 import Icon0Dark from "../../public/icons/home-properties-card-0-dark-1.png";
 import Icon0White from "../../public/icons/home-properties-card-0-white-1.png";
 import Icon1Dark from "../../public/icons/home-properties-card-1-dark.png";
@@ -37,7 +42,7 @@ export default function HomeProperties0Component() {
         <div className='home-properties-0-container-icon'>
           <Image
             alt="DF Web icon"
-            src={systemColor === "light" ? Icon3Dark : Icon3White}
+            src={Science}
             className="home-properties-0-icon"
           />
         </div>
@@ -54,7 +59,7 @@ export default function HomeProperties0Component() {
         <div className='home-properties-0-container-icon'>
           <Image
             alt="DF Web icon"
-            src={systemColor === "light" ? Icon8Dark : Icon8White}
+            src={Privacy}
             className="home-properties-0-icon"
           />
         </div>
@@ -71,7 +76,7 @@ export default function HomeProperties0Component() {
         <div className='home-properties-0-container-icon'>
           <Image
             alt="DF Web icon"
-            src={systemColor === "light" ? Icon6Dark : Icon6White}
+            src={Security}
             className="home-properties-0-icon"
           />
         </div>
@@ -88,7 +93,7 @@ export default function HomeProperties0Component() {
         <div className='home-properties-0-container-icon'>
           <Image
             alt="DF Web icon"
-            src={systemColor === "light" ? Icon9Dark : Icon9White}
+            src={Heal}
             className="home-properties-0-icon"
           />
         </div>

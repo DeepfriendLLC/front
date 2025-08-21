@@ -1,6 +1,6 @@
 "use client";
 
-import Psychology from "../../public/images/chart-up.png";
+import Peep from "../../public/peeps/peep-1.png";
 
 import Image from "next/image";
 import { useSelector } from "react-redux";
@@ -23,17 +23,17 @@ export default function HomeProperties12Component() {
   };
 
   return (
-    <div className="home-properties-10-container click-pointer" onClick={scrollToNext}>
+    <div className="home-properties-1-container click-pointer" onClick={scrollToNext}>
       <div className="home-properties-1-card">
         <Image
           alt="Deepfriend app screenshots"
           className="home-properties-12-image"
-          src={Psychology}
+          src={Peep}
         />
-        <h1 className="home-properties-12-title" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
+        <h1 className="home-properties-1-title" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
           {TranslationTexts[systemLanguage].home_properties_12_title}
         </h1>
-        <h1 className="home-properties-12-text" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
+        <h1 className="home-properties-1-text" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
           {TranslationTexts[systemLanguage].home_properties_12_text}
         </h1>
       </div>

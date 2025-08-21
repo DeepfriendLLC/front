@@ -1,5 +1,7 @@
 "use client";
 
+import Negra from "../../public/people/negra.png";
+
 import LevelsImageWhiteEN from "../../public/images/phase-levels-white-en.svg";
 import LevelsImageDarkEN from "../../public/images/phase-levels-dark-en.svg";
 
@@ -11,7 +13,6 @@ import { useSelector } from "react-redux";
 import { RootState } from "@/store/store";
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "@/app/layout";
 import { TranslationTexts } from "@/store/translations/translations";
-import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { SendMetricsSessionClickAPI } from "./client-api/client-api";
 
@@ -56,7 +57,7 @@ export default function HomeProperties9Component() {
         <Image
           alt="Deepfriend app screenshots"
           className="home-properties-9-image"
-          src={correctImageSRC}
+          src={Negra}
         />
       </div>
     </div >

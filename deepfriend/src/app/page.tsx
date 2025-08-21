@@ -45,8 +45,8 @@ export default function Home() {
       <VisibleTracker onVisible={async () => await focus("1")} />
       <HomeProperties1Component />
       <VisibleTracker onVisible={async () => await focus("2")} />
-      <HomeProperties12Component />
       <HomeProperties9Component />
+      <HomeProperties12Component />
       <VisibleTracker onVisible={async () => await focus("3")} />
       <HomeProperties8Component />
       <VisibleTracker onVisible={async () => await focus("4")} />

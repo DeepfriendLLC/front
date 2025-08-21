@@ -4,17 +4,8 @@ import { RootState } from "@/store/store";
 import { useSelector } from "react-redux";
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "../app/layout";
 
-import HomeBackground from "../../public/images/home-badge.png";
-//import HomeBackground from "../../public/images/home-banner-4.png";
-import HomeBackgroundDark from "../../public/backgrounds/home_background_0_dark.svg";
-//import HomeBackgroundLight from "../../public/backgrounds/home_background_0_light.svg";
-import HomeBackgroundLight from "../../public/backgrounds/home_background_0_light_2.svg";
-//import HomePhone from "../../public/phones/home_phone_1.svg";
-//import HomePhone1 from "../../public/phones/home_phone_3.svg";
-//import HomePhone from "../../public/images/chica-home.png";
-import HomePhone from "../../public/images/home-banner-4.png";
-//import HomePhone from "../../public/images/chica-phone.png";
-//import GoogleplayLogo from "../../public/icons/googleplay-logo.png";
+import Asiatica from "../../public/people/asiatica.png";
+
 import GoogleplayLogo from "../../public/icons/google-play-logo.png";
 
 import Image from "next/image";
@@ -81,7 +72,7 @@ export default function HomeBannerComponent() {
                 <div className="home-banner-container-1">
                     <Image
                         alt="Deepfriend screenshot"
-                        src={HomePhone}
+                        src={Asiatica}
                         className="home-banner-image"
                     />
                 </div>
