@@ -28,7 +28,7 @@ export default function HomeProperties8Component() {
   return (
     <div className="home-properties-8-wrapper" id="🐬">
       <div className="home-properties-8-container" style={{
-        backgroundColor: systemColor === "dark" ? BASIC_LIGHT_COLOR : "#011C2F",
+        backgroundColor: "#24998B",
       }} onClick={goToGooglePlay}>
         <h1 className="home-properties-8-title" style={{
           color: systemColor === "dark" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR
