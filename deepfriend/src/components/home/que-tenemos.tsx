@@ -44,25 +44,27 @@ export default function QueTenemosComponent() {
   };
 
   return (
-    <div className="home-properties-9-container click-pointer" id="🐧" onClick={scrollToNext}>
-      <div className="home-properties-9-card">
-        <h1 className="home-properties-1-pretitle" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
-          {TranslationTexts[systemLanguage].home_properties_9_pretitle}
-        </h1>
-        <h1 className="home-properties-9-title" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
-          {TranslationTexts[systemLanguage].que_tenemos_title}
-        </h1>
-        <h1 className="home-properties-9-text" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
-          {TranslationTexts[systemLanguage].que_tenemos_text}
-        </h1>
+    <div className="basic-wrapper" id="🐧" onClick={scrollToNext}>
+      <div className="basic-container-reverse">
+        <div className="basic-container-letters">
+          <h1 className="basic-pretitle">
+            {TranslationTexts[systemLanguage].home_properties_9_pretitle}
+          </h1>
+          <h1 className="basic-title">
+            {TranslationTexts[systemLanguage].que_tenemos_title}
+          </h1>
+          <h1 className="basic-text">
+            {TranslationTexts[systemLanguage].que_tenemos_text}
+          </h1>
+        </div>
+        <div className="basic-container-image">
+          <Image
+            alt="Deepfriend app screenshots"
+            className="basic-image"
+            src={Negra}
+          />
+        </div>
       </div>
-      <div className="home-properties-9-container-image">
-        <Image
-          alt="Deepfriend app screenshots"
-          className="home-properties-9-image"
-          src={Negra}
-        />
-      </div>
-    </div >
+    </div>
   );
 }

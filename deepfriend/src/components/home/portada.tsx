@@ -53,7 +53,7 @@ export default function PortadaComponent() {
                                 {TranslationTexts[systemLanguage].home_badge_button_download_0}
                             </h1>
                         </button>
-                        <button className="button-yewllow" onClick={goToGooglePlay}>
+                        <button className="button-yellow" onClick={goToGooglePlay}>
                             <h1 className="button-text" style={{ textDecoration: "none" }}>
                                 {TranslationTexts[systemLanguage].home_badge_button_download_1}
                                 <Image

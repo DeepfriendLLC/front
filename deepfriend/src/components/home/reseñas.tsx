@@ -1,7 +1,5 @@
 "use client";
 
-import Negra from "../../../public/people/negra.png";
-
 import Peep3 from "../../../public/peeps/peep-3.png";
 import Peep4 from "../../../public/peeps/peep-4.png";
 import Peep5 from "../../../public/peeps/peep-5.png";
@@ -51,14 +49,16 @@ export default function ReseñasComponent() {
   };
 
   return (
-    <div className="reseñas-wrapper click-pointer" id="🐧" onClick={scrollToNext}>
-      <h1 className="reseñas-title" style={{ color: BASIC_DARK_COLOR }}>
-        {TranslationTexts[systemLanguage].reseñas_title}
-      </h1>
-      <div className="reseñas-row">
-        <ReseñasCardComponent index={"1"} systemLanguage={systemLanguage} />
-        <ReseñasCardComponent index={"2"} systemLanguage={systemLanguage} />
-        <ReseñasCardComponent index={"3"} systemLanguage={systemLanguage} />
+    <div className="basic-wrapper">
+      <div className="basic-container" id="🐧" onClick={scrollToNext} style={{ flexDirection: "column" }}>
+        <h1 className="basic-title" style={{ textAlign: "center" }}>
+          {TranslationTexts[systemLanguage].reseñas_title}
+        </h1>
+        <div className="reseñas-row">
+          <ReseñasCardComponent index={"1"} systemLanguage={systemLanguage} />
+          <ReseñasCardComponent index={"2"} systemLanguage={systemLanguage} />
+          <ReseñasCardComponent index={"3"} systemLanguage={systemLanguage} />
+        </div>
       </div>
     </div>
   );

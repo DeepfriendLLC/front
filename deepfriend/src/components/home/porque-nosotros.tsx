@@ -5,7 +5,6 @@ import Peep from "../../../public/peeps/peep-22.png";
 import Image from "next/image";
 import { useSelector } from "react-redux";
 import { RootState } from "@/store/store";
-import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "@/app/layout";
 import { TranslationTexts } from "@/store/translations/translations";
 import { useRouter } from "next/navigation";
 import { SendMetricsSessionClickAPI } from "../api/client-api/client-api";
@@ -22,30 +21,27 @@ export default function PorqueNosotrosComponent() {
     router.push('#🐧', { scroll: true });
   };
 
-  const goToGooglePlay = async () => {
-    await SendMetricsSessionClickAPI(sessionId, "/", "0", "out", systemColor, systemLanguage);
-    router.push(`https://play.google.com/store/apps/details?id=com.dfbubbles.deepfriend`);
-  };
-
   return (
-    <div className="home-properties-1-container click-pointer" id="🫧" onClick={scrollToNext}>
-      <div className="home-properties-1-container-image">
-        <Image
-          alt="Deepfriend app screenshots"
-          className="home-properties-1-image"
-          src={Peep}
-        />
-      </div>
-      <div className="home-properties-1-container-letters">
-        <h1 className="home-properties-1-pretitle" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
-          {TranslationTexts[systemLanguage].home_properties_1_pretitle}
-        </h1>
-        <h1 className="home-properties-1-title" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
-          {TranslationTexts[systemLanguage].home_properties_1_title}
-        </h1>
-        <h1 className="home-properties-1-text" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
-          {TranslationTexts[systemLanguage].home_properties_1_text}
-        </h1>
+    <div className="basic-wrapper" id="🫧" onClick={scrollToNext}>
+      <div className="basic-container">
+        <div className="basic-container-image">
+          <Image
+            alt="Deepfriend app screenshots"
+            className="basic-image"
+            src={Peep}
+          />
+        </div>
+        <div className="basic-container-letters">
+          <h1 className="basic-pretitle">
+            {TranslationTexts[systemLanguage].home_properties_1_pretitle}
+          </h1>
+          <h1 className="basic-title">
+            {TranslationTexts[systemLanguage].home_properties_1_title}
+          </h1>
+          <h1 className="basic-text">
+            {TranslationTexts[systemLanguage].home_properties_1_text}
+          </h1>
+        </div>
       </div>
     </div>
   );

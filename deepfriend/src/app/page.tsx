@@ -6,18 +6,17 @@ import PortadaTagsComponent from "@/components/home/portada-tags";
 import PorqueNosotrosComponent from "@/components/home/porque-nosotros";
 import { useSelector } from "react-redux";
 import { RootState } from "@/store/store";
-import HomeProperties8Component from "@/components/home-properties-8";
 import QueTenemosComponent from "@/components/home/que-tenemos";
-import HomeProperties11Component from "@/components/home-properties-11";
 import VisibleTracker from "@/components/events/visible-tracker";
 import { SendMetricsSessionFocusAPI } from "@/components/api/client-api/client-api";
 import QueTenemos1Component from "@/components/home/que-tenemos-1";
 import QueTenemos2Component from "@/components/home/que-tenemos-2";
 import QueTenemos3Component from "@/components/home/que-tenemos-3";
-import PreciosComponent from "@/components/home/precios";
 import TccCienciaComponent from "@/components/home/tcc-ciencia";
 import QueTenemos4Component from "@/components/home/que-tenemos-4";
 import ReseñasComponent from "@/components/home/reseñas";
+import CallToActionBanner1Component from "@/components/home/call-to-action-banner-1";
+import CallToActionBannerComponent from "@/components/home/call-to-action-banner";
 
 export default function Home() {
   const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
@@ -45,9 +44,9 @@ export default function Home() {
       <QueTenemos3Component />
       <QueTenemos4Component />
       <ReseñasComponent />
-      <HomeProperties8Component />
+      <CallToActionBannerComponent />
       <TccCienciaComponent />
-      <HomeProperties11Component />
+      <CallToActionBanner1Component />
       <VisibleTracker onVisible={async () => await focus("2")} />
     </div>
   );

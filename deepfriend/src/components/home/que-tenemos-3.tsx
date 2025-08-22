@@ -28,24 +28,26 @@ export default function QueTenemos3Component() {
   };
 
   return (
-    <div className="home-properties-1-container click-pointer" id="🫧" onClick={scrollToNext}>
-      <div className="home-properties-1-container-image">
-        <Image
-          alt="Deepfriend app screenshots"
-          className="home-properties-1-image"
-          src={Peep}
-        />
-      </div>
-      <div className="home-properties-1-container-letters">
-        <h1 className="home-properties-1-pretitle" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
-          {TranslationTexts[systemLanguage].home_properties_9_pretitle}
-        </h1>
-        <h1 className="home-properties-1-title" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
-          {TranslationTexts[systemLanguage].que_tenemos_3_title}
-        </h1>
-        <h1 className="home-properties-1-text" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
-          {TranslationTexts[systemLanguage].que_tenemos_3_text}
-        </h1>
+    <div className="basic-wrapper" id="🫧" onClick={scrollToNext}>
+      <div className="basic-container">
+        <div className="basic-container-image">
+          <Image
+            alt="Deepfriend app screenshots"
+            className="basic-image"
+            src={Peep}
+          />
+        </div>
+        <div className="basic-container-letters">
+          <h1 className="basic-pretitle" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
+           {TranslationTexts[systemLanguage].home_properties_9_pretitle}
+          </h1>
+          <h1 className="basic-title" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
+            {TranslationTexts[systemLanguage].que_tenemos_3_title}
+          </h1>
+          <h1 className="basic-text" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
+            {TranslationTexts[systemLanguage].que_tenemos_3_text}
+          </h1>
+        </div>
       </div>
     </div>
   );

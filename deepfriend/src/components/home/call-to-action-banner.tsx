@@ -1,7 +1,7 @@
 "use client";
 
-import CheckLightImage from "../../public/icons/check-light.png";
-import CheckDarkImage from "../../public/icons/check-dark.png";
+import CheckLightImage from "../../../public/icons/check-light.png";
+import CheckDarkImage from "../../../public/icons/check-dark.png";
 
 import Image from "next/image";
 import { useSelector } from "react-redux";
@@ -9,11 +9,11 @@ import { RootState } from "@/store/store";
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "@/app/layout";
 import { TranslationTexts } from "@/store/translations/translations";
 
-import GoogleplayLogo from "../../public/icons/google-play-logo.png";
+import GoogleplayLogo from "../../../public/icons/google-play-logo.png";
 import { useRouter } from "next/navigation";
-import { SendMetricsSessionClickAPI } from "./api/client-api/client-api";
+import { SendMetricsSessionClickAPI } from "../api/client-api/client-api";
 
-export default function HomeProperties8Component() {
+export default function CallToActionBannerComponent() {
   const router = useRouter();
 
   const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
@@ -113,7 +113,7 @@ export default function HomeProperties8Component() {
           </div>
         </div>
         <div className="home-properties-8-container-image">
-          <button className={"button-yewllow"} style={{ alignSelf: "center" }}>
+          <button className={"button-yellow"} style={{ alignSelf: "center" }}>
             <h1 className="button-text">
               {TranslationTexts[systemLanguage].home_badge_button_download_1}
               <Image

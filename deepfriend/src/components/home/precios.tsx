@@ -63,7 +63,7 @@ export function TarjetasPreciosComponent() {
               alignContent: "flex-end",
               marginTop: 24,
             }}>
-              <button className={"button-yewllow"} style={{
+              <button className={"button-yellow"} style={{
                 width: "100%",
                 alignSelf: "flex-end",
               }}>
