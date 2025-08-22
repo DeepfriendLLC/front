@@ -3,6 +3,8 @@
 import { RootState } from "@/store/store";
 import { useSelector } from "react-redux";
 
+import Peep from "../../public/peeps/peep-102.png";
+
 import PricingBannerImageWhite from "../../public/images/pricing-banner-image-white.png";
 import PricingBannerImageDark from "../../public/images/pricing-banner-image-dark.png";
 
@@ -25,7 +27,7 @@ export default function PricingBannerComponent() {
                 <div className="page-banner-image-container">
                     <Image
                         alt="DF Pricing banner image"
-                        src={systemColor === "light" ? PricingBannerImageDark : PricingBannerImageWhite}
+                        src={Peep}
                         className="pricing-banner-image-image"
                     />
                 </div>

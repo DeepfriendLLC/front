@@ -35,7 +35,7 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         que_tenemos_4_title: "Express yourself",
         que_tenemos_4_text: "Deepfriend es tu espacio seguro para sanar donde y cuando quieras. Aquí, Bubbles estará para acompañarte y guiarte siempre que lo necesites. Es experto en TCC, la única técnica psicológica respaldada por la ciencia. Aquí podrás personalizarlo todo a tu gusto. Complementamos la terapia profesional, crea un grupo con tu psicólogo para que adapte Bubbles a tus necesidades.",
         reseñas_title: "What people think",
-        reseñas_1_name: "Sarah",
+        reseñas_1_name: "Ana",
         reseñas_1_text: "I’ve tried every mental health app out there, but Deepfriend is the first that actually makes me feel in control. The CBT techniques are explained so clearly—it’s like having a therapist in my pocket. And way cheaper than my copay. My only wish is for more exercises for social anxiety.",
         reseñas_2_name: "Chloe",
         reseñas_2_text: "This app gets me. Bubbles isn't just cute it makes complex psychology feel accessible. I use it during night shifts to manage anxiety, is a lifesaver. I love that they keep adding new content. Sometimes I wish the avatar options were more diverse, but they’re improving every week!",

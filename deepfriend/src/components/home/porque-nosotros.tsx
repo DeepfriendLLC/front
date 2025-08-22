@@ -46,12 +46,15 @@ export default function PorqueNosotrosComponent() {
         <h1 className="home-properties-1-text" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
           {TranslationTexts[systemLanguage].home_properties_1_text}
         </h1>
-        <button className="button-1" style={{ marginTop: 16, marginBottom: 16 }} onClick={goToGooglePlay}>
-          <h1 className="button-text" style={{ textDecoration: "none" }}>
-            {TranslationTexts[systemLanguage].home_badge_download}
-          </h1>
-        </button>
       </div>
     </div>
   );
 }
+
+/*
+<button className="button-yewllow" style={{ marginTop: 16, marginBottom: 16 }} onClick={goToGooglePlay}>
+  <h1 className="button-text" style={{ textDecoration: "none" }}>
+    {TranslationTexts[systemLanguage].home_badge_download}
+  </h1>
+</button>
+*/

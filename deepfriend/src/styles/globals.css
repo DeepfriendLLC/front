@@ -295,6 +295,30 @@ a {
     border: 2px solid #24998B;
   }
 
+  .button-yewllow {
+    height: 48px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+
+    align-self: flex-end;
+
+    padding: 16px;
+    margin: 0px;
+
+    padding-left: 24px;
+    padding-right: 24px;
+
+    border-radius: 480px;
+
+    color: white;
+
+    background-color: #FFD166;
+    border: 2px solid #FFD166;
+  }
+
   .button-1 {
     height: 48px;
 
@@ -488,8 +512,6 @@ a {
 
     padding-left: 10%;
     padding-right: 10%;
-
-    background-color: #011C2F;
   }
 
   .footer-letters-container {
@@ -503,12 +525,12 @@ a {
 
     margin-right: 24px;
 
-    text-align: left;
-    color: #E6F2F9;
+    text-align: center;
+    color: #011C2F;
   }
 
   .footer-letters-legal-container {
-    width: 200px;
+    width: 240px;
     height: 100%;
 
     display: flex;
@@ -518,8 +540,8 @@ a {
 
     margin-left: 24px;
 
-    text-align: left;
-    color: #F8F8F8;
+    text-align: center;
+    color: #011C2F;
   }
 
   .footer-letters-title {
@@ -553,13 +575,13 @@ a {
   }
 
   .footer-logo-image-link {
-    width: 125px;
-    height: 83px;
+    width: 96px;
+    height: 96px;
   }
 
   .footer-logo-image {
-    width: 125px;
-    height: 83px;
+    width: 96px;
+    height: 96px;
 
     align-self: center;
   }
@@ -1013,6 +1035,8 @@ a {
     text-align: center;
 
     border-radius: 32px;
+
+    background-color: #24998B;
 
     /*
     background-color: #011C2F;
@@ -2265,15 +2289,15 @@ a {
   }
 
   .contact-banner-image-image {
-    width: 324.75px;
-    height: 210.22px;
+    width: 320px;
+    height: 320px;
 
     align-self: center;
   }
 
   .about-banner-image-image {
-    width: 262.20px;
-    height: 262.20px;
+    width: 320px;
+    height: 320px;
 
     align-self: center;
   }
@@ -2307,8 +2331,8 @@ a {
   }
 
   .pricing-banner-image-image {
-    width: 260.60px;
-    height: 306.79px;
+    width: 320px;
+    height: 320px;
 
     align-self: center;
   }
@@ -3594,7 +3618,7 @@ a {
 
     border-radius: 24px;
 
-
+    background-color: #24998B;
     /*
     background-color: #011C2F;
     background-position: center;
@@ -4805,15 +4829,15 @@ a {
   }
 
   .contact-banner-image-image {
-    width: 241px;
-    height: 156px;
+    width: 180px;
+    height: 180px;
 
     align-self: center;
   }
 
   .about-banner-image-image {
-    width: 204px;
-    height: 204px;
+    width: 180px;
+    height: 180px;
 
     align-self: center;
   }
@@ -4847,8 +4871,8 @@ a {
   }
 
   .pricing-banner-image-image {
-    width: 156.30px;
-    height: 184px;
+    width: 180px;
+    height: 180px;
 
     align-self: center;
   }

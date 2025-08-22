@@ -3,7 +3,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import HeadLogoWhite from "../../../public/logo/whale/logo_white.png";
+import HeadLogoWhite from "../../../public/icon-clean.png";
+
 import { useSelector } from "react-redux";
 import { RootState } from "@/store/store";
 import { TranslationTexts } from "@/store/translations/translations";
@@ -38,12 +39,12 @@ export function Footer() {
                     {TranslationTexts[systemLanguage].footer_1}
                 </h1>
                 <Link href={'/privacy-policy'}>
-                    <h1 className="footer-letters-text" style={{ color: "#F8F8F8", textDecoration: "underline" }}>
+                    <h1 className="footer-letters-text" style={{ color: "#011C2F", textDecoration: "underline" }}>
                         Privacy Policy
                     </h1>
                 </Link>
                 <Link href={'/legal-terms'}>
-                    <h1 className="footer-letters-text" style={{ color: "#F8F8F8", textDecoration: "underline" }}>
+                    <h1 className="footer-letters-text" style={{ color: "#011C2F", textDecoration: "underline" }}>
                         Legal Terms
                     </h1>
                 </Link>

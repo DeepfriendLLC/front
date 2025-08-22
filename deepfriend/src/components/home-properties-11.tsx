@@ -26,16 +26,14 @@ export default function HomeProperties11Component() {
   return (
     <div className="home-properties-11-wrapper">
       <Link className="home-banner-link" href={"https://play.google.com/store/apps/details?id=com.dfbubbles.deepfriend"} target={"_blank"} style={{ textDecoration: "none" }}>
-        <div className="home-properties-8-container" style={{
-          backgroundColor: systemColor === "dark" ? BASIC_LIGHT_COLOR : "#011C2F",
-        }}>
+        <div className="home-properties-8-container">
           <h1 className="home-properties-8-title" style={{
             color: systemColor === "dark" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR
           }}>
             {TranslationTexts[systemLanguage].home_properties_11_title}
           </h1>
           <div className="home-properties-8-container-image">
-            <button className={"button-1"} style={{ alignSelf: "center", marginTop: 24 }}>
+            <button className={"button-yewllow"} style={{ alignSelf: "center", marginTop: 24 }}>
               <h1 className="button-text">
                 {TranslationTexts[systemLanguage].home_badge_button_download_1}
                 <Image

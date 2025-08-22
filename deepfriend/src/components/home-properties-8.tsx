@@ -27,9 +27,7 @@ export default function HomeProperties8Component() {
 
   return (
     <div className="home-properties-8-wrapper" id="🐬">
-      <div className="home-properties-8-container" style={{
-        backgroundColor: "#24998B",
-      }} onClick={goToGooglePlay}>
+      <div className="home-properties-8-container" onClick={goToGooglePlay}>
         <h1 className="home-properties-8-title" style={{
           color: systemColor === "dark" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR
         }}>
@@ -115,7 +113,7 @@ export default function HomeProperties8Component() {
           </div>
         </div>
         <div className="home-properties-8-container-image">
-          <button className={"button-1"} style={{ alignSelf: "center" }}>
+          <button className={"button-yewllow"} style={{ alignSelf: "center" }}>
             <h1 className="button-text">
               {TranslationTexts[systemLanguage].home_badge_button_download_1}
               <Image
