@@ -21,10 +21,6 @@ export default function PortadaComponent() {
     const { systemColor } = useSelector((state: RootState) => state.systemColor);
     const { sessionId } = useSelector((state: RootState) => state.sessionId);
 
-    const cardStyle: CSSProperties = {
-        //backgroundImage: `url(${HomeBackground.src})`,
-    };
-
     const scrollToNext = async () => {
         await SendMetricsSessionClickAPI(sessionId, "/", "0", "in", systemColor, systemLanguage);
         router.push('#🫧', { scroll: true });
@@ -37,7 +33,7 @@ export default function PortadaComponent() {
 
     return (
         <div className="portada-wrapper">
-            <div className="portada-container" style={cardStyle} onClick={scrollToNext}>
+            <div className="portada-container" onClick={scrollToNext}>
                 <div className="portada-container-0">
                     <div className="col">
                         <h1 className="portada-title" style={{

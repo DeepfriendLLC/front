@@ -4,11 +4,11 @@ import type { PayloadAction } from "@reduxjs/toolkit";
 export type AllowedLanguagesEncodedType = "en" | "es";
 export type AllowedLanguagesType = "english" | "spanish";
 
-export interface ISystemColorState {
+export interface ISystemLanguageState {
     systemLanguage: AllowedLanguagesEncodedType,
 }
 
-const initialState: ISystemColorState = {
+const initialState: ISystemLanguageState = {
     systemLanguage: "en",
 };
 

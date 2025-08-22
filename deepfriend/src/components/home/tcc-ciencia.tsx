@@ -1,6 +1,6 @@
 "use client";
 
-import Peep from "../../public/peeps/peep-1.png";
+import Peep from "../../../public/peeps/peep-1.png";
 
 import Image from "next/image";
 import { useSelector } from "react-redux";
@@ -8,9 +8,9 @@ import { RootState } from "@/store/store";
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "@/app/layout";
 import { TranslationTexts } from "@/store/translations/translations";
 import { useRouter } from "next/navigation";
-import { SendMetricsSessionClickAPI } from "./api/client-api/client-api";
+import { SendMetricsSessionClickAPI } from "../api/client-api/client-api";
 
-export default function HomeProperties12Component() {
+export default function TccCienciaComponent() {
   const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
   const { systemColor } = useSelector((state: RootState) => state.systemColor);
   const { sessionId } = useSelector((state: RootState) => state.sessionId);

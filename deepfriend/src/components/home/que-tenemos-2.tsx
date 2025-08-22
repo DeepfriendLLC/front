@@ -1,12 +1,12 @@
 "use client";
 
-import Negra from "../../public/people/negra.png";
+import Negra from "../../../public/people/negra.png";
 
-import LevelsImageWhiteEN from "../../public/images/phase-levels-white-en.svg";
-import LevelsImageDarkEN from "../../public/images/phase-levels-dark-en.svg";
+import LevelsImageWhiteEN from "../../../public/images/phase-levels-white-en.svg";
+import LevelsImageDarkEN from "../../../public/images/phase-levels-dark-en.svg";
 
-import LevelsImageWhiteES from "../../public/images/phase-levels-white-es.svg";
-import LevelsImageDarkES from "../../public/images/phase-levels-dark-es.svg";
+import LevelsImageWhiteES from "../../../public/images/phase-levels-white-es.svg";
+import LevelsImageDarkES from "../../../public/images/phase-levels-dark-es.svg";
 
 import Image from "next/image";
 import { useSelector } from "react-redux";
@@ -14,9 +14,9 @@ import { RootState } from "@/store/store";
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "@/app/layout";
 import { TranslationTexts } from "@/store/translations/translations";
 import { useRouter } from "next/navigation";
-import { SendMetricsSessionClickAPI } from "./api/client-api/client-api";
+import { SendMetricsSessionClickAPI } from "../api/client-api/client-api";
 
-export default function HomeProperties9Component() {
+export default function QueTenemos2Component() {
   const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
   const { systemColor } = useSelector((state: RootState) => state.systemColor);
   const { sessionId } = useSelector((state: RootState) => state.sessionId);
@@ -50,10 +50,10 @@ export default function HomeProperties9Component() {
           {TranslationTexts[systemLanguage].home_properties_9_pretitle}
         </h1>
         <h1 className="home-properties-9-title" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
-          {TranslationTexts[systemLanguage].home_properties_9_title}
+          {TranslationTexts[systemLanguage].que_tenemos_2_title}
         </h1>
         <h1 className="home-properties-9-text" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
-          {TranslationTexts[systemLanguage].home_properties_9_text}
+          {TranslationTexts[systemLanguage].que_tenemos_2_text}
         </h1>
       </div>
       <div className="home-properties-9-container-image">
@@ -63,6 +63,6 @@ export default function HomeProperties9Component() {
           src={Negra}
         />
       </div>
-    </div >
+    </div>
   );
 }

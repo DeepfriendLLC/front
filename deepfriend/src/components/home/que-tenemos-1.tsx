@@ -1,6 +1,6 @@
 "use client";
 
-import Peep from "../../../public/peeps/peep-22.png";
+import Peep from "../../../public/peeps/peep-2.png";
 
 import Image from "next/image";
 import { useSelector } from "react-redux";
@@ -10,7 +10,7 @@ import { TranslationTexts } from "@/store/translations/translations";
 import { useRouter } from "next/navigation";
 import { SendMetricsSessionClickAPI } from "../api/client-api/client-api";
 
-export default function PorqueNosotrosComponent() {
+export default function QueTenemos1Component() {
   const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
   const { systemColor } = useSelector((state: RootState) => state.systemColor);
   const { sessionId } = useSelector((state: RootState) => state.sessionId);
@@ -38,19 +38,14 @@ export default function PorqueNosotrosComponent() {
       </div>
       <div className="home-properties-1-container-letters">
         <h1 className="home-properties-1-pretitle" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
-          {TranslationTexts[systemLanguage].home_properties_1_pretitle}
+          {TranslationTexts[systemLanguage].home_properties_9_pretitle}
         </h1>
         <h1 className="home-properties-1-title" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
-          {TranslationTexts[systemLanguage].home_properties_1_title}
+          {TranslationTexts[systemLanguage].que_tenemos_1_title}
         </h1>
         <h1 className="home-properties-1-text" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
-          {TranslationTexts[systemLanguage].home_properties_1_text}
+          {TranslationTexts[systemLanguage].que_tenemos_1_text}
         </h1>
-        <button className="button-1" style={{ marginTop: 16, marginBottom: 16 }} onClick={goToGooglePlay}>
-          <h1 className="button-text" style={{ textDecoration: "none" }}>
-            {TranslationTexts[systemLanguage].home_badge_download}
-          </h1>
-        </button>
       </div>
     </div>
   );

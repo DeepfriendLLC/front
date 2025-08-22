@@ -35,7 +35,7 @@ export default function HomeProperties11Component() {
             {TranslationTexts[systemLanguage].home_properties_11_title}
           </h1>
           <div className="home-properties-8-container-image">
-            <button className={systemColor === "light" ? "button-2" : "button-3"} style={{ alignSelf: "center", marginTop: 24 }}>
+            <button className={"button-1"} style={{ alignSelf: "center", marginTop: 24 }}>
               <h1 className="button-text">
                 {TranslationTexts[systemLanguage].home_badge_button_download_1}
                 <Image
