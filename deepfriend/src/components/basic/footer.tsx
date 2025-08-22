@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import HeadLogoWhite from "../../public/logo/whale/logo_white.png";
+import HeadLogoWhite from "../../../public/logo/whale/logo_white.png";
 import { useSelector } from "react-redux";
 import { RootState } from "@/store/store";
 import { TranslationTexts } from "@/store/translations/translations";

@@ -143,13 +143,13 @@ a {
     height: 40px;
   }
 
-  .home-banner-title {
+  .portada-title {
     font-family: 'Cormorant';
     font-weight: 700;
     font-size: 56px;
   }
 
-  .home-banner-text {
+  .portada-text {
     font-family: 'Montserrat';
     font-weight: 500;
     font-size: 18px;
@@ -173,7 +173,7 @@ a {
       0px 0px 0px #24998B;
   }
 
-  .home-banner-wrapper {
+  .portada-wrapper {
     width: 100%;
 
     padding: 0px;
@@ -185,7 +185,7 @@ a {
     margin-top: 24px;
   }
 
-  .home-banner-container {
+  .portada-container {
     width: 100%;
 
     /*
@@ -210,7 +210,7 @@ a {
     cursor: pointer;
   }
 
-  .home-banner-container-0 {
+  .portada-container-0 {
     width: 60%;
 
     display: flex;
@@ -230,7 +230,7 @@ a {
     z-index: 2;
   }
 
-  .home-banner-container-1 {
+  .portada-container-1 {
     width: 40%;
 
     display: flex;
@@ -241,7 +241,7 @@ a {
     padding: 24px;
   }
 
-  .home-banner-image {
+  .portada-image {
     width: 24vw;
     height: 24vw;
 
@@ -431,7 +431,7 @@ a {
     align-self: center;
   }
 
-  .home-banner-buttons-row {
+  .portada-buttons-row {
     flex: 1;
 
     display: flex;
@@ -1109,9 +1109,18 @@ a {
     padding: 0px;
   }
 
-  .home-properties-1-text {
+  .home-properties-1-pretitle {
     font-family: "Montserrat";
     font-size: 18px;
+    font-weight: 700;
+
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .home-properties-1-text {
+    font-family: "Montserrat";
+    font-size: 16px;
     font-weight: 500;
 
     margin: 0px;
@@ -2765,7 +2774,7 @@ a {
     font-size: 16px;
   }
 
-  .home-banner-title {
+  .portada-title {
     font-family: 'Cormorant';
     font-weight: 700;
     font-size: 32px;
@@ -2776,7 +2785,7 @@ a {
     padding: 0px;
   }
 
-  .home-banner-text {
+  .portada-text {
     font-family: 'Montserrat';
     font-weight: 500;
     font-size: 14px;
@@ -2803,7 +2812,7 @@ a {
     align-items: center;
   }
 
-  .home-banner-wrapper {
+  .portada-wrapper {
     width: 100%;
 
     padding-left: 24px;
@@ -2812,7 +2821,7 @@ a {
     margin-top: 24px;
   }
 
-  .home-banner-container {
+  .portada-container {
     width: 100%;
     height: 78vh;
 
@@ -2830,7 +2839,7 @@ a {
     align-content: center;
   }
 
-  .home-banner-container-0 {
+  .portada-container-0 {
     width: 100%;
 
     display: flex;
@@ -2860,7 +2869,7 @@ a {
     padding-right: 32px;
   }
 
-  .home-banner-container-1 {
+  .portada-container-1 {
     width: 100%;
 
     display: flex;
@@ -2874,7 +2883,7 @@ a {
     padding-top: 0px;
   }
 
-  .home-banner-image {
+  .portada-image {
     width: 50vw;
     height: 50vw;
 
@@ -3086,7 +3095,7 @@ a {
     border: 2px solid #011C2F;
   }
 
-  .home-banner-buttons-row {
+  .portada-buttons-row {
     width: 100%;
 
     display: flex;
@@ -3100,7 +3109,7 @@ a {
     margin-top: 24px;
   }
 
-  .home-banner-image-link-button {
+  .portada-image-link-button {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -3121,7 +3130,7 @@ a {
     border: 2px solid #011C2F;
   }
 
-  .home-banner-image-link-button-image {
+  .portada-image-link-button-image {
     width: 24px;
     height: 24px;
 
@@ -3567,7 +3576,7 @@ a {
 
   .home-properties-12-image {
     width: 50vw;
-    height: 100%;
+    height: auto;
 
     align-self: center;
     margin-bottom: 24px;
@@ -3653,6 +3662,7 @@ a {
 
   .home-properties-10-image {
     width: 160px;
+    height: auto;
 
     align-self: center;
 
@@ -3797,6 +3807,18 @@ a {
 
     margin: 0px;
     padding: 0px;
+  }
+
+  .home-properties-1-pretitle {
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 700;
+
+    margin: 0px;
+    padding: 0px;
+
+    margin-top: 8px;
+    text-align: center;
   }
 
   .home-properties-1-text {

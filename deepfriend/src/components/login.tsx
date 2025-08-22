@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { LoginAPI } from "./login-api/login-api";
+import { LoginAPI } from "./api/login-api/login-api";
 import { useCookies } from "react-cookie";
 import { useRouter } from "next/navigation";
 

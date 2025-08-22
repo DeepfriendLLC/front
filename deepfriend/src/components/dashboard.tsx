@@ -1,11 +1,11 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { LoginAPI } from "./login-api/login-api";
+import { LoginAPI } from "./api/login-api/login-api";
 import { useCookies } from "react-cookie";
 import { SystemMessageEntity, SystemMessageType } from "@/store/store";
-import { GetSystemMessageAPI } from "./sm-api/get/sm-get";
-import { UpdateSystemMessageAPI } from "./sm-api/update/sm-update";
+import { GetSystemMessageAPI } from "./api/sm-api/get/sm-get";
+import { UpdateSystemMessageAPI } from "./api/sm-api/update/sm-update";
 
 export function SMViewComponent({ type }: { type: SystemMessageType }) {
     const [cookies, setCookie] = useCookies(['jwt']);

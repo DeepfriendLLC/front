@@ -3,26 +3,23 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import Logo from "../../public/icon-clean.png";
+import Logo from "../../../public/icon-clean.png";
 
-import HeadLogoWhite from "../../public/logo/whale/logo_white.png";
-import HeadLogoDark from "../../public/logo/whale/logo_dark_blue.png";
+import NavbarDropdownImageWhite from "../../../public/icons/navbar-dropdown-image-white.png";
+import NavbarDropdownImageDark from "../../../public/icons/navbar-dropdown-image-dark.png";
 
-import NavbarDropdownImageWhite from "../../public/icons/navbar-dropdown-image-white.png";
-import NavbarDropdownImageDark from "../../public/icons/navbar-dropdown-image-dark.png";
+import XLogo from "../../../public/icons/x.png";
+import TiktokLogo from "../../../public/icons/tiktok.png";
+import InstagramLogo from "../../../public/icons/instagram.png";
 
-import XLogo from "../../public/icons/x.png";
-import TiktokLogo from "../../public/icons/tiktok.png";
-import InstagramLogo from "../../public/icons/instagram.png";
-
-import USA from "../../public/icons/usa.png";
-import España from "../../public/icons/españa.png";
+import USA from "../../../public/icons/usa.png";
+import España from "../../../public/icons/españa.png";
 
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "@/app/layout";
 import { CSSProperties } from "react";
 import { TranslationTexts } from "@/store/translations/translations";
 import { AllowedLanguagesEncodedType } from "@/store/slice/systemLanguage";
-import { SendMetricsSessionClickAPI } from "./client-api/client-api";
+import { SendMetricsSessionClickAPI } from "../api/client-api/client-api";
 import { useRouter } from "next/navigation";
 
 export function Navbar(props: {

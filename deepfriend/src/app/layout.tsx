@@ -4,7 +4,7 @@ import "../styles/globals.css";
 import { Provider } from "react-redux";
 import { store } from "@/store/store";
 import BasicRouter from "./basic.router";
-import { Head } from "@/components/head";
+import { Head } from "@/components/basic/head";
 
 import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from '@vercel/speed-insights/next';

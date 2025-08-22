@@ -1,9 +1,9 @@
 "use client";
 
 import { CSSProperties } from "react";
-import HomeBannerComponent from "@/components/home-banner";
-import HomeProperties0Component from "@/components/home-properties-0";
-import HomeProperties1Component from "@/components/home-properties-1";
+import PortadaComponent from "@/components/home/portada";
+import PortadaTagsComponent from "@/components/home/portada-tags";
+import HomeProperties1Component from "@/components/home/porque-nosotros";
 import HomeProperties2Component from "@/components/home-properties-2";
 import HomeProperties30Component from "@/components/home-properties-3-0";
 import HomeProperties31Component from "@/components/home-properties-3-1";
@@ -19,8 +19,8 @@ import HomeProperties8Component from "@/components/home-properties-8";
 import HomeProperties9Component from "@/components/home-properties-9";
 import HomeProperties10Component from "@/components/home-properties-10";
 import HomeProperties11Component from "@/components/home-properties-11";
-import VisibleTracker from "@/components/visible-tracker";
-import { SendMetricsSessionFocusAPI } from "@/components/client-api/client-api";
+import VisibleTracker from "@/components/events/visible-tracker";
+import { SendMetricsSessionFocusAPI } from "@/components/api/client-api/client-api";
 import HomeProperties12Component from "@/components/home-properties-12";
 
 export default function Home() {
@@ -40,8 +40,8 @@ export default function Home() {
 
   return (
     <div style={containerStyle}>
-      <HomeBannerComponent />
-      <HomeProperties0Component />
+      <PortadaComponent />
+      <PortadaTagsComponent />
       <VisibleTracker onVisible={async () => await focus("1")} />
       <HomeProperties1Component />
       <VisibleTracker onVisible={async () => await focus("2")} />

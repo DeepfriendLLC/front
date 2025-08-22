@@ -8,7 +8,7 @@ import { RootState } from "@/store/store";
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "@/app/layout";
 import { TranslationTexts } from "@/store/translations/translations";
 import { useRouter } from "next/navigation";
-import { SendMetricsSessionClickAPI } from "./client-api/client-api";
+import { SendMetricsSessionClickAPI } from "./api/client-api/client-api";
 
 export default function HomeProperties12Component() {
   const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);

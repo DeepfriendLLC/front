@@ -14,7 +14,7 @@ import { RootState } from "@/store/store";
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "@/app/layout";
 import { TranslationTexts } from "@/store/translations/translations";
 import { useRouter } from "next/navigation";
-import { SendMetricsSessionClickAPI } from "./client-api/client-api";
+import { SendMetricsSessionClickAPI } from "./api/client-api/client-api";
 
 export default function HomeProperties9Component() {
   const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
@@ -46,6 +46,9 @@ export default function HomeProperties9Component() {
   return (
     <div className="home-properties-9-container click-pointer" id="🐧" onClick={scrollToNext}>
       <div className="home-properties-9-card">
+        <h1 className="home-properties-1-pretitle" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
+          {TranslationTexts[systemLanguage].home_properties_9_pretitle}
+        </h1>
         <h1 className="home-properties-9-title" style={{ color: systemColor === "light" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR }}>
           {TranslationTexts[systemLanguage].home_properties_9_title}
         </h1>

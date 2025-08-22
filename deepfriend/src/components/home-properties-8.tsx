@@ -11,7 +11,7 @@ import { TranslationTexts } from "@/store/translations/translations";
 
 import GoogleplayLogo from "../../public/icons/google-play-logo.png";
 import { useRouter } from "next/navigation";
-import { SendMetricsSessionClickAPI } from "./client-api/client-api";
+import { SendMetricsSessionClickAPI } from "./api/client-api/client-api";
 
 export default function HomeProperties8Component() {
   const router = useRouter();

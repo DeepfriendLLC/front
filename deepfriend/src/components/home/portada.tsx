@@ -2,19 +2,19 @@
 
 import { RootState } from "@/store/store";
 import { useSelector } from "react-redux";
-import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "../app/layout";
+import { BASIC_DARK_COLOR } from "../../app/layout";
 
-import Asiatica from "../../public/people/asiatica.png";
+import Asiatica from "../../../public/people/asiatica.png";
 
-import GoogleplayLogo from "../../public/icons/google-play-logo.png";
+import GoogleplayLogo from "../../../public/icons/google-play-logo.png";
 
 import Image from "next/image";
 import { CSSProperties } from "react";
 import { TranslationTexts } from "@/store/translations/translations";
 import { useRouter } from "next/navigation";
-import { SendMetricsSessionClickAPI } from "./client-api/client-api";
+import { SendMetricsSessionClickAPI } from "../api/client-api/client-api";
 
-export default function HomeBannerComponent() {
+export default function PortadaComponent() {
     const router = useRouter();
 
     const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
@@ -36,22 +36,22 @@ export default function HomeBannerComponent() {
     };
 
     return (
-        <div className="home-banner-wrapper">
-            <div className="home-banner-container" style={cardStyle} onClick={scrollToNext}>
-                <div className="home-banner-container-0">
+        <div className="portada-wrapper">
+            <div className="portada-container" style={cardStyle} onClick={scrollToNext}>
+                <div className="portada-container-0">
                     <div className="col">
-                        <h1 className="home-banner-title" style={{
+                        <h1 className="portada-title" style={{
                             color: BASIC_DARK_COLOR,
                         }}>
                             {TranslationTexts[systemLanguage].home_badge_title}
                         </h1>
-                        <h1 className="home-banner-text" style={{
+                        <h1 className="portada-text" style={{
                             color: BASIC_DARK_COLOR,
                         }}>
                             {TranslationTexts[systemLanguage].home_badge_text}
                         </h1>
                     </div>
-                    <div className="home-banner-buttons-row">
+                    <div className="portada-buttons-row">
                         <button className="button-0">
                             <h1 className="button-text">
                                 {TranslationTexts[systemLanguage].home_badge_button_download_0}
@@ -69,11 +69,11 @@ export default function HomeBannerComponent() {
                         </button>
                     </div>
                 </div>
-                <div className="home-banner-container-1">
+                <div className="portada-container-1">
                     <Image
                         alt="Deepfriend screenshot"
                         src={Asiatica}
-                        className="home-banner-image"
+                        className="portada-image"
                     />
                 </div>
             </div>
