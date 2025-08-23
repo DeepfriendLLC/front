@@ -49,7 +49,7 @@ export default function ReseñasComponent() {
   };
 
   return (
-    <div className="basic-wrapper">
+    <div className="reseñas-wrapper">
       <div className="basic-container" id="🐧" onClick={scrollToNext} style={{ flexDirection: "column" }}>
         <h1 className="basic-title" style={{ textAlign: "center" }}>
           {TranslationTexts[systemLanguage].reseñas_title}

@@ -1,10 +1,10 @@
 "use client";
 
-import HomeProperties4Component from "@/components/home-properties-4";
 import PricingBannerComponent from "@/components/pricing-banner";
 import { RootState } from "@/store/store";
 import { useSelector } from "react-redux";
 import { TranslationTexts } from "@/store/translations/translations";
+import { TarjetasPreciosComponent } from "@/components/home/precios";
 
 export default function Pricing() {
   const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
@@ -13,12 +13,12 @@ export default function Pricing() {
     <div style={{ flex: 1 }}>
       <PricingBannerComponent />
       <h1 className="pricing-subtitle">
-        {TranslationTexts[systemLanguage].pricing_properties_0_title}
+        {TranslationTexts[systemLanguage].pricing_title}
       </h1>
       <h1 className="pricing-text">
-        {TranslationTexts[systemLanguage].pricing_properties_0_text}
+        {TranslationTexts[systemLanguage].pricing_subtitle}
       </h1>
-      <HomeProperties4Component />
+      <TarjetasPreciosComponent />
     </div>
   );
 }

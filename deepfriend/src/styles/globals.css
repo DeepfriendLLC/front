@@ -179,7 +179,7 @@ a {
   }
 
   .basic-title {
-    font-family: "Cormonant";
+    font-family: "Cormorant";
     font-size: 32px;
     font-weight: 700;
 
@@ -224,7 +224,7 @@ a {
   }
 
   .call-to-action-1-title {
-    font-family: "Cormonant";
+    font-family: "Cormorant";
     font-size: 64px;
     font-weight: 700;
 
@@ -236,7 +236,7 @@ a {
   }
 
   .call-to-action-1-subtitle {
-    font-family: "Cormonant";
+    font-family: "Cormorant";
     font-size: 32px;
     font-weight: 700;
 
@@ -251,7 +251,7 @@ a {
   }
 
   .call-to-action-title {
-    font-family: "Cormonant";
+    font-family: "Cormorant";
     font-size: 48px;
     font-weight: 700;
 
@@ -844,7 +844,7 @@ a {
   }
 
   .navbar-logo-text {
-    font-family: "Cormonant";
+    font-family: "Cormorant";
     font-weight: 500;
     font-size: 28px;
 
@@ -1069,7 +1069,7 @@ a {
 
   .reseñas-wrapper {
     width: 100vw;
-    min-height: 98vh;
+    min-height: 64vh;
 
     display: flex;
     flex-direction: column;
@@ -1124,7 +1124,7 @@ a {
   }
 
   .reseñas-title {
-    font-family: "Cormonant";
+    font-family: "Cormorant";
     font-size: 32px;
     font-weight: 700;
 
@@ -1376,7 +1376,7 @@ a {
   }
 
   .home-properties-9-title {
-    font-family: "Cormonant";
+    font-family: "Cormorant";
     font-size: 40px;
     font-weight: 700;
 
@@ -1415,7 +1415,7 @@ a {
   }
 
   .home-properties-1-title {
-    font-family: "Cormonant";
+    font-family: "Cormorant";
     font-size: 40px;
     font-weight: 700;
 
@@ -1444,7 +1444,7 @@ a {
   }
 
   .home-properties-12-title {
-    font-family: "Cormonant";
+    font-family: "Cormorant";
     font-size: 40px;
     font-weight: 700;
 
@@ -1464,7 +1464,7 @@ a {
   }
 
   .home-properties-10-title {
-    font-family: "Cormonant";
+    font-family: "Cormorant";
     font-size: 40px;
     font-weight: 700;
 
@@ -1484,7 +1484,7 @@ a {
   }
 
   .home-properties-8-title {
-    font-family: "Cormonant";
+    font-family: "Cormorant";
     font-size: 40px;
     font-weight: 700;
 
@@ -1588,7 +1588,7 @@ a {
   }
 
   .home-properties-2-card-title {
-    font-family: "Cormonant";
+    font-family: "Cormorant";
     font-size: 40px;
     font-weight: 700;
 
@@ -1675,7 +1675,7 @@ a {
   }
 
   .home-properties-4-title {
-    font-family: "Cormonant";
+    font-family: "Cormorant";
     font-size: 40px;
     font-weight: 700;
 
@@ -1692,7 +1692,7 @@ a {
   }
 
   .home-properties-5-title {
-    font-family: "Cormonant";
+    font-family: "Cormorant";
     font-size: 40px;
     font-weight: 700;
 
@@ -2259,7 +2259,7 @@ a {
   }
 
   .admin-login-title {
-    font-family: "Cormonant";
+    font-family: "Cormorant";
     font-size: 32px;
     font-weight: 700;
 
@@ -2507,7 +2507,7 @@ a {
   }
 
   .pricing-subtitle {
-    font-family: "Cormonant";
+    font-family: "Cormorant";
     font-size: 40px;
     font-weight: 700;
 
@@ -3071,7 +3071,7 @@ a {
 @media only screen and (max-width: 1200px) {
   .basic-wrapper {
     width: 100%;
-    min-height: 48vh;
+    min-height: 56vh;
 
     display: flex;
     flex-direction: row;
@@ -3172,7 +3172,7 @@ a {
   }
 
   .basic-title {
-    font-family: "Cormonant";
+    font-family: "Cormorant";
     font-size: 32px;
     font-weight: 700;
 
@@ -3215,7 +3215,7 @@ a {
   }
 
   .call-to-action-1-title {
-    font-family: "Cormonant";
+    font-family: "Cormorant";
     font-size: 64px;
     font-weight: 700;
 
@@ -3227,7 +3227,7 @@ a {
   }
 
   .call-to-action-1-subtitle {
-    font-family: "Cormonant";
+    font-family: "Cormorant";
     font-size: 32px;
     font-weight: 700;
 
@@ -3242,7 +3242,7 @@ a {
   }
 
   .call-to-action-title {
-    font-family: "Cormonant";
+    font-family: "Cormorant";
     font-size: 40px;
     font-weight: 700;
 
@@ -3826,7 +3826,7 @@ a {
   }
 
   .navbar-logo-text {
-    font-family: "Cormonant";
+    font-family: "Cormorant";
     font-weight: 500;
     font-size: 28px;
 
@@ -4138,8 +4138,8 @@ a {
     padding: 0px;
     margin: 0px;
 
-    margin-top: 8px;
-    margin-bottom: 8px;
+    margin-top: 48px;
+    margin-bottom: 64px;
 
     padding-left: 24px;
     padding-right: 24px;
@@ -4181,7 +4181,7 @@ a {
   }
 
   .reseñas-title {
-    font-family: "Cormonant";
+    font-family: "Cormorant";
     font-size: 32px;
     font-weight: 700;
 
@@ -4247,7 +4247,7 @@ a {
   }
 
   .home-properties-9-title {
-    font-family: "Cormonant";
+    font-family: "Cormorant";
     font-size: 32px;
     font-weight: 700;
 
@@ -4299,7 +4299,7 @@ a {
   }
 
   .home-properties-10-title {
-    font-family: "Cormonant";
+    font-family: "Cormorant";
     font-size: 32px;
     font-weight: 700;
 
@@ -4429,7 +4429,7 @@ a {
   }
 
   .home-properties-1-title {
-    font-family: "Cormonant";
+    font-family: "Cormorant";
     font-size: 32px;
     font-weight: 700;
 
@@ -4462,7 +4462,7 @@ a {
   }
 
   .home-properties-8-title {
-    font-family: "Cormonant";
+    font-family: "Cormorant";
     font-size: 32px;
     font-weight: 700;
 
@@ -4567,7 +4567,7 @@ a {
   }
 
   .home-properties-2-card-title {
-    font-family: "Cormonant";
+    font-family: "Cormorant";
     font-size: 32px;
     font-weight: 700;
     margin: 0px;
@@ -4666,7 +4666,7 @@ a {
   }
 
   .home-properties-4-title {
-    font-family: "Cormonant";
+    font-family: "Cormorant";
     font-size: 28px;
     font-weight: 700;
 
@@ -4938,7 +4938,7 @@ a {
   }
 
   .home-properties-5-title {
-    font-family: "Cormonant";
+    font-family: "Cormorant";
     font-size: 28px;
     font-weight: 700;
 
@@ -5278,7 +5278,7 @@ a {
   }
 
   .pricing-subtitle {
-    font-family: "Cormonant";
+    font-family: "Cormorant";
     font-size: 32px;
     font-weight: 700;
 

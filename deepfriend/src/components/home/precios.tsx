@@ -34,27 +34,21 @@ export function TarjetasPreciosComponent() {
         }}>
           <div className="home-properties-4-card-container-big-letters-container">
             <h1 className="home-properties-4-card-title" style={{ color: systemColor === "dark" ? BASIC_LIGHT_COLOR : "#011C2F", textDecoration: "none" }}>
-              {TranslationTexts[systemLanguage].home_properties_4_0_title}
+              {TranslationTexts[systemLanguage].penguin_title}
             </h1>
             <h1 className="home-properties-4-card-money-text">
               <strong style={{ fontSize: 54, marginRight: 4 }}>
-                $1
+                $4.99
               </strong>
-              {TranslationTexts[systemLanguage].home_properties_4_0_0_text}
+              {TranslationTexts[systemLanguage].penguin_text}
             </h1>
-            <h1 className="home-properties-4-card-penguin-text">
-              {TranslationTexts[systemLanguage].home_properties_4_0_1_text}
-            </h1>
-            <h1 className="home-properties-4-card-tokens-text">
+            <h1 className="home-properties-4-card-tokens-text" style={{ marginTop: 16 }}>
               <Image
                 alt="DF Web icon"
-                src={systemColor === "light" ? ImageProperties4Dark : ImageProperties4White}
+                src={ImageProperties4Dark}
                 className="home-properties-4-card-check-image"
               />
-              18 DF
-            </h1>
-            <h1 className="home-properties-4-card-dashed-text">
-              1DF = 0,05$
+              1 DAY
             </h1>
             <div style={{
               width: "100%",
@@ -83,43 +77,40 @@ export function TarjetasPreciosComponent() {
         </div>
         <div className="home-properties-4-card-container-little" style={{ color: systemColor === "dark" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR, backgroundColor: systemColor === 'light' ? "#011C2F" : BASIC_LIGHT_COLOR }}>
           <h1 className="home-properties-4-card-title" style={{ color: systemColor === "dark" ? "#011C2F" : BASIC_LIGHT_COLOR }}>
-            {TranslationTexts[systemLanguage].home_properties_4_1_title}
+            {TranslationTexts[systemLanguage].dolphin_title}
           </h1>
           <h1 className="home-properties-4-card-money-text">
             <strong style={{ fontSize: 54, marginRight: 4 }}>
-              $29
+              $39.99
             </strong>
-            {TranslationTexts[systemLanguage].home_properties_4_1_text}
+            {TranslationTexts[systemLanguage].dolphin_text}
           </h1>
           <h1 className="home-properties-4-card-tokens-text">
             <Image
               alt="DF Web icon"
-              src={systemColor === "dark" ? ImageProperties4Dark : ImageProperties4White}
+              src={ImageProperties4White}
               className="home-properties-4-card-check-image"
             />
-            700 DF
+            1 MONTH
           </h1>
-          <h1 className="home-properties-4-card-dashed-text">
-            1DF = 0.04$
-          </h1>
-          <button className={"button-1"} style={{
+          <button className={"button-yellow"} style={{
             width: "100%",
             alignSelf: "flex-end",
           }}>
             <h1 className="button-text">
-              {TranslationTexts[systemLanguage].home_properties_4_1_button}
+              {TranslationTexts[systemLanguage].subscribe}
             </h1>
           </button>
         </div>
         <div className="home-properties-4-card-container-little" style={{ color: BASIC_DARK_COLOR }}>
           <h1 className="home-properties-4-card-title" style={{ color: "#011C2F" }}>
-            {TranslationTexts[systemLanguage].home_properties_4_2_title}
+            {TranslationTexts[systemLanguage].whale_title}
           </h1>
           <h1 className="home-properties-4-card-money-text">
             <strong style={{ fontSize: 54, marginRight: 4 }}>
-              $57
+              $357.48
             </strong>
-            {TranslationTexts[systemLanguage].home_properties_4_2_text}
+            {TranslationTexts[systemLanguage].whale_text}
           </h1>
           <h1 className="home-properties-4-card-tokens-text">
             <Image
@@ -127,17 +118,14 @@ export function TarjetasPreciosComponent() {
               src={ImageProperties4Dark}
               className="home-properties-4-card-check-image"
             />
-            1 800 DF
+            1 YEAR
           </h1>
-          <h1 className="home-properties-4-card-dashed-text">
-            1DF = 0,03$
-          </h1>
-          <button className="button-1" style={{
+          <button className="button-yellow" style={{
             width: "100%",
             alignSelf: "flex-end",
           }}>
             <h1 className="button-text">
-              {TranslationTexts[systemLanguage].home_properties_4_1_button}
+              {TranslationTexts[systemLanguage].subscribe}
             </h1>
           </button>
         </div>

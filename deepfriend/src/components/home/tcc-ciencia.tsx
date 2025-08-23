@@ -22,7 +22,7 @@ export default function TccCienciaComponent() {
   };
 
   return (
-    <div className="basic-wrapper" onClick={scrollToNext}>
+    <div className="basic-wrapper" onClick={scrollToNext} style={{ marginTop: 48, marginBottom: 48 }}>
       <div className="basic-container">
         <div className="basic-container-image">
           <Image
