@@ -4,7 +4,7 @@ import { RootState } from "@/store/store";
 import { useSelector } from "react-redux";
 import { BASIC_DARK_COLOR } from "../../app/layout";
 
-import Asiatica from "../../../public/people/asiatica.png";
+import Blanca from "../../../public/people/blanca.png";
 
 import GoogleplayLogo from "../../../public/icons/google-play-logo.png";
 
@@ -68,7 +68,7 @@ export default function PortadaComponent() {
                 <div className="portada-container-1">
                     <Image
                         alt="Deepfriend screenshot"
-                        src={Asiatica}
+                        src={Blanca}
                         className="portada-image"
                     />
                 </div>

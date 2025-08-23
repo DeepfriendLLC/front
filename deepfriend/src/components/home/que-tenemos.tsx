@@ -1,6 +1,6 @@
 "use client";
 
-import Negra from "../../../public/people/negra.png";
+import Peep from "../../../public/peeps/peep-22.png";
 
 import LevelsImageWhiteEN from "../../../public/images/phase-levels-white-en.svg";
 import LevelsImageDarkEN from "../../../public/images/phase-levels-dark-en.svg";
@@ -11,7 +11,6 @@ import LevelsImageDarkES from "../../../public/images/phase-levels-dark-es.svg";
 import Image from "next/image";
 import { useSelector } from "react-redux";
 import { RootState } from "@/store/store";
-import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "@/app/layout";
 import { TranslationTexts } from "@/store/translations/translations";
 import { useRouter } from "next/navigation";
 import { SendMetricsSessionClickAPI } from "../api/client-api/client-api";
@@ -61,7 +60,7 @@ export default function QueTenemosComponent() {
           <Image
             alt="Deepfriend app screenshots"
             className="basic-image"
-            src={Negra}
+            src={Peep}
           />
         </div>
       </div>

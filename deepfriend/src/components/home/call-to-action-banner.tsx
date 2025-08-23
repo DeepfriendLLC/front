@@ -26,32 +26,34 @@ export default function CallToActionBannerComponent() {
   };
 
   return (
-    <div className="home-properties-8-wrapper" id="🐬">
-      <div className="home-properties-8-container" onClick={goToGooglePlay}>
-        <h1 className="home-properties-8-title" style={{
-          color: systemColor === "dark" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR
+    <div className="basic-wrapper" id="🐬">
+      <div className="basic-container-color" onClick={goToGooglePlay}>
+        <h1 className="call-to-action-title" style={{
+          color: BASIC_LIGHT_COLOR,
+          textAlign: "center",
         }}>
-          {TranslationTexts[systemLanguage].home_properties_8_title}
+          {TranslationTexts[systemLanguage].call_to_action_title}
         </h1>
-        <h1 className="home-properties-8-text" style={{
-          color: systemColor === "dark" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR
+        <h1 className="call-to-action-subtitle" style={{
+          color: BASIC_LIGHT_COLOR,
+          textAlign: "center",
         }}>
-          {TranslationTexts[systemLanguage].home_properties_8_text}
+          {TranslationTexts[systemLanguage].call_to_action_text}
         </h1>
         <div className="home-properties-8-container-tags" style={{
-          color: systemColor === "dark" ? BASIC_DARK_COLOR : BASIC_LIGHT_COLOR
+          color: BASIC_LIGHT_COLOR
         }}>
           <div className="home-properties-8-tag">
             <div className="home-properties-8-tag-container-image">
               <Image
                 alt="DF Check icon"
                 className="home-properties-8-tag-image"
-                src={systemColor === "dark" ? CheckDarkImage : CheckLightImage}
+                src={CheckLightImage}
               />
             </div>
             <div className="home-properties-8-tag-text">
               <h1 className="home-properties-8-text-tag">
-                {TranslationTexts[systemLanguage].home_properties_8_tag_5}
+                {TranslationTexts[systemLanguage].call_to_action_tag_0}
               </h1>
             </div>
           </div>
@@ -60,12 +62,12 @@ export default function CallToActionBannerComponent() {
               <Image
                 alt="DF Check icon"
                 className="home-properties-8-tag-image"
-                src={systemColor === "dark" ? CheckDarkImage : CheckLightImage}
+                src={CheckLightImage}
               />
             </div>
             <div className="home-properties-8-tag-text">
               <h1 className="home-properties-8-text-tag">
-                {TranslationTexts[systemLanguage].home_properties_8_tag_3}
+                {TranslationTexts[systemLanguage].call_to_action_tag_1}
               </h1>
             </div>
           </div>
@@ -74,12 +76,12 @@ export default function CallToActionBannerComponent() {
               <Image
                 alt="DF Check icon"
                 className="home-properties-8-tag-image"
-                src={systemColor === "dark" ? CheckDarkImage : CheckLightImage}
+                src={CheckLightImage}
               />
             </div>
             <div className="home-properties-8-tag-text">
               <h1 className="home-properties-8-text-tag">
-                {TranslationTexts[systemLanguage].home_properties_8_tag_1}
+                {TranslationTexts[systemLanguage].call_to_action_tag_2}
               </h1>
             </div>
           </div>
@@ -88,12 +90,12 @@ export default function CallToActionBannerComponent() {
               <Image
                 alt="DF Check icon"
                 className="home-properties-8-tag-image"
-                src={systemColor === "dark" ? CheckDarkImage : CheckLightImage}
+                src={CheckLightImage}
               />
             </div>
             <div className="home-properties-8-tag-text">
               <h1 className="home-properties-8-text-tag">
-                {TranslationTexts[systemLanguage].home_properties_8_tag_2}
+                {TranslationTexts[systemLanguage].call_to_action_tag_3}
               </h1>
             </div>
           </div>
@@ -102,12 +104,12 @@ export default function CallToActionBannerComponent() {
               <Image
                 alt="DF Check icon"
                 className="home-properties-8-tag-image"
-                src={systemColor === "dark" ? CheckDarkImage : CheckLightImage}
+                src={CheckLightImage}
               />
             </div>
             <div className="home-properties-8-tag-text">
               <h1 className="home-properties-8-text-tag">
-                {TranslationTexts[systemLanguage].home_properties_8_tag_0}
+                {TranslationTexts[systemLanguage].call_to_action_tag_4}
               </h1>
             </div>
           </div>
@@ -115,12 +117,7 @@ export default function CallToActionBannerComponent() {
         <div className="home-properties-8-container-image">
           <button className={"button-yellow"} style={{ alignSelf: "center" }}>
             <h1 className="button-text">
-              {TranslationTexts[systemLanguage].home_badge_button_download_1}
-              <Image
-                alt="DF Phone screenshot"
-                src={GoogleplayLogo}
-                className="button-image"
-              />
+              {TranslationTexts[systemLanguage].download}
             </h1>
           </button>
         </div>

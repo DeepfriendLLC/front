@@ -1,6 +1,6 @@
 "use client";
 
-import Negra from "../../../public/people/negra.png";
+import Peep from "../../../public/peeps/peep-24.png";
 
 import Image from "next/image";
 import { useSelector } from "react-redux";
@@ -39,7 +39,7 @@ export default function QueTenemos2Component() {
           <Image
             alt="Deepfriend app screenshots"
             className="basic-image"
-            src={Negra}
+            src={Peep}
           />
         </div>
       </div>

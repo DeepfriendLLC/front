@@ -1,6 +1,6 @@
 "use client";
 
-import Peep from "../../../public/peeps/peep-22.png";
+import Peep from "../../../public/peeps/peep-26.png";
 
 import Image from "next/image";
 import { useSelector } from "react-redux";

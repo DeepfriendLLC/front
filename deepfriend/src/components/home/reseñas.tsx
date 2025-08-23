@@ -1,8 +1,8 @@
 "use client";
 
-import Peep3 from "../../../public/peeps/peep-3.png";
-import Peep4 from "../../../public/peeps/peep-4.png";
-import Peep5 from "../../../public/peeps/peep-5.png";
+import Asiatica from "../../../public/people/asiatica-perfil.png";
+import Mora from "../../../public/people/mora-perfil.png";
+import Blanca from "../../../public/people/blanca-perfil.png";
 
 import Image from "next/image";
 import { useSelector } from "react-redux";
@@ -21,9 +21,9 @@ export function ReseñasCardComponent({ systemLanguage, index }: { systemLanguag
         className="reseñas-image"
         src={
           index === "1" ?
-            Peep3 :
+            Mora :
             index === "2" ?
-              Peep4 : Peep5
+              Asiatica : Blanca
         }
       />
       <h1 className="reseñas-name" style={{ color: BASIC_DARK_COLOR }}>

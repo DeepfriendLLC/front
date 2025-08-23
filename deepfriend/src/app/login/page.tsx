@@ -2,7 +2,7 @@ import LoginComponent from "@/components/login";
 
 export default function Login() {
   return (
-    <div className="basic-container">
+    <div style={{ flex: 1 }}>
       <LoginComponent />
     </div>
   );

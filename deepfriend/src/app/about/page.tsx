@@ -4,7 +4,7 @@ import AboutProperties1Component from "@/components/about-properties-1";
 
 export default function About() {
   return (
-    <div className="basic-container">
+    <div style={{ flex: 1 }}>
       <AboutBannerComponent />
       <AboutProperties0Component />
       <AboutProperties1Component />

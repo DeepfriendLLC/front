@@ -33,10 +33,10 @@ export default function TccCienciaComponent() {
         </div>
         <div className="basic-container-letters">
           <h1 className="basic-title">
-            {TranslationTexts[systemLanguage].home_properties_12_title}
+            {TranslationTexts[systemLanguage].tcc_science_title}
           </h1>
           <h1 className="basic-text">
-            {TranslationTexts[systemLanguage].home_properties_12_text}
+            {TranslationTexts[systemLanguage].tcc_science_text}
           </h1>
         </div>
       </div>

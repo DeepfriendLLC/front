@@ -1,6 +1,6 @@
 "use client";
 
-import Peep from "../../../public/peeps/peep-22.png";
+import Peep from "../../../public/peeps/peep-23.png";
 
 import Image from "next/image";
 import { useSelector } from "react-redux";
@@ -33,13 +33,13 @@ export default function PorqueNosotrosComponent() {
         </div>
         <div className="basic-container-letters">
           <h1 className="basic-pretitle">
-            {TranslationTexts[systemLanguage].home_properties_1_pretitle}
+            {TranslationTexts[systemLanguage].why_us_pretitle}
           </h1>
           <h1 className="basic-title">
-            {TranslationTexts[systemLanguage].home_properties_1_title}
+            {TranslationTexts[systemLanguage].why_us_title}
           </h1>
           <h1 className="basic-text">
-            {TranslationTexts[systemLanguage].home_properties_1_text}
+            {TranslationTexts[systemLanguage].why_us_text}
           </h1>
         </div>
       </div>

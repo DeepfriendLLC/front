@@ -68,6 +68,9 @@ export function SMViewComponent({ type }: { type: SystemMessageType }) {
 export default function DashboardComponent() {
     return (
         <div className="dashboard-wrapper">
+            <h1 className="basic-title" style={{ textAlign: "center", fontSize: 48, paddingTop: 24, paddingBottom: 48 }}>
+                Vamos hijodeputa!
+            </h1>
             <div className="dashboard-row">
                 <SMViewComponent type={"text_own"} />
                 <SMViewComponent type={"text_group"} />

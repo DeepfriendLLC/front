@@ -2,7 +2,7 @@ import DashboardComponent from "@/components/dashboard";
 
 export default function Dashboard() {
   return (
-    <div className="basic-container">
+    <div style={{ flex: 1 }}>
       <DashboardComponent />
     </div>
   );

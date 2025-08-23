@@ -63,7 +63,7 @@ export default function HomeProperties4Component() {
               alignContent: "flex-end",
               marginTop: 24,
             }}>
-              <button className={systemColor === "dark" ? "button-2" : "button-1"} style={{
+              <button className={"button-yellow"} style={{
                 width: "100%",
                 alignSelf: "flex-end",
               }}>
