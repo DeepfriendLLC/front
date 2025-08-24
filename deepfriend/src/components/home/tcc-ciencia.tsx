@@ -18,7 +18,7 @@ export default function TccCienciaComponent() {
 
   const scrollToNext = async () => {
     await SendMetricsSessionClickAPI(sessionId, "/", "4", "in", systemColor, systemLanguage);
-    router.push('#🐳', { scroll: true });
+    router.push('#💞', { scroll: true });
   };
 
   return (

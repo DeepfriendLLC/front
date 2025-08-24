@@ -19,7 +19,7 @@ export default function QueTenemos3Component() {
 
   const scrollToNext = async () => {
     await SendMetricsSessionClickAPI(sessionId, "/", "1", "in", systemColor, systemLanguage);
-    router.push('#🐧', { scroll: true });
+    router.push('#✨', { scroll: true });
   };
 
   const goToGooglePlay = async () => {
@@ -28,7 +28,7 @@ export default function QueTenemos3Component() {
   };
 
   return (
-    <div className="basic-wrapper" id="🫧" onClick={scrollToNext}>
+    <div className="basic-wrapper" id="🐳" onClick={scrollToNext}>
       <div className="basic-container">
         <div className="basic-container-image">
           <Image

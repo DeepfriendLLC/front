@@ -9,7 +9,6 @@ import Blanca from "../../../public/people/blanca.png";
 import GoogleplayLogo from "../../../public/icons/google-play-logo.png";
 
 import Image from "next/image";
-import { CSSProperties } from "react";
 import { TranslationTexts } from "@/store/translations/translations";
 import { useRouter } from "next/navigation";
 import { SendMetricsSessionClickAPI } from "../api/client-api/client-api";
@@ -23,7 +22,7 @@ export default function PortadaComponent() {
 
     const scrollToNext = async () => {
         await SendMetricsSessionClickAPI(sessionId, "/", "0", "in", systemColor, systemLanguage);
-        router.push('#🫧', { scroll: true });
+        router.push('#💚', { scroll: true });
     };
 
     const goToGooglePlay = async () => {

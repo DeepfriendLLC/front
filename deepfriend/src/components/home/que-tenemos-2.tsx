@@ -18,11 +18,11 @@ export default function QueTenemos2Component() {
 
   const scrollToNext = async () => {
     await SendMetricsSessionClickAPI(sessionId, "/", "2", "in", systemColor, systemLanguage);
-    router.push('#🐬', { scroll: true });
+    router.push('#🐳', { scroll: true });
   };
 
   return (
-    <div className="basic-wrapper" id="🐧" onClick={scrollToNext}>
+    <div className="basic-wrapper" id="🐬" onClick={scrollToNext}>
       <div className="basic-container-reverse">
         <div className="basic-container-letters">
           <h1 className="basic-pretitle">

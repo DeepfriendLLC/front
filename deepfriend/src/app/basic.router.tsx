@@ -36,14 +36,10 @@ export default function BasicRouter({ children }: { children: React.ReactNode })
   const init = async () => {
     if (router && !allowedRoutes.includes(pathname)) router.push(redirectTo);
 
-    const actualColor = getInitSystemColor();
-    const actualLanguage = getInitSystemLanguage();
-
+    getInitSystemLanguage();
     const _sessionId = dayjs().utc().unix().toString();
 
     dispatch(setSessionIdStore(_sessionId));
-
-    await SendMetricsSessionFocusAPI(_sessionId, pathname, "0", actualColor, actualLanguage);
   };
 
   const getInitSystemLanguage = () => {
@@ -60,18 +56,18 @@ export default function BasicRouter({ children }: { children: React.ReactNode })
 
     return actualLanguage;
   };
-
-  const getInitSystemColor = () => {
+  
 /*
+  const getInitSystemColor = () => {
     let actualColor: SystemColorType = "light";
     
     if (!cookies.systemColor) setCookie('systemColor', actualColor);
     else actualColor = cookies.systemColor;
 
     dispatch(setSystemColorStore(actualColor));
-*/
     return "light" as SystemColorType;
   };
+*/
 
   useEffect(() => {
     init();

@@ -35,19 +35,30 @@ export default function Home() {
 
   return (
     <div style={containerStyle}>
+      <VisibleTracker onVisible={async () => await focus("0")} />
       <PortadaComponent />
       <PortadaTagsComponent />
+      <VisibleTracker onVisible={async () => await focus("1")} />
       <PorqueNosotrosComponent />
-      <QueTenemosComponent />
-      <QueTenemos1Component />
-      <QueTenemos2Component />
-      <QueTenemos3Component />
-      <QueTenemos4Component />
-      <ReseñasComponent />
-      <CallToActionBannerComponent />
-      <TccCienciaComponent />
-      <CallToActionBanner1Component />
       <VisibleTracker onVisible={async () => await focus("2")} />
+      <QueTenemosComponent />
+      <VisibleTracker onVisible={async () => await focus("3")} />
+      <QueTenemos1Component />
+      <VisibleTracker onVisible={async () => await focus("4")} />
+      <QueTenemos2Component />
+      <VisibleTracker onVisible={async () => await focus("5")} />
+      <QueTenemos3Component />
+      <VisibleTracker onVisible={async () => await focus("6")} />
+      <QueTenemos4Component />
+      <VisibleTracker onVisible={async () => await focus("7")} />
+      <ReseñasComponent />
+      <VisibleTracker onVisible={async () => await focus("8")} />
+      <CallToActionBannerComponent />
+      <VisibleTracker onVisible={async () => await focus("9")} />
+      <TccCienciaComponent />
+      <VisibleTracker onVisible={async () => await focus("10")} />
+      <CallToActionBanner1Component />
+      <VisibleTracker onVisible={async () => await focus("11")} />
     </div>
   );
 }

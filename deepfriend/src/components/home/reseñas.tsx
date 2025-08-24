@@ -45,12 +45,12 @@ export default function ReseñasComponent() {
 
   const scrollToNext = async () => {
     await SendMetricsSessionClickAPI(sessionId, "/", "2", "in", systemColor, systemLanguage);
-    router.push('#🐬', { scroll: true });
+    router.push('#💖', { scroll: true });
   };
 
   return (
     <div className="reseñas-wrapper">
-      <div className="basic-container" id="🐧" onClick={scrollToNext} style={{ flexDirection: "column" }}>
+      <div className="basic-container" id="💫" onClick={scrollToNext} style={{ flexDirection: "column" }}>
         <h1 className="basic-title" style={{ textAlign: "center" }}>
           {TranslationTexts[systemLanguage].reseñas_title}
         </h1>

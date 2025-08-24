@@ -26,7 +26,7 @@ export default function CallToActionBannerComponent() {
   };
 
   return (
-    <div className="basic-wrapper" id="🐬">
+    <div className="basic-wrapper" id="💖">
       <div className="basic-container-color" onClick={goToGooglePlay}>
         <h1 className="call-to-action-title" style={{
           color: BASIC_LIGHT_COLOR,
