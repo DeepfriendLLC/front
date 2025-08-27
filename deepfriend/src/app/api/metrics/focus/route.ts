@@ -1,7 +1,7 @@
 // src/app/api/external/route.ts
 import { NextRequest, NextResponse } from 'next/server';
 
-const BASE_URL = `https://api.dfbubbles.com`;
+const BASE_URL = `https://staging.dfbubbles.com`;
 const API_KEY = `7bc1bf04-56f3-4321-a867-ce90e2873961`;
 
 export async function POST(req: NextRequest) {

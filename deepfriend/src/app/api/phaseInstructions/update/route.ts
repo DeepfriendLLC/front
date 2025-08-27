@@ -6,25 +6,31 @@ const API_KEY = `48983f72-55f2-4973-bcd1-b6d9a3d601a8`;
 
 export async function POST(req: NextRequest) {
     const {
-        email,
-        password,
+        jwt,
+        phaseNumber,
+        therapyType,
+        title,
+        instructions,
     } = await req.json();
 
-    const response = await fetch(`${BASE_URL}/auth/login`, {
+    const response = await fetch(`${BASE_URL}/df/update/admin/phaseInstructions`, {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
             "apikey": API_KEY,
+            'Authorization': `Bearer ${jwt}`,
         },
         body: JSON.stringify({
-            email,
-            password,
+            phaseNumber,
+            therapyType,
+            title,
+            instructions,
         })
     });
 
     if (response.status !== 201) return NextResponse.error();
 
-    const jwt = await response.text();
+    const pi = await response.json();
 
-    return NextResponse.json({ jwt });
+    return NextResponse.json({ pi });
 }
