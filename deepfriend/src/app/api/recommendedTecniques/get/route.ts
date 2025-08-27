@@ -26,7 +26,5 @@ export async function POST(req: NextRequest) {
 
     const rt = await response.json();
 
-    console.log("AQUII IN SERVER GET RT", rt);
-
     return NextResponse.json({ rt });
 }

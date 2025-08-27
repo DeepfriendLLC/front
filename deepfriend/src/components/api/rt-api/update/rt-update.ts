@@ -1,6 +1,6 @@
 import { TherapyType } from "@/store/store";
 
-export async function UpdatePhaseInstructionsAPI(
+export async function UpdateRecommendedTecniquesAPI(
   jwt: string,
   therapyType: TherapyType,
   tecniques: string,

@@ -28,7 +28,5 @@ export async function POST(req: NextRequest) {
 
     const pi = await response.json();
 
-    console.log("AQUII IN SERVER GET PI", pi);
-
     return NextResponse.json({ pi });
 }
