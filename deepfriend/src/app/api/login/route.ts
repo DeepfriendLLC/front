@@ -10,7 +10,7 @@ export async function POST(req: NextRequest) {
         password,
     } = await req.json();
 
-    const response = await fetch(`${BASE_URL}/auth/login`, {
+    const response = await fetch(`${BASE_URL}/auth/signin`, {
         method: "POST",
         headers: {
             "Content-Type": "application/json",

@@ -1,9 +1,10 @@
-import { TherapyType } from "@/store/store";
+import { SystemMessageLevelType, TherapyType } from "@/store/store";
 
 export async function GetPhaseInstructionsAPI(
   jwt: string,
   therapyType: TherapyType,
   phaseNumber: string,
+  level: SystemMessageLevelType,
 ) {
   try {
     const response = await fetch("/api/phaseInstructions/get", {
@@ -15,6 +16,7 @@ export async function GetPhaseInstructionsAPI(
         jwt,
         therapyType,
         phaseNumber,
+        level,
       })
     });
 

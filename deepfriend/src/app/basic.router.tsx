@@ -12,7 +12,6 @@ import { Footer } from "@/components/basic/footer";
 import { useRouter } from "next/navigation";
 import { AllowedLanguagesEncodedType, setSystemLanguageStore } from "@/store/slice/systemLanguage";
 import Clarity from '@microsoft/clarity';
-import { SendMetricsSessionFocusAPI } from "@/components/api/client-api/client-api";
 import dayjs from "dayjs";
 import utc from 'dayjs/plugin/utc';
 import { setSessionIdStore } from "@/store/slice/sessionId";

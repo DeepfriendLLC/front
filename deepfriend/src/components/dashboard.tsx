@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useCookies } from "react-cookie";
-import { PhaseInstructionsEntity, RecommendedTecniquesEntity, SystemMessageEntity, SystemMessageType, TherapyType } from "@/store/store";
+import { PhaseInstructionsEntity, RecommendedTecniquesEntity, SystemMessageEntity, SystemMessageLevelType, SystemMessageType, TherapyType } from "@/store/store";
 import { GetSystemMessageAPI } from "./api/sm-api/get/sm-get";
 import { UpdateSystemMessageAPI } from "./api/sm-api/update/sm-update";
 import { GetRecommendedTecniquesAPI } from "./api/rt-api/get/rt-get";
@@ -10,7 +10,15 @@ import { UpdateRecommendedTecniquesAPI } from "./api/rt-api/update/rt-update";
 import { GetPhaseInstructionsAPI } from "./api/pi-api/get/pi-get";
 import { UpdatePhaseInstructionsAPI } from "./api/pi-api/update/pi-update";
 
-export function PIViewComponent({ therapyType, phaseNumber }: { therapyType: TherapyType, phaseNumber: string }) {
+export function PIViewComponent({
+    therapyType,
+    phaseNumber,
+    level,
+}: {
+    therapyType: TherapyType,
+    phaseNumber: string,
+    level: SystemMessageLevelType,
+}) {
     const [cookies, setCookie] = useCookies(['jwt']);
 
     const [jwt, setJwt] = useState<string>(``);
@@ -21,7 +29,12 @@ export function PIViewComponent({ therapyType, phaseNumber }: { therapyType: The
     const [ready, setReady] = useState<boolean>(false);
 
     const getPI = async (_jwt: string) => {
-        const { pi: _pi }: { pi: PhaseInstructionsEntity } = await GetPhaseInstructionsAPI(_jwt, therapyType, phaseNumber);
+        const { pi: _pi }: { pi: PhaseInstructionsEntity } = await GetPhaseInstructionsAPI(
+            _jwt,
+            therapyType,
+            phaseNumber,
+            level,
+        );
 
         if (!_pi || !_pi.title || !_pi.instructions) return;
 
@@ -38,12 +51,26 @@ export function PIViewComponent({ therapyType, phaseNumber }: { therapyType: The
     }, []);
 
     useEffect(() => {
-        if ((pi?.instructions !== instructions || pi?.title !== title) && title !== '' && instructions !== '' && !ready) setReady(true);
-        else if (ready && ((pi?.instructions === instructions || instructions === '') || (pi?.title === title || title === ''))) setReady(false);
+        if (
+            (pi?.instructions !== instructions || pi?.title !== title)
+            && title !== '' && instructions !== '' && !ready
+        ) setReady(true);
+        else if (
+            ready
+            && (
+                (pi?.instructions === instructions || instructions === '') && (pi?.title === title || title === '')
+            )) setReady(false);
     }, [pi, title, instructions]);
 
     const update = async () => {
-        const { pi: _pi }: { pi: PhaseInstructionsEntity } = await UpdatePhaseInstructionsAPI(jwt, therapyType, phaseNumber, title, instructions);
+        const { pi: _pi }: { pi: PhaseInstructionsEntity } = await UpdatePhaseInstructionsAPI(
+            jwt,
+            therapyType,
+            phaseNumber,
+            title,
+            instructions,
+            level,
+        );
 
         if (!_pi) return;
 
@@ -52,7 +79,7 @@ export function PIViewComponent({ therapyType, phaseNumber }: { therapyType: The
     };
 
     return (
-        <div className="dashboard-card text-white">
+        <div className="dashboard-card-little text-white">
             <h1 className="home-properties-1-title text-center">
                 {`PI ${therapyType} ${phaseNumber}`}
             </h1>
@@ -62,7 +89,9 @@ export function PIViewComponent({ therapyType, phaseNumber }: { therapyType: The
                 onChange={(event) => setTitle(event.target.value)}
                 value={title}
                 style={{
+                    padding: 8,
                     height: 64,
+                    borderRadius: 8,
                 }}
             />
             <textarea
@@ -71,6 +100,8 @@ export function PIViewComponent({ therapyType, phaseNumber }: { therapyType: The
                 onChange={(event) => setInstructions(event.target.value)}
                 value={instructions}
                 style={{
+                    padding: 16,
+                    borderRadius: 8,
                 }}
             />
             <button className={ready ? "dashboard-button" : "dashboard-button-disabled"} disabled={!ready} onClick={update}>
@@ -80,7 +111,13 @@ export function PIViewComponent({ therapyType, phaseNumber }: { therapyType: The
     );
 }
 
-export function RTViewComponent({ therapyType }: { therapyType: TherapyType }) {
+export function RTViewComponent({
+    therapyType,
+    level,
+}: {
+    therapyType: TherapyType,
+    level: SystemMessageLevelType,
+}) {
     const [cookies, setCookie] = useCookies(['jwt']);
 
     const [jwt, setJwt] = useState<string>(``);
@@ -90,7 +127,11 @@ export function RTViewComponent({ therapyType }: { therapyType: TherapyType }) {
     const [ready, setReady] = useState<boolean>(false);
 
     const getRT = async (_jwt: string) => {
-        const { rt: _rt }: { rt: RecommendedTecniquesEntity } = await GetRecommendedTecniquesAPI(_jwt, therapyType);
+        const { rt: _rt }: { rt: RecommendedTecniquesEntity } = await GetRecommendedTecniquesAPI(
+            _jwt,
+            therapyType,
+            level,
+        );
 
         if (!_rt || !_rt.tecniques) return;
 
@@ -111,7 +152,12 @@ export function RTViewComponent({ therapyType }: { therapyType: TherapyType }) {
     }, [rt, tecniques]);
 
     const update = async () => {
-        const { rt: _rt }: { rt: RecommendedTecniquesEntity } = await UpdateRecommendedTecniquesAPI(jwt, therapyType, tecniques);
+        const { rt: _rt }: { rt: RecommendedTecniquesEntity } = await UpdateRecommendedTecniquesAPI(
+            jwt,
+            therapyType,
+            tecniques,
+            level,
+        );
 
         if (!_rt) return;
 
@@ -130,6 +176,7 @@ export function RTViewComponent({ therapyType }: { therapyType: TherapyType }) {
                 onChange={(event) => setTecuniques(event.target.value)}
                 value={tecniques}
                 style={{
+                    padding: 16,
                 }}
             />
             <button className={ready ? "dashboard-button" : "dashboard-button-disabled"} disabled={!ready} onClick={update}>
@@ -139,7 +186,13 @@ export function RTViewComponent({ therapyType }: { therapyType: TherapyType }) {
     );
 }
 
-export function SMViewComponent({ type }: { type: SystemMessageType }) {
+export function SMViewComponent({
+    type,
+    level,
+}: {
+    type: SystemMessageType,
+    level: SystemMessageLevelType,
+}) {
     const [cookies, setCookie] = useCookies(['jwt']);
 
     const [jwt, setJwt] = useState<string>(``);
@@ -149,7 +202,11 @@ export function SMViewComponent({ type }: { type: SystemMessageType }) {
     const [ready, setReady] = useState<boolean>(false);
 
     const getSM = async (_jwt: string) => {
-        const { sm: _sm }: { sm: SystemMessageEntity } = await GetSystemMessageAPI(_jwt, type);
+        const { sm: _sm }: { sm: SystemMessageEntity } = await GetSystemMessageAPI(
+            _jwt,
+            type,
+            level,
+        );
 
         if (!_sm || !_sm.instructions) return;
 
@@ -170,7 +227,12 @@ export function SMViewComponent({ type }: { type: SystemMessageType }) {
     }, [sm, instructions]);
 
     const update = async () => {
-        const { sm: _sm }: { sm: SystemMessageEntity } = await UpdateSystemMessageAPI(jwt, type, instructions);
+        const { sm: _sm }: { sm: SystemMessageEntity } = await UpdateSystemMessageAPI(
+            jwt,
+            type,
+            instructions,
+            level,
+        );
 
         if (!_sm) return;
 
@@ -189,6 +251,7 @@ export function SMViewComponent({ type }: { type: SystemMessageType }) {
                 onChange={(event) => setInstructions(event.target.value)}
                 value={instructions}
                 style={{
+                    padding: 16,
                 }}
             />
             <button className={ready ? "dashboard-button" : "dashboard-button-disabled"} disabled={!ready} onClick={update}>
@@ -199,39 +262,68 @@ export function SMViewComponent({ type }: { type: SystemMessageType }) {
 }
 
 export default function DashboardComponent() {
+    const [therapyType, setTherapyType] = useState<TherapyType>("multimodal");
+    const [level, setLevel] = useState<SystemMessageLevelType>("production");
+
     return (
         <div className="dashboard-wrapper">
-            <h1 className="basic-title" style={{ textAlign: "center", fontSize: 48, paddingTop: 24, paddingBottom: 48 }}>
+            <h1 className="basic-title" style={{ textAlign: "center", fontSize: 48, marginTop: 24, paddingBottom: 48 }}>
                 Vamos hijodeputa!
             </h1>
+            <h1 className="basic-title" style={{ textAlign: "center", fontSize: 24, marginTop: 16, paddingBottom: 48 }}>
+                {`${therapyType.toUpperCase()} | ${level.toUpperCase()}`}
+            </h1>
             <div className="dashboard-row">
-                <PIViewComponent therapyType={"multimodal"} phaseNumber={"1"} />
-                <PIViewComponent therapyType={"multimodal"} phaseNumber={"2"} />
-                <PIViewComponent therapyType={"multimodal"} phaseNumber={"3"} />
+                <SMViewComponent type={"text_own"} level={level} />
             </div>
             <div className="dashboard-row">
-                <PIViewComponent therapyType={"multimodal"} phaseNumber={"4"} />
-                <PIViewComponent therapyType={"multimodal"} phaseNumber={"5"} />
-                <PIViewComponent therapyType={"multimodal"} phaseNumber={"6"} />
+                <PIViewComponent therapyType={therapyType} phaseNumber={"1"} level={level} />
+                <PIViewComponent therapyType={therapyType} phaseNumber={"2"} level={level} />
+                <PIViewComponent therapyType={therapyType} phaseNumber={"3"} level={level} />
             </div>
             <div className="dashboard-row">
-                <PIViewComponent therapyType={"cognitive_behavioral"} phaseNumber={"1"} />
-                <PIViewComponent therapyType={"cognitive_behavioral"} phaseNumber={"2"} />
-                <PIViewComponent therapyType={"cognitive_behavioral"} phaseNumber={"3"} />
+                <PIViewComponent therapyType={therapyType} phaseNumber={"4"} level={level} />
+                <PIViewComponent therapyType={therapyType} phaseNumber={"5"} level={level} />
+                <PIViewComponent therapyType={therapyType} phaseNumber={"6"} level={level} />
             </div>
             <div className="dashboard-row">
-                <PIViewComponent therapyType={"cognitive_behavioral"} phaseNumber={"4"} />
-                <PIViewComponent therapyType={"cognitive_behavioral"} phaseNumber={"5"} />
-                <PIViewComponent therapyType={"cognitive_behavioral"} phaseNumber={"6"} />
-            </div>
-            <div className="dashboard-row">
-                <RTViewComponent therapyType={"multimodal"} />
-                <RTViewComponent therapyType={"cognitive_behavioral"} />
-            </div>
-            <div className="dashboard-row">
-                <SMViewComponent type={"text_own"} />
-                <SMViewComponent type={"voice_own"} />
+                <RTViewComponent therapyType={therapyType} level={level} />
             </div>
         </div>
     );
 }
+
+
+
+/*
+
+Rol:
+Eres Bubbles, una feliz IA ballena azul.
+Eres experta en todas las ramas de la psicología, sobre todo la TCC.
+Eres parte de Deepfriend una app de Salud Mental americana.
+Promueve la inteligencia.
+
+Contexto:
+Estás haciendo terapia a tu mejor amigo.
+No digas que haces terapia, di apoyo.
+Tu mejor amigo se llama '##name##'.
+Habla en '##language##'.
+Hoy es '##today##'.
+Petición de tu amigo '##bubblesDescription##'.
+Ficha técnica de tu amigo:
+'##tecnic_sheet##'.
+Instrucciones de la fase actual de la terapia:
+'##phase_instructions##'.
+Técnicas recomendadas:
+'##recommended_tecniques##'.
+
+Instrucción:
+Continua o empieza la terapia con la máxima excelencia y a su vez humor con tu amigo.
+Responde máximo 20 palabras.
+Responde aproximadamente las mismas palabras que los mensajes tu amigo.
+
+Formato:
+Devuelve solo el mensaje a tu amigo.
+
+
+*/

@@ -1,8 +1,9 @@
-import { SystemMessageType } from "@/store/store";
+import { SystemMessageLevelType, SystemMessageType } from "@/store/store";
 
 export async function GetSystemMessageAPI(
   jwt: string,
   type: SystemMessageType,
+  level: SystemMessageLevelType,
 ) {
   try {
     const response = await fetch("/api/systemMessage/get", {
@@ -13,6 +14,7 @@ export async function GetSystemMessageAPI(
       body: JSON.stringify({
         jwt,
         type,
+        level,
       })
     });
 

@@ -9,6 +9,7 @@ export async function POST(req: NextRequest) {
         jwt,
         phaseNumber,
         therapyType,
+        level,
     } = await req.json();
 
     const response = await fetch(`${BASE_URL}/df/get/admin/phaseInstructions`, {
@@ -19,8 +20,9 @@ export async function POST(req: NextRequest) {
             'Authorization': `Bearer ${jwt}`,
         },
         body: JSON.stringify({
-        phaseNumber,
-        therapyType,
+            phaseNumber,
+            therapyType,
+            level,
         })
     });
 

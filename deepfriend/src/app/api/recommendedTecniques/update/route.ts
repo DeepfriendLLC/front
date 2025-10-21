@@ -9,6 +9,7 @@ export async function POST(req: NextRequest) {
         jwt,
         therapyType,
         tecniques,
+        level,
     } = await req.json();
 
     const response = await fetch(`${BASE_URL}/df/update/admin/recommendedTecniques`, {
@@ -21,6 +22,7 @@ export async function POST(req: NextRequest) {
         body: JSON.stringify({
             therapyType,
             tecniques,
+            level,
         })
     });
 

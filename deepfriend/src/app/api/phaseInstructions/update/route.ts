@@ -11,6 +11,7 @@ export async function POST(req: NextRequest) {
         therapyType,
         title,
         instructions,
+        level,
     } = await req.json();
 
     const response = await fetch(`${BASE_URL}/df/update/admin/phaseInstructions`, {
@@ -25,6 +26,7 @@ export async function POST(req: NextRequest) {
             therapyType,
             title,
             instructions,
+            level,
         })
     });
 

@@ -8,6 +8,7 @@ export async function POST(req: NextRequest) {
     const {
         jwt,
         type,
+        level,
     } = await req.json();
 
     const response = await fetch(`${BASE_URL}/df/get/admin/systemMessage`, {
@@ -19,6 +20,7 @@ export async function POST(req: NextRequest) {
         },
         body: JSON.stringify({
             type,
+            level,
         })
     });
 

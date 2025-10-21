@@ -23,13 +23,21 @@ export type ProblemType = 'depression' |
 | 'gender' | 'destructive-impulse-conduct' | 'addictions'
 | 'neurocognitive' | 'personality' | 'paraphiliacs' | 'others';
 
-export type SystemMessageType = 'text_own' | 'text_group' | 'voice_own' | 'tecnic_sheet' | 'tecnic_sheet_group' | 'patient_history' | 'patient_history_group';
+//export type SystemMessageType = 'text_own' | 'text_group' | 'voice_own' | 'tecnic_sheet' | 'tecnic_sheet_group' | 'patient_history' | 'patient_history_group';
+export type SystemMessageType = 'text_own'
+    | 'text_group'
+    | 'tecnic_sheet'
+    | 'tecnic_sheet_group'
+    | 'patient_history'
+    | 'patient_history_group';
+export type SystemMessageLevelType = 'production' | 'staging';
 
 export interface SystemMessageEntity {
     uuid: string;
     userUuid: string;
     instructions: string;
     type: SystemMessageType;
+    level: SystemMessageLevelType;
     updatedAt: string;
     createdAt: string;
 };
@@ -41,6 +49,7 @@ export interface PhaseInstructionsEntity {
     therapyType: TherapyType;
     title: string;
     instructions: string;
+    level: SystemMessageLevelType;
     updatedAt: string;
     createdAt: string;
 };
@@ -50,6 +59,7 @@ export interface RecommendedTecniquesEntity {
     userUuid: string;
     therapyType: TherapyType;
     tecniques: string;
+    level: SystemMessageLevelType;
     updatedAt: string;
     createdAt: string;
 };
