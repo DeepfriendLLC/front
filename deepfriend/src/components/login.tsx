@@ -20,17 +20,39 @@ export default function LoginComponent() {
         //if (jwt && jwt !== '') router.push(`/dashboard`);
     }, []);
 
+    const signinAPI = async (
+        email: string,
+        password: string,
+    ) => {
+        try {
+            const response = await fetch("/api/signin", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    email,
+                    password,
+                })
+            });
+
+            return await response.json();
+        } catch (e) {
+            console.error("API Error signin", e);
+        }
+    };
+
     useEffect(() => {
         if (email !== '' && password !== '' && !ready) setReady(true);
         else if (ready && (email === '' || password === '')) setReady(false);
     }, [email, password]);
 
-    const login = async () => {
+    const signin = async () => {
         if (email === '' || password === '') return;
 
-        const { jwt } = await LoginAPI(email, password);
+        const { jwt } = await signinAPI(email, password);
 
-        if(!jwt) return;
+        if (!jwt) return;
 
         setCookie('jwt', jwt);
         router.push(`/dashboard`);
@@ -58,7 +80,7 @@ export default function LoginComponent() {
                     value={password}
                     onChange={(event) => setPassword(event.target.value)}
                 />
-                <button className={ready ? "login-button" : "login-button-disabled"} disabled={!ready} onClick={login}>
+                <button className={ready ? "login-button" : "login-button-disabled"} disabled={!ready} onClick={signin}>
                     Enter
                 </button>
             </div>
