@@ -11,7 +11,6 @@ import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "./layout";
 import { Footer } from "@/components/basic/footer";
 import { useRouter } from "next/navigation";
 import { AllowedLanguagesEncodedType, setSystemLanguageStore } from "@/store/slice/systemLanguage";
-import Clarity from '@microsoft/clarity';
 import dayjs from "dayjs";
 import utc from 'dayjs/plugin/utc';
 import { setSessionIdStore } from "@/store/slice/sessionId";
@@ -70,8 +69,6 @@ export default function BasicRouter({ children }: { children: React.ReactNode })
 
   useEffect(() => {
     init();
-
-    Clarity.init("smee02r8xp");
   }, []);
 
   const updateSystemColor = (_systemColor: "light" | "dark") => {
