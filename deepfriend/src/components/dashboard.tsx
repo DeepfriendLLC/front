@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useCookies } from "react-cookie";
-import { PhaseInstructionsEntity, RecommendedTecniquesEntity, SystemMessageEntity, SystemMessageLevelType, SystemMessageType, TherapyType } from "@/store/store";
+import { PhaseInstructionsEntity, RecommendedTecniquesEntity, SystemMessageEntity, SystemMessageLevelType, SystemMessageType, TherapyType } from "@/hooks/store";
 import { GetSystemMessageAPI } from "./api/sm-api/get/sm-get";
 import { UpdateSystemMessageAPI } from "./api/sm-api/update/sm-update";
 import { GetRecommendedTecniquesAPI } from "./api/rt-api/get/rt-get";

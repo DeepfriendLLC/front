@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useSelector } from "react-redux";
-import { RootState } from "@/store/store";
+import { RootState } from "@/hooks/store";
 
 import PricingProperties1MessageWhite from "../../public/images/pricing-properties-1-message-white.png";
 import PricingProperties1MessageDark from "../../public/images/pricing-properties-1-message-dark.png";
@@ -11,7 +11,7 @@ import PricingProperties1AudioWhite from "../../public/images/pricing-properties
 import PricingProperties1AudioDark from "../../public/images/pricing-properties-1-audio-dark.png";
 
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "@/app/layout";
-import { TranslationTexts } from "@/store/translations/translations";
+import { TranslationTexts } from "@/constants/translations/translations";
 
 export default function PricingProperties1Component() {
   const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);

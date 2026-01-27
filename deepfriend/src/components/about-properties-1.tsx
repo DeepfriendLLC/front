@@ -1,6 +1,6 @@
 "use client";
 
-import { RootState } from "@/store/store";
+import { RootState } from "@/hooks/store";
 import { useSelector } from "react-redux";
 
 import AdrianImage from "../../public/images/adrian.png";
@@ -23,7 +23,7 @@ import AboutProperties1CardIconIvanDark from "../../public/icons/about-propertie
 import Image from "next/image";
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "@/app/layout";
 import Link from "next/link";
-import { TranslationTexts } from "@/store/translations/translations";
+import { TranslationTexts } from "@/constants/translations/translations";
 
 export default function AboutProperties1Component() {
     const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);

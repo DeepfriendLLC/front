@@ -4,9 +4,9 @@ import ImageProperties30 from "../../public/phones/home-properties-3-screenshot-
 
 import Image from "next/image";
 import { useSelector } from "react-redux";
-import { RootState } from "@/store/store";
+import { RootState } from "@/hooks/store";
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "@/app/layout";
-import { TranslationTexts } from "@/store/translations/translations";
+import { TranslationTexts } from "@/constants/translations/translations";
 
 export default function HomeProperties30Component() {
   const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);

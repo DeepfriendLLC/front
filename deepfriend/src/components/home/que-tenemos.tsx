@@ -4,10 +4,10 @@ import Peep from "../../../public/peeps/peep-22.png";
 
 import Image from "next/image";
 import { useSelector } from "react-redux";
-import { RootState } from "@/store/store";
-import { TranslationTexts } from "@/store/translations/translations";
+import { TranslationTexts } from "@/constants/translations/translations";
 import { useRouter } from "next/navigation";
 import { SendMetricsSessionClickAPI } from "../api/client-api/client-api";
+import { RootState } from "@/hooks/store";
 
 export default function QueTenemosComponent() {
   const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);

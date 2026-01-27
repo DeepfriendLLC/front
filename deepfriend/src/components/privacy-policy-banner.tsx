@@ -1,6 +1,6 @@
 "use client";
 
-import { RootState } from "@/store/store";
+import { RootState } from "@/hooks/store";
 import { useSelector } from "react-redux";
 
 import PrivacyPolicyBackgroundDark from "../../public/backgrounds/legal-banner-background-dark.svg";

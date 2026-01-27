@@ -8,9 +8,9 @@ import ImagePenguin from "../../../public/images/home-properties-4-penguin.png";
 import Image from "next/image";
 
 import { useSelector } from "react-redux";
-import { RootState } from "@/store/store";
+import { RootState } from "@/hooks/store";
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "@/app/layout";
-import { TranslationTexts } from "@/store/translations/translations";
+import { TranslationTexts } from "@/constants/translations/translations";
 import { useRouter } from "next/navigation";
 import { SendMetricsSessionClickAPI } from "../api/client-api/client-api";
 

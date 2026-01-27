@@ -1,7 +1,7 @@
 "use client";
 
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "@/app/layout";
-import { RootState } from "@/store/store";
+import { RootState } from "@/hooks/store";
 import { useSelector } from "react-redux";
 
 export default function PrivacyPolicyTextContainerComponent() {

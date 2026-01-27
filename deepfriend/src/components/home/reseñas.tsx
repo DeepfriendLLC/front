@@ -6,12 +6,12 @@ import Blanca from "../../../public/people/blanca-perfil.png";
 
 import Image from "next/image";
 import { useSelector } from "react-redux";
-import { RootState } from "@/store/store";
+import { RootState } from "@/hooks/store";
 import { BASIC_DARK_COLOR } from "@/app/layout";
-import { TranslationTexts } from "@/store/translations/translations";
+import { TranslationTexts } from "@/constants/translations/translations";
 import { useRouter } from "next/navigation";
 import { SendMetricsSessionClickAPI } from "../api/client-api/client-api";
-import { AllowedLanguagesEncodedType } from "@/store/slice/systemLanguage";
+import { AllowedLanguagesEncodedType } from "@/hooks/slice/systemLanguage";
 
 export function ReseñasCardComponent({ systemLanguage, index }: { systemLanguage: AllowedLanguagesEncodedType, index: string }) {
   return (

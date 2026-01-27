@@ -1,6 +1,6 @@
 
-import { SystemColorType } from "@/store/slice/systemColor";
-import { AllowedLanguagesEncodedType } from "@/store/slice/systemLanguage";
+import { SystemColorType } from "@/hooks/slice/systemColor";
+import { AllowedLanguagesEncodedType } from "@/hooks/slice/systemLanguage";
 
 export async function SendMetricsSessionFocusAPI(
   sessionId: string,

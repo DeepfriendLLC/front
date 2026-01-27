@@ -6,8 +6,8 @@ import Link from "next/link";
 import HeadLogoWhite from "../../../public/icon-clean.png";
 
 import { useSelector } from "react-redux";
-import { RootState } from "@/store/store";
-import { TranslationTexts } from "@/store/translations/translations";
+import { RootState } from "@/hooks/store";
+import { TranslationTexts } from "@/constants/translations/translations";
 
 export function Footer() {
     const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);

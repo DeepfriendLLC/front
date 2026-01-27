@@ -1,9 +1,9 @@
 "use client";
 
 import PricingBannerComponent from "@/components/pricing-banner";
-import { RootState } from "@/store/store";
+import { RootState } from "@/hooks/store";
 import { useSelector } from "react-redux";
-import { TranslationTexts } from "@/store/translations/translations";
+import { TranslationTexts } from "@/constants/translations/translations";
 import { TarjetasPreciosComponent } from "@/components/home/precios";
 
 export default function Pricing() {

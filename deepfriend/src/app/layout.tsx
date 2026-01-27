@@ -1,8 +1,7 @@
 "use client";
 
-import "../styles/globals.css";
 import { Provider } from "react-redux";
-import { store } from "@/store/store";
+import { store } from "@/hooks/store";
 import BasicRouter from "./basic.router";
 import { Head } from "@/components/basic/head";
 
@@ -18,8 +17,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const mensajito = `Veritas liberabit vos.`;
-  console.log(mensajito);
+  const message = `Veritas liberabit vos.`;
+  console.log(message);
 
   return (
     <Provider store={store}>

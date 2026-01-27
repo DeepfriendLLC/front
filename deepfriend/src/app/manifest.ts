@@ -4,9 +4,9 @@ export default function manifest(): MetadataRoute.Manifest {
     return {
         name: 'Deepfriend',
         short_name: 'Deepfriend',
-        description: "Deepfriend is an AI app for mental wellness. Click and meet Bubbles, your trusted whale designed with a psychologist's mind and a friend's heart.",
+        description: "Deepfriend, tu app de paz mental. Descubre Bubbles, la IA científica que revoluciona la Salud Mental. Desde solo 12.99$ y con 3 días gratis sin compromiso para decidir si te gusta. Te parece mala idea? Pues pruebala ya en Google Play Store!",
         start_url: '/',
-        categories: ["Deepfriend", "Deep friend", "Deep Friend", "app ai", "app ai mental health", "mental health", "ai mental health", "freedom", "app mental wellness"],
+        categories: ["Deepfriend", "ia Bubbles", "ia cientifica salud mental", "ia cientifica Bubbles", "ia salud mental Bubbles", "ia cientifica salud mental Deepfriend", "ia cientifica salud mental Bubbles", "salud mental basada en la ciencia", "Deep friend", "Deep Friend", "app ia", "salud mental", "salud mental cientifica"],
         display: 'fullscreen',
         background_color: '#24998B',
         theme_color: '#24998B',

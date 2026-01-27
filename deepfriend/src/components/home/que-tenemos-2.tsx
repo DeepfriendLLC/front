@@ -4,8 +4,8 @@ import Peep from "../../../public/peeps/peep-24.png";
 
 import Image from "next/image";
 import { useSelector } from "react-redux";
-import { RootState } from "@/store/store";
-import { TranslationTexts } from "@/store/translations/translations";
+import { RootState } from "@/hooks/store";
+import { TranslationTexts } from "@/constants/translations/translations";
 import { useRouter } from "next/navigation";
 import { SendMetricsSessionClickAPI } from "../api/client-api/client-api";
 

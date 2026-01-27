@@ -1,4 +1,4 @@
-import { AllowedLanguagesEncodedType } from "../slice/systemLanguage";
+import { AllowedLanguagesEncodedType } from "../../hooks/slice/systemLanguage";
 
 export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string, string>> = {
     en: {

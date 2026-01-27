@@ -1,12 +1,12 @@
 "use client";
 
-import { RootState } from "@/store/store";
+import { RootState } from "@/hooks/store";
 import { useSelector } from "react-redux";
 
 import Peep from "../../public/peeps/peep-100.png";
 
 import Image from "next/image";
-import { TranslationTexts } from "@/store/translations/translations";
+import { TranslationTexts } from "@/constants/translations/translations";
 
 export default function AboutBannerComponent() {
     const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);

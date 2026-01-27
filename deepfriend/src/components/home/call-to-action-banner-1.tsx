@@ -2,8 +2,8 @@
 
 import Image from "next/image";
 import { useSelector } from "react-redux";
-import { RootState } from "@/store/store";
-import { TranslationTexts } from "@/store/translations/translations";
+import { RootState } from "@/hooks/store";
+import { TranslationTexts } from "@/constants/translations/translations";
 import Link from "next/link";
 import { CSSProperties } from "react";
 

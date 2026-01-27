@@ -1,0 +1,1 @@
+export const BASIC_HORIZONTAL_PADDING = "10vw";

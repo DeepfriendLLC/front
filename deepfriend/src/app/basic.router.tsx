@@ -4,16 +4,16 @@ import { usePathname } from "next/navigation";
 import { useEffect } from "react";
 import { useCookies } from "react-cookie";
 import { useDispatch, useSelector } from "react-redux";
-import { RootState } from "@/store/store";
-import { setSystemColorStore, SystemColorType } from "@/store/slice/systemColor";
+import { RootState } from "@/hooks/store";
+import { setSystemColorStore, SystemColorType } from "@/hooks/slice/systemColor";
 import { Navbar } from "@/components/basic/navbar";
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "./layout";
 import { Footer } from "@/components/basic/footer";
 import { useRouter } from "next/navigation";
-import { AllowedLanguagesEncodedType, setSystemLanguageStore } from "@/store/slice/systemLanguage";
+import { AllowedLanguagesEncodedType, setSystemLanguageStore } from "@/hooks/slice/systemLanguage";
 import dayjs from "dayjs";
 import utc from 'dayjs/plugin/utc';
-import { setSessionIdStore } from "@/store/slice/sessionId";
+import { setSessionIdStore } from "@/hooks/slice/sessionId";
 
 dayjs.extend(utc);
 

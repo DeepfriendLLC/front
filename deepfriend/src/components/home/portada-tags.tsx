@@ -7,9 +7,9 @@ import Heal from "../../../public/tag-icons/heal.png";
 
 import Image from "next/image";
 import { useSelector } from "react-redux";
-import { RootState } from "@/store/store";
+import { RootState } from "@/hooks/store";
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "@/app/layout";
-import { TranslationTexts } from "@/store/translations/translations";
+import { TranslationTexts } from "@/constants/translations/translations";
 
 export default function PortadaTagsComponent() {
   const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);

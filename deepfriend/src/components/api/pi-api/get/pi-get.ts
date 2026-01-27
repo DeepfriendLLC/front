@@ -1,4 +1,4 @@
-import { SystemMessageLevelType, TherapyType } from "@/store/store";
+import { SystemMessageLevelType, TherapyType } from "@/hooks/store";
 
 export async function GetPhaseInstructionsAPI(
   jwt: string,

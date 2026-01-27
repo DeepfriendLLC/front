@@ -1,4 +1,4 @@
-import { SystemMessageLevelType, SystemMessageType } from "@/store/store";
+import { SystemMessageLevelType, SystemMessageType } from "@/hooks/store";
 
 export async function GetSystemMessageAPI(
   jwt: string,

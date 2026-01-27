@@ -1,6 +1,6 @@
 "use client";
 
-import { RootState } from "@/store/store";
+import { RootState } from "@/hooks/store";
 import { useSelector } from "react-redux";
 
 import ContactProperties0ChainImageWhite from "../../public/images/contact-properties-0-chain-white.png";
@@ -18,7 +18,7 @@ import InstagramDark from "../../public/icons/instagram_dark.png";
 import Image from "next/image";
 import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "@/app/layout";
 import Link from "next/link";
-import { TranslationTexts } from "@/store/translations/translations";
+import { TranslationTexts } from "@/constants/translations/translations";
 
 export default function ContactProperties0Component() {
     const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
