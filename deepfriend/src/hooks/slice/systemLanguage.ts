@@ -1,15 +1,15 @@
 import { createSlice } from "@reduxjs/toolkit";
 import type { PayloadAction } from "@reduxjs/toolkit";
 
-export type AllowedLanguagesEncodedType = "en" | "es";
-export type AllowedLanguagesType = "english" | "spanish";
+export type AllowedLanguagesEncodedType = "es" | "ca" | "en";
+export type AllowedLanguagesType = "spanish" | "catalan" | "english";
 
 export interface ISystemLanguageState {
     systemLanguage: AllowedLanguagesEncodedType,
 }
 
 const initialState: ISystemLanguageState = {
-    systemLanguage: "en",
+    systemLanguage: "es",
 };
 
 export const systemLanguageSlice = createSlice({
