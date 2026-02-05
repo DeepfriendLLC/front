@@ -10,7 +10,7 @@
   }
 }
 
-html {
+:global(html) {
   scroll-behavior: smooth;
 
   font-family: Arial, Helvetica, sans-serif;
@@ -18,7 +18,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
+:global(body) {
   max-width: 100vw;
   overflow-x: hidden;
   color: var(--foreground);
@@ -27,22 +27,32 @@ body {
   scroll-behavior: smooth;
 }
 
-* {
+:global(*) {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
-a {
+:global(a) {
+  color: inherit;
+  text-decoration: none;
+}
+:global(h1) {
   color: inherit;
   text-decoration: none;
 }
 
+.test-aa {
+  font-size: 128px;
+}
+
+/*
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
 }
+*/
 
 /* width */
 ::-webkit-scrollbar {
@@ -2433,7 +2443,7 @@ a {
     align-content: center;
 
     align-self: center;
-    
+
     background-color: #011C2F;
     border-radius: 24px;
 
@@ -3223,7 +3233,7 @@ a {
     text-align: center;
     color: #011C2F;
   }
-  
+
   .call-to-action-1-container-title {
     width: 100%;
     height: auto;
