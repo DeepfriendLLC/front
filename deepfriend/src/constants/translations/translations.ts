@@ -5,6 +5,29 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         navbar_home: "Inicio",
         navbar_about: "Sobre Deepfriend",
         navbar_contact: "Contacto",
+        footer_contact: "Contáctanos",
+        footer_links: "Enlaces importantes",
+
+        home_portada_subtitle: "Tu app de paz mental",
+        home_portada_text: "La ciencia de la Salud Mental",
+        home_portada_button_text: "Descarga en Google Play",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
         footer_0: "Contáctanos",
         footer_1: "Enlaces importantes",
         home_badge_title: "Privado. Seguro. Salud mental para todos.",
@@ -141,6 +164,12 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         navbar_home: "Inicio",
         navbar_about: "Sobre Deepfriend",
         navbar_contact: "Contacto",
+        footer_contact: "Contáctanos",
+        footer_links: "Enlaces importantes",
+
+        home_portada_subtitle: "Tu app de paz mental",
+        home_portada_text: "La ciencia de la Salud Mental",
+        home_portada_button_text: "Descarga en Google Play",
         footer_0: "Contact Us",
         footer_1: "Important links",
         home_badge_title: "Private. Safe. Emotional wellbeing for everyone.",
@@ -277,6 +306,12 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         navbar_home: "Inicio",
         navbar_about: "Sobre Deepfriend",
         navbar_contact: "Contacto",
+        footer_contact: "Contáctanos",
+        footer_links: "Enlaces importantes",
+
+        home_portada_subtitle: "Tu app de paz mental",
+        home_portada_text: "La ciencia de la Salud Mental",
+        home_portada_button_text: "Descarga en Google Play",
         navbar_3: "Precios",
         footer_0: "Contáctanos",
         footer_1: "Enlaces importantes",

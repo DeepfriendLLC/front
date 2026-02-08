@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
 
-import Logo from "../../../public/icon-clean.png";
+import Logo from "@/../public/icon-clean.png";
 import NavbarDropdownImageDark from "../../../public/icons/navbar/dark.png";
 import TiktokLogo from "../../../public/icons/social/tiktok/dark.png";
 
