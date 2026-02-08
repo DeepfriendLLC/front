@@ -1,9 +1,12 @@
+"use client";
+
+import styles from "@/styles/global.module.css";
+
 import { ContactBannerComponent } from "@/components/banner/banners";
-import ContactProperties0Component from "@/components/contact/contact-properties-0";
 
 export default function Contact() {
   return (
-    <div style={{ flex: 1 }}>
+    <div className={styles.basicContainer}>
       <ContactBannerComponent />
     </div>
   );

@@ -6,7 +6,7 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         navbar_about: "Sobre Deepfriend",
         navbar_contact: "Contacto",
 
-        footer_contact: "Contáctanos",
+        footer_contact: "Contacta",
         footer_links: "Legal",
         footer_links_privacy_policy: "Politica de privacidad",
         footer_links_legal_terms: "Terminos de uso",
@@ -57,6 +57,12 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
 
         banner_about_title: "Conoce Deepfriend",
         banner_contact_title: "Ponte en contacto",
+
+        about_why_title: "Porque Deepfriend?",
+        about_why_text: "Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.",
+
+        about_pablo_title: "Fundador e ingeniero",
+        about_pablo_text: "I want to give my best to society.I want to give my best to society.I want to give my best to society.I want to give my best to society.I want to give my best to society.",
 
 
 
