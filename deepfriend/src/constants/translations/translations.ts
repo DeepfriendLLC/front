@@ -65,7 +65,11 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         about_pablo_text: "I want to give my best to society.I want to give my best to society.I want to give my best to society.I want to give my best to society.I want to give my best to society.",
 
 
+        contact_title: "Quiero saber tu opinión",
+        contact_text: "Quiero construir la solución de Salud Mental para todos y para eso tengo que entender que quieres, dime! que quieres perro!",
 
+        contact_subtitle_email: "Correos",
+        contact_subtitle_social: "Redes sociales",
 
 
 

@@ -1,8 +1,3 @@
-.button {
-    background-color: transparent;
-    border-width: 0px;
-}
-
 @media (min-width: 769px) {
     .container {
         width: 100%;
@@ -13,53 +8,33 @@
         justify-content: center;
         align-items: center;
 
-        padding-top: 24px;
+        padding: 24px;
+        padding-top: 64px;
         padding-bottom: 64px;
-
-        padding-left: 10vw;
-        padding-right: 10vw;
     }
 
-    .imageContainer {
-        width: auto;
+    .textContainer {
+        width: 50vw;
         height: auto;
 
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
 
-        align-self: center;
-
-        padding: 24px;
+        padding: 8px;
     }
 
-    .image {
-        width: 80px;
-        height: 80px;
-
-        align-self: center;
-    }
-
-    .legalContainer {
-        flex: 1;
-
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        align-items: center;
-    }
-
-    .textContainer {
-        width: 10vw;
-        height: 100%;
+    .socialTextContainer {
+        width: auto;
+        height: auto;
 
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
 
-        align-self: center;
+        align-self: flex-start;
 
         padding: 24px;
     }
@@ -67,20 +42,47 @@
     .title {
         font-family: "Cormorant";
         font-weight: 700;
+        font-size: 40px;
+
+        padding: 0px;
+        margin: 0px;
+
+        margin-bottom: 16px;
+
+        color: black;
+        text-align: left;
+    }
+
+    .text {
+        font-family: "Mulish";
+        font-weight: 500;
+        font-size: 16px;
+
+        padding: 0px;
+        margin: 0px;
+
+        color: black;
+        text-align: left;
+    }
+
+    .socialTitle {
+        font-family: "Cormorant";
+        font-weight: 700;
         font-size: 24px;
 
         padding: 0px;
         margin: 0px;
+
         margin-bottom: 16px;
 
         color: black;
         text-align: center;
     }
 
-    .text {
+    .socialText {
         font-family: "Mulish";
-        font-weight: 500;
-        font-size: 14px;
+        font-weight: 800;
+        font-size: 16px;
 
         padding: 0px;
         margin: 0px;
@@ -95,22 +97,19 @@
 @media (max-width: 768px) {
     .container {
         width: 100%;
-        height: auto;
+        height: 75vh;
 
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
 
-        padding: 0px;
-        padding-top: 24px;
-        padding-bottom: 64px;
-
-        padding-left: 24px;
-        padding-right: 24px;
+        padding: 24px;
+        padding-top: 64px;
+        padding-bottom: 32px;
     }
 
-    .imageContainer {
+    .textContainer {
         width: auto;
         height: auto;
 
@@ -119,29 +118,11 @@
         justify-content: center;
         align-items: center;
 
-        align-self: center;
-
-        padding: 24px;
+        padding: 8px;
     }
 
-    .image {
-        width: 80px;
-        height: 80px;
-
-        align-self: center;
-    }
-
-    .legalContainer {
-        flex: 1;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .textContainer {
-        width: 100%;
+    .socialTextContainer {
+        width: auto;
         height: auto;
 
         display: flex;
@@ -151,16 +132,17 @@
 
         align-self: center;
 
-        padding: 16px;
+        padding: 24px;
     }
 
     .title {
         font-family: "Cormorant";
         font-weight: 700;
-        font-size: 20px;
+        font-size: 32px;
 
         padding: 0px;
         margin: 0px;
+
         margin-bottom: 16px;
 
         color: black;
@@ -170,12 +152,38 @@
     .text {
         font-family: "Mulish";
         font-weight: 500;
-        font-size: 14px;
+        font-size: 16px;
+
+        padding: 0px;
+        margin: 0px;
+
+        color: black;
+        text-align: center;
+    }
+
+    .socialTitle {
+        font-family: "Cormorant";
+        font-weight: 700;
+        font-size: 24px;
 
         padding: 0px;
         margin: 0px;
 
         margin-bottom: 16px;
+
+        color: black;
+        text-align: center;
+    }
+
+    .socialText {
+        font-family: "Mulish";
+        font-weight: 800;
+        font-size: 16px;
+
+        padding: 0px;
+        margin: 0px;
+
+        margin-bottom: 8px;
 
         color: black;
         text-align: center;
