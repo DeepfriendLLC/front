@@ -13,6 +13,37 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         home_portada_button_text: "Descarga en Google Play",
 
 
+        home_properties_mindfulness_title: "Mindfulness científico",
+        home_properties_mindfulness_text: "Encuentra técnicas y habitos validados científicamente para manejar tu ansiedad y mucho más.",
+
+        home_properties_mindfulness_badge_0_title: "Estrés",
+        home_properties_mindfulness_badge_0_text: "Técnicas para controlar el estrés",
+        home_properties_mindfulness_badge_1_title: "Sueño",
+        home_properties_mindfulness_badge_1_text: "Técnicas para el insomnio",
+        home_properties_mindfulness_badge_2_title: "Habitos",
+        home_properties_mindfulness_badge_2_text: "Habitos de vida saludables",
+
+        home_properties_zenverse_title: "Zenverse",
+        home_properties_zenverse_text: "Quita tu estrés y alegra tu día en la red social que promociona el sentirse bien. Crea tu propio Universo Zen con tu musica favorita, meditaciones guiadas y/o sonidos ambientes mientras te diviertes con videos positivos.",
+
+        home_properties_zenverse_badge_0_title: "Sin algoritmos",
+        home_properties_zenverse_badge_0_text: "Aleatorio y sin analizarte",
+        home_properties_zenverse_badge_1_title: "Escucha",
+        home_properties_zenverse_badge_1_text: "Añade musica, meditaciones y/o sonidos ambiente",
+        home_properties_zenverse_badge_2_title: "Positivo",
+        home_properties_zenverse_badge_2_text: "No promociona videos tristes",
+
+        home_properties_bubbles_title: "Bubbles",
+        home_properties_bubbles_text: "Quita tu estrés y alegra tu día en la red social que promociona el sentirse bien. Crea tu propio Universo Zen con tu musica favorita, meditaciones guiadas y/o sonidos ambientes mientras te diviertes con videos positivos.",
+
+        home_properties_bubbles_badge_0_title: "Sin algoritmos",
+        home_properties_bubbles_badge_0_text: "Aleatorio y sin analizarte",
+        home_properties_bubbles_badge_1_title: "Escucha",
+        home_properties_bubbles_badge_1_text: "Añade musica, meditaciones y/o sonidos ambiente",
+        home_properties_bubbles_badge_2_title: "Positivo",
+        home_properties_bubbles_badge_2_text: "No promociona videos tristes",
+
+
 
 
 
@@ -170,6 +201,54 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         home_portada_subtitle: "Tu app de paz mental",
         home_portada_text: "La ciencia de la Salud Mental",
         home_portada_button_text: "Descarga en Google Play",
+
+        home_properties_mindfulness_title: "Mindfulness científico",
+        home_properties_mindfulness_text: "Encuentra técnicas y habitos validados científicamente para manejar tu ansiedad y mucho más.",
+
+        home_properties_mindfulness_badge_0_title: "Estrés",
+        home_properties_mindfulness_badge_0_text: "Técnicas para controlar el estrés",
+        home_properties_mindfulness_badge_1_title: "Sueño",
+        home_properties_mindfulness_badge_1_text: "Técnicas para el insomnio",
+        home_properties_mindfulness_badge_2_title: "Habitos",
+        home_properties_mindfulness_badge_2_text: "Habitos de vida saludables",
+
+        home_properties_zenverse_title: "Zenverse",
+        home_properties_zenverse_text: "Quita tu estrés y alegra tu día en la red social que promociona el sentirse bien. Crea tu propio Universo Zen con tu musica favorita, meditaciones guiadas y/o sonidos ambientes mientras te diviertes con videos positivos.",
+
+        home_properties_zenverse_badge_0_title: "Sin algoritmos",
+        home_properties_zenverse_badge_0_text: "Aleatorio y sin analizarte",
+        home_properties_zenverse_badge_1_title: "Escucha",
+        home_properties_zenverse_badge_1_text: "Añade musica, meditaciones y/o sonidos ambiente",
+        home_properties_zenverse_badge_2_title: "Positiva",
+        home_properties_zenverse_badge_2_text: "No promociona videos depresivos",
+
+        home_properties_bubbles_title: "Bubbles",
+        home_properties_bubbles_text: "Quita tu estrés y alegra tu día en la red social que promociona el sentirse bien. Crea tu propio Universo Zen con tu musica favorita, meditaciones guiadas y/o sonidos ambientes mientras te diviertes con videos positivos.",
+
+        home_properties_bubbles_badge_0_title: "Sin algoritmos",
+        home_properties_bubbles_badge_0_text: "Aleatorio y sin analizarte",
+        home_properties_bubbles_badge_1_title: "Escucha",
+        home_properties_bubbles_badge_1_text: "Añade musica, meditaciones y/o sonidos ambiente",
+        home_properties_bubbles_badge_2_title: "Positivo",
+        home_properties_bubbles_badge_2_text: "No promociona videos tristes",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         footer_0: "Contact Us",
         footer_1: "Important links",
         home_badge_title: "Private. Safe. Emotional wellbeing for everyone.",
@@ -312,6 +391,49 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         home_portada_subtitle: "Tu app de paz mental",
         home_portada_text: "La ciencia de la Salud Mental",
         home_portada_button_text: "Descarga en Google Play",
+
+        home_properties_mindfulness_title: "Mindfulness científico",
+        home_properties_mindfulness_text: "Encuentra técnicas y habitos validados científicamente para manejar tu ansiedad y mucho más.",
+
+
+        home_properties_mindfulness_badge_0_title: "Estrés",
+        home_properties_mindfulness_badge_0_text: "Técnicas para controlar el estrés",
+        home_properties_mindfulness_badge_1_title: "Sueño",
+        home_properties_mindfulness_badge_1_text: "Técnicas para el insomnio",
+        home_properties_mindfulness_badge_2_title: "Habitos",
+        home_properties_mindfulness_badge_2_text: "Habitos de vida saludables",
+
+        home_properties_zenverse_title: "Zenverse",
+        home_properties_zenverse_text: "Quita tu estrés y alegra tu día en la red social que promociona el sentirse bien. Crea tu propio Universo Zen con tu musica favorita, meditaciones guiadas y/o sonidos ambientes mientras te diviertes con videos positivos.",
+
+        home_properties_zenverse_badge_0_title: "Sin algoritmos",
+        home_properties_zenverse_badge_0_text: "Aleatorio y sin analizarte",
+        home_properties_zenverse_badge_1_title: "Escucha",
+        home_properties_zenverse_badge_1_text: "Añade musica, meditaciones y/o sonidos ambiente",
+        home_properties_zenverse_badge_2_title: "Positiva",
+        home_properties_zenverse_badge_2_text: "No promociona videos depresivos",
+
+        home_properties_bubbles_title: "Bubbles",
+        home_properties_bubbles_text: "Quita tu estrés y alegra tu día en la red social que promociona el sentirse bien. Crea tu propio Universo Zen con tu musica favorita, meditaciones guiadas y/o sonidos ambientes mientras te diviertes con videos positivos.",
+
+        home_properties_bubbles_badge_0_title: "Sin algoritmos",
+        home_properties_bubbles_badge_0_text: "Aleatorio y sin analizarte",
+        home_properties_bubbles_badge_1_title: "Escucha",
+        home_properties_bubbles_badge_1_text: "Añade musica, meditaciones y/o sonidos ambiente",
+        home_properties_bubbles_badge_2_title: "Positivo",
+        home_properties_bubbles_badge_2_text: "No promociona videos tristes",
+
+
+
+
+
+
+
+
+
+
+
+
         navbar_3: "Precios",
         footer_0: "Contáctanos",
         footer_1: "Enlaces importantes",

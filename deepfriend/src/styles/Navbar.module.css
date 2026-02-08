@@ -87,17 +87,6 @@
     transition: color 0.3s ease;
 }
 
-.navLink::after {
-    content: '';
-    position: absolute;
-    bottom: -4px;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background-color: #7DB3D7;
-    transition: width 0.3s ease;
-}
-
 .navLink:hover::after {
     width: 100%;
 }

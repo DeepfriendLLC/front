@@ -1,22 +1,20 @@
 "use client";
 
+import styles from "@/styles/Portada.module.css";
+
 import { CSSProperties } from "react";
 import Image from "next/image";
 import { useSelector } from "react-redux";
 import { RootState } from "@/hooks/store";
-
-import styles from "@/styles/Portada.module.css";
-
 import { TranslationTexts } from "@/constants/translations/translations";
 
 import Peeps from "@/../public/peeps/peeps-horizontal.png";
 import GooglePlayLogo from "@/../public/icons/google-play/google-play-logo.png";
 
-
 export default function PortadaComponent() {
-    const googlePlayLink = "https://play.google.com/store/apps/details?id=com.dfbubbles.deepfriend";
-
     const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
+
+    const googlePlayLink = "https://play.google.com/store/apps/details?id=com.dfbubbles.deepfriend";
 
     const goToPlayStore = () => {
         window.open(googlePlayLink, "_blank");
