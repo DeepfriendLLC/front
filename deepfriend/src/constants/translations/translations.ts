@@ -55,6 +55,8 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
 
 
 
+        banner_about_title: "Conoce Deepfriend",
+        banner_contact_title: "Ponte en contacto",
 
 
 

@@ -3,18 +3,16 @@
 import { RootState } from "@/hooks/store";
 import { useSelector } from "react-redux";
 
-import PabloImage from "../../public/images/pablo.jpg";
+import PabloImage from "@/../public/images/pablo/pablo.png";
 
 import Image from "next/image";
-import { BASIC_DARK_COLOR, BASIC_LIGHT_COLOR } from "@/app/layout";
 import { TranslationTexts } from "@/constants/translations/translations";
 
 export default function AboutProperties0Component() {
     const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
-    const { systemColor } = useSelector((state: RootState) => state.systemColor);
 
     return (
-        <div className="about-properties-0-container" style={{ color: systemColor === "dark" ? BASIC_LIGHT_COLOR : BASIC_DARK_COLOR }}>
+        <div className="about-properties-0-container">
             <div className="about-properties-0-pablo-container">
                 <Image
                     alt="Pablo Vallejo, Deepfriend founder."

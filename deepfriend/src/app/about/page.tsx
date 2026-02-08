@@ -1,13 +1,12 @@
-import AboutBannerComponent from "@/components/about-banner";
-import AboutProperties0Component from "@/components/about-properties-0";
-import AboutProperties1Component from "@/components/about-properties-1";
+import AboutProperties0Component from "@/components/about/about-properties-0";
+import { AboutBannerComponent } from "@/components/banner/banners";
+import MissionAndValuesComponent from "@/components/home/missionAndValues/mission-and-values";
 
 export default function About() {
   return (
     <div style={{ flex: 1 }}>
       <AboutBannerComponent />
-      <AboutProperties0Component />
-      <AboutProperties1Component />
+      <MissionAndValuesComponent />
     </div>
   );
 }
