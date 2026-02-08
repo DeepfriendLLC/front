@@ -1,17 +1,19 @@
 "use client";
 
+import styles from "@/styles/global.module.css";
+
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
 import { useCookies } from "react-cookie";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "@/hooks/store";
-import { Navbar } from "@/components/basic/navbar";
-import { Footer } from "@/components/basic/footer";
+import { NavbarComponent } from "@/components/basic/navbar";
+import { FooterComponent } from "@/components/basic/footer";
 import { useRouter } from "next/navigation";
 import { AllowedLanguagesEncodedType, setSystemLanguageStore } from "@/hooks/slice/systemLanguage";
+import { setSessionIdStore } from "@/hooks/slice/sessionId";
 import dayjs from "dayjs";
 import utc from 'dayjs/plugin/utc';
-import { setSessionIdStore } from "@/hooks/slice/sessionId";
 
 dayjs.extend(utc);
 
@@ -62,19 +64,10 @@ export default function BasicRouter({ children }: { children: React.ReactNode })
   };
 
   return (
-    <div className="col-lg-12" style={{
-      backgroundColor: "white",
-      width: "100vw",
-      height: "100vh",
-      overflow: "hidden",
-      overflowX: "hidden",
-      overflowY: "scroll",
-      padding: 0,
-      margin: 0
-    }}>
-      <Navbar />
+    <div>
+      <NavbarComponent />
         {children}
-      <Footer />
+      <FooterComponent />
     </div>
   );
 }

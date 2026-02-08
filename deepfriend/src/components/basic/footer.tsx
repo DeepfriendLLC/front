@@ -1,5 +1,7 @@
 "use client";
 
+import styles from "@/styles/Footer.module.css";
+
 import Image from "next/image";
 import Link from "next/link";
 
@@ -9,47 +11,53 @@ import { useSelector } from "react-redux";
 import { RootState } from "@/hooks/store";
 import { TranslationTexts } from "@/constants/translations/translations";
 
-export function Footer() {
+export function FooterComponent() {
     const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
 
+    const scrollToTop = () => window.scrollTo({ top: 0, });
+
     return (
-        <div className="footer-container">
-            <div className="footer-logo-container">
-                <Link href={'/'} className="footer-logo-image-link">
+        <div className={styles.container}>
+            <div className={styles.imageContainer}>
+                <button
+                    className={styles.button}
+                    onClick={scrollToTop}
+                >
                     <Image
                         alt="Deepfriend logo"
                         src={HeadLogoWhite}
-                        className="footer-logo-image"
+                        className={styles.image}
                     />
-                </Link>
+                </button>
             </div>
-            <div className="footer-letters-container">
-                <h1 className="footer-letters-title">
-                    {TranslationTexts[systemLanguage].footer_0}
-                </h1>
-                <h1 className="footer-letters-text">
-                    hello@dfbubbles.com
-                </h1>
-                <h1 className="footer-letters-text">
-                    help@dfbubbles.com
-                </h1>
-            </div>
-            <div className="footer-letters-legal-container">
-                <h1 className="footer-letters-title">
-                    {TranslationTexts[systemLanguage].footer_1}
-                </h1>
-                <Link href={'/privacy-policy'}>
-                    <h1 className="footer-letters-text" style={{ color: "#011C2F", textDecoration: "underline" }}>
-                        Privacy Policy
+            <div className={styles.legalContainer}>
+                <div className={styles.textContainer}>
+                    <h1 className={styles.title}>
+                        {TranslationTexts[systemLanguage].footer_contact}
                     </h1>
-                </Link>
-                <Link href={'/legal-terms'}>
-                    <h1 className="footer-letters-text" style={{ color: "#011C2F", textDecoration: "underline" }}>
-                        Legal Terms
+                    <h1 className={styles.text}>
+                        hello@dfbubbles.com
                     </h1>
-                </Link>
+                    <h1 className={styles.text}>
+                        help@dfbubbles.com
+                    </h1>
+                </div>
+                <div className={styles.textContainer}>
+                    <h1 className={styles.title}>
+                        {TranslationTexts[systemLanguage].footer_links}
+                    </h1>
+                    <Link href={'/privacy-policy'}>
+                        <h1 className={styles.text}>
+                            {TranslationTexts[systemLanguage].footer_links_privacy_policy}
+                        </h1>
+                    </Link>
+                    <Link href={'/legal-terms'}>
+                        <h1 className={styles.text}>
+                            {TranslationTexts[systemLanguage].footer_links_legal_terms}
+                        </h1>
+                    </Link>
+                </div>
             </div>
-
         </div>
     );
 };

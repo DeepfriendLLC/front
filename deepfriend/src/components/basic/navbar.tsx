@@ -1,22 +1,22 @@
 "use client";
 
-import Image from "next/image";
-import Link from "next/link";
+import styles from "@/styles/Navbar.module.css";
+
 import { useState } from "react";
+import Link from "next/link";
+import Image from "next/image";
+import { useSelector } from "react-redux";
+import { RootState } from "@/hooks/store";
 import { usePathname } from "next/navigation";
 
 import Logo from "@/../public/icon-clean.png";
-import NavbarDropdownImageDark from "../../../public/icons/navbar/dark.png";
-import TiktokLogo from "../../../public/icons/social/tiktok/dark.png";
+import NavbarDropdownImageDark from "@/../public/icons/navbar/dark.png";
+import TiktokLogo from "@/../public/icons/social/tiktok/dark.png";
 
-import { BASIC_DARK_COLOR } from "@/app/layout";
 import { BASIC_HORIZONTAL_PADDING } from "@/constants/general";
-import styles from "@/styles/Navbar.module.css";
 import { TranslationTexts } from "@/constants/translations/translations";
-import { useSelector } from "react-redux";
-import { RootState } from "@/hooks/store";
 
-export function Navbar() {
+export function NavbarComponent() {
     const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -63,7 +63,7 @@ export function Navbar() {
                     href="/"
                     className={`${styles.navLink} ${pathname === "/" ? styles.active : ""}`}
                     style={{
-                        color: pathname === "/" ? "#7DB3D7" : BASIC_DARK_COLOR,
+                        color: pathname === "/" ? "#7DB3D7" : "black",
                         alignSelf: "center",
                     }}
                 >
@@ -73,7 +73,7 @@ export function Navbar() {
                     href="/about"
                     className={`${styles.navLink} ${pathname === "/about" ? styles.active : ""}`}
                     style={{
-                        color: pathname === "/about" ? "#7DB3D7" : BASIC_DARK_COLOR,
+                        color: pathname === "/about" ? "#7DB3D7" : "black",
                         alignSelf: "center",
                     }}
                 >
@@ -83,7 +83,7 @@ export function Navbar() {
                     href="/contact"
                     className={`${styles.navLink} ${pathname === "/contact" ? styles.active : ""}`}
                     style={{
-                        color: pathname === "/contact" ? "#7DB3D7" : BASIC_DARK_COLOR,
+                        color: pathname === "/contact" ? "#7DB3D7" : "black",
                         alignSelf: "center",
                     }}
                 >
@@ -125,7 +125,7 @@ export function Navbar() {
                         href="/"
                         className={`${styles.dropdownLink} ${pathname === "/" ? styles.active : ""}`}
                         style={{
-                            color: pathname === "/" ? "#7DB3D7" : BASIC_DARK_COLOR,
+                            color: pathname === "/" ? "#7DB3D7" : "black",
                         }}
                         onClick={() => setIsMenuOpen(false)}
                     >
@@ -135,7 +135,7 @@ export function Navbar() {
                         href="/about"
                         className={`${styles.dropdownLink} ${pathname === "/about" ? styles.active : ""}`}
                         style={{
-                            color: pathname === "/about" ? "#7DB3D7" : BASIC_DARK_COLOR,
+                            color: pathname === "/about" ? "#7DB3D7" : "black",
                         }}
                         onClick={() => setIsMenuOpen(false)}
                     >
@@ -145,7 +145,7 @@ export function Navbar() {
                         href="/contact"
                         className={`${styles.dropdownLink} ${pathname === "/contact" ? styles.active : ""}`}
                         style={{
-                            color: pathname === "/contact" ? "#7DB3D7" : BASIC_DARK_COLOR,
+                            color: pathname === "/contact" ? "#7DB3D7" : "black",
                         }}
                         onClick={() => setIsMenuOpen(false)}
                     >
@@ -173,7 +173,7 @@ export function Navbar() {
                         <span
                             className={styles.dropdownTiktokText}
                             style={{
-                                color: BASIC_DARK_COLOR,
+                                color: "black",
                             }}>
                             TikTok
                         </span>

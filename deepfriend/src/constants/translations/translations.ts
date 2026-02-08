@@ -5,8 +5,11 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         navbar_home: "Inicio",
         navbar_about: "Sobre Deepfriend",
         navbar_contact: "Contacto",
+
         footer_contact: "Contáctanos",
-        footer_links: "Enlaces importantes",
+        footer_links: "Legal",
+        footer_links_privacy_policy: "Politica de privacidad",
+        footer_links_legal_terms: "Terminos de uso",
 
         home_portada_subtitle: "Tu app de paz mental",
         home_portada_text: "La ciencia de la Salud Mental",
@@ -205,6 +208,8 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         navbar_contact: "Contacto",
         footer_contact: "Contáctanos",
         footer_links: "Enlaces importantes",
+        footer_links_privacy_policy: "Politica de privacidad",
+        footer_links_legal_terms: "Terminos de uso",
 
         home_portada_subtitle: "Tu app de paz mental",
         home_portada_text: "La ciencia de la Salud Mental",
@@ -402,6 +407,8 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         navbar_contact: "Contacto",
         footer_contact: "Contáctanos",
         footer_links: "Enlaces importantes",
+        footer_links_privacy_policy: "Politica de privacidad",
+        footer_links_legal_terms: "Terminos de uso",
 
         home_portada_subtitle: "Tu app de paz mental",
         home_portada_text: "La ciencia de la Salud Mental",
