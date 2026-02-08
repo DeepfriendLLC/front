@@ -44,6 +44,11 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         home_properties_bubbles_badge_2_text: "No promociona videos tristes",
 
 
+        home_mission_title: "Misión",
+        home_mission_text: "La misión de Deepfriend es de hacer llegar a las personas los avances científicos más nuevos de la Salud Mental en un espacio seguro y confiable. Dar una solución completa siempre disponible y al alcance. Un lugar dónde poder aprender de una manera simple y entendible, dónde poder venir a relajar su mente del estrés en una red social sansa y customizable, todo con una IA científica basada en la Terapia Cognitivo Conductual que guíe de una manera amigable con exactitud.",
+
+        home_values_title: "Valores",
+        home_values_text: "Los valores de Deepfriend están altamente enfocados en la evidencia científica, la privacidad y seguridad del usuario para su confianza. Esto implica que Deepfriend se compromete a nunca, bajo ningún concepto, vender y/o compartir ningún dato de ningún usuario fuera de la empresa. A la vez que Deepfriend se mantiene siempre y solo con técnicas y terapias probadas bajo la evidencia científica.",
 
 
 
@@ -58,7 +63,10 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
 
 
 
-        
+
+
+
+
         footer_0: "Contáctanos",
         footer_1: "Enlaces importantes",
         home_badge_title: "Privado. Seguro. Salud mental para todos.",
@@ -230,7 +238,14 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         home_properties_bubbles_badge_1_title: "Escucha",
         home_properties_bubbles_badge_1_text: "Añade musica, meditaciones y/o sonidos ambiente",
         home_properties_bubbles_badge_2_title: "Positivo",
-        home_properties_bubbles_badge_2_text: "No promociona videos tristes",
+        home_properties_bubbles_badge_2_text: "No promociona videos aaa",
+
+
+        home_mission_title: "Misión",
+        home_mission_text: "aaaa",
+
+        home_values_title: "Valores",
+        home_values_text: "bbb",
 
 
 
@@ -422,6 +437,13 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         home_properties_bubbles_badge_1_text: "Añade musica, meditaciones y/o sonidos ambiente",
         home_properties_bubbles_badge_2_title: "Positivo",
         home_properties_bubbles_badge_2_text: "No promociona videos tristes",
+
+
+        home_mission_title: "Misión",
+        home_mission_text: "Misión",
+
+        home_values_title: "Valores",
+        home_values_text: "Misión",
 
 
 
