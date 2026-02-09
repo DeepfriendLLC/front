@@ -52,20 +52,20 @@ export default function HomeProperties1Component() {
           <BadgeComponent
             title={TranslationTexts[systemLanguage].home_properties_mindfulness_badge_0_title}
             text={TranslationTexts[systemLanguage].home_properties_mindfulness_badge_0_text}
-            backgroundColor="#24998B"
-            color="white"
+            backgroundColor="#24fcb4"
+            color="black"
           />
           <BadgeComponent
             title={TranslationTexts[systemLanguage].home_properties_mindfulness_badge_1_title}
             text={TranslationTexts[systemLanguage].home_properties_mindfulness_badge_1_text}
-            backgroundColor="#24998B"
+            backgroundColor="#008b8b"
             color="white"
           />
           <BadgeComponent
             title={TranslationTexts[systemLanguage].home_properties_mindfulness_badge_2_title}
             text={TranslationTexts[systemLanguage].home_properties_mindfulness_badge_2_text}
-            backgroundColor="#24998B"
-            color="white"
+            backgroundColor="#f5deb3"
+            color="black"
           />
         </div>
       </div>

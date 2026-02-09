@@ -39,12 +39,12 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         home_properties_bubbles_title: "Bubbles",
         home_properties_bubbles_text: "Quita tu estrés y alegra tu día en la red social que promociona el sentirse bien. Crea tu propio Universo Zen con tu musica favorita, meditaciones guiadas y/o sonidos ambientes mientras te diviertes con videos positivos.",
 
-        home_properties_bubbles_badge_0_title: "Sin algoritmos",
-        home_properties_bubbles_badge_0_text: "Aleatorio y sin analizarte",
-        home_properties_bubbles_badge_1_title: "Escucha",
-        home_properties_bubbles_badge_1_text: "Añade musica, meditaciones y/o sonidos ambiente",
-        home_properties_bubbles_badge_2_title: "Positivo",
-        home_properties_bubbles_badge_2_text: "No promociona videos tristes",
+        home_properties_bubbles_badge_0_title: "TCC",
+        home_properties_bubbles_badge_0_text: "Apoyo basado en la evidencia científica",
+        home_properties_bubbles_badge_1_title: "Voz o chat",
+        home_properties_bubbles_badge_1_text: "Libre de expresarte cómodamente",
+        home_properties_bubbles_badge_2_title: "24/7 Sin prejuicios",
+        home_properties_bubbles_badge_2_text: "Siempre contigo y sin juzgarte",
 
 
         home_mission_title: "Misión",

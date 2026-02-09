@@ -33,7 +33,7 @@ export default function HomeProperties2Component() {
   const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
 
   return (
-    <div className={styles.container}>
+    <div className={styles.reverseContainer}>
       <div className={styles.imageContainer}>
         <Image
           alt="Deepfriend Zenverse Logo"
@@ -52,19 +52,19 @@ export default function HomeProperties2Component() {
           <BadgeComponent
             title={TranslationTexts[systemLanguage].home_properties_zenverse_badge_0_title}
             text={TranslationTexts[systemLanguage].home_properties_zenverse_badge_0_text}
-            backgroundColor="#24998B"
-            color="white"
+            backgroundColor="#e5b3e5"
+            color="black"
           />
           <BadgeComponent
             title={TranslationTexts[systemLanguage].home_properties_zenverse_badge_1_title}
             text={TranslationTexts[systemLanguage].home_properties_zenverse_badge_1_text}
-            backgroundColor="#24998B"
+            backgroundColor="#c77dc7"
             color="white"
           />
           <BadgeComponent
             title={TranslationTexts[systemLanguage].home_properties_zenverse_badge_2_title}
             text={TranslationTexts[systemLanguage].home_properties_zenverse_badge_2_text}
-            backgroundColor="#24998B"
+            backgroundColor="#a855a8"
             color="white"
           />
         </div>
