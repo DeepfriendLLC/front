@@ -67,7 +67,7 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
 
 
         contact_title: "Quiero saber tu opinión",
-        contact_text: "Quiero construir la solución de Salud Mental para todos y para eso tengo que entender que quieres, dime! que quieres perro!",
+        contact_text: "Deepfriend es un proyecto personal construido en comunidad, escuchando las necesidades de muchas personas y adaptandolas para tener la mejor solución para todos. No solo me encantará escucharte, te animo a que escribas tu opinión para mejorar Deepfriend. Juntos podemos hacer de Deepfriend un referente en Salud Mental científica y ayudar a muchas parsonas.",
 
         contact_subtitle_email: "Correos",
         contact_subtitle_social: "Redes sociales",
