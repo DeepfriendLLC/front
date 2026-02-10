@@ -6,7 +6,7 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         navbar_about: "Sobre Deepfriend",
         navbar_contact: "Contacto",
 
-        footer_contact: "Contacta",
+        footer_contact: "Contacto",
         footer_links: "Legal",
         footer_links_privacy_policy: "Politica de privacidad",
         footer_links_legal_terms: "Terminos de uso",

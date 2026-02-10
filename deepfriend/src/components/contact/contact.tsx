@@ -31,14 +31,6 @@ export function ContactComponent() {
                     help@dfbubbles.com
                 </h1>
             </div>
-            <div className={styles.socialTextContainer}>
-                <h1 className={styles.socialTitle}>
-                    {TranslationTexts[systemLanguage].contact_subtitle_social}
-                </h1>
-                <h1 className={styles.socialText}>
-                    @dfbubbles_app
-                </h1>
-            </div>
         </div>
     );
 }

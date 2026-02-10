@@ -75,6 +75,7 @@
 }
 
 .navLink {
+    text-decoration: none;
     align-self: center;
 
     font-family: 'Cormorant', serif;
@@ -82,21 +83,21 @@
     font-weight: 500;
 
     text-align: center;
-
-    text-decoration: none;
-    transition: color 0.3s ease;
 }
 
 .navLink:hover::after {
+    text-decoration: none;
     width: 100%;
 }
 
 .navLink.active {
+    text-decoration: none;
     color: #7DB3D7;
     font-weight: 700;
 }
 
 .navLink.active::after {
+    text-decoration: none;
     width: 100%;
 }
 
@@ -278,7 +279,6 @@
         right: 8px;
         min-width: 200px;
     }
-
 
     .navTitle {
         font-family: "Cormorant";

@@ -34,11 +34,6 @@
   scroll-behavior: smooth;
 }
 
-
-
-
-
-
 @media (min-width: 769px) {
   .basicContainer {
     width: 100vw;
