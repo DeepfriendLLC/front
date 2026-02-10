@@ -18,34 +18,34 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
 
 
         home_properties_mindfulness_title: "Mindfulness científico",
-        home_properties_mindfulness_text: "Encuentra técnicas y habitos validados científicamente para manejar tu ansiedad y mucho más.",
+        home_properties_mindfulness_text: "Librería científica gratuita con técnicas y habitos saludables para controlar la situación sea cual sea y vayas dónde vayas. Descubre y aprende a controlar el estrés, la ansiedad, el insomnio y mucho más.",
 
-        home_properties_mindfulness_badge_0_title: "Estrés",
-        home_properties_mindfulness_badge_0_text: "Técnicas para controlar el estrés",
-        home_properties_mindfulness_badge_1_title: "Sueño",
-        home_properties_mindfulness_badge_1_text: "Técnicas para el insomnio",
-        home_properties_mindfulness_badge_2_title: "Habitos",
-        home_properties_mindfulness_badge_2_text: "Habitos de vida saludables",
+        home_properties_mindfulness_badge_0_title: "Técnicas",
+        home_properties_mindfulness_badge_0_text: "Calma la mente en cualquier sitio",
+        home_properties_mindfulness_badge_1_title: "Habitos",
+        home_properties_mindfulness_badge_1_text: "Aprende a llevar una vida mejor",
+        home_properties_mindfulness_badge_2_title: "+100 recursos",
+        home_properties_mindfulness_badge_2_text: "Descubre nuevas herramientas",
 
         home_properties_zenverse_title: "Zenverse",
-        home_properties_zenverse_text: "Quita tu estrés y alegra tu día en la red social que promociona el sentirse bien. Crea tu propio Universo Zen con tu musica favorita, meditaciones guiadas y/o sonidos ambientes mientras te diviertes con videos positivos.",
+        home_properties_zenverse_text: "Red social de videos al estilo Tiktok pero sana. Crea tu Universo Zen con el toolkit integrado poniendo música, meditaciones guiadas y/o sonidos ambiente para tener tu lugar perfecto mientras te diviertes. Sin algoritmos ni contenido depresivo.",
 
-        home_properties_zenverse_badge_0_title: "Sin algoritmos",
-        home_properties_zenverse_badge_0_text: "Aleatorio y sin analizarte",
-        home_properties_zenverse_badge_1_title: "Escucha",
-        home_properties_zenverse_badge_1_text: "Añade musica, meditaciones y/o sonidos ambiente",
-        home_properties_zenverse_badge_2_title: "Positivo",
-        home_properties_zenverse_badge_2_text: "No promociona videos tristes",
+        home_properties_zenverse_badge_0_title: "Tu Universo",
+        home_properties_zenverse_badge_0_text: "Crea tu mundo con música y mucho más",
+        home_properties_zenverse_badge_1_title: "Positiva",
+        home_properties_zenverse_badge_1_text: "Diviertete sin contenido depresivo",
+        home_properties_zenverse_badge_2_title: "Sin algoritmos",
+        home_properties_zenverse_badge_2_text: "Aleatorio, sin espiarte ni analizarte",
 
-        home_properties_bubbles_title: "Bubbles",
-        home_properties_bubbles_text: "Quita tu estrés y alegra tu día en la red social que promociona el sentirse bien. Crea tu propio Universo Zen con tu musica favorita, meditaciones guiadas y/o sonidos ambientes mientras te diviertes con videos positivos.",
+        home_properties_bubbles_title: "Bubbles AI",
+        home_properties_bubbles_text: "Tu amiga y compañía científica para tu día a día. Lista para apoyarte entendiendo todo tu contexto dándote los mejores consejos y técnicas para ti. No es una simple IA, es un sistema de 5 IAs especializadas trabajando para tu bienestar.",
 
-        home_properties_bubbles_badge_0_title: "TCC",
-        home_properties_bubbles_badge_0_text: "Apoyo basado en la evidencia científica",
-        home_properties_bubbles_badge_1_title: "Voz o chat",
-        home_properties_bubbles_badge_1_text: "Libre de expresarte cómodamente",
-        home_properties_bubbles_badge_2_title: "24/7 Sin prejuicios",
-        home_properties_bubbles_badge_2_text: "Siempre contigo y sin juzgarte",
+        home_properties_bubbles_badge_0_title: "Chat y Voz",
+        home_properties_bubbles_badge_0_text: "Habla o escribe, como prefieras",
+        home_properties_bubbles_badge_1_title: "TCC",
+        home_properties_bubbles_badge_1_text: "Basada en la evidencia científica",
+        home_properties_bubbles_badge_2_title: "Sin prejuicios",
+        home_properties_bubbles_badge_2_text: "Expresate libremente sin miedos",
 
 
         home_mission_title: "Misión",
@@ -60,10 +60,10 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         banner_contact_title: "Ponte en contacto",
 
         about_why_title: "Porque Deepfriend?",
-        about_why_text: "Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.",
+        about_why_text: "La idea de Deepfriend nace despues de que una persona muy cercana pasase por una dura etapa de depresión. Pude comprobar como los servicios públicos más que ayudar, empeoraban la situación, y que la mayor parte de la psicología no se basa en la ciencia. Al ver esta situación decidí informarme y descubrí la Terapia Cognitivo Conductual, la única gran rama de la psicología con evidencia científica. Gracias a la mentoría de Adrián Gonzalez, un gran profesional de la TCC, y a mucho trabajo duro he construido Deepfriend para promover la Salud Mental basada en la ciencia y ayudar a quien lo necesite.",
 
         about_pablo_title: "Fundador e ingeniero",
-        about_pablo_text: "Soy un ingeniero de software senior español de 27 años y Deepfriend es mi manera de dar mi grano de arena a la sociedad. Desde pequeño me ha gustado desarrollar soluciones open source que puedan ayudar a otras personas y ahora que tengo la experiencia y conocimientos solidos he construido este gran proyecto para mejorar la vida de muchas personas siempre de la mano de la ciencia.",
+        about_pablo_text: "Soy un ingeniero de software senior español de 27 años y Deepfriend es mi manera de dar mi grano de arena a la sociedad. Desde pequeño me ha gustado desarrollar pequeñas soluciones open source y ahora con experiencia, conocimientos solidos y después de años de duro trabajo he construido este gran proyecto para ayudar a mejorar la vida de todas las personas que pueda siempre de la mano de la ciencia.",
 
 
         contact_title: "Quiero saber tu opinión",
