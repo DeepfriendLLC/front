@@ -49,10 +49,10 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
 
 
         home_mission_title: "Misión",
-        home_mission_text: "La misión de Deepfriend es de hacer llegar a las personas los avances científicos más nuevos de la Salud Mental en un espacio seguro y confiable. Dar una solución completa siempre disponible y al alcance. Un lugar dónde poder aprender de una manera simple y entendible, dónde poder venir a relajar su mente del estrés en una red social sansa y customizable, todo con una IA científica basada en la Terapia Cognitivo Conductual que guíe de una manera amigable con exactitud.",
+        home_mission_text: "La misión de Deepfriend es ofrecer a todo el mundo un servicio completo, científico y de calidad para la Salud Mental, accesible y siempre disponible. Hacer de la ciencia un estandard en la Salud Mental y acercar los avances científicos en un espacio seguro y confiable. Ofrecer un lugar dónde rejalarte, aprender y liberarte de las cargas emocionales.",
 
         home_values_title: "Valores",
-        home_values_text: "Los valores de Deepfriend están altamente enfocados en la evidencia científica, la privacidad y seguridad del usuario para su confianza. Esto implica que Deepfriend se compromete a nunca, bajo ningún concepto, vender y/o compartir ningún dato de ningún usuario fuera de la empresa. A la vez que Deepfriend se mantiene siempre y solo con técnicas y terapias probadas bajo la evidencia científica.",
+        home_values_text: "Los valores en los que se fundamenta Deepfriend son la ciencia y la privacidad personal. Esto hace el compromiso de que nunca, bajo ningún concepto, ningún dato de ningún usuario se va a vender y/o compartir fuera de la empresa. Y que solo se utilizan técnicas y terapias probadas bajo la evidencia científica.",
 
 
 
@@ -63,7 +63,7 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         about_why_text: "Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.Porque me da la gana.",
 
         about_pablo_title: "Fundador e ingeniero",
-        about_pablo_text: "I want to give my best to society.I want to give my best to society.I want to give my best to society.I want to give my best to society.I want to give my best to society.",
+        about_pablo_text: "Soy un ingeniero de software senior español de 27 años y Deepfriend es mi manera de dar mi grano de arena a la sociedad. Desde pequeño me ha gustado desarrollar soluciones open source que puedan ayudar a otras personas y ahora que tengo la experiencia y conocimientos solidos he construido este gran proyecto para mejorar la vida de muchas personas siempre de la mano de la ciencia.",
 
 
         contact_title: "Quiero saber tu opinión",
