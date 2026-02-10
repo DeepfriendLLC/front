@@ -1,5 +1,5 @@
-import PrivacyPolicyBannerComponent from "@/components/privacy-policy-banner";
-import PrivacyPolicyTextContainerComponent from "@/components/privacy-policy-text";
+import PrivacyPolicyBannerComponent from "@/components/privacy-policy/privacy-policy-banner";
+import PrivacyPolicyTextContainerComponent from "@/components/privacy-policy/privacy-policy-text";
 import { CSSProperties } from "react";
 
 export default function PrivacyPolicy() {

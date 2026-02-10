@@ -1,5 +1,5 @@
-import LegalTermsBannerComponent from "@/components/legal-terms-banner";
-import LegalTermsTextContainerComponent from "@/components/legal-terms-text";
+import LegalTermsBannerComponent from "@/components/legal/legal-terms-banner";
+import LegalTermsTextContainerComponent from "@/components/legal/legal-terms-text";
 import { CSSProperties } from "react";
 
 export default function LegalTerms() {

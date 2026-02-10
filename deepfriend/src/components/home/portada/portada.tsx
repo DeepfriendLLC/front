@@ -8,7 +8,7 @@ import { useSelector } from "react-redux";
 import { RootState } from "@/hooks/store";
 import { TranslationTexts } from "@/constants/translations/translations";
 
-import Peeps from "@/../public/peeps/peeps-horizontal.png";
+import Peeps from "@/../public/images/peeps/peeps-horizontal.png";
 import GooglePlayLogo from "@/../public/icons/google-play/google-play-logo.png";
 
 export default function PortadaComponent() {
