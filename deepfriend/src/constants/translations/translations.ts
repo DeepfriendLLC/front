@@ -13,6 +13,7 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
 
         home_portada_subtitle: "Tu app de paz mental",
         home_portada_text: "La ciencia de la Salud Mental",
+        home_portada_promotion_text: "1 mes GRATIS",
         home_portada_button_text: "Descarga en Google Play",
 
 

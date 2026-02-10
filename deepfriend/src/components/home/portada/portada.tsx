@@ -44,6 +44,9 @@ export default function PortadaComponent() {
                         <h1 className={styles.text}>
                             {TranslationTexts[systemLanguage].home_portada_text}
                         </h1>
+                        <h1 className={styles.promotionalText}>
+                            {TranslationTexts[systemLanguage].home_portada_promotion_text}
+                        </h1>
                     </div>
                 </div>
                 <button

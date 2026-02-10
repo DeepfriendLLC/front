@@ -52,20 +52,20 @@ export default function HomeProperties2Component() {
           <BadgeComponent
             title={TranslationTexts[systemLanguage].home_properties_zenverse_badge_0_title}
             text={TranslationTexts[systemLanguage].home_properties_zenverse_badge_0_text}
-            backgroundColor="#e5b3e5"
+            backgroundColor="#e6dbce"
             color="black"
           />
           <BadgeComponent
             title={TranslationTexts[systemLanguage].home_properties_zenverse_badge_1_title}
             text={TranslationTexts[systemLanguage].home_properties_zenverse_badge_1_text}
-            backgroundColor="#c77dc7"
-            color="white"
+            backgroundColor="#e6dbce"
+            color="black"
           />
           <BadgeComponent
             title={TranslationTexts[systemLanguage].home_properties_zenverse_badge_2_title}
             text={TranslationTexts[systemLanguage].home_properties_zenverse_badge_2_text}
-            backgroundColor="#a855a8"
-            color="white"
+            backgroundColor="#e6dbce"
+            color="black"
           />
         </div>
       </div>
