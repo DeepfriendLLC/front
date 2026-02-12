@@ -1,7 +1,5 @@
 "use client";
 
-import styles from "@/styles/global.module.css";
-
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
 import { useCookies } from "react-cookie";
@@ -11,7 +9,6 @@ import { NavbarComponent } from "@/components/basic/navbar";
 import { FooterComponent } from "@/components/basic/footer";
 import { useRouter } from "next/navigation";
 import { AllowedLanguagesEncodedType, setSystemLanguageStore } from "@/hooks/slice/systemLanguage";
-import { setSessionIdStore } from "@/hooks/slice/sessionId";
 import dayjs from "dayjs";
 import utc from 'dayjs/plugin/utc';
 
@@ -34,9 +31,10 @@ export default function BasicRouter({ children }: { children: React.ReactNode })
     if (router && !allowedRoutes.includes(pathname)) router.push(redirectTo);
 
     getInitSystemLanguage();
+    /*
     const _sessionId = dayjs().utc().unix().toString();
-
     dispatch(setSessionIdStore(_sessionId));
+    */
   };
 
   const getInitSystemLanguage = () => {
@@ -46,8 +44,8 @@ export default function BasicRouter({ children }: { children: React.ReactNode })
       const _systemLanguage = Intl.DateTimeFormat().resolvedOptions().locale.split(`-`)[0];
       const actualLanguage = ['en', 'ca', 'es'].includes(_systemLanguage) ? _systemLanguage as AllowedLanguagesEncodedType : "es";
 
-      setCookie('systemLanguage', "es");
-    } else actualLanguage = "es" //cookies.systemLanguage as AllowedLanguagesEncodedType;
+      setCookie('systemLanguage', actualLanguage);
+    } else actualLanguage = cookies.systemLanguage as AllowedLanguagesEncodedType;
 
     dispatch(setSystemLanguageStore(actualLanguage));
 
@@ -57,11 +55,6 @@ export default function BasicRouter({ children }: { children: React.ReactNode })
   useEffect(() => {
     init();
   }, []);
-
-  const updateSystemLanguage = (_systemLanguage: AllowedLanguagesEncodedType) => {
-    setCookie('systemLanguage', _systemLanguage);
-    dispatch(setSystemLanguageStore(_systemLanguage));
-  };
 
   return (
     <div>
