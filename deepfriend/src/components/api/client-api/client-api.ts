@@ -1,12 +1,10 @@
 
-import { SystemColorType } from "@/hooks/slice/systemColor";
 import { AllowedLanguagesEncodedType } from "@/hooks/slice/systemLanguage";
 
 export async function SendMetricsSessionFocusAPI(
   sessionId: string,
   route: string,
   section: string,
-  color: SystemColorType,
   language: AllowedLanguagesEncodedType,
 ) {
   try {
@@ -19,7 +17,6 @@ export async function SendMetricsSessionFocusAPI(
         sessionId,
         route,
         section,
-        color,
         language,
       })
     });
@@ -35,7 +32,6 @@ export async function SendMetricsSessionClickAPI(
   route: string,
   section: string,
   clickType: "in" | "out" | "social",
-  color: SystemColorType,
   language: AllowedLanguagesEncodedType,
 ) {
   try {
@@ -49,7 +45,6 @@ export async function SendMetricsSessionClickAPI(
         route,
         section,
         clickType,
-        color,
         language,
       })
     });
