@@ -28,7 +28,7 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         home_properties_mindfulness_badge_2_text: "Descubre nuevas herramientas",
 
         home_properties_zenverse_title: "Zenverse",
-        home_properties_zenverse_text: "Red social de videos al estilo Tiktok pero sana. Crea tu Universo Zen con el toolkit integrado poniendo música, meditaciones guiadas y/o sonidos ambiente para tener tu lugar perfecto mientras te diviertes. Sin algoritmos ni contenido depresivo.",
+        home_properties_zenverse_text: "Red social de videos al estilo Tiktok pero sana. Crea tu Universo Zen con el toolkit integrado poniendo música, meditaciones guiadas y/o sonidos ambiente para tener tu lugar perfecto mientras te diviertes. Sin algoritmos, sin analizarte.",
 
         home_properties_zenverse_badge_0_title: "Tu Universo",
         home_properties_zenverse_badge_0_text: "Crea tu mundo con música y mucho más",
@@ -244,17 +244,17 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         home_properties_mindfulness_badge_2_text: "Discover new tools",
 
         home_properties_zenverse_title: "Zenverse",
-        home_properties_zenverse_text: "A TikTok‑style video social network but healthy. Create your Zen Universe with the integrated toolkit by adding music, guided meditations and/or ambient sounds to have your perfect place while having fun. No algorithms or depressive content.",
+        home_properties_zenverse_text: "A TikTok‑style video social network but healthy. Create your Zen Universe with the integrated toolkit by adding music, guided meditations and/or ambient sounds to have your perfect place while having fun scrolling. Without algorithms, without analyzing you.",
 
         home_properties_zenverse_badge_0_title: "Your Universe",
         home_properties_zenverse_badge_0_text: "Create your world with music and more",
         home_properties_zenverse_badge_1_title: "Positive",
         home_properties_zenverse_badge_1_text: "Have fun without depressive content",
         home_properties_zenverse_badge_2_title: "No algorithms",
-        home_properties_zenverse_badge_2_text: "Random, without spying or analysing you",
+        home_properties_zenverse_badge_2_text: "Random, without analyzing you",
 
         home_properties_bubbles_title: "Bubbles Wellness AI",
-        home_properties_bubbles_text: "Your scientific companion and friend for everyday life. Ready to support you by understanding your whole context and giving you the best advice and techniques. Not just a simple AI, it's a system of 5 specialised AIs working for your wellbeing.",
+        home_properties_bubbles_text: "Your scientific companion and friend for everyday life. Ready to support you by understanding your whole context and giving you the best advice and techniques. Not just a simple AI, it's a system of 5 Specialized AIs working for your wellbeing.",
 
         home_properties_bubbles_badge_0_title: "Chat & Voice",
         home_properties_bubbles_badge_0_text: "Talk or type, whichever you prefer",
