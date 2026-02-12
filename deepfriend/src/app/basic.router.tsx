@@ -56,11 +56,5 @@ export default function BasicRouter({ children }: { children: React.ReactNode })
     init();
   }, []);
 
-  return (
-    <div>
-      <NavbarComponent />
-      {children}
-      <FooterComponent />
-    </div>
-  );
+  return children;
 }

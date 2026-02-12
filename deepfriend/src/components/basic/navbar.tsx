@@ -33,10 +33,6 @@ export function NavbarComponent() {
     return (
         <nav
             className={styles.navbar}
-            style={{
-                paddingLeft: BASIC_HORIZONTAL_PADDING,
-                paddingRight: BASIC_HORIZONTAL_PADDING,
-            }}
         >
             <div className={styles.leftSection}>
                 <Link

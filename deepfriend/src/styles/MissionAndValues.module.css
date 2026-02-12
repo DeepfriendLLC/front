@@ -56,7 +56,7 @@
 
 @media (max-width: 768px) {
     .container {
-        width: 100%;
+        width: cover;
         height: 96vh;
 
         display: flex;

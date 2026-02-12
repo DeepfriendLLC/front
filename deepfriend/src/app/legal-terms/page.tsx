@@ -4,13 +4,17 @@ import styles from "@/styles/global.module.css";
 
 import LegalTermsTextContainerComponent from "@/components/legal/legal-terms-text";
 import { LegalTermsBannerComponent } from "@/components/banner/banners";
+import { FooterComponent } from "@/components/basic/footer";
+import { NavbarComponent } from "@/components/basic/navbar";
 
 export default function LegalTerms() {
 
   return (
     <div className={styles.basicContainer}>
+      <NavbarComponent />
       <LegalTermsBannerComponent />
       <LegalTermsTextContainerComponent />
+      <FooterComponent />
     </div>
   );
 }
