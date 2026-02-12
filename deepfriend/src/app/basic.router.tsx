@@ -42,7 +42,7 @@ export default function BasicRouter({ children }: { children: React.ReactNode })
 
     if (!cookies.systemLanguage) {
       const _systemLanguage = Intl.DateTimeFormat().resolvedOptions().locale.split(`-`)[0];
-      const actualLanguage = ['en', 'ca', 'es'].includes(_systemLanguage) ? _systemLanguage as AllowedLanguagesEncodedType : "es";
+      const actualLanguage = ['en', 'cat', 'es'].includes(_systemLanguage) ? _systemLanguage as AllowedLanguagesEncodedType : "es";
 
       setCookie('systemLanguage', actualLanguage);
     } else actualLanguage = cookies.systemLanguage as AllowedLanguagesEncodedType;
