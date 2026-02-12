@@ -1,16 +1,13 @@
-import PrivacyPolicyBannerComponent from "@/components/privacy-policy/privacy-policy-banner";
+"use client";
+
+import styles from "@/styles/global.module.css";
+
 import PrivacyPolicyTextContainerComponent from "@/components/privacy-policy/privacy-policy-text";
-import { CSSProperties } from "react";
+import { PrivacyPolicyBannerComponent } from "@/components/banner/banners";
 
 export default function PrivacyPolicy() {
-  const containerStyle: CSSProperties = {
-    flex: 1,
-    display: "flex",
-    flexDirection: "column",
-  };
-
   return (
-    <div style={containerStyle}>
+    <div className={styles.basicContainer}>
       <PrivacyPolicyBannerComponent />
       <PrivacyPolicyTextContainerComponent />
     </div>

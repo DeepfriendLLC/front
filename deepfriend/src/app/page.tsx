@@ -12,9 +12,9 @@ export default function Home() {
   return (
     <div className={styles.basicContainer}>
       <PortadaComponent />
-      <HomeProperties1Component />
-      <HomeProperties2Component />
       <HomeProperties3Component />
+      <HomeProperties2Component />
+      <HomeProperties1Component />
       <MissionAndValuesComponent />
     </div>
   );

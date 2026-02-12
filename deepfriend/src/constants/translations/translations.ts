@@ -37,7 +37,7 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         home_properties_zenverse_badge_2_title: "Sin algoritmos",
         home_properties_zenverse_badge_2_text: "Aleatorio, sin espiarte ni analizarte",
 
-        home_properties_bubbles_title: "Bubbles AI",
+        home_properties_bubbles_title: "Bubbles Wellness AI",
         home_properties_bubbles_text: "Tu amiga y compañía científica para tu día a día. Lista para apoyarte entendiendo todo tu contexto dándote los mejores consejos y técnicas para ti. No es una simple IA, es un sistema de 5 IAs especializadas trabajando para tu bienestar.",
 
         home_properties_bubbles_badge_0_title: "Chat y Voz",
@@ -57,7 +57,6 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
 
 
         banner_about_title: "Conoce Deepfriend",
-        banner_contact_title: "Ponte en contacto",
 
         about_why_title: "Porque Deepfriend?",
         about_why_text: "La idea de Deepfriend nace despues de que una persona muy cercana pasase por una dura etapa de depresión. Pude comprobar como los servicios públicos más que ayudar, empeoraban la situación, y que la mayor parte de la psicología no se basa en la ciencia. Al ver esta situación decidí informarme y descubrí la Terapia Cognitivo Conductual, la única gran rama de la psicología con evidencia científica. Gracias a la mentoría de Adrián Gonzalez, un gran profesional de la TCC, y a mucho trabajo duro he construido Deepfriend para promover la Salud Mental basada en la ciencia y ayudar a quien lo necesite.",
@@ -65,6 +64,7 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         about_pablo_title: "Fundador e ingeniero",
         about_pablo_text: "Soy un ingeniero de software senior español de 27 años y Deepfriend es mi manera de dar mi grano de arena a la sociedad. Desde pequeño me ha gustado desarrollar pequeñas soluciones open source y ahora con experiencia, conocimientos solidos y después de años de duro trabajo he construido este gran proyecto para ayudar a mejorar la vida de todas las personas que pueda siempre de la mano de la ciencia.",
 
+        banner_contact_title: "Ponte en contacto",
 
         contact_title: "Quiero saber tu opinión",
         contact_text: "Deepfriend es un proyecto personal construido en comunidad, escuchando las necesidades de muchas personas y adaptandolas para tener la mejor solución para todos. No solo me encantará escucharte, te animo a que escribas tu opinión para mejorar Deepfriend. Juntos podemos hacer de Deepfriend un referente en Salud Mental científica y ayudar a muchas parsonas.",
@@ -72,6 +72,8 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         contact_subtitle_email: "Correos",
         contact_subtitle_social: "Redes sociales",
 
+
+        banner_privacy_policy_title: "Privacy Policy: Your Rights and Our Responsibilities",
 
         privacy_policy_0_title: "1. Introduction",
         privacy_policy_0_text: "Deepfriend LLC ('Deepfriend', 'we', 'our' or 'us') is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose and safeguard your information when you use our wellness service and related services (collectively, the 'Service'). By using our Service, you agree to the collection and use of information in accordance with this policy. We will not use your information except as described in this Privacy Policy. We will not share your information with anyone outside Deepfriend comapny in any circumstance.",
@@ -104,7 +106,7 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         privacy_policy_6_text: "We do not use cookies or any tracking systems in our mobile application.",
         
         privacy_policy_7_title: "8. Your Data Rights",
-        privacy_policy_7_text: "You have the right to:",
+        privacy_policy_7_0_text: "You have the right to:",
         privacy_policy_7_1_text: "· Access your personal information",
         privacy_policy_7_2_text: "· Request deletion of your data",
         
@@ -130,7 +132,7 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         privacy_policy_14_text: "If you have any questions about this Privacy Policy, please contact us at: hello@dfbubbles.com",
         
         privacy_policy_15_title: "16. Governing Law",
-        privacy_policy_15_text: "This Privacy Policy is governed by and construed in accordance with the laws of the State of Delaware of the United States of America, without giving effect to any principles of conflicts of law.",
+        privacy_policy_15_0_text: "This Privacy Policy is governed by and construed in accordance with the laws of the State of Delaware of the United States of America, without giving effect to any principles of conflicts of law.",
         privacy_policy_15_1_text: " By using our Service, you signify your acceptance of this Privacy Policy. If you do not agree to this policy, please do not use our Service. Your continued use of the Service following the posting of changes to this policy will be deemed your acceptance of those changes.",
         
         privacy_policy_16_title: "Last Updated:",
@@ -138,6 +140,7 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
 
 
 
+        banner_legal_terms_title: "Legal Terms: Transparency and Compliance",
 
         legal_terms_0_title: "1. Acceptance of Terms",
         legal_terms_0_text: "Welcome to Deepfriend, your trusted complete mental health solution. These User Agreement and Terms of Use ('Terms') govern your access to and use of Deepfriend's services, including our mobile application, website and our related services (collectively, the 'Service'). By accessing or using our Service, you agree to be bound by these Terms. If you disagree with any part of the Terms, you may not access the Service.",
@@ -185,11 +188,6 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
 
         legal_terms_10_title: "11. Indemnification",
         legal_terms_10_text: "You agree to defend, indemnify and hold harmless Deepfriend LLC, its members, shareholders and their respective employees, contractors, agents, officers and directors from and against any and all claims, damages, obligations, losses, liabilities, costs or debt and expenses (including but not limited to attorney's fees) resulting from or arising out of a) your use and access of the Service or b) a breach of these Terms.",
-
-
-
-
-
 
         legal_terms_11_title: "12. Changes to Service",
         legal_terms_11_text: "Deepfriend reserves the right to withdraw or amend our Service and any service or material we provide via the Service in our sole discretion without notice. We will not be liable if for any reason all or any part of the Service is unavailable at any time or for any period.",

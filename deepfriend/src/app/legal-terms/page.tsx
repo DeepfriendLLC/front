@@ -1,16 +1,14 @@
-import LegalTermsBannerComponent from "@/components/legal/legal-terms-banner";
+"use client";
+
+import styles from "@/styles/global.module.css";
+
 import LegalTermsTextContainerComponent from "@/components/legal/legal-terms-text";
-import { CSSProperties } from "react";
+import { LegalTermsBannerComponent } from "@/components/banner/banners";
 
 export default function LegalTerms() {
-  const containerStyle: CSSProperties = {
-    flex: 1,
-    display: "flex",
-    flexDirection: "column",
-  };
 
   return (
-    <div style={containerStyle}>
+    <div className={styles.basicContainer}>
       <LegalTermsBannerComponent />
       <LegalTermsTextContainerComponent />
     </div>
