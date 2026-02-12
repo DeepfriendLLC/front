@@ -228,7 +228,7 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         footer_links_privacy_policy: "Privacy Policy",
         footer_links_legal_terms: "Terms of Use",
 
-        home_portada_subtitle: "Your mental peace app",
+        home_portada_subtitle: "Your peace of mental app",
         home_portada_text: "The science of Mental Health",
         home_portada_promotion_text: "1 month Max Cosmic Bubbles for FREE",
         home_portada_button_text: "Download on Google Play",
