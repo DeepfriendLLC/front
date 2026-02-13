@@ -35,7 +35,7 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         home_properties_zenverse_badge_1_title: "Positiva",
         home_properties_zenverse_badge_1_text: "Diviertete sin contenido depresivo",
         home_properties_zenverse_badge_2_title: "Sin algoritmos",
-        home_properties_zenverse_badge_2_text: "Aleatorio, sin espiarte ni analizarte",
+        home_properties_zenverse_badge_2_text: "Aleatorio, sin analizarte",
 
         home_properties_bubbles_title: "Bubbles Wellness AI",
         home_properties_bubbles_text: "Tu amiga y compañía científica para tu día a día. Lista para apoyarte entendiendo todo tu contexto dándote los mejores consejos y técnicas para ti. No es una simple IA, es un sistema de 5 IAs especializadas trabajando para tu bienestar.",
@@ -477,7 +477,7 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         home_properties_zenverse_badge_1_title: "Positiva",
         home_properties_zenverse_badge_1_text: "Divertiu-vos sense contingut depressiu",
         home_properties_zenverse_badge_2_title: "Sense algoritmes",
-        home_properties_zenverse_badge_2_text: "Aleatori, sense espiar-te ni analitzar-te",
+        home_properties_zenverse_badge_2_text: "Aleatori, sense analitzar-te",
 
         home_properties_bubbles_title: "Bubbles Wellness AI",
         home_properties_bubbles_text: "La teva companyia i amiga científica per al dia a dia. Llista per a recolzar-te entenent tot el teu context i donant-te els millors consells i tècniques per a tu. No és una simple IA, és un sistema de 5 IA especialitzades treballant per al teu benestar.",
