@@ -44,8 +44,6 @@ export default function BasicRouter({ children }: { children: React.ReactNode })
     const _systemLanguage = Intl.DateTimeFormat().resolvedOptions().locale.split(`-`)[0];
     const actualLanguage = ['en', 'ca', 'es'].includes(_systemLanguage) ? _systemLanguage as AllowedLanguagesEncodedType : "es";
 
-    console.log("MMMMMMMMMMMMMMM", _systemLanguage);
-
     //setCookie('systemLanguage', actualLanguage);
     //} else actualLanguage = cookies.systemLanguage as AllowedLanguagesEncodedType;
 
