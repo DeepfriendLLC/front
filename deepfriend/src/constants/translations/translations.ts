@@ -12,48 +12,45 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         footer_links_legal_terms: "Terminos de uso",
 
         home_portada_subtitle: "Tu app de paz mental",
-        home_portada_text: "La ciencia de la Salud Mental",
-        home_portada_promotion_text: "1 mes Max Cosmic Bubbles GRATIS",
+        home_portada_text: "IA Wellness científica para el día a día",
+        home_portada_promotion_text: "1 mes Super Bubbles GRATIS",
         home_portada_button_text: "Descarga en Google Play",
 
 
-        home_properties_mindfulness_title: "Mindfulness científico",
-        home_properties_mindfulness_text: "Librería científica gratuita con técnicas y habitos saludables para controlar la situación sea cual sea y vayas dónde vayas. Descubre y aprende a controlar el estrés, la ansiedad, el insomnio y mucho más.",
-
-        home_properties_mindfulness_badge_0_title: "Técnicas",
-        home_properties_mindfulness_badge_0_text: "Calma la mente en cualquier sitio",
-        home_properties_mindfulness_badge_1_title: "Habitos",
-        home_properties_mindfulness_badge_1_text: "Aprende a llevar una vida mejor",
-        home_properties_mindfulness_badge_2_title: "+100 recursos",
-        home_properties_mindfulness_badge_2_text: "Descubre nuevas herramientas",
-
-        home_properties_zenverse_title: "Zenverse",
-        home_properties_zenverse_text: "Red social de videos al estilo Tiktok pero sana. Crea tu Universo Zen con el toolkit integrado poniendo música, meditaciones guiadas y/o sonidos ambiente para tener tu lugar perfecto mientras te diviertes. Sin algoritmos, sin analizarte.",
-
-        home_properties_zenverse_badge_0_title: "Tu Universo",
-        home_properties_zenverse_badge_0_text: "Crea tu mundo con música y mucho más",
-        home_properties_zenverse_badge_1_title: "Positiva",
-        home_properties_zenverse_badge_1_text: "Diviertete sin contenido depresivo",
-        home_properties_zenverse_badge_2_title: "Sin algoritmos",
-        home_properties_zenverse_badge_2_text: "Aleatorio, sin analizarte",
-
         home_properties_bubbles_title: "Bubbles Wellness AI",
-        home_properties_bubbles_text: "Tu amiga y compañía científica para tu día a día. Lista para apoyarte entendiendo todo tu contexto dándote los mejores consejos y técnicas para ti. No es una simple IA, es un sistema de 5 IAs especializadas trabajando para tu bienestar.",
+        home_properties_bubbles_text: "Tu amiga y compañía científica para apoyarte en tu día a día. Lista para ti y basada en la ciencia de la TCC, entiende toda tu historia para darte la ayuda de calidad que te mereces en un espacio seguro y sin prejuicios las 24/7.",
 
         home_properties_bubbles_badge_0_title: "Chat y Voz",
-        home_properties_bubbles_badge_0_text: "Habla o escribe, como prefieras",
+        home_properties_bubbles_badge_0_text: "Habla o escribe",
         home_properties_bubbles_badge_1_title: "TCC",
-        home_properties_bubbles_badge_1_text: "Basada en la evidencia científica",
+        home_properties_bubbles_badge_1_text: "Basada en la ciencia",
         home_properties_bubbles_badge_2_title: "Sin prejuicios",
-        home_properties_bubbles_badge_2_text: "Expresate libremente sin miedos",
+        home_properties_bubbles_badge_2_text: "Expresate libremente",
+
+
+        home_properties_mindfulness_title: "Mindfulness científico",
+        home_properties_mindfulness_text: "Aprende nuevas herramientas para darte el control de tu mente en la librería científica gratuita de Deepfriend. Controla la situación sea cual sea y estés dónde estés con técnicas para el estrés, ansiedad, insomnio y mucho más.",
+
+        home_properties_mindfulness_badge_0_title: "+100 recursos",
+        home_properties_mindfulness_badge_0_text: "Aprende nuevas herramientas",
+        home_properties_mindfulness_badge_1_title: "Técnicas",
+        home_properties_mindfulness_badge_1_text: "Calma la mente en cualquier sitio",
+        home_properties_mindfulness_badge_2_title: "Habitos",
+        home_properties_mindfulness_badge_2_text: "Descubre como llevar una vida mejor",
+
+
+        home_properties_3_title: "Solo ciencia",
+        home_properties_3_text: "Guiate solo por lo que ha sido validado científicamente, Bubbles solo te recomienda técnicas probadas bajo el método científico. Es la regla de Deepfriend para que tengas un espacio seguro con apoyo real y eficaz.",
+
+        home_properties_4_title: "Privacidad y calidad",
+        home_properties_4_text: "La gran diferencia de Deepfriend, Bubbles te ofrece apoyo de calidad y validado con su sistema de 5 IAs especializadas que le permiten ayudarte entendiendo toda tu historia y contexto. Siempre con el compromiso de nunca vender ni compartir tus datos con nadie. Bubbles ofrece servicio wellness, no medico.",
 
 
         home_mission_title: "Misión",
-        home_mission_text: "La misión de Deepfriend es ofrecer a todo el mundo un servicio completo, científico y de calidad para la Salud Mental, accesible y siempre disponible. Hacer de la ciencia un estandard en la Salud Mental y acercar los avances científicos en un espacio seguro y confiable. Ofrecer un lugar dónde rejalarte, aprender y liberarte de las cargas emocionales.",
+        home_mission_text: "Deepfriend pretende ofrecerte un servicio con IA de calidad y basada en la ciencia para apoyar y guíarte en tu día a día, en los buenos y malos momentos. Promoviendo el conocimiento científico ofreciendote una gran librería de recursos validados. Todo en un entorno que prioriza la privacidad y accesibilidad para ofrecerte un lugar seguro en el que puedas confiar.",
 
         home_values_title: "Valores",
-        home_values_text: "Los valores en los que se fundamenta Deepfriend son la ciencia y la privacidad personal. Esto hace el compromiso de que nunca, bajo ningún concepto, ningún dato de ningún usuario se va a vender y/o compartir fuera de la empresa. Y que solo se utilizan técnicas y terapias probadas bajo la evidencia científica.",
-
+        home_values_text: "Los valores en los que se fundamenta Deepfriend son la ciencia y la privacidad personal. Esto hace el compromiso que hace a Deepfriend diferente: nunca bajo ningun concepto se van a vender ni compartir tus datos y solo se utilizan técnicas probadas bajo la evidencia científica.",
 
 
         banner_about_title: "Conoce Deepfriend",
@@ -62,7 +59,7 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         about_why_text: "La idea de Deepfriend nace despues de que una persona muy cercana pasase por una dura etapa de depresión. Pude comprobar como los servicios públicos más que ayudar, empeoraban la situación, y que la mayor parte de la psicología no se basa en la ciencia. Al ver esta situación decidí informarme y descubrí la Terapia Cognitivo Conductual, la única gran rama de la psicología con evidencia científica. Gracias a la mentoría de Adrián Gonzalez, un gran profesional de la TCC, y a mucho trabajo duro he construido Deepfriend para promover la Salud Mental basada en la ciencia y ayudar a quien lo necesite.",
 
         about_pablo_title: "Fundador e ingeniero",
-        about_pablo_text: "Soy un ingeniero de software senior español de 27 años y Deepfriend es mi manera de dar mi grano de arena a la sociedad. Desde pequeño me ha gustado desarrollar pequeñas soluciones open source y ahora con experiencia, conocimientos solidos y después de años de duro trabajo he construido este gran proyecto para ayudar a mejorar la vida de todas las personas que pueda siempre de la mano de la ciencia.",
+        about_pablo_text: "Soy un ingeniero de software senior español y Deepfriend es mi manera de dar mi grano de arena a la sociedad. Desde pequeño me ha gustado desarrollar pequeñas soluciones open source y ahora que tengo la experiencia profesional, conocimientos solidos y después de mucho trabajo he construido este gran proyecto para promover el conocimiento científico en el campo de la Salud Mental y poder ayudar a quien lo necesite.",
 
         banner_contact_title: "Ponte en contacto",
 
@@ -229,53 +226,50 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         footer_links_legal_terms: "Terms of Use",
 
         home_portada_subtitle: "Your peace of mental app",
-        home_portada_text: "The science of Mental Health",
-        home_portada_promotion_text: "1 month Max Cosmic Bubbles for FREE",
+        home_portada_text: "Scientific Wellness AI for everyday life",
+        home_portada_promotion_text: "1 month of Super Bubbles FREE",
         home_portada_button_text: "Download on Google Play",
 
-        home_properties_mindfulness_title: "Scientific Mindfulness",
-        home_properties_mindfulness_text: "Free scientific library with techniques and healthy habits to control any situation wherever you are. Discover and learn to manage stress, anxiety, insomnia and much more.",
-
-        home_properties_mindfulness_badge_0_title: "Techniques",
-        home_properties_mindfulness_badge_0_text: "Calm your mind anywhere",
-        home_properties_mindfulness_badge_1_title: "Habits",
-        home_properties_mindfulness_badge_1_text: "Learn to live a better life",
-        home_properties_mindfulness_badge_2_title: "+100 resources",
-        home_properties_mindfulness_badge_2_text: "Discover new tools",
-
-        home_properties_zenverse_title: "Zenverse",
-        home_properties_zenverse_text: "A TikTok‑style video social network but healthy. Create your Zen Universe with the integrated toolkit by adding music, guided meditations and/or ambient sounds to have your perfect place while having fun scrolling. Without algorithms, without analyzing you.",
-
-        home_properties_zenverse_badge_0_title: "Your Universe",
-        home_properties_zenverse_badge_0_text: "Create your world with music and more",
-        home_properties_zenverse_badge_1_title: "Positive",
-        home_properties_zenverse_badge_1_text: "Have fun without depressive content",
-        home_properties_zenverse_badge_2_title: "No algorithms",
-        home_properties_zenverse_badge_2_text: "Random, without analyzing you",
-
         home_properties_bubbles_title: "Bubbles Wellness AI",
-        home_properties_bubbles_text: "Your scientific companion and friend for everyday life. Ready to support you by understanding your whole context and giving you the best advice and techniques. Not just a simple AI, it's a system of 5 Specialized AIs working for your wellbeing.",
+        home_properties_bubbles_text: "Your scientific friend and companion to support you in your daily life. Always ready for you and based in Cognitive Behavioral Therapy (CBT), it understands your full story to provide the quality support you deserve in a safe, judgment-free 24/7 space.",
 
         home_properties_bubbles_badge_0_title: "Chat & Voice",
-        home_properties_bubbles_badge_0_text: "Talk or type, whichever you prefer",
+        home_properties_bubbles_badge_0_text: "Speak or write",
         home_properties_bubbles_badge_1_title: "CBT",
-        home_properties_bubbles_badge_1_text: "Based on scientific evidence",
-        home_properties_bubbles_badge_2_title: "No judgments",
-        home_properties_bubbles_badge_2_text: "Express yourself freely without fear",
+        home_properties_bubbles_badge_1_text: "Science-based",
+        home_properties_bubbles_badge_2_title: "Judgment-free",
+        home_properties_bubbles_badge_2_text: "Express yourself freely",
+
+        home_properties_mindfulness_title: "Scientific Mindfulness",
+        home_properties_mindfulness_text: "Learn new tools to gain control over your mind in Deepfriend’s free scientific library. Stay in control wherever you are with techniques for stress, anxiety, insomnia, and much more.",
+
+        home_properties_mindfulness_badge_0_title: "+100 resources",
+        home_properties_mindfulness_badge_0_text: "Learn new tools",
+        home_properties_mindfulness_badge_1_title: "Techniques",
+        home_properties_mindfulness_badge_1_text: "Calm your mind anywhere",
+        home_properties_mindfulness_badge_2_title: "Habits",
+        home_properties_mindfulness_badge_2_text: "Discover how to live a better life",
+
+        home_properties_3_title: "Science only",
+        home_properties_3_text: "Be guided exclusively by what has been scientifically validated. Bubbles recommends only techniques tested under the scientific method. This is Deepfriend’s core principle to ensure you have a safe space with real and effective support.",
+
+        home_properties_4_title: "Privacy and quality",
+        home_properties_4_text: "Deepfriend’s key difference, Bubbles provides high-quality, validated support through its system of 5 specialized AIs, enabling it to help you by understanding your full history and context. With a firm commitment to never selling or sharing your data with anyone. Bubbles provides wellness services, not medical care.",
 
         home_mission_title: "Mission",
-        home_mission_text: "Deepfriend's mission is to provide everyone with a complete, scientific, high‑quality mental‑health service, accessible and always available. Make science a standard in Mental Health and bring scientific advances into a safe, trustworthy space. Offer a place where you can unwind, learn and free yourself from emotional burdens.",
+        home_mission_text: "Deepfriend aims to offer high-quality, AI science-based support to guide you through everyday life, in both good and difficult moments. Promoting scientific knowledge through an extensive library of validated resources. All within an environment that prioritizes privacy and accessibility, providing a safe space you can trust.",
 
         home_values_title: "Values",
-        home_values_text: "The values Deepfriend is built on are science and personal privacy. This means we commit that under no circumstances will any user data ever be sold and/or shared outside the company. Only techniques and therapies proven by scientific evidence are used.",
+        home_values_text: "Deepfriend is built upon science and personal privacy. This commitment sets Deepfriend apart, under no circumstances will your data be sold or shared and only techniques supported by scientific evidence are used.",
 
-        banner_about_title: "Meet Deepfriend",
+        banner_about_title: "Discover Deepfriend",
 
         about_why_title: "Why Deepfriend?",
-        about_why_text: "The idea of Deepfriend was born after a close person went through a severe depression. I saw how public services more than helped, worsened the situation, and that most psychology is not based on science. Seeing this, I decided to inform myself and discovered Cognitive Behavioural Therapy, the only major branch of psychology with scientific evidence. Thanks to mentorship from Adrián Gonzalez, a great CBT professional, and a lot of hard work I built Deepfriend to promote science‑based Mental Health and help those who need it.",
+        about_why_text: "The idea for Deepfriend was born after someone very close to me went through a difficult period of depression. I witnessed how public services, rather than helping, often worsened the situation, and how much of psychology lacks a scientific foundation. Faced with this reality, I began researching and discovered Cognitive Behavioral Therapy (CBT), the only major branch of psychology strongly supported by scientific evidence. With the mentorship of Adrián González, a highly respected CBT professional, and through extensive dedication and hard work, I built Deepfriend to promote science-based Mental Health and support those who need it.",
 
         about_pablo_title: "Founder & Engineer",
-        about_pablo_text: "I am a senior Spanish software engineer and Deepfriend is my way of contributing to society. Since childhood I liked developing small open‑source solutions and now, with experience, solid knowledge and after years of hard work, I have built this great project to help improve the lives of as many people as possible, always backed by science.",
+        about_pablo_text: "I am a senior Spanish software engineer and Deepfriend is my way of contributing to society. Since childhood, I have enjoyed building small open-source solutions. Now, with solid professional experience and knowledge and after significant effort, I have created this ambitious project to promote scientific knowledge in the field of Mental Health and help those who need it.",
+
 
         banner_contact_title: "Get in Touch",
 
@@ -454,54 +448,53 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         footer_links_privacy_policy: "Política de privacitat",
         footer_links_legal_terms: "Termes d'ús",
 
+
         home_portada_subtitle: "La teva app de pau mental",
-        home_portada_text: "La ciència de la Salut Mental",
-        home_portada_promotion_text: "1 mes Max Cosmic Bubbles GRATIS",
+        home_portada_text: "IA Wellness científica per al dia a dia",
+        home_portada_promotion_text: "1 mes de Super Bubbles GRATIS",
         home_portada_button_text: "Descarrega a Google Play",
 
-        home_properties_mindfulness_title: "Mindfulness científic",
-        home_properties_mindfulness_text: "Biblioteca científica gratuïta amb tècniques i hàbits saludables per controlar qualsevol situació sigui on siguis. Descobreix i aprèn a gestionar l'estrès, l'ansietat, l'insomni i molt més.",
-
-        home_properties_mindfulness_badge_0_title: "Tècniques",
-        home_properties_mindfulness_badge_0_text: "Calma la ment en qualsevol lloc",
-        home_properties_mindfulness_badge_1_title: "Hàbits",
-        home_properties_mindfulness_badge_1_text: "Aprèn a portar una vida millor",
-        home_properties_mindfulness_badge_2_title: "+100 recursos",
-        home_properties_mindfulness_badge_2_text: "Descobreix noves eines",
-
-        home_properties_zenverse_title: "Zenverse",
-        home_properties_zenverse_text: "Xarxa social de vídeos al estil TikTok però sana. Crea el teu Univers Zen amb el toolkit integrat afegint música, meditacions guiades i/o sons ambientals per tenir el teu lloc perfecte mentre et diverteixes. Sense algoritmes ni contingut depressiu.",
-
-        home_properties_zenverse_badge_0_title: "El teu Univers",
-        home_properties_zenverse_badge_0_text: "Crea el teu món amb música i molt més",
-        home_properties_zenverse_badge_1_title: "Positiva",
-        home_properties_zenverse_badge_1_text: "Divertiu-vos sense contingut depressiu",
-        home_properties_zenverse_badge_2_title: "Sense algoritmes",
-        home_properties_zenverse_badge_2_text: "Aleatori, sense analitzar-te",
-
         home_properties_bubbles_title: "Bubbles Wellness AI",
-        home_properties_bubbles_text: "La teva companyia i amiga científica per al dia a dia. Llista per a recolzar-te entenent tot el teu context i donant-te els millors consells i tècniques per a tu. No és una simple IA, és un sistema de 5 IA especialitzades treballant per al teu benestar.",
+        home_properties_bubbles_text: "La teva amiga i companya científica per donar-te suport en el teu dia a dia. Sempre a punt per a tu i basada en la Teràpia Cognitiu Conductual (TCC), compren tota la teva història per oferir-te l’ajuda de qualitat que mereixes en un espai segur i sense judicis, les 24/7.",
 
         home_properties_bubbles_badge_0_title: "Xat i Veu",
-        home_properties_bubbles_badge_0_text: "Parla o escriu, com prefereixis",
+        home_properties_bubbles_badge_0_text: "Parla o escriu",
         home_properties_bubbles_badge_1_title: "TCC",
-        home_properties_bubbles_badge_1_text: "Basada en l'evidència científica",
-        home_properties_bubbles_badge_2_title: "Sense prejudicis",
-        home_properties_bubbles_badge_2_text: "Expressa't lliurement sense pors",
+        home_properties_bubbles_badge_1_text: "Basada en la ciència",
+        home_properties_bubbles_badge_2_title: "Sense judicis",
+        home_properties_bubbles_badge_2_text: "Expressa’t lliurement",
+
+        home_properties_mindfulness_title: "Mindfulness científic",
+        home_properties_mindfulness_text: "Aprèn noves eines per a tenir el control de la teva ment a la biblioteca científica gratuïta de Deepfriend. Controla la situació siguis on siguis amb tècniques per a l’estrès, ansietat, insomni i molt més.",
+
+        home_properties_mindfulness_badge_0_title: "+100 recursos",
+        home_properties_mindfulness_badge_0_text: "Aprèn noves eines",
+        home_properties_mindfulness_badge_1_title: "Tècniques",
+        home_properties_mindfulness_badge_1_text: "Calma la ment a qualsevol lloc",
+        home_properties_mindfulness_badge_2_title: "Hàbits",
+        home_properties_mindfulness_badge_2_text: "Descobreix com portar una vida millor",
+
+        home_properties_3_title: "Només ciència",
+        home_properties_3_text: "Guia’t exclusivament pel que ha sigut validat científicament. Bubbles només recomana tècniques provades sota el mètode científic. És la norma de Deepfriend per garantir-te un espai segur amb suport real i eficaç.",
+
+        home_properties_4_title: "Privacitat i qualitat",
+        home_properties_4_text: "La gran diferència de Deepfriend, Bubbles t'ofereix suport de qualitat i validat amb el seu sistema de 5 IAs especialitzades, que li permeten ajudar-te entenent tota la teva història i context. Sempre amb el compromís de no vendre ni compartir mai les teves dades amb ningú. Bubbles ofereix un servei wellness, no mèdic.",
 
         home_mission_title: "Missió",
-        home_mission_text: "La missió de Deepfriend és oferir a tothom un servei complet, científic i de qualitat per a la Salut Mental, accessible i sempre disponible. Fer de la ciència un estàndard en la Salut Mental i apropar els avenços científics en un espai segur i de confiança. Oferir un lloc on relaxar‑te, aprendre i alliberar‑te de les càrregues emocionals.",
+        home_mission_text: "Deepfriend vol oferir-te un servei de qualitat basat en la ciència per donar-te suport i guiar-te en el teu dia a dia, tant en els bons moments com en els difícils. Promovent el coneixement científic amb una àmplia biblioteca de recursos validats. Tot dins d’un entorn que prioritza la privacitat i l’accessibilitat per oferir-te un espai segur en el qual puguis confiar.",
 
         home_values_title: "Valors",
-        home_values_text: "Els valors en què es fonamenta Deepfriend són la ciència i la privacitat personal. Això comporta el compromís que mai, sota cap concepte, cap dada d’algun usuari serà venuda i/o compartida fora de l’empresa. I que només s’utilitzen tècniques i teràpies provades sota evidència científica.",
+        home_values_text: "Deepfriend es fonamenta en la ciència i la privacitat personal. Aquest compromís és el que el diferencia: en cap cas es vendran ni compartiran les teves dades, i només s’utilitzen tècniques avalades per l’evidència científica.",
 
         banner_about_title: "Coneix Deepfriend",
 
         about_why_title: "Per què Deepfriend?",
-        about_why_text: "La idea de Deepfriend neix després que una persona molt propera passés per una dura etapa de depressió. Vaig comprovar com els serveis públics més que ajudaven, empiraven la situació, i que la major part de la psicologia no es basa en la ciència. En veure aquesta situació vaig decidir informar‑me i vaig descobrir la Teràpia Cognitivo Conductual, l’única branca gran de la psicologia amb evidència científica. Gràcies a la mentoria d’Adrián Gonzalez, un gran professional de la TCC, i a molt de treball dur he construït Deepfriend per promoure la Salut Mental basada en la ciència i ajudar a qui ho necessiti.",
+        about_why_text: "La idea de Deepfriend neix després que una persona molt propera passés per una etapa difícil de depressió. Vaig poder comprovar com els serveis públics, més que ajudar, sovint empitjoraven la situació, i com gran part de la psicologia no es basa en la ciència. Davant d’aquesta realitat vaig decidir informar-me i vaig descobrir la Teràpia Cognitivoconductual (TCC), l’única gran branca de la psicologia amb una sòlida evidència científica. Gràcies a la mentoria d’Adrián González, un gran professional de la TCC, i a molt treball dur, he construït Deepfriend per promoure la Salut Mental basada en la ciència i ajudar qui ho necessiti.",
 
         about_pablo_title: "Fundador i enginyer",
-        about_pablo_text: "Sóc un enginyer de software senior espanyol i Deepfriend és la meva manera de donar la meva granet de sorra a la societat. Des de petit m’ha agradat desenvolupar petites solucions open source i ara amb experiència, coneixements sòlids i després d’anys de dur treball he construït aquest gran projecte per ajudar a millorar la vida de totes les persones que pugui sempre amb la mà de la ciència.",
+        about_pablo_text: "Soc un enginyer de programari sènior espanyol i Deepfriend és la meva manera d’aportar el meu gra de sorra a la societat. Des de petit m’ha agradat desenvolupar petites solucions open source i ara, amb experiència professional i coneixements sòlids, i després de molt treball, he construït aquest gran projecte per promoure el coneixement científic en l’àmbit de la Salut Mental i poder ajudar qui ho necessiti.",
+
+
 
         banner_contact_title: "Posa’t en contacte",
 

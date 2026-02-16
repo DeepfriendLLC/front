@@ -2,7 +2,7 @@
 
 import styles from "@/styles/Properties.module.css";
 
-import ZenverseImage from "@/../public/images/zenverse/zenverse.png";
+import MindfulnessImage from "@/../public/images/mindfulness/minffulness.png";
 
 import Image from "next/image";
 import { useSelector } from "react-redux";
@@ -36,35 +36,35 @@ export default function HomeProperties2Component() {
     <div className={styles.reverseContainer}>
       <div className={styles.imageContainer}>
         <Image
-          alt="Deepfriend Zenverse Logo"
-          src={ZenverseImage}
+          alt="Deepfriend Scientific Mindfulness Logo"
+          src={MindfulnessImage}
           className={styles.image}
         />
       </div>
       <div className={styles.textContainer}>
         <h1 className={styles.title}>
-          {TranslationTexts[systemLanguage].home_properties_zenverse_title}
+          {TranslationTexts[systemLanguage].home_properties_mindfulness_title}
         </h1>
         <h1 className={styles.text}>
-          {TranslationTexts[systemLanguage].home_properties_zenverse_text}
+          {TranslationTexts[systemLanguage].home_properties_mindfulness_text}
         </h1>
         <div className={styles.badgeRow}>
           <BadgeComponent
-            title={TranslationTexts[systemLanguage].home_properties_zenverse_badge_0_title}
-            text={TranslationTexts[systemLanguage].home_properties_zenverse_badge_0_text}
-            backgroundColor="#e6dbce"
+            title={TranslationTexts[systemLanguage].home_properties_mindfulness_badge_0_title}
+            text={TranslationTexts[systemLanguage].home_properties_mindfulness_badge_0_text}
+            backgroundColor="#afeeee"
             color="black"
           />
           <BadgeComponent
-            title={TranslationTexts[systemLanguage].home_properties_zenverse_badge_1_title}
-            text={TranslationTexts[systemLanguage].home_properties_zenverse_badge_1_text}
-            backgroundColor="#e6dbce"
+            title={TranslationTexts[systemLanguage].home_properties_mindfulness_badge_1_title}
+            text={TranslationTexts[systemLanguage].home_properties_mindfulness_badge_1_text}
+            backgroundColor="#afeeee"
             color="black"
           />
           <BadgeComponent
-            title={TranslationTexts[systemLanguage].home_properties_zenverse_badge_2_title}
-            text={TranslationTexts[systemLanguage].home_properties_zenverse_badge_2_text}
-            backgroundColor="#e6dbce"
+            title={TranslationTexts[systemLanguage].home_properties_mindfulness_badge_2_title}
+            text={TranslationTexts[systemLanguage].home_properties_mindfulness_badge_2_text}
+            backgroundColor="#afeeee"
             color="black"
           />
         </div>
