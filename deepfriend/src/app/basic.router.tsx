@@ -42,8 +42,8 @@ export default function BasicRouter({ children }: { children: React.ReactNode })
     const actualLanguage = ['en', 'ca', 'es'].includes(_systemLanguage) ? _systemLanguage as AllowedLanguagesEncodedType : "es";
 
 
-    //dispatch(setSystemLanguageStore(actualLanguage));
-    dispatch(setSystemLanguageStore("en"));
+    dispatch(setSystemLanguageStore(actualLanguage));
+    //dispatch(setSystemLanguageStore("en"));
 
     return actualLanguage;
   };
