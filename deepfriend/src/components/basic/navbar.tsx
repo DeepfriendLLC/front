@@ -13,7 +13,6 @@ import Logo from "@/../public/icon-clean.png";
 import NavbarDropdownImageDark from "@/../public/icons/navbar/dark.png";
 import TiktokLogo from "@/../public/icons/social/tiktok/dark.png";
 
-import { BASIC_HORIZONTAL_PADDING } from "@/constants/general";
 import { TranslationTexts } from "@/constants/translations/translations";
 
 export function NavbarComponent() {
@@ -27,7 +26,7 @@ export function NavbarComponent() {
     };
 
     const goToTiktok = () => {
-        window.open("https://www.tiktok.com/@dfbubbles_app", "_blank");
+        window.open("https://www.tiktok.com/@deepfriendlatam", "_blank");
     };
 
     return (
