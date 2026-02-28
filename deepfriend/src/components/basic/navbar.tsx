@@ -26,7 +26,7 @@ export function NavbarComponent() {
     };
 
     const goToTiktok = () => {
-        window.open("https://www.tiktok.com/@deepfriendlatam", "_blank");
+        window.open("https://www.tiktok.com/@deepfriend_latino", "_blank");
     };
 
     return (
