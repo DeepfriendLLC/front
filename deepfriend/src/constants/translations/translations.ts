@@ -30,6 +30,10 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
 
         home_properties_5_title: "No tienes que pasar por todo tu sola/o.",
 
+        home_properties_6_about: "Sobre Deepfriend",
+        home_properties_6_contact: "Contacto",
+
+
         home_mission_title: "Misión",
         home_mission_text: "Deepfriend pretende ofrecerte un servicio con IA de calidad y basada en la ciencia para apoyar y guíarte en tu día a día, en los buenos y malos momentos. Promoviendo el conocimiento científico ofreciendote una gran librería de recursos validados. Todo en un entorno que prioriza la privacidad y accesibilidad para ofrecerte un lugar seguro en el que puedas confiar.",
 

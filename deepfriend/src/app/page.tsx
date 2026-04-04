@@ -11,6 +11,7 @@ import HomeProperties2Component from "@/components/home/properties/properties-2"
 import HomeProperties3Component from "@/components/home/properties/properties-3";
 import HomeProperties4Component from "@/components/home/properties/properties-4";
 import HomeProperties5Component from "@/components/home/properties/properties-5";
+import HomeProperties6Component from "@/components/home/properties/properties-6";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <HomeProperties3Component />
       <HomeProperties4Component />
       <HomeProperties5Component />
+      <HomeProperties6Component />
       <FooterComponent />
     </div>
   );
