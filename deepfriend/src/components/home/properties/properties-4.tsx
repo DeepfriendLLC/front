@@ -2,7 +2,7 @@
 
 import styles from "@/styles/Properties.module.css";
 
-import ParejaImage from "@/../public/images/peeps/pareja.png";
+import PeepsImage from "@/../public/images/peeps/peeps-4.png";
 
 import Image from "next/image";
 import { useSelector } from "react-redux";
@@ -16,9 +16,9 @@ export default function HomeProperties4Component() {
     <div className={styles.reverseContainer}>
       <div className={styles.imageContainer}>
         <Image
-          alt="Deepfriend Peeps image"
-          src={ParejaImage}
-          className={styles.imagePeeps}
+          alt="Deepfriend Peeps"
+          src={PeepsImage}
+          className={styles.image}
         />
       </div>
       <div className={styles.textContainer}>

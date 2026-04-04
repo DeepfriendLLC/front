@@ -16,34 +16,19 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         home_portada_button_text: "Probar gratis",
 
 
-        home_properties_bubbles_title: "Bubbles Wellness AI",
-        home_properties_bubbles_text: "Tu amiga y compañía científica para apoyarte en tu día a día. Lista para ti y basada en la ciencia de la TCC, entiende toda tu historia para darte la ayuda de calidad que te mereces en un espacio seguro y sin prejuicios las 24/7.",
+        home_properties_1_title: "Desahogate. Sin presión ni prejuicios.",
+        home_properties_1_text: "Tu amiga y compañía científica para apoyarte en tu día a día. Lista para ti y basada en la ciencia de la TCC, entiende toda tu historia para darte la ayuda de calidad que te mereces en un espacio seguro y sin prejuicios las 24/7.",
 
-        home_properties_bubbles_badge_0_title: "Chat y Voz",
-        home_properties_bubbles_badge_0_text: "Habla o escribe",
-        home_properties_bubbles_badge_1_title: "TCC",
-        home_properties_bubbles_badge_1_text: "Basada en la ciencia",
-        home_properties_bubbles_badge_2_title: "Sin prejuicios",
-        home_properties_bubbles_badge_2_text: "Expresate libremente",
+        home_properties_2_title: "Funciona. No es mágia, es ciencia.",
+        home_properties_2_text: "Aprende nuevas herramientas para darte el control de tu mente en la librería científica gratuita de Deepfriend. Controla la situación sea cual sea y estés dónde estés con técnicas para el estrés, ansiedad, insomnio y mucho más.",
 
-
-        home_properties_mindfulness_title: "Mindfulness científico",
-        home_properties_mindfulness_text: "Aprende nuevas herramientas para darte el control de tu mente en la librería científica gratuita de Deepfriend. Controla la situación sea cual sea y estés dónde estés con técnicas para el estrés, ansiedad, insomnio y mucho más.",
-
-        home_properties_mindfulness_badge_0_title: "+100 recursos",
-        home_properties_mindfulness_badge_0_text: "Aprende nuevas herramientas",
-        home_properties_mindfulness_badge_1_title: "Técnicas",
-        home_properties_mindfulness_badge_1_text: "Calma la mente en cualquier sitio",
-        home_properties_mindfulness_badge_2_title: "Habitos",
-        home_properties_mindfulness_badge_2_text: "Descubre como llevar una vida mejor",
-
-
-        home_properties_3_title: "Solo ciencia",
+        home_properties_3_title: "Privado. Tus secretos contigo.",
         home_properties_3_text: "Guiate solo por lo que ha sido validado científicamente, Bubbles solo te recomienda técnicas probadas bajo el método científico. Es la regla de Deepfriend para que tengas un espacio seguro con apoyo real y eficaz.",
 
-        home_properties_4_title: "Privacidad y calidad",
+        home_properties_4_title: "Personalizable. A tu medida.",
         home_properties_4_text: "La gran diferencia de Deepfriend, Bubbles te ofrece apoyo de calidad y validado con su sistema de 5 IAs especializadas que le permiten ayudarte entendiendo toda tu historia y contexto. Siempre con el compromiso de nunca vender ni compartir tus datos con nadie. Bubbles ofrece servicio wellness, no medico.",
 
+        home_properties_5_title: "No tienes que pasar por todo tu sola/o.",
 
         home_mission_title: "Misión",
         home_mission_text: "Deepfriend pretende ofrecerte un servicio con IA de calidad y basada en la ciencia para apoyar y guíarte en tu día a día, en los buenos y malos momentos. Promoviendo el conocimiento científico ofreciendote una gran librería de recursos validados. Todo en un entorno que prioriza la privacidad y accesibilidad para ofrecerte un lugar seguro en el que puedas confiar.",

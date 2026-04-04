@@ -10,6 +10,7 @@ import MissionAndValuesComponent from "@/components/home/missionAndValues/missio
 import { NavbarComponent } from "@/components/basic/navbar";
 import { FooterComponent } from "@/components/basic/footer";
 import HomeProperties4Component from "@/components/home/properties/properties-4";
+import HomeProperties5Component from "@/components/home/properties/properties-5";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <HomeProperties2Component />
       <HomeProperties3Component />
       <HomeProperties4Component />
+      <HomeProperties5Component />
       <MissionAndValuesComponent />
       <FooterComponent />
     </div>

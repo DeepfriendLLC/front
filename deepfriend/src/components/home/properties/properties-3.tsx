@@ -2,7 +2,7 @@
 
 import styles from "@/styles/Properties.module.css";
 
-import CientificaImage from "@/../public/images/peeps/cientifica.png";
+import PeepsImage from "@/../public/images/peeps/peeps-3.png";
 
 import Image from "next/image";
 import { useSelector } from "react-redux";
@@ -16,9 +16,9 @@ export default function HomeProperties3Component() {
     <div className={styles.container}>
       <div className={styles.imageContainer}>
         <Image
-          alt="Deepfriend Peep image"
-          src={CientificaImage}
-          className={styles.imagePeeps}
+          alt="Deepfriend Peeps"
+          src={PeepsImage}
+          className={styles.image}
         />
       </div>
       <div className={styles.textContainer}>

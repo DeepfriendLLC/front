@@ -2,32 +2,12 @@
 
 import styles from "@/styles/Properties.module.css";
 
-import MindfulnessImage from "@/../public/images/mindfulness/minffulness.png";
+import PeepsImage from "@/../public/images/peeps/peeps-2.png";
 
 import Image from "next/image";
 import { useSelector } from "react-redux";
 import { RootState } from "@/hooks/store";
 import { TranslationTexts } from "@/constants/translations/translations";
-
-const BadgeComponent = ({
-  title,
-  text,
-  backgroundColor,
-  color,
-}: { title: string, text: string, backgroundColor: string, color: string, }) => <div
-  className={styles.badge}
-  style={{
-    backgroundColor,
-    color,
-  }}
->
-    <h1 className={styles.badgeTitle}>
-      {title}
-    </h1>
-    <h1 className={styles.badgeText}>
-      {text}
-    </h1>
-  </div>;
 
 export default function HomeProperties2Component() {
   const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
@@ -36,38 +16,18 @@ export default function HomeProperties2Component() {
     <div className={styles.reverseContainer}>
       <div className={styles.imageContainer}>
         <Image
-          alt="Deepfriend Scientific Mindfulness Logo"
-          src={MindfulnessImage}
+          alt="Deepfriend Peeps"
+          src={PeepsImage}
           className={styles.image}
         />
       </div>
       <div className={styles.textContainer}>
         <h1 className={styles.title}>
-          {TranslationTexts[systemLanguage].home_properties_mindfulness_title}
+          {TranslationTexts[systemLanguage].home_properties_2_title}
         </h1>
         <h1 className={styles.text}>
-          {TranslationTexts[systemLanguage].home_properties_mindfulness_text}
+          {TranslationTexts[systemLanguage].home_properties_2_text}
         </h1>
-        <div className={styles.badgeRow}>
-          <BadgeComponent
-            title={TranslationTexts[systemLanguage].home_properties_mindfulness_badge_0_title}
-            text={TranslationTexts[systemLanguage].home_properties_mindfulness_badge_0_text}
-            backgroundColor="#afeeee"
-            color="black"
-          />
-          <BadgeComponent
-            title={TranslationTexts[systemLanguage].home_properties_mindfulness_badge_1_title}
-            text={TranslationTexts[systemLanguage].home_properties_mindfulness_badge_1_text}
-            backgroundColor="#afeeee"
-            color="black"
-          />
-          <BadgeComponent
-            title={TranslationTexts[systemLanguage].home_properties_mindfulness_badge_2_title}
-            text={TranslationTexts[systemLanguage].home_properties_mindfulness_badge_2_text}
-            backgroundColor="#afeeee"
-            color="black"
-          />
-        </div>
       </div>
     </div>
   );
