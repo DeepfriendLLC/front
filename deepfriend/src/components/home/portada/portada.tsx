@@ -37,24 +37,22 @@ export default function PortadaComponent() {
                 className={styles.card}
                 style={cardStyle}
             >
-                <div className={styles.textCard}>
-                    <div className={styles.textInnerCard}>
-                        <h1 className={styles.title}>
-                            {TranslationTexts[systemLanguage].home_portada_title}
-                        </h1>
-                        <button
-                            onClick={goToPlayStore}
-                            className={styles.button}
-                            aria-label="Prueba Deepfriend"
-                        >
-                            <Image
-                                alt="Google Play Store Logo"
-                                src={GooglePlayLogo}
-                                className={styles.buttonImage}
-                            />
-                            {TranslationTexts[systemLanguage].home_portada_button_text}
-                        </button>
-                    </div>
+                <div className={styles.textInnerCard}>
+                    <h1 className={styles.title}>
+                        {TranslationTexts[systemLanguage].home_portada_title}
+                    </h1>
+                    <button
+                        onClick={goToPlayStore}
+                        className={styles.button}
+                        aria-label="Prueba Deepfriend"
+                    >
+                        <Image
+                            alt="Google Play Store Logo"
+                            src={GooglePlayLogo}
+                            className={styles.buttonImage}
+                        />
+                        {TranslationTexts[systemLanguage].home_portada_button_text}
+                    </button>
                 </div>
             </div>
         </div>

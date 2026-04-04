@@ -11,7 +11,7 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         footer_links_privacy_policy: "Politica de privacidad",
         footer_links_legal_terms: "Terminos de uso",
 
-        home_portada_title: "Tu confidente incondicional. Privado. Seguro. Científico.",
+        home_portada_title: "Sientete mejor con Blue, tu confidente incondicional.",
         home_portada_text: "La ciencia de la Salud Mental",
         home_portada_button_text: "Probar gratis",
 

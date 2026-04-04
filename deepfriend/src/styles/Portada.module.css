@@ -1,12 +1,3 @@
-.textCard {
-    flex: 1;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 @media (min-width: 1000px) {
     .container {
         width: 100%;
@@ -18,11 +9,10 @@
         align-items: flex-start;
 
         padding: 0px;
-        padding-top: 24px;
     }
 
     .card {
-        width: 100%;
+        flex: 1;
         min-height: 72vh;
 
         display: flex;
@@ -37,7 +27,7 @@
     }
 
     .textInnerCard {
-        width: 48%;
+        width: 56%;
         height: auto;
 
         display: flex;
@@ -53,7 +43,7 @@
     .title {
         font-family: "Cormorant";
         font-weight: 500;
-        font-size: 8rem;
+        font-size: 64px;
 
         padding: 0px;
         margin: 0px;
@@ -108,8 +98,8 @@
 
 @media (max-width: 999px) {
     .container {
-        flex: 1;
-        min-height: 80vh;
+        width: 100%;
+        height: auto;
 
         display: flex;
         flex-direction: column;
@@ -117,11 +107,11 @@
         align-items: flex-start;
 
         padding: 0px;
-        padding-top: 24px;
     }
 
     .card {
         flex: 1;
+        min-height: 80vh;
 
         display: flex;
         flex-direction: column;
@@ -149,7 +139,7 @@
     .title {
         font-family: "Cormorant";
         font-weight: 500;
-        font-size: 5rem;
+        font-size: 40px;
 
         padding: 0px;
         margin: 0px;
@@ -164,7 +154,7 @@
     }
 
     .button {
-        width: 220px;
+        width: 100%;
         height: 48px;
 
         display: flex;
