@@ -3,285 +3,33 @@
         height: 80px;
 
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
 
         background-color: white;
-        /*
-        border-bottom: 1px solid #e5e5e5;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-        */
     }
 
-    .leftSection {
-        width: 10%;
-
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 16px;
-
-        text-decoration: none;
-    }
-
-    .logoLink {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        text-decoration: none;
-        gap: 12px;
-        transition: opacity 0.3s ease;
-    }
-
-    .logoLink:hover {
-        opacity: 0.8;
-    }
-
-    .desktopNav {
-        flex: 1;
-
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-content: center;
-
-        gap: 40px;
-    }
-
-    .desktopNavButton {
+    .title {
         width: auto;
         height: auto;
 
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
-        align-content: center;
+        align-items: center;
 
-        align-self: center;
-    }
+        gap: 8px;
 
-    .navTitle {
         font-family: "Cormorant";
         font-size: 24px;
         font-weight: 500;
+
         color: "black";
-        text-decoration: none;
-        margin: 0;
     }
 
-    .navTitle:hover {
-        text-decoration: none;
-    }
-
-    .navLink {
-        text-decoration: none;
-        align-self: center;
-
-        font-family: 'Cormorant', serif;
-        font-size: 18px;
-        font-weight: 500;
-
-        text-align: center;
-    }
-
-    .navLink:hover::after {
-        text-decoration: none;
-        width: 100%;
-    }
-
-    .navLink.active {
-        text-decoration: none;
-        color: #7DB3D7;
-        font-weight: 700;
-    }
-
-    .navLink.active::after {
-        text-decoration: none;
-        width: 100%;
-    }
-
-    .dropdown {
-        position: absolute;
-        top: 80px;
-        right: 20px;
-        background-color: white;
-        border: 1px solid #e5e5e5;
-        border-radius: 12px;
-        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
-        padding: 8px;
-        min-width: 220px;
-        z-index: 1000;
-        animation: slideDown 0.3s ease;
-    }
-
-    @keyframes slideDown {
-        from {
-            opacity: 0;
-            transform: translateY(-10px);
-        }
-
-        to {
-            opacity: 1;
-            transform: translateY(0);
-        }
-    }
-
-    .dropdownLink {
-        display: block;
-
-        font-family: 'Cormorant', serif;
-        font-size: 18px;
-        font-weight: 500;
-
-        text-decoration: none;
-        text-align: center;
-
-        padding: 12px 16px;
-        border-radius: 8px;
-        transition: all 0.2s ease;
-    }
-
-    .dropdownLink:hover {
-        background-color: #f5f5f5;
-    }
-
-    .dropdownLink.active {
-        color: #7DB3D7;
-        font-weight: 500;
-        background-color: #f0f8ff;
-    }
-
-    .dropdownDivider {
-        height: 1px;
-        background-color: #e5e5e5;
-        margin: 8px 0;
-    }
-
-    .dropdownTiktok {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-content: center;
-        gap: 12px;
-        padding: 12px 16px;
-        border-radius: 8px;
-        cursor: pointer;
-        transition: background-color 0.2s ease;
-    }
-
-    .dropdownTiktokText {
-        font-family: "Cormorant";
-        font-size: 18px;
-        font-weight: 500;
-        color: "black";
-        align-self: "center";
-    }
-
-    .dropdownTiktok:hover {
-        background-color: #f5f5f5;
-    }
-
-    .tiktokButton {
+    .logo {
         width: 40px;
         height: 40px;
-
-        background: none;
-        border: none;
-        cursor: pointer;
-        padding: 8px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 8px;
-        transition: all 0.3s ease;
-
-        align-self: flex-end;
-    }
-
-    .tiktokButton:hover {
-        background-color: #f5f5f5;
-        transform: scale(1.1);
-    }
-
-    .menuButton {
-        background: none;
-        border: none;
-        cursor: pointer;
-        padding: 8px;
-        display: none;
-        border-radius: 8px;
-        transition: background-color 0.3s ease;
-    }
-
-    .menuButton:hover {
-        background-color: #f5f5f5;
-    }
-
-    /* Responsive */
-    @media (min-width: 769px) {
-        .menuButton {
-            display: none;
-        }
-
-        .dropdown {
-            display: none;
-        }
-    }
-
-    @media (max-width: 768px) {
-
-        .desktopNav {
-            display: none;
-        }
-
-        .tiktokButton {
-            display: none;
-        }
-
-        .menuButton {
-            display: flex;
-        }
-
-        .logoLink h1 {
-            font-size: 24px;
-        }
-
-        .logoLink img {
-            width: 40px;
-            height: 40px;
-        }
-    }
-
-    @media (max-width: 480px) {
-        .desktopNav {
-            display: none;
-        }
-
-        .tiktokButton {
-            display: none;
-        }
-
-        .logoLink h1 {
-            font-size: 20px;
-        }
-
-        .logoLink img {
-            width: 36px;
-            height: 36px;
-        }
-
-        .dropdown {
-            right: 8px;
-            min-width: 200px;
-        }
-
-        .navTitle {
-            font-family: "Cormorant";
-            font-size: 32px;
-            font-weight: 600;
-            color: "black";
-            text-decoration: none;
-            margin: 0;
-        }
+        align-self: center;
     }
