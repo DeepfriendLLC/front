@@ -150,7 +150,19 @@
 @media (max-width: 999px) {
     .container {
         width: 100%;
-        height: 96vh;
+        height: 72vh;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        padding: 0px;
+    }
+
+    .reverseContainer {
+        width: 100%;
+        height: 72vh;
 
         display: flex;
         flex-direction: column;
