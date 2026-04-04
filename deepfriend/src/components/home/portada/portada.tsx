@@ -8,11 +8,15 @@ import { useSelector } from "react-redux";
 import { RootState } from "@/hooks/store";
 import { TranslationTexts } from "@/constants/translations/translations";
 
-import Peeps from "@/../public/images/peeps/peeps-horizontal.png";
-import GooglePlayLogo from "@/../public/icons/google-play/google-play-logo.png";
+import PcBackground from "@/../public/images/portada/pc.png";
+import PhoneBackground from "@/../public/images/portada/phone.jpg";
+import GooglePlayLogo from "@/../public/icons/google-play/logo.png";
+import { useWindowWidth } from "@/hooks/width/width";
 
 export default function PortadaComponent() {
     const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
+
+    const width = useWindowWidth();
 
     const googlePlayLink = "https://play.google.com/store/apps/details?id=com.dfbubbles.deepfriend";
 
@@ -21,7 +25,7 @@ export default function PortadaComponent() {
     };
 
     const cardStyle: CSSProperties = {
-        backgroundImage: `url(${Peeps.src})`,
+        backgroundImage: `url(${width >= 1000 ? PcBackground.src : PhoneBackground.src})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -36,31 +40,22 @@ export default function PortadaComponent() {
                 <div className={styles.textCard}>
                     <div className={styles.textInnerCard}>
                         <h1 className={styles.title}>
-                            Deepfriend
+                            {TranslationTexts[systemLanguage].home_portada_title}
                         </h1>
-                        <h1 className={styles.subtitle}>
-                            {TranslationTexts[systemLanguage].home_portada_subtitle}
-                        </h1>
-                        <h1 className={styles.text}>
-                            {TranslationTexts[systemLanguage].home_portada_text}
-                        </h1>
-                        <h1 className={styles.promotionalText}>
-                            {TranslationTexts[systemLanguage].home_portada_promotion_text}
-                        </h1>
+                        <button
+                            onClick={goToPlayStore}
+                            className={styles.button}
+                            aria-label="Prueba Deepfriend"
+                        >
+                            <Image
+                                alt="Google Play Store Logo"
+                                src={GooglePlayLogo}
+                                className={styles.buttonImage}
+                            />
+                            {TranslationTexts[systemLanguage].home_portada_button_text}
+                        </button>
                     </div>
                 </div>
-                <button
-                    onClick={goToPlayStore}
-                    className={styles.button}
-                    aria-label="Download Deepfriend at Google Play Store"
-                >
-                    <Image
-                        alt="Google Play Store Logo"
-                        src={GooglePlayLogo}
-                        className={styles.buttonImage}
-                    />
-                    {TranslationTexts[systemLanguage].home_portada_button_text}
-                </button>
             </div>
         </div>
     );
