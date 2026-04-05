@@ -14,9 +14,13 @@ export function middleware(request: NextRequest) {
   response.headers.set('Referrer-Policy', 'origin-when-cross-origin');
 
   response.headers.set(
-    'Content-Security-Policy',
-    "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:;"
-  );
+  'Content-Security-Policy',
+  "default-src 'self'; " +
+  "script-src 'self' 'unsafe-inline' 'unsafe-eval'; " +
+  "style-src 'self' 'unsafe-inline' https://googleapis.com https://jsdelivr.net; " +
+  "font-src 'self' https://gstatic.com; " + 
+  "img-src 'self' data: https:;"
+);
 
   return response;
 }
