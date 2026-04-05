@@ -18,11 +18,11 @@ export function Head() {
             />
             <meta
                 name="description"
-                content="Scientifically based mental health app CBT at an affordable price. Blue is our AI mental health expert, who uses a complex memory system and techniques to provide you with the care you deserve."
+                content="Deepfriend es una app de compañía emocional basada en IA y evidencia científica. Sientete escuchada/o y entendida/o estés dónde estés, las 24 horas del día. Sin cargas emocionales ni prejuicios. El apoyo de calidad que te mereces siempre para ti."
             />
             <meta
                 name="keywords"
-                content="best, best ai mental health, best psycology AI, AI psycology, ai mental, AI mental health app, Mental health app, app mental, cientific mental health, cbt app, cbt mental health app, Bubbles AI, Bubbles mental health, Deepfriend, Deep friend."
+                content="Blue AI, Blue, Deepfriend, Deepfriemd, Deep friend, Meditaciones personalizadas."
             />
 
             <link rel="preconnect" href="https://fonts.googleapis.com" />

@@ -11,10 +11,15 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         footer_links_privacy_policy: "Politica de privacidad",
         footer_links_legal_terms: "Terminos de uso",
 
+        head_home_title: "Deepfriend",
+        head_about_title: "Deepfriend | Sobre nosotros",
+        head_contact_title: "Deepfriend | Contacto",
+        head_legal_terms_title: "Deepfriend | Términos legales",
+        head_privacy_policy_title: "Deepfriend | Política de privacidad",
+
         home_portada_title: "Sientete mejor con Blue, tu confidente incondicional.",
         home_portada_text: "La ciencia de la Salud Mental",
         home_portada_button_text: "Probar gratis",
-
 
         home_properties_1_title: "Quitate esa presión de encima.",
         home_properties_1_text: "Desahogate con Blue, sientete escuchada/o y entendida/o estés dónde estés, las 24 horas del día. Sin cargas emocionales ni prejuicios. El apoyo de calidad que te mereces siempre para ti.",
@@ -220,6 +225,12 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         footer_links: "Legal",
         footer_links_privacy_policy: "Privacy Policy",
         footer_links_legal_terms: "Terms of Use",
+
+        head_home_title: "Deepfriend",
+        head_about_title: "Deepfriend | About us",
+        head_contact_title: "Deepfriend | Contact",
+        head_legal_terms_title: "Deepfriend | Legal terms",
+        head_privacy_policy_title: "Deepfriend | Privacy policy",
 
         home_portada_title: "Feel better with Blue, your unconditional confidant.",
         home_portada_text: "The science of Mental Health",

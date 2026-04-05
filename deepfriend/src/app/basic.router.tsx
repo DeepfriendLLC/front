@@ -2,15 +2,13 @@
 
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
-import { useCookies } from "react-cookie";
-import { useDispatch, useSelector } from "react-redux";
-import { RootState } from "@/hooks/store";
-import { NavbarComponent } from "@/components/basic/navbar";
-import { FooterComponent } from "@/components/basic/footer";
+import { useDispatch } from "react-redux";
 import { useRouter } from "next/navigation";
 import { AllowedLanguagesEncodedType, setSystemLanguageStore } from "@/hooks/slice/systemLanguage";
 import dayjs from "dayjs";
 import utc from 'dayjs/plugin/utc';
+import { ALLOWED_LANGUAGES } from "@/utils/getServerLanguage";
+import { AllowedPagesType } from "@/utils/metadata";
 
 dayjs.extend(utc);
 
@@ -19,16 +17,18 @@ export default function BasicRouter({ children }: { children: React.ReactNode })
   const pathname = usePathname();
   const dispatch = useDispatch();
 
-  const [cookies, setCookie] = useCookies(['systemColor', 'systemLanguage']);
+  /*
+    const [cookies, setCookie] = useCookies(['systemColor', 'systemLanguage']);
+  
+    const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
+    const { sessionId } = useSelector((state: RootState) => state.sessionId);
+  */
 
-  const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
-  const { sessionId } = useSelector((state: RootState) => state.sessionId);
-
-  const allowedRoutes = ['/', '/about', '/contact', '/legal-terms', '/privacy-policy'];
+  const allowedRoutes: AllowedPagesType[] = ['/', '/about', '/contact', '/legal-terms', '/privacy-policy'];
   const redirectTo = `https://www.youtube.com/watch?v=dQw4w9WgXcQ`;
 
   const init = async () => {
-    if (router && !allowedRoutes.includes(pathname)) router.push(redirectTo);
+    if (router && !allowedRoutes.includes(pathname as AllowedPagesType)) router.push(redirectTo);
 
     getInitSystemLanguage();
     /*
@@ -39,11 +39,9 @@ export default function BasicRouter({ children }: { children: React.ReactNode })
 
   const getInitSystemLanguage = () => {
     const _systemLanguage = Intl.DateTimeFormat().resolvedOptions().locale.split(`-`)[0];
-    const actualLanguage = ['en', 'ca', 'es'].includes(_systemLanguage) ? _systemLanguage as AllowedLanguagesEncodedType : "es";
-
+    const actualLanguage = ALLOWED_LANGUAGES.includes(_systemLanguage as AllowedLanguagesEncodedType) ? _systemLanguage as AllowedLanguagesEncodedType : "es";
 
     dispatch(setSystemLanguageStore(actualLanguage));
-    //dispatch(setSystemLanguageStore("en"));
 
     return actualLanguage;
   };
