@@ -16,43 +16,52 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         home_portada_button_text: "Probar gratis",
 
 
-        home_properties_1_title: "Desahogate. Sin presión ni prejuicios.",
-        home_properties_1_text: "Tu amiga y compañía científica para apoyarte en tu día a día. Lista para ti y basada en la ciencia de la TCC, entiende toda tu historia para darte la ayuda de calidad que te mereces en un espacio seguro y sin prejuicios las 24/7.",
+        home_properties_1_title: "Quitate esa presión de encima.",
+        home_properties_1_text: "Desahogate con Blue, sientete escuchada/o y entendida/o estés dónde estés, las 24 horas del día. Sin cargas emocionales ni prejuicios. El apoyo de calidad que te mereces siempre para ti.",
 
-        home_properties_2_title: "Funciona. No es mágia, es ciencia.",
-        home_properties_2_text: "Aprende nuevas herramientas para darte el control de tu mente en la librería científica gratuita de Deepfriend. Controla la situación sea cual sea y estés dónde estés con técnicas para el estrés, ansiedad, insomnio y mucho más.",
+        home_properties_2_title: "Mejora de verdad, con ciencia.",
+        home_properties_2_text: "Sientete mejor y con más control con herramientas científicas probadas y validadas. Blue te guía en un entorno seguro dándote la libertad de mejorar a tu ritmo. Aprende nuevas técnicas en la Biblioteca.",
 
-        home_properties_3_title: "Privado. Tus secretos contigo.",
-        home_properties_3_text: "Guiate solo por lo que ha sido validado científicamente, Bubbles solo te recomienda técnicas probadas bajo el método científico. Es la regla de Deepfriend para que tengas un espacio seguro con apoyo real y eficaz.",
+        home_properties_3_title: "Tus secretos contigo.",
+        home_properties_3_text: "La gran diferencia, mientras otras apps te dicen que no utilizan tus datos con fines de marketing, Deepfriend te dice: nunca bajo ningún concepto se van a vender ni compartir tus datos con nadie. Asegurando que tus secretos están a salvo con Blue.",
 
-        home_properties_4_title: "Personalizable. A tu medida.",
-        home_properties_4_text: "La gran diferencia de Deepfriend, Bubbles te ofrece apoyo de calidad y validado con su sistema de 5 IAs especializadas que le permiten ayudarte entendiendo toda tu historia y contexto. Siempre con el compromiso de nunca vender ni compartir tus datos con nadie. Bubbles ofrece servicio wellness, no medico.",
+        home_properties_4_title: "Hecho a tu medida.",
+        home_properties_4_text: "Personaliza a tu gusto y haz que Blue sea como tu quieras para que se adapte a ti. Crea tu espacio de calma Mindfulness perfecto. Disfruta de una experiéncia hecha solo para ti.",
 
-        home_properties_5_title: "No tienes que pasar por todo tu sola/o.",
+        home_properties_5_title: "No tienes que pasar por todo tu sola/o, cuenta con Blue.",
 
-        home_properties_6_about: "Sobre Deepfriend",
-        home_properties_6_contact: "Contacto",
+        home_properties_6_product: "Blue AI",
+        home_properties_6_title: "Sientete entendida/o.",
+
+        home_properties_7_product: "Mindfulness",
+        home_properties_7_title: "Tu Espacio de calma hecho a medida.",
+
+        home_properties_8_product: "Biblioteca",
+        home_properties_8_title: "Aprende a controlar tu mente.",
+
+        home_properties_links_about: "Sobre Deepfriend",
+        home_properties_links_contact: "Contacto",
 
 
         home_mission_title: "Misión",
-        home_mission_text: "Deepfriend pretende ofrecerte un servicio con IA de calidad y basada en la ciencia para apoyar y guíarte en tu día a día, en los buenos y malos momentos. Promoviendo el conocimiento científico ofreciendote una gran librería de recursos validados. Todo en un entorno que prioriza la privacidad y accesibilidad para ofrecerte un lugar seguro en el que puedas confiar.",
+        home_mission_text: "Deepfriend nace para ofrecerte un servicio de compañía emocional con IA de calidad, basada en la ciencia para apoyar y guíarte en tu día a día. Promoviendo el conocimiento científico. Todo en un entorno que prioriza la privacidad y accesibilidad para ofrecerte un lugar seguro en el que puedas confiar.",
 
         home_values_title: "Valores",
-        home_values_text: "Los valores en los que se fundamenta Deepfriend son la ciencia y la privacidad personal. Esto hace el compromiso que hace a Deepfriend diferente: nunca bajo ningun concepto se van a vender ni compartir tus datos y solo se utilizan técnicas probadas bajo la evidencia científica.",
+        home_values_text: "Los valores en los que se fundamenta Deepfriend son la ciencia y la privacidad personal. Esto hace el compromiso que marca la diferencia de Deepfriend respecto a otros: nunca bajo ningun concepto se van a vender ni compartir tus datos y solo se utilizan técnicas probadas bajo la evidencia científica.",
 
 
         banner_about_title: "Conoce Deepfriend",
 
         about_why_title: "Porque Deepfriend?",
-        about_why_text: "La idea de Deepfriend nace despues de que una persona muy cercana pasase por una dura etapa de depresión. Pude comprobar como los servicios públicos más que ayudar, empeoraban la situación, y que la mayor parte de la psicología no se basa en la ciencia. Al ver esta situación decidí informarme y descubrí la Terapia Cognitivo Conductual, la única gran rama de la psicología con evidencia científica. Gracias a la mentoría de Adrián Gonzalez, un gran profesional de la TCC, y a mucho trabajo duro he construido Deepfriend para promover la Salud Mental basada en la ciencia y ayudar a quien lo necesite.",
+        about_why_text: "La idea de Deepfriend nace despues de que una persona muy cercana pasase por una dura etapa de depresión. En esa situación pude comprobar la pésima ayuda que dan los servicios públicos, además de que la mayor parte de la psicología sigue sin basarse en la evidencia científica. Al ver esta situación decidí informarme y descubrí la TCC, la única gran rama de la psicología con evidencia científica. Enotnces decidí empezar Deepfriend y gracias a la mentoría de Adrián Gonzalez, un gran profesional de la TCC, he podido crear esta solución de una manera segura y eficaz.",
 
-        about_pablo_title: "Fundador e ingeniero",
-        about_pablo_text: "Soy un ingeniero de software senior español y Deepfriend es mi manera de dar mi grano de arena a la sociedad. Desde pequeño me ha gustado desarrollar pequeñas soluciones open source y ahora que tengo la experiencia profesional, conocimientos solidos y después de mucho trabajo he construido este gran proyecto para promover el conocimiento científico en el campo de la Salud Mental y poder ayudar a quien lo necesite.",
+        about_pablo_title: "Fundador",
+        about_pablo_text: "Soy un ingeniero de software senior español y Deepfriend es mi manera de dar mi grano de arena a la sociedad. Desde pequeño he tenido la pasión por desarrollar soluciones que puedan aportar valor. Ahora que tengo experiencia profesional y después de mucho esfuerzo he construido este iniciativa para promover el conocimiento científico en el campo de la salud mental y poder ayudar a quien lo necesite.",
 
         banner_contact_title: "Ponte en contacto",
 
-        contact_title: "Quiero saber tu opinión",
-        contact_text: "Deepfriend es un proyecto personal construido en comunidad, escuchando las necesidades de muchas personas y adaptandolas para tener la mejor solución para todos. No solo me encantará escucharte, te animo a que escribas tu opinión para mejorar Deepfriend. Juntos podemos hacer de Deepfriend un referente en Salud Mental científica y ayudar a muchas parsonas.",
+        contact_title: "Mejora Deepfriend",
+        contact_text: "Deepfriend es un proyecto personal construido en comunidad, escuchando las necesidades de muchas personas y adaptandolas para tener la mejor solución para todos. No solo me encantará escucharte, te animo a que escribas tu opinión para mejorar Deepfriend. Juntos podemos hacer de Deepfriend un referente en compañía emocional basada en la salud mental científica y ayudar a muchas parsonas.",
 
         contact_subtitle_email: "Correos",
         contact_subtitle_social: "Redes sociales",
@@ -69,7 +78,7 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         privacy_policy_1_2_text: "· Dirección de correo electrónico.",
         privacy_policy_1_3_text: "· Nombre.",
         privacy_policy_1_4_text: "b) Contenido Generado por el Usuario:",
-        privacy_policy_1_5_text: "· Interacciones con Bubbles Wellness AI.",
+        privacy_policy_1_5_text: "· Interacciones con Blue AI.",
         privacy_policy_1_6_text: "· Métricas básicas y anónimas sobre interacciones con la aplicación.",
 
         privacy_policy_2_title: "3. Cómo Utilizamos su Información",
@@ -96,7 +105,7 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         privacy_policy_7_2_text: "· Solicitar la eliminación de sus datos",
 
         privacy_policy_8_title: "9. Uso de Inteligencia Artificial",
-        privacy_policy_8_text: "Nuestro Servicio utiliza principalmente IA para proporcionar el servicio de bienestar, Bubbles Wellness AI. El uso que la IA hace de sus datos está protegido por contrato y no compromete su privacidad.",
+        privacy_policy_8_text: "Nuestro Servicio utiliza principalmente IA para proporcionar el servicio de bienestar, Blue AI. El uso que la IA hace de sus datos está protegido por contrato y no compromete su privacidad.",
 
         privacy_policy_9_title: "10. Solicitudes Legales",
         privacy_policy_9_text: "Tomamos muy en serio la confianza del usuario. Si recibimos una solicitud legal de información, responderemos lo antes posible. Los usuarios pueden consultar sobre dichas solicitudes enviando un correo a hello@dfbubbles.com desde su dirección de correo registrada.",
@@ -105,7 +114,7 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         privacy_policy_10_text: "No utilizamos sus datos personales con fines de marketing o publicidad.",
 
         privacy_policy_11_title: "12. Privacidad de las Interacciones en el Chat",
-        privacy_policy_11_text: "Todas las interacciones con Bubbles Wellness AI y/o con otros usuarios son privadas. Todo el tráfico está protegido mediante cifrado HTTPS.",
+        privacy_policy_11_text: "Todas las interacciones con Blue AI y/o con otros usuarios son privadas. Todo el tráfico está protegido mediante cifrado HTTPS.",
 
         privacy_policy_12_title: "13. Privacidad de los Niños",
         privacy_policy_12_text: "Nuestro Servicio no está destinado a personas menores de 13 años. No recopilamos conscientemente información personal de niños menores de 13 años.",
@@ -121,7 +130,7 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         privacy_policy_15_1_text: " Al usar nuestro Servicio, usted expresa su aceptación de esta Política de Privacidad. Si no está de acuerdo con esta política, por favor no utilice nuestro Servicio. Su uso continuado del Servicio después de la publicación de cambios en esta política será considerado como su aceptación de dichos cambios.",
 
         privacy_policy_16_title: "Última actualización:",
-        privacy_policy_16_text: "02/11/2026",
+        privacy_policy_16_text: "04/05/2026",
 
 
 
@@ -131,7 +140,7 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         legal_terms_0_text: "Bienvenido a Deepfriend, su solución completa de salud mental de confianza. Este Acuerdo de Usuario y Términos de Uso ('Términos') regulan su acceso y uso de los servicios de Deepfriend, incluyendo nuestra aplicación móvil, sitio web y los servicios relacionados (colectivamente, el 'Servicio'). Al acceder o usar nuestro Servicio, usted acepta estar vinculado por estos Términos. Si no está de acuerdo con alguna parte de los Términos, no debe acceder al Servicio.",
 
         legal_terms_1_title: "2. Descripción del Servicio",
-        legal_terms_1_text: "Deepfriend ofrece una solución integral para el bienestar emocional que incluye Bubbles Wellness AI, Scientific Mindfulness y Zenverse. Nuestro Servicio está diseñado para ofrecer apoyo accesible en salud mental y no incluye terapia de ningún tipo ni ningún otro servicio médico. Aunque nos esforzamos por brindar un apoyo valioso, nuestro Servicio no sustituye el consejo, diagnóstico o tratamiento médico profesional.",
+        legal_terms_1_text: "Deepfriend ofrece una solución integral para el bienestar emocional que incluye Blue AI, Mindfulness y la Biblioteca. Nuestro Servicio está diseñado para ofrecer apoyo accesible en salud mental y no incluye terapia de ningún tipo ni ningún otro servicio médico. Aunque nos esforzamos por brindar un apoyo valioso, nuestro Servicio no sustituye el consejo, diagnóstico o tratamiento médico profesional.",
 
         legal_terms_2_title: "3. Elegibilidad",
         legal_terms_2_text: "Debe tener al menos 13 años para usar el Servicio. Al usar el Servicio, usted declara y garantiza que tiene al menos 13 años y que posee el derecho, autoridad y capacidad para aceptar y cumplir con estos Términos.",
@@ -160,12 +169,12 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         legal_terms_7_title: "8. Privacidad y Protección de Datos",
         legal_terms_7_0_text: "Su privacidad es primordial para nosotros. Su uso del Servicio se rige por nuestra Política de Privacidad, la cual se incorpora a estos Términos por referencia. Queremos enfatizar que:",
         legal_terms_7_1_text: "· Nunca venderemos ni compartiremos sus datos personales fuera de la compañía. Este es un principio fundamental de Deepfriend que no cambiará.",
-        legal_terms_7_2_text: "· Ninguna empresa, excepto nuestro proveedor de IA que impulsa Bubbles Wellness AI, tiene acceso a los datos de los usuarios. Este proveedor de IA está contractualmente obligado a cumplir con estrictas medidas de confidencialidad y protección de datos.",
-        legal_terms_7_3_text: "· Todas sus interacciones con Bubbles Wellness AI a través de nuestra plataforma se mantienen estrictamente confidenciales.",
+        legal_terms_7_2_text: "· Ninguna empresa, excepto nuestro proveedor de IA que impulsa Blue AI, tiene acceso a los datos de los usuarios. Este proveedor de IA está contractualmente obligado a cumplir con estrictas medidas de confidencialidad y protección de datos.",
+        legal_terms_7_3_text: "· Todas sus interacciones con Blue AI a través de nuestra plataforma se mantienen estrictamente confidenciales.",
 
         legal_terms_8_title: "9. Exenciones de Responsabilidad",
         legal_terms_8_0_text: "· Exención Médica: El Servicio no pretende sustituir el consejo, diagnóstico o tratamiento médico profesional. Siempre busque el consejo de su médico u otro profesional de salud calificado ante cualquier pregunta que tenga sobre una condición médica.",
-        legal_terms_8_1_text: "· Limitaciones de la IA: Si bien nuestro asistente IA, Bubbles Wellness AI, está diseñado para brindar apoyo, tiene limitaciones y puede no proporcionar siempre respuestas precisas o adecuadas. Los usuarios deben ejercer juicio al interpretar el contenido generado por la IA.",
+        legal_terms_8_1_text: "· Limitaciones de la IA: Si bien nuestro asistente IA, Blue AI, está diseñado para brindar apoyo, tiene limitaciones y puede no proporcionar siempre respuestas precisas o adecuadas. Los usuarios deben ejercer juicio al interpretar el contenido generado por la IA.",
         legal_terms_8_2_text: "· Sin Garantía: El Servicio se proporciona 'TAL CUAL' y 'SEGÚN DISPONIBILIDAD'. Deepfriend renuncia expresamente a todas las garantías de cualquier tipo, ya sean expresas o implícitas.",
 
         legal_terms_9_title: "10. Limitación de Responsabilidad",
@@ -200,7 +209,7 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         legal_terms_18_1_text: "Al usar nuestro Servicio, reconoce que ha leído y comprendido estos Términos y acepta estar obligado por ellos. Bienvenido a la comunidad de Deepfriend.",
 
         legal_terms_19_title: "Última actualización:",
-        legal_terms_19_text: "02/11/2026",
+        legal_terms_19_text: "04/05/2026",
 
     },
     en: {

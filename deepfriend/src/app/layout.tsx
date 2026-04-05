@@ -22,7 +22,7 @@ export default function RootLayout({
 
   return (
     <Provider store={store}>
-      <html lang="en">
+      <html lang="es">
         <Head />
         <body>
           <CookiesProvider>
