@@ -31,13 +31,13 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         home_properties_5_title: "No tienes que pasar por todo tu sola/o, cuenta con Blue.",
 
         home_properties_6_product: "Blue AI",
-        home_properties_6_title: "Sientete entendida/o.",
+        home_properties_6_title: "Sientete escuchada/o por la IA que entiende tu mente y contexto.",
 
         home_properties_7_product: "Mindfulness",
-        home_properties_7_title: "Tu Espacio de calma hecho a medida.",
+        home_properties_7_title: "Tu Espacio de calma hecho a medida. Meditaciones, videos y música para crear tu momento perfecto.",
 
         home_properties_8_product: "Biblioteca",
-        home_properties_8_title: "Aprende a controlar tu mente.",
+        home_properties_8_title: "Aprende a controlar tu mente con técnicas fáciles y validadas.",
 
         home_properties_links_about: "Sobre Deepfriend",
         home_properties_links_contact: "Contacto",
@@ -210,7 +210,6 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
 
         legal_terms_19_title: "Última actualización:",
         legal_terms_19_text: "04/05/2026",
-
     },
     en: {
         navbar_home: "Home",
@@ -222,105 +221,111 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         footer_links_privacy_policy: "Privacy Policy",
         footer_links_legal_terms: "Terms of Use",
 
-        home_portada_subtitle: "Your peace of mental app",
-        home_portada_text: "Scientific Wellness AI for everyday life",
-        home_portada_promotion_text: "1 month of Super Bubbles FREE",
-        home_portada_button_text: "Download on Google Play",
+        home_portada_title: "Feel better with Blue, your unconditional confidant.",
+        home_portada_text: "The science of Mental Health",
+        home_portada_button_text: "Try for free",
 
-        home_properties_bubbles_title: "Bubbles Wellness AI",
-        home_properties_bubbles_text: "Your scientific friend and companion to support you in your daily life. Always ready for you and based in Cognitive Behavioral Therapy (CBT), it understands your full story to provide the quality support you deserve in a safe, judgment-free 24/7 space.",
+        home_properties_1_title: "Take that pressure off.",
+        home_properties_1_text:
+            "Vent your feelings with Blue, feel heard and understood wherever you are, 24 hours a day. No emotional baggage or judgments. The quality support you deserve, always for you.",
 
-        home_properties_bubbles_badge_0_title: "Chat & Voice",
-        home_properties_bubbles_badge_0_text: "Speak or write",
-        home_properties_bubbles_badge_1_title: "CBT",
-        home_properties_bubbles_badge_1_text: "Science-based",
-        home_properties_bubbles_badge_2_title: "Judgment-free",
-        home_properties_bubbles_badge_2_text: "Express yourself freely",
+        home_properties_2_title: "Real improvement, with science.",
+        home_properties_2_text:
+            "Feel better and more in control with proven, validated scientific tools. Blue guides you in a safe environment, giving you the freedom to improve at your own pace. Learn new techniques in the Library.",
 
-        home_properties_mindfulness_title: "Scientific Mindfulness",
-        home_properties_mindfulness_text: "Learn new tools to gain control over your mind in Deepfriend’s free scientific library. Stay in control wherever you are with techniques for stress, anxiety, insomnia, and much more.",
+        home_properties_3_title: "Your secrets with you.",
+        home_properties_3_text:
+            "The big difference: while other apps tell you they don't use your data for marketing, Deepfriend says: under no circumstances will we ever sell or share your data with anyone. Ensuring your secrets are safe with Blue.",
 
-        home_properties_mindfulness_badge_0_title: "+100 resources",
-        home_properties_mindfulness_badge_0_text: "Learn new tools",
-        home_properties_mindfulness_badge_1_title: "Techniques",
-        home_properties_mindfulness_badge_1_text: "Calm your mind anywhere",
-        home_properties_mindfulness_badge_2_title: "Habits",
-        home_properties_mindfulness_badge_2_text: "Discover how to live a better life",
+        home_properties_4_title: "Made to measure.",
+        home_properties_4_text:
+            "Customize to your liking and make Blue exactly as you want so it fits you. Create your perfect Mindfulness calm space. Enjoy an experience crafted just for you.",
 
-        home_properties_3_title: "Science only",
-        home_properties_3_text: "Be guided exclusively by what has been scientifically validated. Bubbles recommends only techniques tested under the scientific method. This is Deepfriend’s core principle to ensure you have a safe space with real and effective support.",
+        home_properties_5_title:
+            "You don't have to go through everything alone, count on Blue.",
 
-        home_properties_4_title: "Privacy and quality",
-        home_properties_4_text: "Deepfriend’s key difference, Bubbles provides high-quality, validated support through its system of 5 specialized AIs, enabling it to help you by understanding your full history and context. With a firm commitment to never selling or sharing your data with anyone. Bubbles provides wellness services, not medical care.",
+        home_properties_6_product: "Blue AI",
+        home_properties_6_title:
+            "Feel heard by the AI that understands your mind and context.",
+
+        home_properties_7_product: "Mindfulness",
+        home_properties_7_title:
+            "Your custom calm space. Meditations, videos, and music to create your perfect moment.",
+
+        home_properties_8_product: "Library",
+        home_properties_8_title:
+            "Learn to control your mind with easy, validated techniques.",
+
+        home_properties_links_about: "About Deepfriend",
+        home_properties_links_contact: "Contact",
 
         home_mission_title: "Mission",
-        home_mission_text: "Deepfriend aims to offer high-quality, AI science-based support to guide you through everyday life, in both good and difficult moments. Promoting scientific knowledge through an extensive library of validated resources. All within an environment that prioritizes privacy and accessibility, providing a safe space you can trust.",
+        home_mission_text:
+            "Deepfriend was created to provide you with a high‑quality AI emotional companion service, science‑based to support and guide you daily. Promoting scientific knowledge. All within an environment that prioritizes privacy and accessibility to give you a safe place you can trust.",
 
         home_values_title: "Values",
-        home_values_text: "Deepfriend is built upon science and personal privacy. This commitment sets Deepfriend apart, under no circumstances will your data be sold or shared and only techniques supported by scientific evidence are used.",
+        home_values_text:
+            "Deepfriend's core values are science and personal privacy. This commitment sets Deepfriend apart from others: under no circumstances will we sell or share your data, and we only use techniques proven by scientific evidence.",
 
-        banner_about_title: "Discover Deepfriend",
+        banner_about_title: "Meet Deepfriend",
 
         about_why_title: "Why Deepfriend?",
-        about_why_text: "The idea for Deepfriend was born after someone very close to me went through a difficult period of depression. I witnessed how public services, rather than helping, often worsened the situation, and how much of psychology lacks a scientific foundation. Faced with this reality, I began researching and discovered Cognitive Behavioral Therapy (CBT), the only major branch of psychology strongly supported by scientific evidence. With the mentorship of Adrián González, a highly respected CBT professional, and through extensive dedication and hard work, I built Deepfriend to promote science-based Mental Health and support those who need it.",
+        about_why_text:
+            "The idea of Deepfriend was born after a close person went through a tough depressive episode. In that situation I saw the poor help provided by public services, and that most of psychology still isn’t based on scientific evidence. Seeing this, I decided to learn more and discovered CBT, the only major branch of psychology with scientific evidence. I then decided to start Deepfriend and, thanks to the mentorship of Adrián Gonzalez, a great CBT professional, I have been able to create this solution safely and effectively.",
 
-        about_pablo_title: "Founder & Engineer",
-        about_pablo_text: "I am a senior Spanish software engineer and Deepfriend is my way of contributing to society. Since childhood, I have enjoyed building small open-source solutions. Now, with solid professional experience and knowledge and after significant effort, I have created this ambitious project to promote scientific knowledge in the field of Mental Health and help those who need it.",
+        about_pablo_title: "Founder",
+        about_pablo_text:
+            "I am a senior Spanish software engineer and Deepfriend is my way of doing my part for society. Since childhood I have been passionate about building solutions that add value. Now that I have professional experience and after much effort I have built this initiative to promote scientific knowledge in the field of mental health and help anyone who needs it.",
 
+        banner_contact_title: "Get in touch",
 
-        banner_contact_title: "Get in Touch",
-
-        contact_title: "I want to hear your feedback",
-        contact_text: "Deepfriend is a personal project built with the community, listening to many people's needs and adapting them to have the best solution for all. I’d love to hear from you; I encourage you to write your feedback to improve Deepfriend. Together we can make Deepfriend a benchmark in scientific Mental Health and help many people.",
+        contact_title: "Improve Deepfriend",
+        contact_text:
+            "Deepfriend is a personal project built with the community, listening to many people's needs and adapting them to create the best solution for everyone. I’ll love to hear from you, and I encourage you to share your feedback to improve Deepfriend. Together we can make Deepfriend a benchmark in AI‑driven emotional companionship based on scientific mental health and help many people.",
 
         contact_subtitle_email: "Emails",
-        contact_subtitle_social: "Social Networks",
+        contact_subtitle_social: "Social media",
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        banner_privacy_policy_title: "Privacy Policy: Your Rights and Our Responsibilities",
+        banner_privacy_policy_title:
+            "Privacy Policy: Your Rights and Our Responsibilities",
 
         privacy_policy_0_title: "1. Introduction",
-        privacy_policy_0_text: "Deepfriend LLC ('Deepfriend', 'we', 'our' or 'us') is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose and safeguard your information when you use our wellness service and related services (collectively, the 'Service'). By using our Service, you agree to the collection and use of information in accordance with this policy. We will not use your information except as described in this Privacy Policy. We will not share your information with anyone outside Deepfriend comapny in any circumstance.",
+        privacy_policy_0_text:
+            "Deepfriend LLC ('Deepfriend', 'we', 'our' or 'us') is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose and safeguard your information when you use our wellness service and related services (collectively, the 'Service'). By using our Service, you consent to the collection and use of information in accordance with this policy. We will not use your information except as described in this Privacy Policy. We will not share your information with anyone outside Deepfriend under any circumstances.",
 
         privacy_policy_1_title: "2. Information We Collect",
         privacy_policy_1_0_text: "We collect the following types of information:",
         privacy_policy_1_1_text: "a) Personal Information:",
         privacy_policy_1_2_text: "· Email address.",
         privacy_policy_1_3_text: "· Name.",
-        privacy_policy_1_4_text: "b) User-Generated Content:",
-        privacy_policy_1_5_text: "· Interactions with Bubbles Wellness AI.",
-        privacy_policy_1_6_text: "· Basic and anonymous metrics about app interactions.",
+        privacy_policy_1_4_text: "b) User‑Generated Content:",
+        privacy_policy_1_5_text: "· Interactions with Blue AI.",
+        privacy_policy_1_6_text:
+            "· Basic, anonymous metrics about app interactions.",
 
         privacy_policy_2_title: "3. How We Use Your Information",
-        privacy_policy_2_0_text: "We use the collected information for the following purposes:",
-        privacy_policy_2_1_text: "· To provide you access to our Service.",
-        privacy_policy_2_2_text: "· To improve our wellness services.",
-        privacy_policy_2_3_text: "· To resolve usage problems under your request at help section.",
+        privacy_policy_2_0_text:
+            "We use the collected information for the following purposes:",
+        privacy_policy_2_1_text: "· Provide you access to our Service.",
+        privacy_policy_2_2_text: "· Improve our wellness services.",
+        privacy_policy_2_3_text:
+            "· Resolve usage issues upon your request via the help section.",
 
         privacy_policy_3_title: "4. Data Sharing and Disclosure",
-        privacy_policy_3_text: "We do not share or sell your personal information to third parties. Temporaly, and because of our early stage, we use an external provider (API) for our AI system who is contractually prohibited from using this information for any purpose other than providing service to Deepfriend.",
+        privacy_policy_3_text:
+            "We do not share or sell your personal information to third parties. Temporarily, due to our early stage, we use an external provider (API) for our AI system that is contractually prohibited from using this information for any purpose other than providing the service to Deepfriend.",
 
         privacy_policy_4_title: "5. Data Storage and Security",
-        privacy_policy_4_text: "Your data is stored securely in a database with all industry standard level security. It is only accessible through Deepfriend personal and server. All passwords are encrypted. We take very seriously your security and we implement high industry-standard security measures to protect your personal information.",
+        privacy_policy_4_text:
+            "Your data is securely stored in a database with industry‑standard security levels. It is only accessible by Deepfriend staff and servers. All passwords are encrypted. We take your security seriously and implement high‑level safeguards in line with industry standards to protect your personal information.",
 
         privacy_policy_5_title: "6. Data Retention",
-        privacy_policy_5_text: " We retain your data indefinitely until you request its deletion.",
+        privacy_policy_5_text:
+            "We retain your data indefinitely until you request its deletion.",
 
         privacy_policy_6_title: "7. Cookies and Tracking",
-        privacy_policy_6_text: "We do not use cookies or any tracking systems in our mobile application.",
+        privacy_policy_6_text:
+            "We do not use cookies or any tracking system in our mobile app.",
 
         privacy_policy_7_title: "8. Your Data Rights",
         privacy_policy_7_0_text: "You have the right to:",
@@ -328,110 +333,150 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         privacy_policy_7_2_text: "· Request deletion of your data",
 
         privacy_policy_8_title: "9. Use of Artificial Intelligence",
-        privacy_policy_8_text: "Our Service primarily uses AI to provide wellness service, Bubbles Wellness AI. The AI's use of your data is protected by contract and does not compromise your privacy.",
+        privacy_policy_8_text:
+            "Our Service primarily uses AI to deliver the wellness offering, Blue AI. The AI’s use of your data is contractually protected and does not compromise your privacy.",
 
         privacy_policy_9_title: "10. Legal Requests",
-        privacy_policy_9_text: "We take user trust seriously. If we receive a legal request for information, we will respond as promptly as possible. Users can make inquiries about such requests by emailing hello@dfbubbles.com from their registered email address.",
+        privacy_policy_9_text:
+            "We take user trust very seriously. If we receive a legal request for information, we will respond as promptly as possible. Users can inquire about such requests by emailing hello@dfbubbles.com from their registered email address.",
 
         privacy_policy_10_title: "11. Marketing and Advertising",
-        privacy_policy_10_text: "We do not use your personal data for marketing or advertising purposes.",
+        privacy_policy_10_text:
+            "We do not use your personal data for marketing or advertising purposes.",
 
-        privacy_policy_11_title: "12. Chat Interactions Privacy",
-        privacy_policy_11_text: "All interactions with Bubbles Wellness AI and/or other users are private. All traffic is protected by HTTPS encryption.",
+        privacy_policy_11_title: "12. Chat Interaction Privacy",
+        privacy_policy_11_text:
+            "All interactions with Blue AI and/or other users are private. All traffic is protected via HTTPS encryption.",
 
         privacy_policy_12_title: "13. Children's Privacy",
-        privacy_policy_12_text: "Our Service is not intended for use by individuals under the age of 13. We do not knowingly collect personal information from children under 13.",
+        privacy_policy_12_text:
+            "Our Service is not intended for persons under 13 years old. We do not knowingly collect personal information from children under 13.",
 
-        privacy_policy_13_title: "14. Changes to This Privacy Policy",
-        privacy_policy_13_text: "We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the 'Last Updated' date.",
+        privacy_policy_13_title: "14. Changes to this Privacy Policy",
+        privacy_policy_13_text:
+            "We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the 'Last updated' date.",
 
-        privacy_policy_14_title: "15. Contact Us",
-        privacy_policy_14_text: "If you have any questions about this Privacy Policy, please contact us at: hello@dfbubbles.com",
+        privacy_policy_14_title: "15. Contact",
+        privacy_policy_14_text:
+            "If you have any questions about this Privacy Policy, please contact us at: hello@dfbubbles.com",
 
         privacy_policy_15_title: "16. Governing Law",
-        privacy_policy_15_0_text: "This Privacy Policy is governed by and construed in accordance with the laws of the State of Delaware of the United States of America, without giving effect to any principles of conflicts of law.",
-        privacy_policy_15_1_text: " By using our Service, you signify your acceptance of this Privacy Policy. If you do not agree to this policy, please do not use our Service. Your continued use of the Service following the posting of changes to this policy will be deemed your acceptance of those changes.",
+        privacy_policy_15_0_text:
+            "This Privacy Policy is governed and interpreted in accordance with the laws of the State of Delaware, United States of America, without regard to conflict of law principles.",
+        privacy_policy_15_1_text:
+            "By using our Service, you express your acceptance of this Privacy Policy. If you do not agree with this policy, please do not use our Service. Your continued use of the Service after changes to this policy are posted will be deemed acceptance of such changes.",
 
-        privacy_policy_16_title: "Last Updated:",
-        privacy_policy_16_text: "02/11/2026",
-
-
+        privacy_policy_16_title: "Last updated:",
+        privacy_policy_16_text: "04/05/2026",
 
         banner_legal_terms_title: "Legal Terms: Transparency and Compliance",
 
         legal_terms_0_title: "1. Acceptance of Terms",
-        legal_terms_0_text: "Welcome to Deepfriend, your trusted complete mental health solution. These User Agreement and Terms of Use ('Terms') govern your access to and use of Deepfriend's services, including our mobile application, website and our related services (collectively, the 'Service'). By accessing or using our Service, you agree to be bound by these Terms. If you disagree with any part of the Terms, you may not access the Service.",
+        legal_terms_0_text:
+            "Welcome to Deepfriend, your trusted comprehensive mental health solution. This User Agreement and Terms of Use ('Terms') govern your access to and use of Deepfriend’s services, including our mobile app, website, and related services (collectively, the 'Service'). By accessing or using our Service, you agree to be bound by these Terms. If you do not agree with any part of the Terms, you must not access the Service.",
 
-        legal_terms_1_title: "2. Description of Service",
-        legal_terms_1_text: "Deepfriend provides a complet solution for emotional wellness including Bubbles Wellness AI, Scientific Mindfulness and Zenverse. Our Service is designed to offer accessible mental health support and does not include therapy of any kind nor any other medical service. While we strive to provide valuable support our Service is not a substitute for professional medical advice, diagnosis or treatment.",
+        legal_terms_1_title: "2. Service Description",
+        legal_terms_1_text:
+            "Deepfriend provides an all‑in‑one emotional wellbeing solution that includes Blue AI, Mindfulness, and the Library. Our Service is designed to offer accessible mental‑health support and does not include any form of therapy or other medical services. While we strive to provide valuable support, our Service does not replace professional medical advice, diagnosis, or treatment.",
 
         legal_terms_2_title: "3. Eligibility",
-        legal_terms_2_text: "You must be at least 13 years old to use the Service. By using the Service, you represent and warrant that you are at least 13 years old and that you have the right, authority and capacity to agree to and abide by these Terms.",
+        legal_terms_2_text:
+            "You must be at least 13 years old to use the Service. By using the Service, you represent and warrant that you are at least 13 years old and that you have the right, authority, and capacity to accept and comply with these Terms.",
 
         legal_terms_3_title: "4. User Accounts",
-        legal_terms_3_0_text: "· Registration: To access certain features of the Service, you must create an account. You agree to provide accurate, current, and complete information during the registration process and to update such information to keep it accurate, current, and complete.",
-        legal_terms_3_1_text: "· Account Security: You are responsible for safeguarding the password that you use to access the Service and for any activities or actions under your password. You agree not to disclose your password to any third party.",
+        legal_terms_3_0_text:
+            "· Registration: To access certain Service features, you must create an account. You agree to provide accurate, current, and complete information during registration and to update it to keep it accurate, current, and complete.",
+        legal_terms_3_1_text:
+            "· Account Security: You are responsible for protecting the password you use to access the Service and for any activity or action taken under your password. You agree not to disclose your password to third parties.",
 
         legal_terms_4_title: "5. User Conduct",
         legal_terms_4_0_text: "You agree not to:",
-        legal_terms_4_1_text: "· Use the Service for any illegal purpose or in violation of any local, state, national or international law.",
-        legal_terms_4_2_text: "· Harass, abuse or harm another person.",
-        legal_terms_4_3_text: "· Impersonate or misrepresent your affiliation with any person or entity.",
-        legal_terms_4_4_text: "· Interfere with or disrupt the Service or servers or networks connected to the Service.",
-        legal_terms_4_5_text: "· Attempt to gain unauthorized access to any portion of the Service or any other systems or networks connected to the Service.",
-        legal_terms_4_6_text: "· Upload content that may contain graphic violence, pornography, profanity, nudity, slurs, or other potentially disturbing subject matter to the Service.",
+        legal_terms_4_1_text:
+            "· Use the Service for any illegal purpose or in violation of any local, state, national, or international law.",
+        legal_terms_4_2_text:
+            "· Harass, abuse, or harm another person.",
+        legal_terms_4_3_text:
+            "· Impersonate or falsify affiliation with any person or entity.",
+        legal_terms_4_4_text:
+            "· Interfere with or disrupt the Service, its servers, or networks connected to the Service.",
+        legal_terms_4_5_text:
+            "· Attempt to gain unauthorized access to any part of the Service or any other system or network connected to the Service.",
+        legal_terms_4_6_text:
+            "· Upload content that may contain graphic violence, pornography, blasphemy, nudity, insults, or other potentially disturbing material to the Service.",
 
         legal_terms_5_title: "6. Content",
-        legal_terms_5_0_text: "· User-Generated Content: You retain all rights in and are solely responsible for the content you create, post or share through the Service ('User Content').",
-        legal_terms_5_1_text: "· License Grant: By posting User Content, you grant Deepfriend a non-exclusive, transferable, sub-licensable, royalty-free, worldwide license to use, modify, publicly perform, publicly display, reproduce and distribute such User Content solely for the purposes of providing and improving the Service.",
-        legal_terms_5_2_text: "· Content Removal: Deepfriend reserves the right to remove any User Content that violates these Terms or is otherwise objectionable.",
+        legal_terms_5_0_text:
+            "· User‑Generated Content: You retain all rights to content you create, post, or share through the Service ('User Content').",
+        legal_terms_5_1_text:
+            "· License Grant: By posting User Content, you grant Deepfriend a non‑exclusive, transferable, sublicensable, royalty‑free, worldwide license to use, modify, publicly perform, publicly display, reproduce, and distribute such User Content solely for the purpose of providing and improving the Service.",
+        legal_terms_5_2_text:
+            "· Content Removal: Deepfriend reserves the right to remove any User Content that violates these Terms or is otherwise objectionable.",
 
         legal_terms_6_title: "7. Intellectual Property",
-        legal_terms_6_text: "The Service and its original content (excluding User Content), features and functionality are and will remain the exclusive property of Deepfriend and its licensors. The Service is protected by copyright, trademark and other laws of both the United States and foreign countries.",
+        legal_terms_6_text:
+            "The Service and its original content (excluding User Content), features, and functionality are and will remain the exclusive property of Deepfriend and its licensors. The Service is protected by copyright, trademark, and other laws of the United States and foreign countries.",
 
         legal_terms_7_title: "8. Privacy and Data Protection",
-        legal_terms_7_0_text: "Your privacy is paramount to us. Your use of the Service is governed by our Privacy Policy which is incorporated into these Terms by reference. We want to emphasize that:",
-        legal_terms_7_1_text: "· We will never sell or share your personal data outside the company. This is a core principle of Deepfriend that will not change.",
-        legal_terms_7_2_text: "· No company, except for our AI provider that powers Bubbles Wellness AI, has access to any user data. This AI provider is contractually bound to strict confidentiality and data protection measures.",
-        legal_terms_7_3_text: "· All your interactions with Bubbles Wellness AI through our platform are kept strictly confidential.",
+        legal_terms_7_0_text:
+            "Your privacy is paramount to us. Your use of the Service is governed by our Privacy Policy, which is incorporated by reference into these Terms. We want to emphasize that:",
+        legal_terms_7_1_text:
+            "· We will never sell or share your personal data outside the company. This is a core principle of Deepfriend that will not change.",
+        legal_terms_7_2_text:
+            "· No company, except our AI provider powering Blue AI, has access to user data. This AI provider is contractually bound to strict confidentiality and data‑protection measures.",
+        legal_terms_7_3_text:
+            "· All your interactions with Blue AI via our platform remain strictly confidential.",
 
         legal_terms_8_title: "9. Disclaimers",
-        legal_terms_8_0_text: "· Medical Disclaimer: The Service is not intended to be a substitute for professional medical advice, diagnosis or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.",
-        legal_terms_8_1_text: "· AI Limitations: While our AI assistant, Bubbles Wellness AI, is designed to provide support, it has limitations and may not always provide accurate or appropriate responses. Users should exercise judgment when interpreting AI-generated content.",
-        legal_terms_8_2_text: "· No Warranty: The Service is provided on an 'AS IS' and 'AS AVAILABLE' basis. Deepfriend expressly disclaims all warranties of any kind, whether express or implied.",
+        legal_terms_8_0_text:
+            "· Medical Disclaimer: The Service is not intended to replace professional medical advice, diagnosis, or treatment. Always seek advice from your doctor or another qualified health professional with any questions you may have regarding a medical condition.",
+        legal_terms_8_1_text:
+            "· AI Limitations: While our AI assistant, Blue AI, is designed to provide support, it has limitations and may not always provide accurate or appropriate answers. Users should exercise judgment when interpreting AI‑generated content.",
+        legal_terms_8_2_text:
+            "· No Warranty: The Service is provided 'AS IS' and 'AS AVAILABLE'. Deepfriend expressly disclaims all warranties of any kind, whether express or implied.",
 
         legal_terms_9_title: "10. Limitation of Liability",
-        legal_terms_9_text: "In no event shall Deepfriend nor its directors, employees, partners, agents, suppliers or affiliates be liable for any indirect, incidental, special, consequential or punitive damages including without limitation any loss of profits, data, use, goodwill or other intangible losses resulting from your access to or use of or inability to access or use the Service.",
+        legal_terms_9_text:
+            "In no event shall Deepfriend, its directors, employees, partners, agents, suppliers, or affiliates be liable for any indirect, incidental, special, consequential, or punitive damages, including, without limitation, loss of profits, data, use, goodwill, or other intangible losses arising from your access to the Service, its use, or the inability to access or use the Service.",
 
         legal_terms_10_title: "11. Indemnification",
-        legal_terms_10_text: "You agree to defend, indemnify and hold harmless Deepfriend LLC, its members, shareholders and their respective employees, contractors, agents, officers and directors from and against any and all claims, damages, obligations, losses, liabilities, costs or debt and expenses (including but not limited to attorney's fees) resulting from or arising out of a) your use and access of the Service or b) a breach of these Terms.",
+        legal_terms_10_text:
+            "You agree to defend, indemnify, and hold harmless Deepfriend LLC, its members, shareholders, and their respective employees, contractors, agents, officers, and directors from any claim, damage, obligation, loss, liability, cost, or expense (including, without limitation, attorneys’ fees) arising from a) your use and access of the Service or b) your breach of these Terms.",
 
-        legal_terms_11_title: "12. Changes to Service",
-        legal_terms_11_text: "Deepfriend reserves the right to withdraw or amend our Service and any service or material we provide via the Service in our sole discretion without notice. We will not be liable if for any reason all or any part of the Service is unavailable at any time or for any period.",
+        legal_terms_11_title: "12. Changes to the Service",
+        legal_terms_11_text:
+            "Deepfriend reserves the right to withdraw or modify our Service and any service or material we provide through the Service, at our sole discretion and without notice. We will not be liable if, for any reason, all or part of the Service is unavailable at any time or for any period.",
 
-        legal_terms_12_title: "13. Amendments to Terms",
-        legal_terms_12_text: "We may amend these Terms at any time by posting the amended terms on this site. It is your responsibility to review these Terms periodically.",
+        legal_terms_12_title: "13. Modifications to the Terms",
+        legal_terms_12_text:
+            "We may modify these Terms at any time by posting the amended terms on this site. It is your responsibility to review these Terms periodically.",
 
         legal_terms_13_title: "14. Governing Law",
-        legal_terms_13_text: "These Terms shall be governed and construed in accordance with the laws of the State of Delaware of the United States of America, without regard to its conflict of law provisions.",
+        legal_terms_13_text:
+            "These Terms shall be governed and interpreted in accordance with the laws of the State of Delaware, United States of America, without regard to its conflict‑of‑law provisions.",
 
         legal_terms_14_title: "15. Dispute Resolution",
-        legal_terms_14_text: "Any dispute arising out of or relating to these Terms or the Service will be resolved through binding arbitration conducted in accordance with the rules of the American Arbitration Association.",
+        legal_terms_14_text:
+            "Any dispute arising out of or relating to these Terms or the Service shall be resolved by binding arbitration in accordance with the rules of the American Arbitration Association.",
 
         legal_terms_15_title: "16. Severability",
-        legal_terms_15_text: "If any provision of these Terms is held to be unenforceable or invalid, such provision will be changed and interpreted to accomplish the objectives of such provision to the greatest extent possible under applicable law and the remaining provisions will continue in full force and effect.",
+        legal_terms_15_text:
+            "If any provision of these Terms is found to be unenforceable or invalid, that provision shall be modified and interpreted to achieve its intended purpose to the greatest extent possible under applicable law, and the remaining provisions shall remain in full force and effect.",
 
         legal_terms_16_title: "17. Entire Agreement",
-        legal_terms_16_text: "These Terms, together with the Privacy Policy, constitute the entire agreement between you and Deepfriend regarding our Service and supersede and replace any prior agreements we might have had between us regarding the Service.",
+        legal_terms_16_text:
+            "These Terms, together with the Privacy Policy, constitute the entire agreement between you and Deepfriend regarding our Service and supersede any prior agreements we may have had concerning the Service.",
 
-        legal_terms_17_title: "18. Contact Us",
-        legal_terms_17_text: "We value open communication with our users. If you have any questions about these Terms or our Service, please don't hesitate to contact us at: hello@dfbubbles.com",
+        legal_terms_17_title: "18. Contact",
+        legal_terms_17_text:
+            "We value open communication with our users. If you have any questions about these Terms or our Service, please feel free to contact us at: hello@dfbubbles.com",
 
         legal_terms_18_title: "19. Our Commitment to You",
-        legal_terms_18_0_text: "At Deepfriend, we are committed to providing a safe, supportive and confidential environment for your mental well-being journey. We believe in the power of technology to make mental health support more accessible, but we also understand the importance of human connection. Our aim is to complement, not replace, traditional mental health services. Remember, your mental health matters and seeking support is a sign of strength. We're here to support you every step of the way.",
-        legal_terms_18_1_text: "By using our Service, you acknowledge that you have read and understood these Terms and agree to be bound by them. Welcome to the Deepfriend community.",
+        legal_terms_18_0_text:
+            "At Deepfriend, we are committed to providing a safe, supportive, and confidential environment for your mental‑wellbeing journey. We believe in the power of technology to make mental‑health support more accessible, while also understanding the importance of human connection. Our goal is to complement, not replace, traditional mental‑health services. Remember, your mental health matters and seeking support is a sign of strength. We are here to accompany you every step of the way.",
+        legal_terms_18_1_text:
+            "By using our Service, you acknowledge that you have read and understood these Terms and agree to be bound by them. Welcome to the Deepfriend community.",
 
-        legal_terms_19_title: "Last Updated:",
-        legal_terms_19_text: "02/11/2026",
+        legal_terms_19_title: "Last updated:",
+        legal_terms_19_text: "04/05/2026",
     },
 }

@@ -272,9 +272,43 @@
         padding: 0px;
     }
 
+    .imageContainerProduct {
+        width: auto;
+        height: auto;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        align-self: center;
+        background-color: #13293D;
+        border-radius: 48px;
+
+        padding: 24px;
+        padding-left: 32px;
+        padding-right: 32px;
+
+        margin-bottom: 24px;
+    }
+
     .image {
         width: 64vw;
         height: 64vw;
+
+        align-self: center;
+    }
+
+    .blueImage {
+        width: 96px;
+        height: 64px;
+
+        align-self: center;
+    }
+
+    .productImage {
+        width: 48px;
+        height: 48px;
 
         align-self: center;
     }
@@ -315,6 +349,19 @@
         margin: 0px;
 
         color: black;
+    }
+
+    .productText {
+        font-family: "Mulish";
+        font-weight: 800;
+        font-size: 24px;
+
+        padding: 0px;
+        margin: 0px;
+
+        padding-top: 16px;
+
+        color: white;
     }
 
     .badgeCard {
