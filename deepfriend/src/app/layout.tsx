@@ -17,9 +17,6 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const message = `Veritas liberabit vos.`;
-  console.log(message);
-
   return (
     <Provider store={store}>
       <html lang="es">

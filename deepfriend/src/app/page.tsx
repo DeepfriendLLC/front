@@ -15,8 +15,14 @@ import HomeProperties7Component from "@/components/home/properties/properties-7"
 import HomeProperties6Component from "@/components/home/properties/properties-6";
 import HomeProperties8Component from "@/components/home/properties/properties-8";
 import HomePropertiesLinksComponent from "@/components/home/properties/properties-links";
+import { useEffect } from "react";
 
 export default function Home() {
+  useEffect(() => {
+    const message = `Veritas liberabit vos.`;
+    console.log(message);
+  }, []);
+
   return (
     <div className={styles.basicContainer}>
       <NavbarComponent />
