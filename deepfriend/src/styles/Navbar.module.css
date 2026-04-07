@@ -14,27 +14,51 @@
     background-color: white;
 }
 
-.title {
-    width: auto;
-    height: auto;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
-    gap: 8px;
-
-    font-family: "Cormorant";
-    font-size: 24px;
-    font-weight: 500;
-
-    color: black;
-    text-decoration: none;
-}
-
 .logo {
     width: 40px;
     height: 40px;
     align-self: center;
+}
+
+@media (min-width: 1000px) {
+    .title {
+        width: auto;
+        height: auto;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        gap: 8px;
+
+        font-family: "Cormorant";
+        font-size: 32px;
+        font-weight: 500;
+
+        color: black;
+        text-decoration: none;
+    }
+}
+
+
+@media (max-width: 999px) {
+    .title {
+        width: auto;
+        height: auto;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        gap: 8px;
+
+        font-family: "Cormorant";
+        font-size: 24px;
+        font-weight: 500;
+
+        color: black;
+        text-decoration: none;
+    }
 }
