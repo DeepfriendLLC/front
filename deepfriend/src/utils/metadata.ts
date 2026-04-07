@@ -2,7 +2,7 @@ import { TranslationTexts } from "@/constants/translations/translations";
 import { AllowedLanguagesEncodedType } from "@/hooks/slice/systemLanguage";
 
 export type AllowedPagesType = '/' | '/about' | '/contact' | '/legal-terms' | '/privacy-policy';
-const DESCRIPTION = 'Deepfriend es una app de compañía emocional basada en IA y evidencia científica. Sientete escuchada/o y entendida/o estés dónde estés, las 24 horas del día. Sin cargas emocionales ni prejuicios. El apoyo de calidad que te mereces siempre para ti.';
+const DESCRIPTION = 'Deepfriend es una app de compañía emocional basada en IA y evidencia científica. Sientete comprendida estés dónde estés, las 24 horas del día. Sin cargas emocionales ni prejuicios. El apoyo de calidad que te mereces siempre para ti.';
 const KEYWORDS = 'Blue AI, Blue, Deepfriend, Deepfriemd, Deep friend, Meditaciones personalizadas.';
 
 export const BASIC_METADATA = (
