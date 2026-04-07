@@ -17,7 +17,7 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         head_legal_terms_title: "Deepfriend | Términos legales",
         head_privacy_policy_title: "Deepfriend | Política de privacidad",
 
-        home_portada_title: "Sientete mejor con Blue, compañía con base científica.",
+        home_portada_title: "Sientete mejor con Blue, tu compañía con base científica.",
         home_portada_text: "La ciencia de la Salud Mental",
         home_portada_button_text: "Probar gratis",
 
