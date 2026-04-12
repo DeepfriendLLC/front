@@ -24,11 +24,11 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         home_properties_1_title: "Deja de sobrepensar.",
         home_properties_1_text: "Quitate esa presión de encima y desahogate con Blue, sientete comprendida cuando y dónde quieras, las 24 horas del día. Sin cargas emocionales ni prejuicios. El apoyo de calidad que te mereces siempre para ti.",
 
-        home_properties_2_title: "Funciona de verdad, validado científicamente.",
-        home_properties_2_text: "Sientete mejor con técnicas y procesos científicos probados y validados. Blue te guía en un entorno seguro dándote la libertad de mejorar a tu ritmo. Aprende nuevas técnicas en la Biblioteca científica de Deepfriend.",
+        home_properties_2_title: "La TCC funciona de verdad, validado científicamente.",
+        home_properties_2_text: "Sientete mejor con técnicas y procesos científicos de la terapia cognitivo conductual (TCC) probada y validada. Blue te guía en un entorno seguro dándote la libertad de mejorar a tu ritmo. Aprende nuevas técnicas en la Biblioteca científica de Deepfriend.",
 
         home_properties_3_title: "Privado, tus secretos contigo.",
-        home_properties_3_text: "La gran diferencia, mientras otras apps te dicen que son privadas y en letra pequeña te engañan, Deepfriend te dice: nunca bajo ningún concepto se van a vender ni compartir tus datos con nadie. Asegurando que tus secretos están a salvo con Blue.",
+        home_properties_3_text: "La gran diferencia, mientras otras apps exponen que son privadas y en la letra pequeña te dicen lo contrario, Deepfriend te dice: nunca bajo ningún concepto se van a vender ni compartir tus datos con nadie. Asegurando que tus secretos están a salvo con Blue.",
 
         home_properties_4_title: "Personaliza Blue a tu medida.",
         home_properties_4_text: "Blue se adapta a ti, a tus gustos e intereses. Haz que tu amigo sea como quieras para tener el apoyo que te mereces. Crea tu espacio de calma Mindfulness perfecto. Disfruta de una experiéncia hecha solo para ti.",
@@ -232,28 +232,28 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
         head_legal_terms_title: "Deepfriend | Legal terms",
         head_privacy_policy_title: "Deepfriend | Privacy policy",
 
-        home_portada_title: "Feel better with Blue, your unconditional confidant.",
+        home_portada_title: "Private. Secure. Blue, scientific emotional companion.",
         home_portada_text: "The science of Mental Health",
-        home_portada_button_text: "Try for free",
+        home_portada_button_text: "Download today",
 
-        home_properties_1_title: "Take that pressure off.",
+        home_properties_1_title: "Stop overthinking.",
         home_properties_1_text:
             "Vent your feelings with Blue, feel heard and understood wherever you are, 24 hours a day. No emotional baggage or judgments. The quality support you deserve, always for you.",
 
-        home_properties_2_title: "Real improvement, with science.",
+        home_properties_2_title: "CBT works, scientifically proven.",
         home_properties_2_text:
-            "Feel better and more in control with proven, validated scientific tools. Blue guides you in a safe environment, giving you the freedom to improve at your own pace. Learn new techniques in the Library.",
+            "Feel better and more in control with proven, validated scientific tools from cognitive behavioral therapy. Blue guides you in a safe environment, giving you the freedom to improve at your own pace. Learn new techniques in the Library.",
 
         home_properties_3_title: "Your secrets with you.",
         home_properties_3_text:
-            "The big difference: while other apps tell you they don't use your data for marketing, Deepfriend says: under no circumstances will we ever sell or share your data with anyone. Ensuring your secrets are safe with Blue.",
+            "The big difference, while other apps claim to be private, the fine print tells you the opposite, Deepfriend says: under no circumstances will we ever sell or share your data with anyone. Ensuring your secrets are safe with Blue.",
 
-        home_properties_4_title: "Made to measure.",
+        home_properties_4_title: "Make it your own way.",
         home_properties_4_text:
             "Customize to your liking and make Blue exactly as you want so it fits you. Create your perfect Mindfulness calm space. Enjoy an experience crafted just for you.",
 
         home_properties_5_title:
-            "You don't have to go through everything alone, count on Blue.",
+            "You don't have to be alone with that, you now have Blue.",
 
         home_properties_6_product: "Blue AI",
         home_properties_6_title:
@@ -265,7 +265,7 @@ export const TranslationTexts: Record<AllowedLanguagesEncodedType, Record<string
 
         home_properties_8_product: "Library",
         home_properties_8_title:
-            "Learn to control your mind with easy, validated techniques.",
+            "Learn to control your mind with easy, scientificly proven techniques.",
 
         home_properties_links_about: "About Deepfriend",
         home_properties_links_contact: "Contact",
