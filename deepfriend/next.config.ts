@@ -1,5 +1,6 @@
 // next.config.ts
 import type { NextConfig } from "next";
+import createMDX from "@next/mdx";
 
 const SECURITY_HEADERS = [
   { key: "X-DNS-Prefetch-Control", value: "on" },
@@ -25,6 +26,7 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   typedRoutes: true,
   poweredByHeader: false,
+  pageExtensions: ["ts", "tsx", "md", "mdx"],
   images: {
     remotePatterns: [
       { protocol: "https", hostname: "firebasestorage.googleapis.com" },
@@ -44,4 +46,6 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default nextConfig;
+const withMDX = createMDX({});
+
+export default withMDX(nextConfig);
