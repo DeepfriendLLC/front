@@ -2,19 +2,16 @@
 
 import styles from "@/styles/Properties.module.css";
 
-import { useSelector } from "react-redux";
-import { RootState } from "@/hooks/store";
 import { TranslationTexts } from "@/constants/translations/translations";
 import { useWindowWidth } from "@/hooks/width/width";
+import { Locale } from "@/i18n/config";
 
 import PcBackground from "@/../public/images/properties-badge/pc.png";
 import PhoneBackground from "@/../public/images/properties-badge/phone.png";
 
 import { CSSProperties } from "react";
 
-export default function HomeProperties5Component() {
-  const { systemLanguage } = useSelector((state: RootState) => state.systemLanguage);
-
+export default function HomeProperties5Component({ lang }: { lang: Locale }) {
   const width = useWindowWidth();
 
   const googlePlayLink = "https://play.google.com/store/apps/details?id=com.dfbubbles.deepfriend";
@@ -31,16 +28,16 @@ export default function HomeProperties5Component() {
   };
 
   return (
-    <div className={styles.badgeCard} style={cardStyle}>
-      <h1 className={styles.badgeTitle}>
-        {TranslationTexts[systemLanguage].home_properties_5_title}
+    <div className={styles['badgeCard']} style={cardStyle}>
+      <h1 className={styles['badgeTitle']}>
+        {TranslationTexts[lang]!['home_properties_5_title']}
       </h1>
       <button
         onClick={goToPlayStore}
-        className={styles.badgeButton}
+        className={styles['badgeButton']}
         aria-label="Prueba Deepfriend"
       >
-        {TranslationTexts[systemLanguage].home_portada_button_text}
+        {TranslationTexts[lang]!['home_portada_button_text']}
       </button>
     </div>
   );

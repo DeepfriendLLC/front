@@ -1,23 +1,21 @@
-"use client";
-
 import styles from "@/styles/Navbar.module.css";
 
 import Image from "next/image";
 import Logo from "@/../public/icon-clean.png";
 import Link from "next/link";
 
-export function NavbarComponent() {
+export default function NavbarComponent() {
     return (
-        <div className={styles.navbar}>
+        <div className={styles['navbar']}>
             <Link
                 href={"./"}
-                className={styles.link}
+                className={styles['link']}
             >
-                <h1 className={styles.title}>
+                <h1 className={styles['title']}>
                     <Image
                         alt="Deepfriend logo"
                         src={Logo}
-                        className={styles.logo}
+                        className={styles['logo']}
                     />
                     Deepfriend
                 </h1>

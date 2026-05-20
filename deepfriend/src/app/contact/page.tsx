@@ -1,19 +1,18 @@
-"use client";
-
-import styles from "@/styles/global.module.css";
-
 import { ContactBannerComponent } from "@/components/banner/banners";
 import { ContactComponent } from "@/components/contact/contact";
-import { FooterComponent } from "@/components/basic/footer";
-import { NavbarComponent } from "@/components/basic/navbar";
+import FooterComponent from "@/components/basic/footer";
+import NavbarComponent from "@/components/basic/navbar";
+import { Locale } from "@/i18n/config";
 
-export default function Contact() {
+export default async function Contact({ params }: { params: Promise<{ lang: Locale }> }) {
+  const { lang } = await params;
+
   return (
-    <div className={styles.basicContainer}>
+    <>
       <NavbarComponent />
-      <ContactBannerComponent />
-      <ContactComponent />
-      <FooterComponent />
-    </div>
+      <ContactBannerComponent lang={lang} />
+      <ContactComponent lang={lang} />
+      <FooterComponent lang={lang} />
+    </>
   );
 }
