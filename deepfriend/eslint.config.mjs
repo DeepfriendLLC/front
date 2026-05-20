@@ -14,10 +14,14 @@ const eslintConfig = [
   {
     rules: {
       "react/no-unescaped-entities": "off",
-      "react/jsx-key": "off",
+      "react/jsx-key": "warn",
       "no-console": "warn",
       "@typescript-eslint/no-unused-vars": "warn",
-      "react/no-children-prop": "off"
+      "react/no-children-prop": "off",
+
+      "@typescript-eslint/consistent-type-imports": "warn",
+      "@typescript-eslint/no-explicit-any": "error",
+      "typescript-eslint/no-non-null-assertion": "error"
     }
   }
 ];
