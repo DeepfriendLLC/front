@@ -1,89 +1,58 @@
-@media (min-width: 769px) {
-    .container {
-        width: 100%;
-        height: auto;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-content: flex-start;
-
-        padding: 24px;
-        padding-top: 64px;
-        padding-bottom: 64px;
-    }
-
-    .title {
-        font-family: "Mulish";
-        font-weight: 800;
-        font-size: 24px;
-
-        padding: 0px;
-        margin: 0px;
-
-        margin-top: 16px;
-        margin-bottom: 8px;
-
-        color: black;
-        text-align: left;
-    }
-
-    .text {
-        font-family: "Mulish";
-        font-weight: 500;
-        font-size: 20px;
-
-        padding: 0px;
-        margin: 0px;
-
-        margin-bottom: 8px;
-
-        color: black;
-        text-align: left;
-    }
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 820px;
+  padding: 48px 0 24px;
+  font-family: var(--f-sans);
+  color: var(--ink-soft);
 }
 
-@media (max-width: 768px) {
-    .container {
-        width: cover;
-        height: auto;
+.container :global(h1),
+.container :global(h2),
+.container :global(h3),
+.container :global(strong) {
+  color: var(--ink);
+}
 
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-content: flex-start;
+.container :global(strong) {
+  display: block;
+  font-family: var(--f-serif);
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: -0.01em;
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
 
-        padding: 24px;
-        padding-top: 64px;
-        padding-bottom: 32px;
-    }
+.container :global(p) {
+  font-size: 15.5px;
+  line-height: 1.75;
+  color: var(--ink-soft);
+  margin: 0 0 14px;
+}
 
-    .title {
-        font-family: "Mulish";
-        font-weight: 800;
-        font-size: 24px;
+.container :global(ul),
+.container :global(ol) {
+  padding-left: 22px;
+  margin: 0 0 14px;
+}
 
-        padding: 0px;
-        margin: 0px;
+.container :global(li) {
+  font-size: 15.5px;
+  line-height: 1.7;
+  color: var(--ink-soft);
+  margin-bottom: 8px;
+}
 
-        margin-top: 16px;
-        margin-bottom: 8px;
+.container :global(a) {
+  color: var(--brand-deep);
+  border-bottom: 1px solid currentColor;
+}
 
-        color: black;
-        text-align: center;
-    }
+.container :global(a:hover) {
+  color: var(--brand);
+}
 
-    .text {
-        font-family: "Mulish";
-        font-weight: 500;
-        font-size: 16px;
-
-        padding: 0px;
-        margin: 0px;
-
-        margin-bottom: 8px;
-
-        color: black;
-        text-align: center;
-    }
+@media (max-width: 720px) {
+  .container { padding: 32px 0 16px; }
 }
