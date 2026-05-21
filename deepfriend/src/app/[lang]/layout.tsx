@@ -1,6 +1,6 @@
 // src/app/[lang]/layout.tsx
 import type { Metadata, Viewport } from "next";
-import { LOCALES, type Locale } from "@/i18n/config";
+import { LOCALES, pickLocale, type Locale } from "@/i18n/config";
 import { headers } from "next/headers";
 import Script from "next/script";
 import { Cormorant, Mulish } from "next/font/google";
@@ -13,7 +13,7 @@ export function generateStaticParams() {
 
 type LayoutProps = {
   children: React.ReactNode;
-  params: Promise<{ lang: Locale }>;
+  params: Promise<{ lang: string }>;
 };
 
 const SITE = "https://dfbubbles.com";
@@ -29,10 +29,16 @@ const COPY: Record<Locale, { title: string; description: string }> = {
     description:
       "AI emotional companion app grounded in scientific evidence (CBT). 24/7, private, judgment-free.",
   },
+  de: {
+    title: "Deepfriend | Wissenschaftliche KI für deine mentale Gesundheit",
+    description:
+      "KI-App für emotionale Begleitung, gestützt auf wissenschaftliche Evidenz (KVT). Rund um die Uhr, privat, ohne Vorurteile.",
+  },
 };
 
 export async function generateMetadata({ params }: { params: LayoutProps["params"] }): Promise<Metadata> {
-  const { lang } = await params;
+  const raw = (await params).lang;
+  const lang = pickLocale(raw);
   const copy = COPY[lang];
   return {
     metadataBase: new URL(SITE),
@@ -43,6 +49,7 @@ export async function generateMetadata({ params }: { params: LayoutProps["params
       languages: {
         es: `${SITE}/es`,
         en: `${SITE}/en`,
+        de: `${SITE}/de`,
         "x-default": `${SITE}/es`,
       },
     },
@@ -50,8 +57,14 @@ export async function generateMetadata({ params }: { params: LayoutProps["params
       type: "website",
       url: `${SITE}/${lang}`,
       siteName: "Deepfriend",
-      locale: lang === "es" ? "es_ES" : "en_US",
-      alternateLocale: lang === "es" ? ["en_US"] : ["es_ES"],
+      locale:
+        lang === "es" ? "es_ES" : lang === "de" ? "de_DE" : "en_US",
+      alternateLocale:
+        lang === "es"
+          ? ["en_US", "de_DE"]
+          : lang === "de"
+          ? ["es_ES", "en_US"]
+          : ["es_ES", "de_DE"],
       title: copy.title,
       description: copy.description,
       images: [`/${lang}/opengraph-image`],
@@ -88,7 +101,8 @@ const mulish = Mulish({
 });
 
 export default async function LangLayout({ children, params }: LayoutProps) {
-  const { lang } = await params;
+  const raw = (await params).lang;
+  const lang = pickLocale(raw);
   const h = await headers();
   const nonce = h.get("x-nonce") ?? undefined;
 
