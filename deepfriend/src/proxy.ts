@@ -1,4 +1,3 @@
-// deepfriend/middleware.ts
 import { NextResponse, type NextRequest } from "next/server";
 import { isLocale, resolveLocale } from "@/i18n/config";
 
@@ -25,6 +24,7 @@ function buildCsp(nonce: string, isDev: boolean): string {
     .trim();
 };
 /*
+TODO: crear cuenta en report-uri.com y agregar el endpoint de reporting-endpoints
 function withSecurityResponse(response: NextResponse, csp: string): NextResponse {
   response.headers.set("Content-Security-Policy", csp);
   response.headers.set(
