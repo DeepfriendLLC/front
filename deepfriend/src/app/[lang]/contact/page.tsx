@@ -4,6 +4,16 @@ import { ContactComponent } from "@/components/contact/contact";
 import FooterComponent from "@/components/basic/footer";
 import NavbarComponent from "@/components/basic/navbar";
 import { pickLocale } from "@/i18n/config";
+import { GENERATE_METADATA } from "@/constants/seo/metadata";
+import { Metadata } from "next";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}): Promise<Metadata> {
+  return GENERATE_METADATA({ params, route: "/contact" });
+};
 
 export default async function Contact({
   params,

@@ -5,6 +5,16 @@ import { PrivacyPolicyBannerComponent } from "@/components/banner/banners";
 import FooterComponent from "@/components/basic/footer";
 import NavbarComponent from "@/components/basic/navbar";
 import { pickLocale } from "@/i18n/config";
+import { Metadata } from "next";
+import { GENERATE_METADATA } from "@/constants/seo/metadata";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}): Promise<Metadata> {
+  return GENERATE_METADATA({ params, route: "/privacy-policy" });
+};
 
 export default async function PrivacyPolicy({
   params,
@@ -23,4 +33,4 @@ export default async function PrivacyPolicy({
       <FooterComponent lang={lang} />
     </>
   );
-}
+};

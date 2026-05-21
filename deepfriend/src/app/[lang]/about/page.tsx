@@ -8,6 +8,16 @@ import CtaComponent from "@/components/home/cta/cta";
 import FooterComponent from "@/components/basic/footer";
 import NavbarComponent from "@/components/basic/navbar";
 import { pickLocale } from "@/i18n/config";
+import { GENERATE_METADATA } from "@/constants/seo/metadata";
+import { Metadata } from "next";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}): Promise<Metadata> {
+  return GENERATE_METADATA({ params, route: "/about" });
+};
 
 export default async function About({
   params,
@@ -29,4 +39,4 @@ export default async function About({
       <FooterComponent lang={lang} />
     </>
   );
-}
+};
