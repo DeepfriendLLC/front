@@ -1,57 +1,85 @@
-"use client";
-
 import styles from "@/styles/Portada.module.css";
 
-import { CSSProperties } from "react";
 import Image from "next/image";
 import { TranslationTexts } from "@/constants/translations/translations";
 import { Locale } from "@/i18n/config";
 
-import PcBackground from "@/../public/images/portada/pc.png";
-import PhoneBackground from "@/../public/images/portada/phone.jpg";
+import BlueWhale from "@/../public/images/blue/blue-turquesa.png";
 import GooglePlayLogo from "@/../public/icons/google-play/logo.png";
-import { useWindowWidth } from "@/hooks/width/width";
+
+const GOOGLE_PLAY =
+  "https://play.google.com/store/apps/details?id=com.dfbubbles.deepfriend";
 
 export default function PortadaComponent({ lang }: { lang: Locale }) {
-    const width = useWindowWidth();
+  const t = TranslationTexts[lang];
 
-    const googlePlayLink = "https://play.google.com/store/apps/details?id=com.dfbubbles.deepfriend";
+  return (
+    <section className={styles['hero']}>
+      <div className={`df-shell ${styles['shell']}`}>
+        <div className={styles['copy']}>
+          <span className={styles['eyebrow']}>
+            <span className={styles['dot']} aria-hidden />
+            {t.hero_eyebrow}
+          </span>
 
-    const goToPlayStore = () => {
-        window.open(googlePlayLink, "_blank");
-    };
+          <h1 className={styles['title']}>{t.hero_title}</h1>
+          <p className={styles['subtitle']}>{t.hero_subtitle}</p>
 
-    const cardStyle: CSSProperties = {
-        backgroundImage: `url(${width >= 1000 ? PcBackground.src : PhoneBackground.src})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-    };
-
-    return (
-        <div className={styles['container']}>
-            <div
-                className={styles['card']}
-                style={cardStyle}
+          <div className={styles['actions']}>
+            <a
+              href={GOOGLE_PLAY}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles['ctaPrimary']}
+              aria-label={t.hero_cta_primary}
             >
-                <div className={styles['textInnerCard']}>
-                    <h1 className={styles['title']}>
-                        {TranslationTexts[lang]!['home_portada_title']}
-                    </h1>
-                    <button
-                        onClick={goToPlayStore}
-                        className={styles['button']}
-                        aria-label="Prueba Deepfriend"
-                    >
-                        <Image
-                            alt="Google Play Store Logo"
-                            src={GooglePlayLogo}
-                            className={styles['buttonImage']}
-                        />
-                        {TranslationTexts[lang]!['home_portada_button_text']}
-                    </button>
-                </div>
-            </div>
+              <Image
+                alt=""
+                src={GooglePlayLogo}
+                className={styles['ctaIcon']}
+              />
+              {t.hero_cta_primary}
+            </a>
+            <a href="#approach" className={styles['ctaSecondary']}>
+              {t.hero_cta_secondary} →
+            </a>
+          </div>
+
+          <ul className={styles['micro']}>
+            <li>{t.hero_micro_downloads}</li>
+            <li>{t.hero_micro_privacy}</li>
+            <li>{t.hero_micro_rating}</li>
+          </ul>
         </div>
-    );
+
+        <div className={styles['visual']} aria-hidden>
+          <div className={styles['visualCard']}>
+            <div className={styles['gridBg']} />
+            <Image
+              alt="Blue, the whale"
+              src={BlueWhale}
+              className={styles['whale']}
+              priority
+            />
+            <div className={styles['chat']}>
+              <div className={styles['bubble']}>
+                {lang === "es"
+                  ? "Estoy aquí. Cuéntame qué te pasa por la cabeza."
+                  : lang === "de"
+                  ? "Ich bin hier. Erzähl mir, was dir durch den Kopf geht."
+                  : "I'm here. Tell me what's on your mind."}
+              </div>
+              <div className={`${styles['bubble']} ${styles['bubbleAlt']}`}>
+                {lang === "es"
+                  ? "Llevo varios días con mucha ansiedad."
+                  : lang === "de"
+                  ? "Ich habe seit Tagen starke Angst."
+                  : "I've been very anxious for several days."}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }
