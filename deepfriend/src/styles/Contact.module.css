@@ -1,207 +1,128 @@
-@media (min-width: 769px) {
-    .container {
-        width: 100%;
-        height: auto;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        padding: 24px;
-        padding-top: 64px;
-        padding-bottom: 64px;
-    }
-
-    .textContainer {
-        width: 100%;
-        height: auto;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-
-        padding: 8px;
-    }
-
-    .socialTextContainer {
-        width: auto;
-        height: auto;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        align-self: center;
-
-        background-color: #24998B;
-        border-radius: 32px;
-
-        padding: 16px;
-        padding-left: 24px;
-        padding-right: 24px;
-
-        margin: 0px;
-        margin-top: 24px;
-    }
-
-    .title {
-        font-family: "Cormorant";
-        font-weight: 700;
-        font-size: 40px;
-
-        padding: 0px;
-        margin: 0px;
-
-        margin-bottom: 16px;
-
-        color: black;
-        text-align: left;
-    }
-
-    .text {
-        font-family: "Mulish";
-        font-weight: 500;
-        font-size: 20px;
-
-        padding: 0px;
-        margin: 0px;
-
-        color: black;
-        text-align: left;
-    }
-
-    .socialTitle {
-        font-family: "Cormorant";
-        font-weight: 700;
-        font-size: 24px;
-
-        padding: 0px;
-        margin: 0px;
-
-        margin-bottom: 16px;
-
-        color: white;
-        text-align: center;
-    }
-
-    .socialText {
-        font-family: "Mulish";
-        font-weight: 800;
-        font-size: 18px;
-
-        padding: 0px;
-        margin: 0px;
-
-        margin-bottom: 8px;
-
-        color: white;
-        text-align: center;
-    }
+.section {
+  padding: 80px 0;
 }
 
-@media (max-width: 768px) {
-    .container {
-        width: cover;
-        height: 75vh;
+.shell {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+.head {
+  max-width: 760px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
 
-        padding: 24px;
-        padding-top: 32px;
-        padding-bottom: 64px;
-    }
+.eyebrow {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--brand-deep);
+}
 
-    .textContainer {
-        width: auto;
-        height: auto;
+.title {
+  font-family: var(--f-serif);
+  font-size: clamp(34px, 5vw, 56px);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+.text {
+  font-size: 17px;
+  line-height: 1.65;
+  color: var(--ink-soft);
+}
 
-        padding: 8px;
-    }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
 
-    .socialTextContainer {
-        width: auto;
-        height: auto;
+.card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+  background: var(--bg-elev);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  transition: transform 0.3s var(--ease), box-shadow 0.3s var(--ease), border-color 0.3s var(--ease);
+  text-decoration: none;
+  color: var(--ink);
+}
 
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
+a.card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-2);
+  border-color: var(--brand-tint);
+}
 
-        align-self: center;
+.iconWrap {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: var(--brand-soft);
+  color: var(--brand-deep);
+}
 
-        background-color: #24998B;
-        border-radius: 32px;
+.iconWrap svg { width: 22px; height: 22px; }
 
-        padding: 16px;
-        padding-left: 24px;
-        padding-right: 24px;
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+}
 
-        margin: 0px;
-        margin-top: 24px;
-    }
+.cardLabel {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+}
 
-    .title {
-        font-family: "Cormorant";
-        font-weight: 700;
-        font-size: 32px;
+.cardValue {
+  font-family: var(--f-sans);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--ink);
+  margin-top: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 
-        padding: 0px;
-        margin: 0px;
+.cardValueSmall {
+  font-size: 14px;
+  color: var(--ink-soft);
+  margin-top: 4px;
+  line-height: 1.45;
+}
 
-        margin-bottom: 16px;
+.arrow {
+  font-size: 18px;
+  color: var(--ink-mute);
+  transition: transform 0.2s var(--ease), color 0.2s var(--ease);
+}
 
-        color: black;
-        text-align: center;
-    }
+a.card:hover .arrow {
+  color: var(--brand-deep);
+  transform: translateX(2px);
+}
 
-    .text {
-        font-family: "Mulish";
-        font-weight: 500;
-        font-size: 16px;
+.cardInfo {
+  cursor: default;
+}
 
-        padding: 0px;
-        margin: 0px;
-
-        color: black;
-        text-align: center;
-    }
-
-    .socialTitle {
-        font-family: "Cormorant";
-        font-weight: 700;
-        font-size: 24px;
-
-        padding: 0px;
-        margin: 0px;
-
-        margin-bottom: 16px;
-
-        color: white;
-        text-align: center;
-    }
-
-    .socialText {
-        font-family: "Mulish";
-        font-weight: 800;
-        font-size: 16px;
-
-        padding: 0px;
-        margin: 0px;
-
-        margin-bottom: 8px;
-
-        color: white;
-        text-align: center;
-    }
+@media (max-width: 880px) {
+  .grid { grid-template-columns: 1fr; }
+  .section { padding: 48px 0; }
 }

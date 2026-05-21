@@ -1,17 +1,23 @@
-import { ContactBannerComponent } from "@/components/banner/banners";
+import "@/styles/global.css";
+
 import { ContactComponent } from "@/components/contact/contact";
 import FooterComponent from "@/components/basic/footer";
 import NavbarComponent from "@/components/basic/navbar";
-import { Locale } from "@/i18n/config";
+import { pickLocale } from "@/i18n/config";
 
-export default async function Contact({ params }: { params: Promise<{ lang: Locale }> }) {
-  const { lang } = await params;
+export default async function Contact({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}) {
+  const lang = pickLocale((await params).lang);
 
   return (
     <>
-      <NavbarComponent />
-      <ContactBannerComponent lang={lang} />
-      <ContactComponent lang={lang} />
+      <NavbarComponent lang={lang} />
+      <main>
+        <ContactComponent lang={lang} />
+      </main>
       <FooterComponent lang={lang} />
     </>
   );
