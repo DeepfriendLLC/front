@@ -13,87 +13,87 @@ type CopyMetadataType = Record<RoutesType, Record<Locale, DinamicPageMetadataTyp
 export const COPY: CopyMetadataType = {
   "": {
     es: {
-      title: "Deepfriend | IA científica para tu salud mental",
+      title: "Deepfriend | Compañía emocional con IA basada en TCC",
       description:
-        "App de compañía emocional con IA basada en evidencia científica (TCC). 24/7, privada y sin prejuicios.",
+        "Habla con Blue, tu compañía emocional con IA. Basada en terapia cognitivo-conductual (TCC) para ansiedad, estrés e insomnio. Privada, 24/7 y sin venta de datos.",
     },
     en: {
-      title: "Deepfriend | Science-backed AI for your mental health",
+      title: "Deepfriend | CBT-Based AI Companion for Mental Health",
       description:
-        "AI emotional companion app grounded in scientific evidence (CBT). 24/7, private, judgment-free.",
+        "Talk to Blue, an AI emotional companion built on CBT science. Evidence-based support for anxiety, stress and insomnia. Available 24/7. Private, data never sold.",
     },
     de: {
-      title: "Deepfriend | Wissenschaftliche KI für deine mentale Gesundheit",
+      title: "Deepfriend | Evidenzbasierte KI für deine mentale Gesundheit",
       description:
-        "KI-App für emotionale Begleitung, gestützt auf wissenschaftliche Evidenz (KVT). Rund um die Uhr, privat, ohne Vorurteile.",
+        "Sprich mit Blue – KI-Begleitung auf KVT-Basis. Für Angst, Stress und Schlaflosigkeit. Privat, rund um die Uhr verfügbar, Daten werden niemals verkauft.",
     },
   },
   "/about": {
     es: {
-      title: "about | IA científica para tu salud mental",
+      title: "Acerca de Deepfriend | Psicología basada en evidencia",
       description:
-        "App de compañía emocional con IA basada en evidencia científica (TCC). 24/7, privada y sin prejuicios.",
+        "Conoce la misión, valores y equipo de Deepfriend. Un proyecto independiente de compañía emocional con IA basada en TCC, sin inversores y comprometido con tu privacidad.",
     },
     en: {
-      title: "Deepfriend | Science-backed AI for your mental health",
+      title: "About Deepfriend | Evidence-Based Mental Health App",
       description:
-        "AI emotional companion app grounded in scientific evidence (CBT). 24/7, private, judgment-free.",
+        "Meet the team and story behind Deepfriend — a CBT-based AI emotional companion. Built by a software engineer, advised by a CBT psychologist, with no investors.",
     },
     de: {
-      title: "Deepfriend | Wissenschaftliche KI für deine mentale Gesundheit",
+      title: "Über Deepfriend | Evidenzbasierte App für mentale Gesundheit",
       description:
-        "KI-App für emotionale Begleitung, gestützt auf wissenschaftliche Evidenz (KVT). Rund um die Uhr, privat, ohne Vorurteile.",
+        "Lerne das Team und die Geschichte von Deepfriend kennen. Ein unabhängiges KVT-basiertes KI-Begleitprojekt – ohne Investoren, mit echtem Datenschutz.",
     },
   },
   "/contact": {
     es: {
-      title: "contact | IA científica para tu salud mental",
+      title: "Contacto | App de salud mental con IA",
       description:
-        "App de compañía emocional con IA basada en evidencia científica (TCC). 24/7, privada y sin prejuicios.",
+        "¿Preguntas, soporte o feedback sobre Deepfriend? Escríbenos directamente. Respondemos en 24–48 horas laborables y leemos cada mensaje.",
     },
     en: {
-      title: "Deepfriend | Science-backed AI for your mental health",
+      title: "Contact | AI Mental Health App",
       description:
-        "AI emotional companion app grounded in scientific evidence (CBT). 24/7, private, judgment-free.",
+        "Questions, support or feedback about Deepfriend? Write to us. We reply within 24–48 business hours and read every message personally.",
     },
     de: {
-      title: "Deepfriend | Wissenschaftliche KI für deine mentale Gesundheit",
+      title: "Kontakt | App für mentale Gesundheit",
       description:
-        "KI-App für emotionale Begleitung, gestützt auf wissenschaftliche Evidenz (KVT). Rund um die Uhr, privat, ohne Vorurteile.",
+        "Fragen, Support oder Feedback zu Deepfriend? Schreib uns direkt. Wir antworten innerhalb von 24–48 Werkstunden und lesen jede Nachricht persönlich.",
     },
   },
   "/legal-terms": {
     es: {
-      title: "legal terms | IA científica para tu salud mental",
+      title: "Términos de uso",
       description:
-        "App de compañía emocional con IA basada en evidencia científica (TCC). 24/7, privada y sin prejuicios.",
+        "Condiciones de uso de Deepfriend, la app de compañía emocional con IA basada en TCC. Uso responsable y transparente, sin letra pequeña.",
     },
     en: {
-      title: "Deepfriend | Science-backed AI for your mental health",
+      title: "Terms of Use",
       description:
-        "AI emotional companion app grounded in scientific evidence (CBT). 24/7, private, judgment-free.",
+        "Terms and conditions for using Deepfriend, the CBT-based AI emotional companion app. Transparent, responsible and always user-first.",
     },
     de: {
-      title: "Deepfriend | Wissenschaftliche KI für deine mentale Gesundheit",
+      title: "Nutzungsbedingungen",
       description:
-        "KI-App für emotionale Begleitung, gestützt auf wissenschaftliche Evidenz (KVT). Rund um die Uhr, privat, ohne Vorurteile.",
+        "Nutzungsbedingungen für Deepfriend, die KVT-basierte KI-App für emotionale Begleitung. Transparent, verantwortungsvoll und nutzerorientiert.",
     },
   },
   "/privacy-policy": {
     es: {
-      title: "privacy policy | IA científica para tu salud mental",
+      title: "Política de privacidad",
       description:
-        "App de compañía emocional con IA basada en evidencia científica (TCC). 24/7, privada y sin prejuicios.",
+        "Deepfriend nunca vende ni comparte tus datos. Sin terceros, sin inversores, con cifrado HTTPS. Consulta cómo protegemos tu privacidad de forma absoluta.",
     },
     en: {
-      title: "Deepfriend | Science-backed AI for your mental health",
+      title: "Privacy Policy",
       description:
-        "AI emotional companion app grounded in scientific evidence (CBT). 24/7, private, judgment-free.",
+        "Deepfriend never sells or shares your data. No third parties, no investors, end-to-end HTTPS encryption. Read how we protect your privacy absolutely.",
     },
     de: {
-      title: "Deepfriend | Wissenschaftliche KI für deine mentale Gesundheit",
+      title: "Datenschutzerklärung",
       description:
-        "KI-App für emotionale Begleitung, gestützt auf wissenschaftliche Evidenz (KVT). Rund um die Uhr, privat, ohne Vorurteile.",
+        "Deepfriend verkauft oder teilt deine Daten niemals. Keine Drittparteien, keine Investoren, HTTPS-Verschlüsselung. Lies, wie wir deine Privatsphäre schützen.",
     },
   },
 };
