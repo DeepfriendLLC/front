@@ -1,107 +1,42 @@
-@media (min-width: 769px) {
-    .container {
-        width: 100%;
-        height: auto;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-
-        padding: 24px;
-        padding-top: 64px;
-        padding-bottom: 64px;
-    }
-
-    .textContainer {
-        width: auto;
-        height: auto;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        
-        padding: 8px;
-    }
-
-    .title {
-        font-family: "Cormorant";
-        font-weight: 700;
-        font-size: 40px;
-
-        padding: 0px;
-        margin: 0px;
-
-        margin-bottom: 16px;
-
-        color: black;
-        text-align: left;
-    }
-
-    .text {
-        font-family: "Mulish";
-        font-weight: 500;
-        font-size: 20px;
-
-        padding: 0px;
-        margin: 0px;
-
-        color: black;
-        text-align: left;
-    }
+.section {
+  padding: 48px 0;
 }
 
-@media (max-width: 768px) {
-    .container {
-        width: cover;
-        height: auto;
+.shell {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 48px;
+  align-items: start;
+}
 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+.head {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
 
-        padding: 24px;
-        padding-top: 64px;
-        padding-bottom: 32px;
-    }
+.title {
+  font-family: var(--f-serif);
+  font-size: clamp(28px, 3.4vw, 40px);
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
 
-    .textContainer {
-        width: auto;
-        height: auto;
+.rule {
+  width: 64px;
+  height: 2px;
+  background: var(--brand);
+  border-radius: 2px;
+}
 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        
-        padding: 8px;
-    }
+.text {
+  font-size: 17px;
+  line-height: 1.7;
+  color: var(--ink-soft);
+  max-width: 720px;
+}
 
-    .title {
-        font-family: "Cormorant";
-        font-weight: 700;
-        font-size: 32px;
-
-        padding: 0px;
-        margin: 0px;
-
-        margin-bottom: 16px;
-
-        color: black;
-        text-align: center;
-    }
-
-    .text {
-        font-family: "Mulish";
-        font-weight: 500;
-        font-size: 16px;
-
-        padding: 0px;
-        margin: 0px;
-
-        color: black;
-        text-align: center;
-    }
+@media (max-width: 880px) {
+  .shell { grid-template-columns: 1fr; gap: 16px; }
 }

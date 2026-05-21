@@ -1,21 +1,31 @@
+import "@/styles/global.css";
+
+import AboutIntroComponent from "@/components/about/about-intro";
 import AboutWhyComponent from "@/components/about/why";
-import { AboutBannerComponent } from "@/components/banner/banners";
+import TeamComponent from "@/components/about/team";
 import MissionAndValuesComponent from "@/components/home/missionAndValues/mission-and-values";
-import AboutPabloComponent from "@/components/about/pablo";
+import CtaComponent from "@/components/home/cta/cta";
 import FooterComponent from "@/components/basic/footer";
 import NavbarComponent from "@/components/basic/navbar";
-import { Locale } from "@/i18n/config";
+import { pickLocale } from "@/i18n/config";
 
-export default async function About({ params }: { params: Promise<{ lang: Locale }> }) {
-  const { lang } = await params;
+export default async function About({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}) {
+  const lang = pickLocale((await params).lang);
 
   return (
     <>
-      <NavbarComponent />
-      <AboutBannerComponent lang={lang} />
-      <AboutWhyComponent lang={lang} />
-      <MissionAndValuesComponent lang={lang} />
-      <AboutPabloComponent lang={lang} />
+      <NavbarComponent lang={lang} />
+      <main>
+        <AboutIntroComponent lang={lang} />
+        <MissionAndValuesComponent lang={lang} />
+        <AboutWhyComponent lang={lang} />
+        <TeamComponent lang={lang} />
+        <CtaComponent lang={lang} />
+      </main>
       <FooterComponent lang={lang} />
     </>
   );
