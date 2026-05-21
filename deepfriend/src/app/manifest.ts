@@ -5,7 +5,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: "Deepfriend",
     short_name: "Deepfriend",
     description:
-      "Deepfriend, tu app de paz mental. Descubre Bubbles, la IA científica que revoluciona la Salud Mental. Desde solo 12.99$ y con 3 días gratis sin compromiso para decidir si te gusta. Te parece mala idea? Pues pruebala ya en Google Play Store!",
+      "Deepfriend, tu app de paz mental. Descubre Blue, la IA científica que revoluciona la Salud Mental. Desde solo 12.99$ y con 3 días gratis sin compromiso para decidir si te gusta. Te parece mala idea? Pues pruebala ya en Google Play Store!",
     start_url: "/",
     categories: [
       "Deepfriend",

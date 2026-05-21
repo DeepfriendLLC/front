@@ -1,6 +1,6 @@
 // src/app/[lang]/opengraph-image.tsx
 import { ImageResponse } from "next/og";
-import type { Locale } from "@/i18n/config";
+import { pickLocale, type Locale } from "@/i18n/config";
 
 export const runtime = "edge";
 export const alt = "Deepfriend";
@@ -19,10 +19,14 @@ const COPY: Record<Locale, {
         title: "Deepfriend",
         subtitle: "Your science-backed AI for mental wellness"
     },
+    de: {
+        title: "Deepfriend",
+        subtitle: "Deine wissenschaftliche KI für mentales Wohlbefinden"
+    },
 };
 
-export default async function OG({ params }: { params: Promise<{ lang: Locale }> }) {
-    const { lang } = await params;
+export default async function OG({ params }: { params: Promise<{ lang: string }> }) {
+    const lang = pickLocale((await params).lang);
     const copy = COPY[lang];
 
     return new ImageResponse(
