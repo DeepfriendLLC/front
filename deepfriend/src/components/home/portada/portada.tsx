@@ -4,7 +4,7 @@ import Image from "next/image";
 import { TranslationTexts } from "@/constants/translations/translations";
 import { Locale } from "@/i18n/config";
 
-import BlueWhale from "@/../public/images/blue/blue-turquesa.png";
+import BlueWhale from "@/../public/images/blue/blue-white.png";
 import GooglePlayLogo from "@/../public/icons/google-play/logo.png";
 
 const GOOGLE_PLAY =
