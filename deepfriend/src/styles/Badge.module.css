@@ -1,117 +1,31 @@
-@media (min-width: 769px) {
-    .container {
-        width: 100%;
-        height: 50vh;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        padding: 24px;
-    }
-
-    .imageContainer {
-        width: auto;
-        height: auto;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        align-self: center;
-
-        padding: 8px;
-    }
-
-    .image {
-        width: auto;
-        height: 15vw;
-
-        align-self: center;
-    }
-
-    .textContainer {
-        width: auto;
-        height: auto;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-
-        padding: 8px;
-    }
-
-    .title {
-        font-family: "Cormorant";
-        font-weight: 700;
-        font-size: 40px;
-
-        padding: 0px;
-        margin: 0px;
-
-        color: black;
-        text-align: center;
-    }
+.section {
+  padding: 64px 0 32px;
+  border-bottom: 1px solid var(--line);
 }
 
-@media (max-width: 768px) {
-    .container {
-        width: cover;
-        height: auto;
+.shell {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 880px;
+}
 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+.eyebrow {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--brand-deep);
+}
 
-        padding: 24px;
-    }
+.title {
+  font-family: var(--f-serif);
+  font-size: clamp(34px, 5vw, 56px);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
 
-    .imageContainer {
-        width: auto;
-        height: auto;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        align-self: center;
-
-        padding: 8px;
-    }
-
-    .image {
-        width: auto;
-        height: 45vw;
-
-        align-self: center;
-    }
-
-    .textContainer {
-        width: auto;
-        height: auto;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-
-        padding: 8px;
-    }
-
-    .title {
-        font-family: "Cormorant";
-        font-weight: 700;
-        font-size: 32px;
-
-        padding: 0px;
-        margin: 0px;
-
-        color: black;
-        text-align: center;
-    }
+@media (max-width: 720px) {
+  .section { padding: 32px 0 24px; }
 }
