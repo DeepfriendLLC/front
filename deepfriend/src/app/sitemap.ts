@@ -1,8 +1,7 @@
 // src/app/sitemap.ts
 import type { MetadataRoute } from "next";
 import { LOCALES, DEFAULT_LOCALE } from "@/i18n/config";
-import { ROUTES } from "@/constants/routes/routes";
-import { SITE } from "./[lang]/layout";
+import { ROUTES, SITE } from "@/constants/routes/routes";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
