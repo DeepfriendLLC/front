@@ -1,16 +1,8 @@
 // src/app/sitemap.ts
 import type { MetadataRoute } from "next";
 import { LOCALES, DEFAULT_LOCALE } from "@/i18n/config";
-
-const SITE = "https://dfbubbles.com";
-
-const ROUTES = [
-  "",
-  "/about",
-  "/contact",
-  "/legal-terms",
-  "/privacy-policy",
-] as const;
+import { ROUTES } from "@/constants/routes/routes";
+import { SITE } from "./[lang]/layout";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
