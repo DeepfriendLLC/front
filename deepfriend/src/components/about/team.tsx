@@ -18,8 +18,8 @@ export default function TeamComponent({ lang }: { lang: Locale }) {
             {lang === "es"
               ? "Las personas detrás de Deepfriend."
               : lang === "de"
-              ? "Die Menschen hinter Deepfriend."
-              : "The people behind Deepfriend."}
+                ? "Die Menschen hinter Deepfriend."
+                : "The people behind Deepfriend."}
           </h2>
         </div>
 
@@ -40,17 +40,6 @@ export default function TeamComponent({ lang }: { lang: Locale }) {
             </div>
           </article>
 
-          <article className={`${styles['card']} ${styles['cardAdvisor']}`}>
-            <div className={`${styles['media']} ${styles['mediaAdvisor']}`} aria-hidden>
-              <span className={styles['monogram']}>AG</span>
-            </div>
-            <div className={styles['body']}>
-              <span className={styles['label']}>{t.about_psy_title}</span>
-              <h3 className={styles['name']}>{t.about_psy_name}</h3>
-              <span className={styles['role']}>{t.about_psy_role}</span>
-              <p className={styles['text']}>{t.about_psy_text}</p>
-            </div>
-          </article>
         </div>
 
         <div className={styles['independent']}>
@@ -61,3 +50,17 @@ export default function TeamComponent({ lang }: { lang: Locale }) {
     </section>
   );
 }
+
+/*
+<article className={`${styles['card']} ${styles['cardAdvisor']}`}>
+  <div className={`${styles['media']} ${styles['mediaAdvisor']}`} aria-hidden>
+    <span className={styles['monogram']}>AG</span>
+  </div>
+  <div className={styles['body']}>
+    <span className={styles['label']}>{t.about_psy_title}</span>
+    <h3 className={styles['name']}>{t.about_psy_name}</h3>
+    <span className={styles['role']}>{t.about_psy_role}</span>
+    <p className={styles['text']}>{t.about_psy_text}</p>
+  </div>
+</article>
+*/
