@@ -31,13 +31,13 @@ const es = {
   head_privacy_policy_title: "Política de privacidad",
 
   // — Landing / Hero
-  hero_eyebrow: "Salud mental basada en evidencia",
-  hero_title:
-    "Compañía emocional con IA, fundamentada en la ciencia de la TCC.",
+  hero_eyebrow: "Compañía emocional · IA científica",
+  hero_title: "Siente alivio. Recupera tu calma.",
+  hero_highlight: "alivio",
   hero_subtitle:
-    "Habla con Blue, una IA diseñada con el rigor de la terapia cognitivo-conductual. Privado, accesible 24/7 y sin compartir nunca tus datos.",
+    "Habla con Blue cuando lo necesites. Una inteligencia artificial diseñada con rigor clínico para acompañarte en ansiedad, estrés e insomnio — privada y disponible 24/7.",
   hero_cta_primary: "Descargar en Google Play",
-  hero_cta_secondary: "Conocer la ciencia",
+  hero_cta_secondary: "Ver cómo funciona",
   hero_micro_rating: "Valorada por sus usuarios",
   hero_micro_downloads: "+1.000 descargas",
   hero_micro_privacy: "Datos nunca vendidos",
@@ -199,13 +199,13 @@ const en: TranslationDictionary = {
   head_legal_terms_title: "Legal terms",
   head_privacy_policy_title: "Privacy policy",
 
-  hero_eyebrow: "Evidence-based mental health",
-  hero_title:
-    "An AI emotional companion built on CBT science.",
+  hero_eyebrow: "Emotional companion · Scientific AI",
+  hero_title: "Feel relief. Reclaim your calm.",
+  hero_highlight: "relief",
   hero_subtitle:
-    "Talk to Blue, an AI designed with the rigor of cognitive behavioral therapy. Private, available 24/7, and your data is never sold.",
+    "Talk to Blue when you need it. Clinical-grade AI designed to support you through anxiety, stress and insomnia — private and available 24/7.",
   hero_cta_primary: "Download on Google Play",
-  hero_cta_secondary: "See the science",
+  hero_cta_secondary: "See how it works",
   hero_micro_rating: "Loved by its users",
   hero_micro_downloads: "+1,000 downloads",
   hero_micro_privacy: "Data never sold",
@@ -353,13 +353,13 @@ const de: TranslationDictionary = {
   head_legal_terms_title: "Rechtliche Hinweise",
   head_privacy_policy_title: "Datenschutzerklärung",
 
-  hero_eyebrow: "Evidenzbasierte mentale Gesundheit",
-  hero_title:
-    "Emotionale KI-Begleitung, fundiert in der Wissenschaft der KVT.",
+  hero_eyebrow: "Emotionale Begleitung · Wissenschaftliche KI",
+  hero_title: "Spüre Erleichterung. Finde deine Ruhe wieder.",
+  hero_highlight: "Erleichterung",
   hero_subtitle:
-    "Sprich mit Blue, einer KI, entwickelt mit der Strenge der kognitiven Verhaltenstherapie. Privat, rund um die Uhr verfügbar, und deine Daten werden niemals verkauft.",
+    "Sprich mit Blue, wenn du es brauchst. Klinisch fundierte KI, entwickelt um dich bei Angst, Stress und Schlafstörungen zu begleiten — privat und rund um die Uhr.",
   hero_cta_primary: "Bei Google Play herunterladen",
-  hero_cta_secondary: "Die Wissenschaft kennenlernen",
+  hero_cta_secondary: "So funktioniert es",
   hero_micro_rating: "Von Nutzern geschätzt",
   hero_micro_downloads: "+1.000 Downloads",
   hero_micro_privacy: "Daten werden nie verkauft",
