@@ -37,7 +37,7 @@ export const COPY: CopyMetadataType = {
     en: {
       title: "About Deepfriend | Evidence-Based Mental Health App",
       description:
-        "Meet the team and story behind Deepfriend — a CBT-based AI emotional companion. Built by a software engineer, advised by a CBT psychologist, with no investors.",
+        "Learn about the mission, values and story behind Deepfriend — an independent CBT-based AI emotional companion, built by one person, with no outside investors.",
     },
     de: {
       title: "Über Deepfriend | Evidenzbasierte App für mentale Gesundheit",
@@ -49,17 +49,17 @@ export const COPY: CopyMetadataType = {
     es: {
       title: "Contacto | App de salud mental con IA",
       description:
-        "¿Preguntas, soporte o feedback sobre Deepfriend? Escríbenos directamente. Respondemos en 24–48 horas laborables y leemos cada mensaje.",
+        "¿Preguntas, soporte o feedback sobre Deepfriend? Escríbeme directamente. Leo cada mensaje de forma personal.",
     },
     en: {
       title: "Contact | AI Mental Health App",
       description:
-        "Questions, support or feedback about Deepfriend? Write to us. We reply within 24–48 business hours and read every message personally.",
+        "Questions, support or feedback about Deepfriend? Write to me directly. I read every message personally.",
     },
     de: {
       title: "Kontakt | App für mentale Gesundheit",
       description:
-        "Fragen, Support oder Feedback zu Deepfriend? Schreib uns direkt. Wir antworten innerhalb von 24–48 Werkstunden und lesen jede Nachricht persönlich.",
+        "Fragen, Support oder Feedback zu Deepfriend? Schreib mir direkt. Ich lese jede Nachricht persönlich.",
     },
   },
   "/legal-terms": {
@@ -88,7 +88,7 @@ export const COPY: CopyMetadataType = {
     en: {
       title: "Privacy Policy",
       description:
-        "Deepfriend never sells or shares your data. No third parties, no investors, end-to-end HTTPS encryption. Read how we protect your privacy absolutely.",
+        "Deepfriend never sells or shares your data. No third parties, no investors, HTTPS encryption in transit. Read how your privacy is protected.",
     },
     de: {
       title: "Datenschutzerklärung",

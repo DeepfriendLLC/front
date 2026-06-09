@@ -7,7 +7,7 @@ const es = {
   nav_cta: "Descargar",
 
   footer_tagline:
-    "Compañía emocional con IA, basada en la ciencia de la TCC. Diseñado en España.",
+    "Compañía emocional con IA, basada en ciencia · Hecho con cuidado en España.",
   footer_product: "Producto",
   footer_product_blue: "Blue AI",
   footer_product_mindfulness: "Mindfulness",
@@ -44,13 +44,14 @@ const es = {
 
   // — Trust strip
   trust_cbt: "Centrado en TCC",
-  trust_clinical: "Revisión clínica externa",
+  trust_clinical: "Feedback clínico externo",
   trust_privacy: "Datos nunca vendidos",
   trust_24_7: "Disponible 24/7",
 
   // — Section: science
   science_eyebrow: "¿Por qué esto es distinto?",
-  science_title: "Has probado otras cosas. Esto está construido para funcionar.",
+  science_title:
+    "Has probado otras cosas. Deepfriend está construido para funcionar.",
   science_highlight: "funcionar",
   science_text:
     "Es normal dudar. Muchas apps prometen calma con frases bonitas — sin base científica. Deepfriend es diferente: cada técnica que usa Blue ha sido validada bajo el método científico. La TCC es el centro; el resto son herramientas complementarias, siempre con evidencia.",
@@ -63,9 +64,9 @@ const es = {
   science_pillar_2_title: "Centrado en TCC, multimodal con evidencia",
   science_pillar_2_text:
     "Blue no improvisa. Parte del marco cognitivo-conductual — el estándar con mayor respaldo empírico — e integra otras técnicas validadas cuando aportan.",
-  science_pillar_3_title: "Revisado con profesionales TCC",
+  science_pillar_3_title: "Feedback externo de profesionales TCC",
   science_pillar_3_text:
-    "Psicólogos especializados revisan el producto y aportan feedback continuo. No hay suposiciones: hay criterio clínico externo.",
+    "El producto se ha ido moldeando con feedback de psicólogos especializados. Criterio clínico externo y puntual — no supervisión continua ni equipo clínico empleado.",
 
   // — Section: products
   products_blue_eyebrow: "Producto principal",
@@ -73,12 +74,15 @@ const es = {
   product_blue_title: "Blue. Ahí cuando lo necesitas.",
   product_blue_text:
     "Una presencia que te escucha de verdad. Para desahogarte, pensar en voz alta o sentirte acompañado — sin juicio, sin prisa. Como ese amigo en quien confías, con herramientas que no improvisan.",
-  product_blue_bullet_1: "Habla cuando lo necesites — alivio desde la primera conversación.",
-  product_blue_bullet_2: "Chat y llamada de voz — elige cómo te sientes más cómodo.",
-  product_blue_bullet_3: "Te conoce con el tiempo — recuerda lo importante y acompaña con contexto.",
-  product_blue_note_title: "Revisado con feedback de profesionales TCC",
+  product_blue_bullet_1:
+    "Habla cuando lo necesites — alivio desde la primera conversación.",
+  product_blue_bullet_2:
+    "Chat y llamada de voz — elige cómo te sientes más cómodo.",
+  product_blue_bullet_3:
+    "Te conoce con el tiempo — recuerda lo importante y acompaña con contexto.",
+  product_blue_note_title: "Feedback de profesionales TCC",
   product_blue_note_text:
-    "Psicólogos especializados en TCC revisan y orientan el producto. Deepfriend acompaña; no sustituye terapia.",
+    "Deepfriend incorpora feedback de psicólogos especializados en TCC. Acompaña; no sustituye terapia.",
 
   // — Section: how it works
   how_eyebrow: "Así funciona",
@@ -93,7 +97,7 @@ const es = {
   how_step_3_text:
     "Blue recuerda tu historia. Las conversaciones construyen contexto. No es magia: es acompañamiento constante con herramientas que la ciencia respalda.",
   how_disclaimer:
-    "Blue es compañía emocional con IA, no un psicólogo. Si necesitas ayuda profesional, te lo diremos con claridad.",
+    "Blue es compañía emocional con IA, no un psicólogo. Si necesitas ayuda profesional, Deepfriend te lo indicará con claridad.",
 
   products_extras_eyebrow: "Incluido en la app",
   products_extras_title: "Herramientas extra para profundizar.",
@@ -101,7 +105,7 @@ const es = {
   product_library_label: "Biblioteca",
   product_library_title: "Conocimiento que calma.",
   product_library_text:
-    "Técnicas y recursos validados para la ansiedad, el insomnio y el estrés. Lecturas de menos de un minuto — súper rápidas, efectivas y aplicables al momento. Cada una con referencia al estudio científico que la respalda.",
+    "Técnicas y recursos validados para la ansiedad, el insomnio y el estrés. Lecturas de menos de un minuto — breves, efectivas y aplicables al momento. Cada una con referencia al estudio científico que la respalda.",
   product_library_bullet_1: "Ansiedad, insomnio y estrés.",
   product_library_bullet_2: "Menos de un minuto de lectura.",
   product_library_bullet_3: "Aplicables al momento, con referencia al estudio.",
@@ -117,13 +121,13 @@ const es = {
   // — Privacy commitment
   privacy_eyebrow: "Compromiso de privacidad",
   privacy_title:
-    "Nunca vendemos ni compartimos tus datos. Nunca. Bajo ningún contexto.",
+    "Tus datos nunca se venden ni se comparten. Nunca. Bajo ningún contexto.",
   privacy_text:
     "Deepfriend es independiente: sin inversores, sin agencias, sin gobierno. Lo que compartes con Blue queda entre tú y Blue. Este principio no cambia.",
   privacy_point_1: "Sin venta de datos.",
   privacy_point_2: "Sin compartición con terceros.",
   privacy_point_3: "Sin inversores externos.",
-  privacy_point_4: "Cifrado HTTPS extremo a extremo en tránsito.",
+  privacy_point_4: "Cifrado HTTPS en tránsito.",
   privacy_point_5:
     "Prácticas de seguridad conformes a los estándares de la industria para datos de salud, incluyendo los requisitos HIPAA.",
 
@@ -157,7 +161,7 @@ const es = {
   about_pablo_role: "Ingeniero de software · Barcelona, España",
   about_pablo_name: "Pablo Vallejo",
   about_pablo_text:
-    "Ingeniero de software con experiencia en producto. Construyo Deepfriend de forma independiente — tecnología y ciencia rigurosa, sin atajos ni inversores.",
+    "Ingeniero de software con experiencia en producto. Fundador de Deepfriend: tecnología y ciencia rigurosa, desarrollada de forma independiente, sin atajos ni inversores.",
 
   about_psy_title: "Feedback profesional",
   about_psy_role: "Profesionales especializados",
@@ -167,26 +171,25 @@ const es = {
 
   about_independent_title: "Un proyecto independiente",
   about_independent_text:
-    "Deepfriend lo creo yo solo. No somos una multinacional ni hay inversores externos. He ido moldeando el producto con feedback de profesionales especializados — no hay un equipo clínico empleado ni supervisión continua. Esa independencia es la razón por la que puedo comprometerme a no vender tus datos.",
+    "Deepfriend es un proyecto creado y desarrollado por una sola persona. No es una multinacional ni cuenta con inversores externos. El producto se ha ido moldeando con feedback de profesionales especializados — sin equipo clínico empleado ni supervisión continua. Esa independencia permite comprometerse a no vender tus datos.",
 
   // — Contact
   contact_eyebrow: "Contacto",
-  contact_title: "Escríbenos. Te leemos de verdad.",
+  contact_title: "Escríbeme. Cada mensaje cuenta.",
   contact_text:
-    "Deepfriend se construye escuchando. Elige el correo que mejor encaje con lo que necesitas — leo todos los mensajes personalmente.",
+    "Deepfriend se construye escuchando. Elige el correo que mejor encaje con lo que necesitas — leo cada mensaje de forma personal.",
   contact_email_title: "Correo general",
   contact_email_desc:
     "Preguntas, ideas, feedback o colaboraciones. Para todo lo que no sea soporte técnico de la app.",
   contact_help_title: "Soporte de la app",
   contact_help_desc:
-    "Problemas con Blue, dudas sobre cómo usar Deepfriend o incidencias técnicas. Aquí te ayudamos.",
+    "Problemas con Blue, dudas sobre cómo usar Deepfriend o incidencias técnicas.",
   contact_note: "Proyecto independiente · Hecho con cuidado en España.",
 
   // — Banner titles for legal pages
   banner_about_title: "Acerca de Deepfriend",
   banner_contact_title: "Ponte en contacto",
-  banner_privacy_policy_title:
-    "Política de privacidad",
+  banner_privacy_policy_title: "Política de privacidad",
   banner_legal_terms_title: "Términos legales",
 
   // — Language switcher
@@ -206,7 +209,7 @@ const en: TranslationDictionary = {
   nav_cta: "Download",
 
   footer_tagline:
-    "AI emotional companion grounded in CBT science. Crafted in Spain.",
+    "AI emotional companion, science-based · Made with care in Spain.",
   footer_product: "Product",
   footer_product_blue: "Blue AI",
   footer_product_mindfulness: "Mindfulness",
@@ -240,12 +243,12 @@ const en: TranslationDictionary = {
   hero_micro_privacy: "Data never sold",
 
   trust_cbt: "CBT-centered",
-  trust_clinical: "External clinical review",
+  trust_clinical: "External clinical feedback",
   trust_privacy: "Data never sold",
   trust_24_7: "Available 24/7",
 
   science_eyebrow: "Why this is different",
-  science_title: "You've tried other things. This is built to work.",
+  science_title: "You've tried other options. Deepfriend is built to work.",
   science_highlight: "work",
   science_text:
     "It's normal to doubt. Many apps promise calm with nice phrases — with no scientific basis. Deepfriend is different: every technique Blue uses has been validated through the scientific method. CBT is the core; everything else is complementary, always evidence-based.",
@@ -258,21 +261,24 @@ const en: TranslationDictionary = {
   science_pillar_2_title: "CBT-centered, multimodal with evidence",
   science_pillar_2_text:
     "Blue doesn't improvise. It starts from the cognitive behavioral framework — the standard with the strongest empirical backing — and integrates other validated techniques when they add value.",
-  science_pillar_3_title: "Reviewed by CBT professionals",
+  science_pillar_3_title: "External feedback from CBT professionals",
   science_pillar_3_text:
-    "Specialized psychologists review the product and provide ongoing feedback. No assumptions — external clinical judgment.",
+    "The product has been shaped through feedback from specialized psychologists. External, periodic clinical input — not ongoing supervision or an employed clinical team.",
 
   products_blue_eyebrow: "Main product",
   product_blue_label: "Blue AI",
   product_blue_title: "Blue. There when you need it.",
   product_blue_text:
     "A presence that truly listens. To vent, think out loud, or feel accompanied — no judgment, no rush. Like that friend you trust, with tools that don't improvise.",
-  product_blue_bullet_1: "Talk whenever you need to — relief from the very first conversation.",
-  product_blue_bullet_2: "Chat and voice calls — choose what feels most comfortable.",
-  product_blue_bullet_3: "Gets to know you over time — remembers what matters and accompanies you with context.",
-  product_blue_note_title: "Reviewed with feedback from CBT professionals",
+  product_blue_bullet_1:
+    "Talk whenever you need to — relief from the very first conversation.",
+  product_blue_bullet_2:
+    "Chat and voice calls — choose what feels most comfortable.",
+  product_blue_bullet_3:
+    "Gets to know you over time — remembers what matters and accompanies you with context.",
+  product_blue_note_title: "Feedback from CBT professionals",
   product_blue_note_text:
-    "Psychologists specialized in CBT review and guide the product. Deepfriend accompanies; it doesn't replace therapy.",
+    "Deepfriend incorporates feedback from CBT-specialized psychologists. It accompanies; it does not replace therapy.",
 
   how_eyebrow: "How it works",
   how_title: "This is how your journey begins.",
@@ -286,7 +292,7 @@ const en: TranslationDictionary = {
   how_step_3_text:
     "Blue remembers your story. Conversations build context. It's not magic: it's steady companionship with tools science supports.",
   how_disclaimer:
-    "Blue is AI emotional companionship, not a psychologist. If you need professional help, we'll tell you clearly.",
+    "Blue is AI emotional companionship, not a psychologist. If you need professional help, Deepfriend will indicate that clearly.",
 
   products_extras_eyebrow: "Included in the app",
   products_extras_title: "Extra tools to go deeper.",
@@ -294,7 +300,7 @@ const en: TranslationDictionary = {
   product_library_label: "Library",
   product_library_title: "Knowledge that calms.",
   product_library_text:
-    "Validated techniques and resources for anxiety, insomnia and stress. Reads in under a minute — super fast, effective and ready to use right away. Each one with a reference to the scientific study behind it.",
+    "Validated techniques and resources for anxiety, insomnia and stress. Brief reads of under a minute — effective and ready to apply. Each linked to the scientific study behind it.",
   product_library_bullet_1: "Anxiety, insomnia and stress.",
   product_library_bullet_2: "Under a minute to read.",
   product_library_bullet_3: "Use right away, with study reference.",
@@ -309,19 +315,18 @@ const en: TranslationDictionary = {
 
   privacy_eyebrow: "Privacy commitment",
   privacy_title:
-    "We never sell or share your data. Never. Under no circumstances.",
+    "Your data is never sold or shared. Never. Under any circumstances.",
   privacy_text:
     "Deepfriend is independent: no investors, no agencies, no governments. What you share with Blue stays between you and Blue. This principle will not change.",
   privacy_point_1: "No data selling.",
   privacy_point_2: "No third-party sharing.",
   privacy_point_3: "No outside investors.",
-  privacy_point_4: "End-to-end HTTPS encryption in transit.",
+  privacy_point_4: "HTTPS encryption in transit.",
   privacy_point_5:
     "Security practices aligned with industry standards for health data, including HIPAA requirements.",
 
   cta_title: "Start today. Your first step is free.",
-  cta_text:
-    "Available on Google Play. One download, no payment, to meet Blue.",
+  cta_text: "Available on Google Play. One download, no payment, to meet Blue.",
   cta_button: "Download on Google Play",
 
   about_eyebrow: "About Deepfriend",
@@ -340,35 +345,35 @@ const en: TranslationDictionary = {
   about_story_eyebrow: "The story",
   about_story_title: "Why Deepfriend",
   about_story_text:
-    "The idea was born after a close person went through a severe depression. I saw the gaps in public services and learnt that much of psychology still isn't based on evidence. After researching, I found CBT — the approach with the strongest scientific backing — and decided to build Deepfriend. I develop it alone; the product has been shaped over time with feedback from specialized professionals, without a permanent clinical team behind it.",
+    "The idea was born after someone close went through a severe depression. I saw the gaps in public services and discovered that much of psychology still isn't based on evidence. After researching, I found CBT — the approach with the strongest scientific backing — and decided to build Deepfriend. I develop it alone; the product has been shaped through feedback from specialized professionals, without a permanent clinical team behind it.",
 
   about_team_title: "One person. One project.",
   about_pablo_title: "Founder",
   about_pablo_role: "Software engineer · Barcelona, Spain",
   about_pablo_name: "Pablo Vallejo",
   about_pablo_text:
-    "Software engineer with product experience. I build Deepfriend independently — rigorous technology and science, no shortcuts and no investors.",
+    "Software engineer with product experience. Founder of Deepfriend — rigorous technology and science, developed independently, without shortcuts or outside investors.",
 
   about_psy_title: "Professional feedback",
   about_psy_role: "Specialized professionals",
   about_psy_name: "External review",
   about_psy_text:
-    "Mental health professionals provide feedback to guide the product. They are not part of the team and do not supervise on an ongoing basis.",
+    "Mental health professionals provide feedback to inform the product. They are not part of the team and do not supervise on an ongoing basis.",
 
   about_independent_title: "An independent project",
   about_independent_text:
-    "I build Deepfriend alone. We are not a multinational and there are no outside investors. I have shaped the product with feedback from specialized professionals — there is no employed clinical team or continuous supervision. That independence is why I can commit to never selling your data.",
+    "Deepfriend is built and developed by a single person. It is not a multinational, and there are no outside investors. The product has been shaped through feedback from specialized professionals — with no employed clinical team or ongoing supervision. That independence is what makes it possible to commit to never selling your data.",
 
   contact_eyebrow: "Contact",
-  contact_title: "Write to us. We read every message.",
+  contact_title: "Write to me. Every message counts.",
   contact_text:
-    "Deepfriend is built by listening. Choose the email that best fits what you need — I read every message personally.",
+    "Deepfriend is built on listening. Choose the email that best fits your need — I read every message personally.",
   contact_email_title: "General email",
   contact_email_desc:
-    "Questions, ideas, feedback or collaborations. For anything that isn't app technical support.",
+    "Questions, ideas, feedback or collaborations. For anything that is not app technical support.",
   contact_help_title: "App support",
   contact_help_desc:
-    "Issues with Blue, questions about using Deepfriend or technical problems. We're here to help.",
+    "Issues with Blue, questions about using Deepfriend, or technical problems.",
   contact_note: "Independent project · Made with care in Spain.",
 
   banner_about_title: "About Deepfriend",
@@ -388,7 +393,7 @@ const de: TranslationDictionary = {
   nav_cta: "Herunterladen",
 
   footer_tagline:
-    "KI-Begleitung für emotionales Wohlbefinden, fundiert in der KVT-Wissenschaft. Mit Sorgfalt in Spanien entwickelt.",
+    "KI-Begleitung für emotionales Wohlbefinden, wissenschaftlich fundiert · Mit Sorgfalt in Spanien entwickelt.",
   footer_product: "Produkt",
   footer_product_blue: "Blue AI",
   footer_product_mindfulness: "Mindfulness",
@@ -422,13 +427,14 @@ const de: TranslationDictionary = {
   hero_micro_privacy: "Daten werden nie verkauft",
 
   trust_cbt: "KVT im Zentrum",
-  trust_clinical: "Externe klinische Prüfung",
+  trust_clinical: "Externes klinisches Feedback",
   trust_privacy: "Daten nie verkauft",
   trust_24_7: "Rund um die Uhr",
 
   science_eyebrow: "Warum das anders ist",
-  science_title: "Du hast schon anderes probiert. Dies ist gebaut, um zu funktionieren.",
-  science_highlight: "funktionieren",
+  science_title:
+    "Du hast schon anderes ausprobiert. Deepfriend setzt auf Bewährtes.",
+  science_highlight: "Bewährtes",
   science_text:
     "Zweifeln ist normal. Viele Apps versprechen Ruhe mit schönen Worten — ohne wissenschaftliche Grundlage. Deepfriend ist anders: Jede Technik, die Blue nutzt, wurde nach wissenschaftlicher Methode validiert. Die KVT steht im Zentrum; alles andere sind ergänzende, evidenzbasierte Werkzeuge.",
   science_diagram_thought: "Gedanke",
@@ -440,21 +446,24 @@ const de: TranslationDictionary = {
   science_pillar_2_title: "KVT im Zentrum, multimodal mit Evidenz",
   science_pillar_2_text:
     "Blue improvisiert nicht. Es baut auf dem kognitiv-verhaltenstherapeutischen Rahmen auf — dem Standard mit dem stärksten empirischen Rückhalt — und integriert andere validierte Techniken, wenn sie Mehrwert bieten.",
-  science_pillar_3_title: "Geprüft von KVT-Fachleuten",
+  science_pillar_3_title: "Externes Feedback von KVT-Fachleuten",
   science_pillar_3_text:
-    "Spezialisierte Psychologen prüfen das Produkt und geben fortlaufend Feedback. Keine Annahmen — externes klinisches Urteil.",
+    "Das Produkt wurde mit Feedback von spezialisierten Psychologen weiterentwickelt. Externes, punktuelles klinisches Feedback — keine fortlaufende Supervision und kein angestelltes klinisches Team.",
 
   products_blue_eyebrow: "Hauptprodukt",
   product_blue_label: "Blue AI",
   product_blue_title: "Blue. Da, wenn du es brauchst.",
   product_blue_text:
     "Eine Präsenz, die dir wirklich zuhört. Zum Reden, laut Denken oder um dich begleitet zu fühlen — ohne Urteil, ohne Eile. Wie ein Freund, dem du vertraust, mit Werkzeugen, die nicht improvisieren.",
-  product_blue_bullet_1: "Sprich, wann immer du musst — Erleichterung ab dem ersten Gespräch.",
-  product_blue_bullet_2: "Chat und Sprachanruf — wähle, was sich am angenehmsten anfühlt.",
-  product_blue_bullet_3: "Lernt dich mit der Zeit kennen — erinnert sich an Wichtiges und begleitet mit Kontext.",
-  product_blue_note_title: "Geprüft mit Feedback von KVT-Fachleuten",
+  product_blue_bullet_1:
+    "Sprich, wann immer du musst — Erleichterung ab dem ersten Gespräch.",
+  product_blue_bullet_2:
+    "Chat und Sprachanruf — wähle, was sich am angenehmsten anfühlt.",
+  product_blue_bullet_3:
+    "Lernt dich mit der Zeit kennen — erinnert sich an Wichtiges und begleitet mit Kontext.",
+  product_blue_note_title: "Feedback von KVT-Fachleuten",
   product_blue_note_text:
-    "Psychologen mit KVT-Spezialisierung prüfen und begleiten das Produkt. Deepfriend begleitet — es ersetzt keine Therapie.",
+    "Deepfriend integriert Feedback von KVT-spezialisierten Psychologen. Es begleitet — es ersetzt keine Therapie.",
 
   how_eyebrow: "So funktioniert es",
   how_title: "So beginnt dein Weg.",
@@ -468,7 +477,7 @@ const de: TranslationDictionary = {
   how_step_3_text:
     "Blue erinnert sich an deine Geschichte. Gespräche bauen Kontext auf. Keine Magie: beständige Begleitung mit Werkzeugen, die die Wissenschaft stützt.",
   how_disclaimer:
-    "Blue ist KI-Begleitung für emotionales Wohlbefinden, kein Psychologe. Wenn du professionelle Hilfe brauchst, sagen wir es dir klar.",
+    "Blue ist KI-Begleitung für emotionales Wohlbefinden, kein Psychologe. Bei Bedarf an professioneller Hilfe weist Deepfriend klar darauf hin.",
 
   products_extras_eyebrow: "In der App enthalten",
   products_extras_title: "Extra-Werkzeuge zum Vertiefen.",
@@ -476,7 +485,7 @@ const de: TranslationDictionary = {
   product_library_label: "Bibliothek",
   product_library_title: "Wissen, das beruhigt.",
   product_library_text:
-    "Validierte Techniken und Ressourcen bei Angst, Schlaflosigkeit und Stress. Lektüre in unter einer Minute — superschnell, wirksam und sofort anwendbar. Jede mit Verweis auf die wissenschaftliche Studie dahinter.",
+    "Validierte Techniken und Ressourcen bei Angst, Schlaflosigkeit und Stress. Kurze Lektüre von unter einer Minute — wirksam und sofort anwendbar. Jede mit Verweis auf die wissenschaftliche Studie dahinter.",
   product_library_bullet_1: "Angst, Schlaflosigkeit und Stress.",
   product_library_bullet_2: "Weniger als eine Minute Lesezeit.",
   product_library_bullet_3: "Sofort anwendbar, mit Studienverweis.",
@@ -491,7 +500,7 @@ const de: TranslationDictionary = {
 
   privacy_eyebrow: "Datenschutz-Versprechen",
   privacy_title:
-    "Wir verkaufen oder teilen deine Daten nie. Niemals. Unter keinen Umständen.",
+    "Deine Daten werden nie verkauft oder geteilt. Niemals. Unter keinen Umständen.",
   privacy_text:
     "Deepfriend ist unabhängig: keine Investoren, keine Agenturen, keine Regierungen. Was du mit Blue teilst, bleibt zwischen dir und Blue. Dieses Prinzip wird sich nicht ändern.",
   privacy_point_1: "Kein Datenverkauf.",
@@ -522,14 +531,14 @@ const de: TranslationDictionary = {
   about_story_eyebrow: "Die Geschichte",
   about_story_title: "Warum Deepfriend",
   about_story_text:
-    "Die Idee entstand, nachdem eine nahestehende Person eine schwere Depression durchlebte. Ich sah die Lücken im öffentlichen Versorgungssystem und erkannte, dass ein großer Teil der Psychologie nicht auf Evidenz beruht. Nach Recherchen fand ich die KVT — den Ansatz mit dem stärksten wissenschaftlichen Rückhalt — und beschloss, Deepfriend zu bauen. Ich entwickle es allein; das Produkt hat sich mit Feedback von Fachleuten weiterentwickelt, ohne ein permanentes klinisches Team dahinter.",
+    "Die Idee entstand, nachdem eine nahestehende Person eine schwere Depression durchlebte. Ich sah die Lücken im öffentlichen Versorgungssystem und erkannte, dass vieles in der Psychologie nicht evidenzbasiert ist. Nach Recherchen fand ich die KVT — den Ansatz mit dem stärksten wissenschaftlichen Rückhalt — und beschloss, Deepfriend zu bauen. Ich entwickle es allein; das Produkt hat sich mit Feedback von Fachleuten weiterentwickelt, ohne permanentes klinisches Team dahinter.",
 
   about_team_title: "Eine Person. Ein Projekt.",
   about_pablo_title: "Gründer",
   about_pablo_role: "Software-Ingenieur · Barcelona, Spanien",
   about_pablo_name: "Pablo Vallejo",
   about_pablo_text:
-    "Software-Ingenieur mit Produkterfahrung. Ich baue Deepfriend unabhängig — rigorose Technologie und Wissenschaft, ohne Abkürzungen und ohne Investoren.",
+    "Software-Ingenieur mit Produkterfahrung. Gründer von Deepfriend — rigorose Technologie und Wissenschaft, unabhängig entwickelt, ohne Abkürzungen oder externe Investoren.",
 
   about_psy_title: "Professionelles Feedback",
   about_psy_role: "Fachleute",
@@ -539,18 +548,18 @@ const de: TranslationDictionary = {
 
   about_independent_title: "Ein unabhängiges Projekt",
   about_independent_text:
-    "Deepfriend entwickle ich allein. Wir sind kein multinationaler Konzern und es gibt keine externen Investoren. Ich habe das Produkt mit Feedback von Fachleuten weiterentwickelt — es gibt kein angestelltes klinisches Team und keine kontinuierliche Supervision. Genau diese Unabhängigkeit ermöglicht es mir, deine Daten nie zu verkaufen.",
+    "Deepfriend wird von einer einzelnen Person entwickelt. Es ist kein multinationaler Konzern und es gibt keine externen Investoren. Das Produkt wurde mit Feedback von Fachleuten weiterentwickelt — ohne angestelltes klinisches Team und ohne fortlaufende Supervision. Diese Unabhängigkeit ermöglicht es, deine Daten nie zu verkaufen.",
 
   contact_eyebrow: "Kontakt",
-  contact_title: "Schreib uns. Wir lesen jede Nachricht.",
+  contact_title: "Schreib mir. Jede Nachricht zählt.",
   contact_text:
-    "Deepfriend entsteht durch Zuhören. Wähle die E-Mail, die am besten passt — ich lese jede Nachricht persönlich.",
+    "Deepfriend entsteht durch Zuhören. Wähle die passende E-Mail — ich lese jede Nachricht persönlich.",
   contact_email_title: "Allgemeine E-Mail",
   contact_email_desc:
     "Fragen, Ideen, Feedback oder Kooperationen. Für alles, was kein technischer App-Support ist.",
   contact_help_title: "App-Support",
   contact_help_desc:
-    "Probleme mit Blue, Fragen zur Nutzung von Deepfriend oder technische Vorfälle. Hier helfen wir dir.",
+    "Probleme mit Blue, Fragen zur Nutzung von Deepfriend oder technische Vorfälle.",
   contact_note: "Unabhängiges Projekt · Mit Sorgfalt in Spanien gemacht.",
 
   banner_about_title: "Über Deepfriend",
