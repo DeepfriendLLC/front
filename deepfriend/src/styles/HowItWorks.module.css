@@ -59,7 +59,7 @@
 .card {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 14px;
   padding: 28px;
   background: var(--surface, var(--white));
   border: 1px solid var(--line);
@@ -76,12 +76,37 @@
   border-color: var(--line-strong);
 }
 
+.cardTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.iconWrap {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  color: var(--teal, var(--brand));
+  background: var(--teal-soft, #e8f5f3);
+  border: 1px solid rgba(36, 153, 139, 0.15);
+  border-radius: var(--radius-icon, 12px);
+}
+
+.iconWrap svg {
+  width: 24px;
+  height: 24px;
+}
+
 .cardNum {
   font-family: var(--f-sans);
   font-size: var(--type-eyebrow);
   font-weight: var(--fw-sans-bold);
   letter-spacing: var(--type-eyebrow-ls);
-  color: var(--teal, var(--brand));
+  color: var(--science, var(--accent));
 }
 
 .cardTitle {

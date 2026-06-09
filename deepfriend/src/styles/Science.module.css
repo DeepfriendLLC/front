@@ -1,7 +1,7 @@
 .section {
   position: relative;
   padding: clamp(72px, 10vw, 112px) 0;
-  background: var(--white, var(--bg));
+  background: #f7f6f3;
   overflow: hidden;
 }
 
@@ -9,8 +9,8 @@
   position: absolute;
   inset: 0;
   background-image:
-    linear-gradient(rgba(26, 29, 29, 0.025) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(26, 29, 29, 0.025) 1px, transparent 1px);
+    linear-gradient(rgba(26, 29, 29, 0.022) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(26, 29, 29, 0.022) 1px, transparent 1px);
   background-size: 64px 64px;
   mask-image: radial-gradient(
     ellipse 80% 70% at 50% 20%,
@@ -97,65 +97,67 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: clamp(240px, 32vw, 360px);
+  min-height: clamp(240px, 32vw, 320px);
 }
 
-.orb {
-  position: absolute;
-  width: clamp(240px, 32vw, 340px);
-  height: clamp(240px, 32vw, 340px);
-  border-radius: 50%;
-  background: radial-gradient(
-    circle at 40% 40%,
-    rgba(51, 55, 189, 0.1) 0%,
-    rgba(36, 153, 139, 0.08) 55%,
-    transparent 72%
-  );
-}
-
-.orbInner {
-  position: absolute;
-  width: clamp(180px, 24vw, 260px);
-  height: clamp(180px, 24vw, 260px);
-  border-radius: 50%;
-  border: 1px solid rgba(51, 55, 189, 0.12);
-  background: radial-gradient(
-    circle at 50% 50%,
-    rgba(238, 238, 248, 0.9) 0%,
-    transparent 70%
-  );
-}
-
-.iconStack {
-  position: relative;
+.diagram {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin: 0;
+  width: min(100%, 320px);
+}
+
+.diagramSvg {
+  width: 100%;
+  height: auto;
+}
+
+.diagramTriangle {
+  fill: rgba(255, 255, 255, 0.72);
+  stroke: rgba(51, 55, 189, 0.18);
+  stroke-width: 1.5;
+}
+
+.diagramLine {
+  stroke: rgba(36, 153, 139, 0.22);
+  stroke-width: 1;
+  stroke-dasharray: 4 4;
+}
+
+.diagramNode {
+  fill: var(--science, #3337bd);
+}
+
+.diagramNodeAccent {
+  fill: var(--teal, #24998b);
+}
+
+.diagramNodeCenter {
+  fill: rgba(26, 29, 29, 0.2);
+}
+
+.diagramLabels {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 12px;
-  align-items: center;
+  width: 100%;
+  text-align: center;
 }
 
-.iconWrap {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 52px;
-  height: 52px;
-  border-radius: 50%;
-  color: var(--science, var(--accent));
-  background: var(--white, var(--bg-elev));
-  border: 1px solid var(--line);
-  box-shadow: var(--shadow-1, 0 2px 8px rgba(26, 29, 29, 0.06));
+.diagramLabel,
+.diagramLabelAccent {
+  font-family: var(--f-sans);
+  font-size: var(--type-caption);
+  line-height: var(--type-caption-lh);
+  font-weight: var(--fw-sans-semibold);
+  letter-spacing: 0.02em;
+  color: var(--ink);
 }
 
-.iconWrap:nth-child(2) {
+.diagramLabelAccent {
   color: var(--teal, #24998b);
-  background: var(--teal-soft, #e8f5f3);
-  border-color: rgba(36, 153, 139, 0.15);
-}
-
-.iconWrap svg {
-  width: 22px;
-  height: 22px;
 }
 
 .grid {
@@ -170,7 +172,7 @@
   flex-direction: column;
   gap: 10px;
   padding: 28px;
-  background: var(--white, var(--bg-elev));
+  background: var(--white, #ffffff);
   border: 1px solid var(--line);
   border-radius: var(--radius-card, 20px);
   transition:
@@ -222,10 +224,19 @@
 
   .visual {
     order: -1;
-    min-height: clamp(180px, 40vw, 260px);
+    min-height: clamp(200px, 44vw, 280px);
   }
 
   .grid {
     grid-template-columns: 1fr;
+  }
+
+  .diagramLabels {
+    gap: 8px;
+  }
+
+  .diagramLabel,
+  .diagramLabelAccent {
+    font-size: var(--type-micro);
   }
 }

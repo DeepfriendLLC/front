@@ -31,64 +31,67 @@ const es = {
   head_privacy_policy_title: "Política de privacidad",
 
   // — Landing / Hero
-  hero_eyebrow: "Compañía emocional · IA científica",
+  hero_eyebrow: "Compañía emocional · Basada en ciencia",
   hero_title: "Siente alivio. Recupera tu calma.",
   hero_highlight: "alivio",
   hero_subtitle:
-    "Habla con Blue cuando lo necesites. Una inteligencia artificial diseñada con rigor clínico para acompañarte en ansiedad, estrés e insomnio — privada y disponible 24/7.",
+    "Cuando la cabeza no para, Blue te escucha — sin juicio, sin prisa. Métodos con evidencia científica para ansiedad, estrés e insomnio. Privado. Disponible 24/7.",
   hero_cta_primary: "Descargar en Google Play",
   hero_cta_secondary: "Ver cómo funciona",
-  hero_micro_rating: "Valorada por sus usuarios",
-  hero_micro_downloads: "+1.000 descargas",
+  hero_micro_rating: "Valoraciones en Google Play",
+  hero_micro_downloads: "+1.000 personas ya han probado Blue",
   hero_micro_privacy: "Datos nunca vendidos",
 
   // — Trust strip
-  trust_cbt: "Basado en TCC",
-  trust_clinical: "Feedback clínico",
+  trust_cbt: "Centrado en TCC",
+  trust_clinical: "Revisión clínica externa",
   trust_privacy: "Datos nunca vendidos",
   trust_24_7: "Disponible 24/7",
 
   // — Section: science
-  science_eyebrow: "La ciencia detrás",
-  science_title: "Terapia cognitivo-conductual. El método con más evidencia.",
-  science_highlight: "evidencia",
+  science_eyebrow: "¿Por qué esto es distinto?",
+  science_title: "Has probado otras cosas. Esto está construido para funcionar.",
+  science_highlight: "funcionar",
   science_text:
-    "La TCC es la rama de la psicología con mayor respaldo científico para ansiedad, estrés e insomnio. Deepfriend traduce ese rigor en conversaciones accesibles — no sustituye terapia, pero sí acerca sus herramientas a tu día a día.",
+    "Es normal dudar. Muchas apps prometen calma con frases bonitas — sin base científica. Deepfriend es diferente: cada técnica que usa Blue ha sido validada bajo el método científico. La TCC es el centro; el resto son herramientas complementarias, siempre con evidencia.",
+  science_diagram_thought: "Pensamiento",
+  science_diagram_emotion: "Emoción",
+  science_diagram_behavior: "Conducta",
   science_pillar_1_title: "Métodos publicados y trazables",
   science_pillar_1_text:
     "Reestructuración cognitiva, exposición gradual, higiene del sueño — técnicas con respaldo en literatura revisada por pares.",
-  science_pillar_2_title: "Solo TCC, nada más",
+  science_pillar_2_title: "Centrado en TCC, multimodal con evidencia",
   science_pillar_2_text:
-    "Blue no improvisa. Aplica exclusivamente el marco cognitivo-conductual, el estándar clínico con mayor evidencia empírica.",
-  science_pillar_3_title: "Diseñado con psicólogos",
+    "Blue no improvisa. Parte del marco cognitivo-conductual — el estándar con mayor respaldo empírico — e integra otras técnicas validadas cuando aportan.",
+  science_pillar_3_title: "Revisado con profesionales TCC",
   science_pillar_3_text:
-    "Profesionales de la TCC revisan el producto y aportan feedback continuo. Cada mejora se basa en su criterio clínico, no en suposiciones.",
+    "Psicólogos especializados revisan el producto y aportan feedback continuo. No hay suposiciones: hay criterio clínico externo.",
 
   // — Section: products
   products_blue_eyebrow: "Producto principal",
   product_blue_label: "Blue AI",
-  product_blue_title: "Blue. Tu alivio cuando más lo necesitas.",
+  product_blue_title: "Blue. Ahí cuando lo necesitas.",
   product_blue_text:
-    "Una ballena azul que te escucha de verdad. Cuando necesitas desahogarte, pensar en voz alta o simplemente sentirte acompañado, Blue está ahí — sin juicio, sin prisa, como tu mejor amigo.",
-  product_blue_bullet_1: "Alivio emocional inmediato — habla cuando lo necesites.",
+    "Una presencia que te escucha de verdad. Para desahogarte, pensar en voz alta o sentirte acompañado — sin juicio, sin prisa. Como ese amigo en quien confías, con herramientas que no improvisan.",
+  product_blue_bullet_1: "Habla cuando lo necesites — alivio desde la primera conversación.",
   product_blue_bullet_2: "Chat y llamada de voz — elige cómo te sientes más cómodo.",
-  product_blue_bullet_3: "Memoria profunda — Blue recuerda tu historia y te entiende mejor con cada conversación.",
-  product_blue_note_title: "Mejorado con feedback clínico",
+  product_blue_bullet_3: "Te conoce con el tiempo — recuerda lo importante y acompaña con contexto.",
+  product_blue_note_title: "Revisado con feedback de profesionales TCC",
   product_blue_note_text:
-    "Profesionales de la TCC revisan Blue y aportan comentarios valiosos. Deepfriend acompaña, no sustituye terapia.",
+    "Psicólogos especializados en TCC revisan y orientan el producto. Deepfriend acompaña; no sustituye terapia.",
 
   // — Section: how it works
   how_eyebrow: "Así funciona",
-  how_title: "Tres pasos. Sin complicaciones.",
-  how_step_1_title: "Descarga y conoce a Blue",
+  how_title: "Así empieza tu camino.",
+  how_step_1_title: "Abres la app. Blue te recibe.",
   how_step_1_text:
-    "Gratis en Google Play. Sin registro complicado. Blue te recibe desde el primer momento.",
-  how_step_2_title: "Habla como quieras",
+    "Sin registros complicados. Sin formularios clínicos. Solo descargar y empezar a hablar — como mandar un mensaje a alguien de confianza.",
+  how_step_2_title: "Cuéntale lo que llevas dentro.",
   how_step_2_text:
-    "Escríbele por chat o llámalo por voz. Cuando el día pesa o la noche no llega, Blue te escucha.",
-  how_step_3_title: "Blue te conoce cada vez mejor",
+    "Por chat o por voz, como prefieras. Cuando el día pesa o la noche no llega, Blue escucha — sin juzgar, sin prisa.",
+  how_step_3_title: "Poco a poco, notas el cambio.",
   how_step_3_text:
-    "Un sistema de memoria avanzado estructura tu proceso emocional. Blue no olvida lo importante — te acompaña con contexto.",
+    "Blue recuerda tu historia. Las conversaciones construyen contexto. No es magia: es acompañamiento constante con herramientas que la ciencia respalda.",
   how_disclaimer:
     "Blue es compañía emocional con IA, no un psicólogo. Si necesitas ayuda profesional, te lo diremos con claridad.",
 
@@ -220,60 +223,63 @@ const en: TranslationDictionary = {
   head_legal_terms_title: "Legal terms",
   head_privacy_policy_title: "Privacy policy",
 
-  hero_eyebrow: "Emotional companion · Scientific AI",
+  hero_eyebrow: "Emotional companion · Science-based",
   hero_title: "Feel relief. Reclaim your calm.",
   hero_highlight: "relief",
   hero_subtitle:
-    "Talk to Blue when you need it. Clinical-grade AI designed to support you through anxiety, stress and insomnia — private and available 24/7.",
+    "When your mind won't stop, Blue listens — no judgment, no rush. Evidence-based methods for anxiety, stress and insomnia. Private. Available 24/7.",
   hero_cta_primary: "Download on Google Play",
   hero_cta_secondary: "See how it works",
-  hero_micro_rating: "Loved by its users",
-  hero_micro_downloads: "+1,000 downloads",
+  hero_micro_rating: "Ratings on Google Play",
+  hero_micro_downloads: "+1,000 people have already tried Blue",
   hero_micro_privacy: "Data never sold",
 
-  trust_cbt: "Built on CBT",
-  trust_clinical: "Clinical feedback",
+  trust_cbt: "CBT-centered",
+  trust_clinical: "External clinical review",
   trust_privacy: "Data never sold",
   trust_24_7: "Available 24/7",
 
-  science_eyebrow: "The science behind it",
-  science_title: "Cognitive Behavioral Therapy. The most evidence-based method.",
-  science_highlight: "evidence-based",
+  science_eyebrow: "Why this is different",
+  science_title: "You've tried other things. This is built to work.",
+  science_highlight: "work",
   science_text:
-    "CBT is the branch of psychology with the strongest scientific backing for anxiety, stress and insomnia. Deepfriend translates that rigor into accessible conversations — it doesn't replace therapy, but it brings its tools into your daily life.",
+    "It's normal to doubt. Many apps promise calm with nice phrases — with no scientific basis. Deepfriend is different: every technique Blue uses has been validated through the scientific method. CBT is the core; everything else is complementary, always evidence-based.",
+  science_diagram_thought: "Thought",
+  science_diagram_emotion: "Emotion",
+  science_diagram_behavior: "Behavior",
   science_pillar_1_title: "Published, traceable methods",
   science_pillar_1_text:
     "Cognitive restructuring, gradual exposure, sleep hygiene — techniques backed by peer-reviewed literature.",
-  science_pillar_2_title: "CBT only, nothing else",
+  science_pillar_2_title: "CBT-centered, multimodal with evidence",
   science_pillar_2_text:
-    "Blue doesn't improvise. It applies exclusively the cognitive behavioral framework, the clinical standard with the strongest empirical evidence.",
-  science_pillar_3_title: "Designed with psychologists",
+    "Blue doesn't improvise. It starts from the cognitive behavioral framework — the standard with the strongest empirical backing — and integrates other validated techniques when they add value.",
+  science_pillar_3_title: "Reviewed by CBT professionals",
   science_pillar_3_text:
-    "CBT professionals review the product and provide ongoing feedback. Every improvement is based on their clinical judgment, not assumptions.",
+    "Specialized psychologists review the product and provide ongoing feedback. No assumptions — external clinical judgment.",
 
   products_blue_eyebrow: "Main product",
   product_blue_label: "Blue AI",
-  product_blue_title: "Blue. Your relief when you need it most.",
+  product_blue_title: "Blue. There when you need it.",
   product_blue_text:
-    "A blue whale that truly listens. When you need to vent, think out loud, or simply feel accompanied, Blue is there — no judgment, no rush, like your best friend.",
-  product_blue_bullet_1: "Immediate emotional relief — talk whenever you need to.",
+    "A presence that truly listens. To vent, think out loud, or feel accompanied — no judgment, no rush. Like that friend you trust, with tools that don't improvise.",
+  product_blue_bullet_1: "Talk whenever you need to — relief from the very first conversation.",
   product_blue_bullet_2: "Chat and voice calls — choose what feels most comfortable.",
-  product_blue_bullet_3: "Deep memory — Blue remembers your story and understands you better with every conversation.",
-  product_blue_note_title: "Improved with clinical feedback",
+  product_blue_bullet_3: "Gets to know you over time — remembers what matters and accompanies you with context.",
+  product_blue_note_title: "Reviewed with feedback from CBT professionals",
   product_blue_note_text:
-    "CBT professionals review Blue and provide valuable comments. Deepfriend accompanies; it doesn't replace therapy.",
+    "Psychologists specialized in CBT review and guide the product. Deepfriend accompanies; it doesn't replace therapy.",
 
   how_eyebrow: "How it works",
-  how_title: "Three steps. No complications.",
-  how_step_1_title: "Download and meet Blue",
+  how_title: "This is how your journey begins.",
+  how_step_1_title: "Open the app. Blue welcomes you.",
   how_step_1_text:
-    "Free on Google Play. No complicated signup. Blue welcomes you from the very first moment.",
-  how_step_2_title: "Talk however you want",
+    "No complicated signup. No clinical forms. Just download and start talking — like texting someone you trust.",
+  how_step_2_title: "Tell Blue what's on your mind.",
   how_step_2_text:
-    "Write via chat or call by voice. When the day weighs on you or sleep won't come, Blue listens.",
-  how_step_3_title: "Blue knows you better over time",
+    "By chat or voice, however you prefer. When the day weighs on you or sleep won't come, Blue listens — no judgment, no rush.",
+  how_step_3_title: "Gradually, you notice the change.",
   how_step_3_text:
-    "An advanced memory system structures your emotional process. Blue doesn't forget what matters — it accompanies you with context.",
+    "Blue remembers your story. Conversations build context. It's not magic: it's steady companionship with tools science supports.",
   how_disclaimer:
     "Blue is AI emotional companionship, not a psychologist. If you need professional help, we'll tell you clearly.",
 
@@ -394,60 +400,63 @@ const de: TranslationDictionary = {
   head_legal_terms_title: "Rechtliche Hinweise",
   head_privacy_policy_title: "Datenschutzerklärung",
 
-  hero_eyebrow: "Emotionale Begleitung · Wissenschaftliche KI",
+  hero_eyebrow: "Emotionale Begleitung · Wissenschaftlich fundiert",
   hero_title: "Spüre Erleichterung. Finde deine Ruhe wieder.",
   hero_highlight: "Erleichterung",
   hero_subtitle:
-    "Sprich mit Blue, wenn du es brauchst. Klinisch fundierte KI, entwickelt um dich bei Angst, Stress und Schlafstörungen zu begleiten — privat und rund um die Uhr.",
+    "Wenn der Kopf nicht zur Ruhe kommt, hört Blue zu — ohne Urteil, ohne Eile. Evidenzbasierte Methoden bei Angst, Stress und Schlaflosigkeit. Privat. Rund um die Uhr verfügbar.",
   hero_cta_primary: "Bei Google Play herunterladen",
   hero_cta_secondary: "So funktioniert es",
-  hero_micro_rating: "Von Nutzern geschätzt",
-  hero_micro_downloads: "+1.000 Downloads",
+  hero_micro_rating: "Bewertungen bei Google Play",
+  hero_micro_downloads: "+1.000 Menschen haben Blue bereits ausprobiert",
   hero_micro_privacy: "Daten werden nie verkauft",
 
-  trust_cbt: "Auf KVT gestützt",
-  trust_clinical: "Klinisches Feedback",
+  trust_cbt: "KVT im Zentrum",
+  trust_clinical: "Externe klinische Prüfung",
   trust_privacy: "Daten nie verkauft",
   trust_24_7: "Rund um die Uhr",
 
-  science_eyebrow: "Die Wissenschaft dahinter",
-  science_title: "Kognitive Verhaltenstherapie. Die evidenzstärkste Methode.",
-  science_highlight: "evidenzstärkste",
+  science_eyebrow: "Warum das anders ist",
+  science_title: "Du hast schon anderes probiert. Dies ist gebaut, um zu funktionieren.",
+  science_highlight: "funktionieren",
   science_text:
-    "Die KVT ist der Zweig der Psychologie mit dem stärksten wissenschaftlichen Rückhalt bei Angst, Stress und Schlaflosigkeit. Deepfriend übersetzt diese Strenge in zugängliche Gespräche — es ersetzt keine Therapie, bringt aber deren Werkzeuge in deinen Alltag.",
+    "Zweifeln ist normal. Viele Apps versprechen Ruhe mit schönen Worten — ohne wissenschaftliche Grundlage. Deepfriend ist anders: Jede Technik, die Blue nutzt, wurde nach wissenschaftlicher Methode validiert. Die KVT steht im Zentrum; alles andere sind ergänzende, evidenzbasierte Werkzeuge.",
+  science_diagram_thought: "Gedanke",
+  science_diagram_emotion: "Emotion",
+  science_diagram_behavior: "Verhalten",
   science_pillar_1_title: "Publizierte, nachvollziehbare Methoden",
   science_pillar_1_text:
     "Kognitive Umstrukturierung, schrittweise Exposition, Schlafhygiene — Techniken mit Rückhalt in peer-reviewter Literatur.",
-  science_pillar_2_title: "Nur KVT, nichts anderes",
+  science_pillar_2_title: "KVT im Zentrum, multimodal mit Evidenz",
   science_pillar_2_text:
-    "Blue improvisiert nicht. Es wendet ausschließlich den kognitiv-verhaltenstherapeutischen Rahmen an, den klinischen Standard mit der stärksten empirischen Evidenz.",
-  science_pillar_3_title: "Entwickelt mit Psychologen",
+    "Blue improvisiert nicht. Es baut auf dem kognitiv-verhaltenstherapeutischen Rahmen auf — dem Standard mit dem stärksten empirischen Rückhalt — und integriert andere validierte Techniken, wenn sie Mehrwert bieten.",
+  science_pillar_3_title: "Geprüft von KVT-Fachleuten",
   science_pillar_3_text:
-    "KVT-Profis prüfen das Produkt und geben fortlaufend Feedback. Jede Verbesserung basiert auf ihrem klinischen Urteil, nicht auf Annahmen.",
+    "Spezialisierte Psychologen prüfen das Produkt und geben fortlaufend Feedback. Keine Annahmen — externes klinisches Urteil.",
 
   products_blue_eyebrow: "Hauptprodukt",
   product_blue_label: "Blue AI",
-  product_blue_title: "Blue. Deine Erleichterung, wenn du sie am meisten brauchst.",
+  product_blue_title: "Blue. Da, wenn du es brauchst.",
   product_blue_text:
-    "Ein Blauwal, der dir wirklich zuhört. Wenn du reden musst, laut denken willst oder dich einfach begleitet fühlen möchtest, ist Blue da — ohne Urteil, ohne Eile, wie dein bester Freund.",
-  product_blue_bullet_1: "Sofortige emotionale Erleichterung — sprich, wann immer du musst.",
+    "Eine Präsenz, die dir wirklich zuhört. Zum Reden, laut Denken oder um dich begleitet zu fühlen — ohne Urteil, ohne Eile. Wie ein Freund, dem du vertraust, mit Werkzeugen, die nicht improvisieren.",
+  product_blue_bullet_1: "Sprich, wann immer du musst — Erleichterung ab dem ersten Gespräch.",
   product_blue_bullet_2: "Chat und Sprachanruf — wähle, was sich am angenehmsten anfühlt.",
-  product_blue_bullet_3: "Tiefes Gedächtnis — Blue erinnert sich an deine Geschichte und versteht dich mit jedem Gespräch besser.",
-  product_blue_note_title: "Verbessert mit klinischem Feedback",
+  product_blue_bullet_3: "Lernt dich mit der Zeit kennen — erinnert sich an Wichtiges und begleitet mit Kontext.",
+  product_blue_note_title: "Geprüft mit Feedback von KVT-Fachleuten",
   product_blue_note_text:
-    "KVT-Profis prüfen Blue und geben wertvolles Feedback. Deepfriend begleitet, ersetzt aber keine Therapie.",
+    "Psychologen mit KVT-Spezialisierung prüfen und begleiten das Produkt. Deepfriend begleitet — es ersetzt keine Therapie.",
 
   how_eyebrow: "So funktioniert es",
-  how_title: "Drei Schritte. Keine Komplikationen.",
-  how_step_1_title: "Herunterladen und Blue kennenlernen",
+  how_title: "So beginnt dein Weg.",
+  how_step_1_title: "Du öffnest die App. Blue empfängt dich.",
   how_step_1_text:
-    "Kostenlos bei Google Play. Keine komplizierte Anmeldung. Blue empfängt dich vom ersten Moment an.",
-  how_step_2_title: "Sprich, wie du willst",
+    "Keine komplizierte Anmeldung. Keine klinischen Formulare. Einfach herunterladen und anfangen zu sprechen — wie eine Nachricht an jemanden, dem du vertraust.",
+  how_step_2_title: "Erzähl, was in dir vorgeht.",
   how_step_2_text:
-    "Schreib per Chat oder ruf per Sprache an. Wenn der Tag schwer ist oder der Schlaf ausbleibt, hört Blue zu.",
-  how_step_3_title: "Blue kennt dich immer besser",
+    "Per Chat oder Sprache, wie du möchtest. Wenn der Tag schwer ist oder der Schlaf ausbleibt, hört Blue zu — ohne Urteil, ohne Eile.",
+  how_step_3_title: "Nach und nach spürst du den Unterschied.",
   how_step_3_text:
-    "Ein fortschrittliches Gedächtnissystem strukturiert deinen emotionalen Prozess. Blue vergisst nicht, was wichtig ist — es begleitet dich mit Kontext.",
+    "Blue erinnert sich an deine Geschichte. Gespräche bauen Kontext auf. Keine Magie: beständige Begleitung mit Werkzeugen, die die Wissenschaft stützt.",
   how_disclaimer:
     "Blue ist KI-Begleitung für emotionales Wohlbefinden, kein Psychologe. Wenn du professionelle Hilfe brauchst, sagen wir es dir klar.",
 

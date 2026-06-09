@@ -2,6 +2,7 @@ import styles from "@/styles/Science.module.css";
 
 import { TranslationTexts } from "@/constants/translations/translations";
 import { Locale } from "@/i18n/config";
+import type { TranslationDictionary } from "@/constants/translations/translations";
 
 function highlightWord(text: string, word: string, className: string) {
   const index = text.indexOf(word);
@@ -13,6 +14,47 @@ function highlightWord(text: string, word: string, className: string) {
       <span className={className}>{word}</span>
       {text.slice(index + word.length)}
     </>
+  );
+}
+
+function CbtTriangleDiagram({
+  labels,
+}: {
+  labels: Pick<
+    TranslationDictionary,
+    "science_diagram_thought" | "science_diagram_emotion" | "science_diagram_behavior"
+  >;
+}) {
+  return (
+    <figure className={styles["diagram"]}>
+      <svg
+        className={styles["diagramSvg"]}
+        viewBox="0 0 320 280"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        role="img"
+        aria-label={`TCC: ${labels.science_diagram_thought}, ${labels.science_diagram_emotion}, ${labels.science_diagram_behavior}`}
+      >
+        <polygon
+          points="160,36 288,228 32,228"
+          className={styles["diagramTriangle"]}
+        />
+        <line x1="160" y1="36" x2="32" y2="228" className={styles["diagramLine"]} />
+        <line x1="160" y1="36" x2="288" y2="228" className={styles["diagramLine"]} />
+        <line x1="32" y1="228" x2="288" y2="228" className={styles["diagramLine"]} />
+        <circle cx="160" cy="36" r="6" className={styles["diagramNode"]} />
+        <circle cx="32" cy="228" r="6" className={styles["diagramNode"]} />
+        <circle cx="288" cy="228" r="6" className={styles["diagramNodeAccent"]} />
+        <circle cx="160" cy="132" r="5" className={styles["diagramNodeCenter"]} />
+      </svg>
+      <figcaption className={styles["diagramLabels"]}>
+        <span className={styles["diagramLabel"]}>{labels.science_diagram_thought}</span>
+        <span className={styles["diagramLabel"]}>{labels.science_diagram_emotion}</span>
+        <span className={styles["diagramLabelAccent"]}>
+          {labels.science_diagram_behavior}
+        </span>
+      </figcaption>
+    </figure>
   );
 }
 
@@ -45,30 +87,14 @@ export default function ScienceComponent({ lang }: { lang: Locale }) {
             <p className={styles["text"]}>{t.science_text}</p>
           </div>
 
-          <div className={styles["visual"]} aria-hidden>
-            <div className={styles["orb"]} />
-            <div className={styles["orbInner"]} />
-            <div className={styles["iconStack"]}>
-              <span className={styles["iconWrap"]}>
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6">
-                  <path d="M4 17V7a3 3 0 0 1 3-3h2v16H7a3 3 0 0 1-3-3Z" />
-                  <path d="M15 4h2a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3h-2V4Z" />
-                  <path d="M9 12h6" />
-                </svg>
-              </span>
-              <span className={styles["iconWrap"]}>
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6">
-                  <path d="M12 3v18M3 12h18" strokeLinecap="round" />
-                  <circle cx="12" cy="12" r="9" />
-                </svg>
-              </span>
-              <span className={styles["iconWrap"]}>
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6">
-                  <path d="M9 12l2 2 4-4" />
-                  <path d="M12 3 4 6v6c0 4.4 3.4 8.2 8 9 4.6-.8 8-4.6 8-9V6l-8-3Z" />
-                </svg>
-              </span>
-            </div>
+          <div className={styles["visual"]}>
+            <CbtTriangleDiagram
+              labels={{
+                science_diagram_thought: t.science_diagram_thought,
+                science_diagram_emotion: t.science_diagram_emotion,
+                science_diagram_behavior: t.science_diagram_behavior,
+              }}
+            />
           </div>
         </div>
 

@@ -29,8 +29,8 @@ export default async function Home({
       <main>
         <PortadaComponent lang={lang} />
         <TrustComponent lang={lang} />
-        <ScienceComponent lang={lang} />
         <BlueProductComponent lang={lang} />
+        <ScienceComponent lang={lang} />
         <HowItWorksComponent lang={lang} />
         <PrivacyComponent lang={lang} />
         <ProductExtrasComponent lang={lang} />

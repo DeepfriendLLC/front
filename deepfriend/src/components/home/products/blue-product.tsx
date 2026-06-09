@@ -70,8 +70,7 @@ export default function BlueProductComponent({ lang }: { lang: Locale }) {
           </div>
 
           <div className={styles["visual"]} aria-hidden>
-            <div className={styles["orb"]} />
-            <div className={styles["orbInner"]} />
+            <div className={styles["whaleBackdrop"]} />
             <Image
               alt=""
               src={BlueWhale}
