@@ -31,7 +31,7 @@ const cormorant = Cormorant({
 
 const mulish = Mulish({
   subsets: ["latin"],
-  weight: ["500"],
+  weight: ["500", "600", "700"],
   variable: "--font-mulish",
   display: "swap",
 });

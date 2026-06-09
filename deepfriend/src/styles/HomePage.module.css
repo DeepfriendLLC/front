@@ -11,13 +11,16 @@
   --science: #3337bd;
   --science-soft: #eeeef8;
   --ice: #f5f7f7;
+  --surface: #ffffff;
   --ink: #1a1d1d;
   --slate: #6b7575;
 
-  /* Map legacy design-system tokens */
-  --bg: var(--white);
-  --bg-elev: var(--white);
-  --bg-tint: var(--ice);
+  /* Surfaces — landing uses white as the sole section background.
+     Cards and callouts use white + border; depth comes from spacing,
+     the dark Privacy panel, and footer. --ice reserved for hovers only. */
+  --bg: var(--surface);
+  --bg-elev: var(--surface);
+  --bg-tint: var(--surface);
   --bg-deep: var(--ink);
   --bg-deep-2: #141717;
 
@@ -57,6 +60,51 @@
   --r-md: var(--radius-control);
   --r-lg: var(--radius-card);
   --r-xl: var(--radius-panel);
+
+  /* ── Typography scale (Cormorant titles · Mulish body) ── */
+  --type-display: clamp(48px, 8.2vw, 84px);
+  --type-display-lh: 1.06;
+  --type-display-ls: -0.02em;
+
+  --type-h2: clamp(36px, 4.5vw, 52px);
+  --type-h2-lh: 1.08;
+  --type-h2-ls: -0.02em;
+
+  --type-h3: clamp(28px, 3.2vw, 36px);
+  --type-h3-lh: 1.12;
+  --type-h3-ls: -0.015em;
+
+  --type-h4: clamp(20px, 2.2vw, 24px);
+  --type-h4-lh: 1.25;
+  --type-h4-ls: -0.01em;
+
+  --type-lead: clamp(16px, 1.6vw, 18px);
+  --type-lead-lh: 1.65;
+
+  --type-body: 16px;
+  --type-body-lh: 1.6;
+
+  --type-body-sm: 15px;
+  --type-body-sm-lh: 1.55;
+
+  --type-caption: 14px;
+  --type-caption-lh: 1.55;
+
+  --type-micro: 13px;
+  --type-micro-lh: 1.45;
+
+  --type-eyebrow: 12px;
+  --type-eyebrow-ls: 0.06em;
+
+  --type-label: 11px;
+  --type-label-ls: 0.1em;
+
+  --type-btn: 15px;
+
+  --fw-serif: 700;
+  --fw-sans: 500;
+  --fw-sans-semibold: 600;
+  --fw-sans-bold: 700;
 
   background: var(--white);
   color: var(--ink);

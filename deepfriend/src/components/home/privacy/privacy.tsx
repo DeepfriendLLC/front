@@ -11,6 +11,7 @@ export default function PrivacyComponent({ lang }: { lang: Locale }) {
     t.privacy_point_2,
     t.privacy_point_3,
     t.privacy_point_4,
+    t.privacy_point_5,
   ];
 
   return (

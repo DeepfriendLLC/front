@@ -48,9 +48,10 @@
   display: inline-flex;
   align-self: flex-start;
   padding: 6px 14px;
-  font-size: 12px;
-  font-weight: 600;
-  letter-spacing: 0.08em;
+  font-family: var(--f-sans);
+  font-size: var(--type-eyebrow);
+  font-weight: var(--fw-sans-semibold);
+  letter-spacing: var(--type-eyebrow-ls);
   text-transform: uppercase;
   color: var(--teal, var(--brand));
   background: rgba(36, 153, 139, 0.14);
@@ -60,15 +61,18 @@
 
 .title {
   font-family: var(--f-serif);
-  font-size: clamp(28px, 3.8vw, 44px);
-  line-height: 1.1;
-  letter-spacing: -0.01em;
+  font-weight: var(--fw-serif);
+  font-size: var(--type-h2);
+  line-height: var(--type-h2-lh);
+  letter-spacing: var(--type-h2-ls);
   color: var(--white, var(--ink-on-deep));
 }
 
 .text {
-  font-size: 16px;
-  line-height: 1.6;
+  font-family: var(--f-sans);
+  font-size: var(--type-body);
+  line-height: var(--type-body-lh);
+  font-weight: var(--fw-sans);
   color: var(--ink-on-deep-soft);
 }
 
@@ -87,8 +91,10 @@
   display: flex;
   gap: 14px;
   align-items: flex-start;
-  font-size: 16px;
-  font-weight: 500;
+  font-family: var(--f-sans);
+  font-size: var(--type-body);
+  line-height: var(--type-body-lh);
+  font-weight: var(--fw-sans);
   color: var(--white, var(--ink-on-deep));
 }
 

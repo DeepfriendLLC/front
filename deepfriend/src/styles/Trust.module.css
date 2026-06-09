@@ -49,8 +49,10 @@
 }
 
 .label {
-  font-size: 13px;
-  font-weight: 600;
+  font-family: var(--f-sans);
+  font-size: var(--type-micro);
+  line-height: var(--type-micro-lh);
+  font-weight: var(--fw-sans-semibold);
   letter-spacing: 0.01em;
   color: var(--ink);
 }

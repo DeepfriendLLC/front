@@ -60,7 +60,7 @@ export default function PortadaComponent({ lang }: { lang: Locale }) {
               />
               {t.hero_cta_primary}
             </a>
-            <a href="#approach" className={styles['ctaSecondary']}>
+            <a href="#how-it-works" className={styles['ctaSecondary']}>
               {t.hero_cta_secondary}
             </a>
           </div>

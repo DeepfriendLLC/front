@@ -38,7 +38,7 @@
   align-items: center;
   text-align: center;
   gap: clamp(20px, 3vw, 28px);
-  max-width: 780px;
+  max-width: min(100%, 860px);
 }
 
 .eyebrow {
@@ -47,9 +47,9 @@
   gap: 8px;
   padding: 6px 14px 6px 12px;
   font-family: var(--f-sans);
-  font-size: 12px;
-  font-weight: 600;
-  letter-spacing: 0.06em;
+  font-size: var(--type-eyebrow);
+  font-weight: var(--fw-sans-semibold);
+  letter-spacing: var(--type-eyebrow-ls);
   text-transform: uppercase;
   color: var(--science, #3337bd);
   background: var(--science-soft, #eeeef8);
@@ -66,13 +66,20 @@
 }
 
 .title {
-  font-family: var(--f-sans);
-  font-weight: 600;
-  font-size: clamp(44px, 7.2vw, 76px);
-  line-height: 1.04;
-  letter-spacing: -0.045em;
+  font-family: var(--f-serif);
+  font-weight: var(--fw-serif);
+  font-size: var(--type-display);
+  line-height: var(--type-display-lh);
+  letter-spacing: var(--type-display-ls);
   color: var(--ink);
-  max-width: 14ch;
+  max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: clamp(56px, 6.8vw, 88px);
+    max-width: min(100%, 820px);
+  }
 }
 
 .highlight {
@@ -81,11 +88,11 @@
 
 .subtitle {
   font-family: var(--f-sans);
-  font-size: clamp(16px, 1.6vw, 18px);
-  line-height: 1.65;
+  font-size: var(--type-lead);
+  line-height: var(--type-lead-lh);
+  font-weight: var(--fw-sans);
   color: var(--slate, var(--ink-soft));
   max-width: 540px;
-  font-weight: 500;
 }
 
 .actions {
@@ -104,8 +111,8 @@
   padding: 0 22px;
   height: 48px;
   font-family: var(--f-sans);
-  font-size: 15px;
-  font-weight: 600;
+  font-size: var(--type-btn);
+  font-weight: var(--fw-sans-semibold);
   color: var(--white, #ffffff);
   background: var(--teal, #24998b);
   border: 1px solid var(--teal, #24998b);
@@ -134,8 +141,8 @@
   height: 48px;
   padding: 0 22px;
   font-family: var(--f-sans);
-  font-size: 15px;
-  font-weight: 600;
+  font-size: var(--type-btn);
+  font-weight: var(--fw-sans-semibold);
   color: var(--ink);
   background: var(--white, #ffffff);
   border: 1px solid var(--line-strong);
@@ -162,9 +169,10 @@
 
 .micro li {
   font-family: var(--f-sans);
-  font-size: 13px;
+  font-size: var(--type-micro);
+  line-height: var(--type-micro-lh);
+  font-weight: var(--fw-sans);
   color: var(--slate, var(--ink-faint));
-  font-weight: 500;
   letter-spacing: 0.01em;
 }
 
@@ -176,7 +184,7 @@
 
 @media (max-width: 560px) {
   .title {
-    max-width: none;
+    font-size: clamp(50px, 12vw, 58px);
   }
 
   .actions {

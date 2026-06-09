@@ -7,8 +7,10 @@ import FooterComponent from "@/components/basic/footer";
 
 import PortadaComponent from "@/components/home/portada/portada";
 import TrustComponent from "@/components/home/trust/trust";
-import ApproachComponent from "@/components/home/approach/approach";
-import ProductsComponent from "@/components/home/products/products";
+import ScienceComponent from "@/components/home/science/science";
+import BlueProductComponent from "@/components/home/products/blue-product";
+import HowItWorksComponent from "@/components/home/how-it-works/how-it-works";
+import ProductExtrasComponent from "@/components/home/products/product-extras";
 import PrivacyComponent from "@/components/home/privacy/privacy";
 import CtaComponent from "@/components/home/cta/cta";
 
@@ -27,9 +29,11 @@ export default async function Home({
       <main>
         <PortadaComponent lang={lang} />
         <TrustComponent lang={lang} />
-        <ApproachComponent lang={lang} />
-        <ProductsComponent lang={lang} />
+        <ScienceComponent lang={lang} />
+        <BlueProductComponent lang={lang} />
+        <HowItWorksComponent lang={lang} />
         <PrivacyComponent lang={lang} />
+        <ProductExtrasComponent lang={lang} />
         <CtaComponent lang={lang} />
       </main>
       <FooterComponent lang={lang} homeTheme />

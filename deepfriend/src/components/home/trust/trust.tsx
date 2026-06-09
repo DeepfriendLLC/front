@@ -17,10 +17,10 @@ const ICONS = {
       <path d="M9 12l2 2 4-4" />
     </svg>
   ),
-  investor: (
+  clinical: (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6">
-      <circle cx="12" cy="12" r="9" />
-      <path d="M5 5l14 14" />
+      <path d="M12 3v18M8 8h8M8 16h8" strokeLinecap="round" />
+      <rect x="4" y="4" width="16" height="16" rx="2" />
     </svg>
   ),
   clock: (
@@ -36,8 +36,8 @@ export default function TrustComponent({ lang }: { lang: Locale }) {
 
   const items = [
     { icon: ICONS.cbt, label: t.trust_cbt, science: true },
+    { icon: ICONS.clinical, label: t.trust_clinical, science: true },
     { icon: ICONS.privacy, label: t.trust_privacy },
-    { icon: ICONS.investor, label: t.trust_independent },
     { icon: ICONS.clock, label: t.trust_24_7 },
   ];
 
