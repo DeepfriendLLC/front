@@ -1,0 +1,96 @@
+/* ============================================================
+   Home page — Brand style guide (trial scope)
+   Blanco · Deep Teal · Science Blue · Ice White · Deep Ink · Slate
+   ============================================================ */
+
+.page {
+  --white: #ffffff;
+  --teal: #24998b;
+  --teal-deep: #1d7f73;
+  --teal-soft: #e8f5f3;
+  --science: #3337bd;
+  --science-soft: #eeeef8;
+  --ice: #f5f7f7;
+  --ink: #1a1d1d;
+  --slate: #6b7575;
+
+  /* Map legacy design-system tokens */
+  --bg: var(--white);
+  --bg-elev: var(--white);
+  --bg-tint: var(--ice);
+  --bg-deep: var(--ink);
+  --bg-deep-2: #141717;
+
+  --ink-soft: var(--slate);
+  --ink-mute: var(--slate);
+  --ink-faint: #8a9393;
+  --ink-on-deep: var(--white);
+  --ink-on-deep-soft: rgba(255, 255, 255, 0.62);
+
+  --brand: var(--teal);
+  --brand-deep: var(--teal-deep);
+  --brand-soft: var(--teal-soft);
+  --brand-tint: #dceee9;
+  --accent: var(--science);
+
+  --line: rgba(26, 29, 29, 0.08);
+  --line-strong: rgba(26, 29, 29, 0.14);
+  --line-on-deep: rgba(255, 255, 255, 0.1);
+
+  --shadow-1: 0 1px 2px rgba(26, 29, 29, 0.04);
+  --shadow-2: 0 4px 16px rgba(26, 29, 29, 0.06);
+  --shadow-3: 0 12px 32px rgba(26, 29, 29, 0.08);
+
+  /* Apple harmonic radius — concentric, size-proportional */
+  --radius-micro: 4px;
+  --radius-segment-outer: 10px;
+  --radius-segment-inner: 8px;
+  --radius-control: 12px;
+  --radius-icon: 12px;
+  --radius-card: 20px;
+  --radius-panel: 24px;
+  --radius-sheet: 28px;
+  --radius-pill: 980px;
+
+  /* Override legacy radius tokens within home */
+  --r-sm: var(--radius-segment-inner);
+  --r-md: var(--radius-control);
+  --r-lg: var(--radius-card);
+  --r-xl: var(--radius-panel);
+
+  background: var(--white);
+  color: var(--ink);
+  min-height: 100vh;
+}
+
+/* Navbar — home overrides */
+.navHeader {
+  background: rgba(255, 255, 255, 0.82);
+  border-bottom-color: var(--line);
+}
+
+.navCta {
+  background: var(--teal);
+  color: var(--white);
+  border-radius: var(--radius-pill);
+}
+
+.navCta:hover {
+  background: var(--teal-deep);
+}
+
+/* Footer — home overrides */
+.footer {
+  background: var(--ink);
+}
+
+.footerCta {
+  color: var(--ink);
+  background: var(--white);
+  border-radius: var(--radius-pill);
+}
+
+.footerCta:hover {
+  background: var(--teal);
+  color: var(--white);
+}

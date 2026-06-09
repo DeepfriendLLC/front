@@ -1,5 +1,6 @@
 .section {
   padding: 24px 0 8px;
+  background: var(--white, var(--bg));
 }
 
 .shell {
@@ -23,7 +24,7 @@
   align-items: center;
   gap: 12px;
   justify-content: center;
-  color: var(--ink-soft);
+  color: var(--slate, var(--ink-soft));
 }
 
 .icon {
@@ -32,17 +33,25 @@
   justify-content: center;
   width: 32px;
   height: 32px;
-  color: var(--brand-deep);
-  border-radius: 999px;
-  background: var(--brand-soft);
+  color: var(--teal, var(--brand));
+  border-radius: 50%;
+  background: var(--teal-soft, var(--brand-soft));
 }
 
-.icon svg { width: 18px; height: 18px; }
+.iconScience {
+  color: var(--science, var(--accent));
+  background: var(--science-soft, #eeeef8);
+}
+
+.icon svg {
+  width: 18px;
+  height: 18px;
+}
 
 .label {
   font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 0.02em;
+  font-weight: 600;
+  letter-spacing: 0.01em;
   color: var(--ink);
 }
 

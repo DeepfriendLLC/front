@@ -1,4 +1,5 @@
 import styles from "@/styles/Navbar.module.css";
+import homeStyles from "@/styles/HomePage.module.css";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -11,11 +12,19 @@ import LangSwitcher from "@/components/basic/lang-switcher";
 const GOOGLE_PLAY =
   "https://play.google.com/store/apps/details?id=com.dfbubbles.deepfriend";
 
-export default function NavbarComponent({ lang }: { lang: Locale }) {
+export default function NavbarComponent({
+  lang,
+  homeTheme,
+}: {
+  lang: Locale;
+  homeTheme?: boolean;
+}) {
   const t = TranslationTexts[lang];
 
   return (
-    <header className={styles['header']}>
+    <header
+      className={`${styles["header"]}${homeTheme ? ` ${homeStyles["navHeader"]}` : ""}`}
+    >
       <div className={`df-shell ${styles['shell']}`}>
         <Link href={`/${lang}` as never} className={styles['brand']} aria-label="Deepfriend">
           <Image
@@ -42,7 +51,7 @@ export default function NavbarComponent({ lang }: { lang: Locale }) {
             href={GOOGLE_PLAY}
             target="_blank"
             rel="noopener noreferrer"
-            className={styles['cta']}
+            className={`${styles["cta"]}${homeTheme ? ` ${homeStyles["navCta"]}` : ""}`}
           >
             {t.nav_cta}
           </a>

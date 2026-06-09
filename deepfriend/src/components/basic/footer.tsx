@@ -1,4 +1,5 @@
 import styles from "@/styles/Footer.module.css";
+import homeStyles from "@/styles/HomePage.module.css";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -12,12 +13,20 @@ import LangSwitcher from "@/components/basic/lang-switcher";
 const GOOGLE_PLAY =
   "https://play.google.com/store/apps/details?id=com.dfbubbles.deepfriend";
 
-export default function FooterComponent({ lang }: { lang: Locale }) {
+export default function FooterComponent({
+  lang,
+  homeTheme,
+}: {
+  lang: Locale;
+  homeTheme?: boolean;
+}) {
   const t = TranslationTexts[lang];
   const year = new Date().getFullYear();
 
   return (
-    <footer className={styles['footer']}>
+    <footer
+      className={`${styles["footer"]}${homeTheme ? ` ${homeStyles["footer"]}` : ""}`}
+    >
       <div className={`df-shell ${styles['shell']}`}>
         <div className={styles['grid']}>
           <div className={styles['colBrand']}>
@@ -38,7 +47,7 @@ export default function FooterComponent({ lang }: { lang: Locale }) {
               href={GOOGLE_PLAY}
               target="_blank"
               rel="noopener noreferrer"
-              className={styles['cta']}
+              className={`${styles["cta"]}${homeTheme ? ` ${homeStyles["footerCta"]}` : ""}`}
             >
               {t.nav_cta} · Google Play
             </a>

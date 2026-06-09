@@ -2,8 +2,8 @@
   display: inline-flex;
   align-items: center;
   gap: 2px;
-  padding: 4px;
-  border-radius: 999px;
+  padding: 3px;
+  border-radius: var(--radius-segment-outer, 10px);
   background: var(--bg-tint);
   border: 1px solid var(--line);
 }
@@ -18,7 +18,7 @@
   font-weight: 700;
   letter-spacing: 0.06em;
   color: var(--ink-mute);
-  border-radius: 999px;
+  border-radius: var(--radius-segment-inner, 8px);
   transition: color 0.2s var(--ease), background 0.2s var(--ease);
 }
 

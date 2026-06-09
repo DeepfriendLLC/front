@@ -35,7 +35,7 @@ export default function TrustComponent({ lang }: { lang: Locale }) {
   const t = TranslationTexts[lang];
 
   const items = [
-    { icon: ICONS.cbt, label: t.trust_cbt },
+    { icon: ICONS.cbt, label: t.trust_cbt, science: true },
     { icon: ICONS.privacy, label: t.trust_privacy },
     { icon: ICONS.investor, label: t.trust_independent },
     { icon: ICONS.clock, label: t.trust_24_7 },
@@ -47,7 +47,11 @@ export default function TrustComponent({ lang }: { lang: Locale }) {
         <ul className={styles['grid']}>
           {items.map((it, i) => (
             <li key={i} className={styles['item']}>
-              <span className={styles['icon']}>{it.icon}</span>
+              <span
+                className={`${styles['icon']}${it.science ? ` ${styles['iconScience']}` : ""}`}
+              >
+                {it.icon}
+              </span>
               <span className={styles['label']}>{it.label}</span>
             </li>
           ))}

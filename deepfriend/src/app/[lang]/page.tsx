@@ -1,5 +1,7 @@
 import "@/styles/global.css";
 
+import homeStyles from "@/styles/HomePage.module.css";
+
 import NavbarComponent from "@/components/basic/navbar";
 import FooterComponent from "@/components/basic/footer";
 
@@ -20,8 +22,8 @@ export default async function Home({
   const lang = pickLocale((await params).lang);
 
   return (
-    <>
-      <NavbarComponent lang={lang} />
+    <div className={homeStyles["page"]}>
+      <NavbarComponent lang={lang} homeTheme />
       <main>
         <PortadaComponent lang={lang} />
         <TrustComponent lang={lang} />
@@ -30,7 +32,7 @@ export default async function Home({
         <PrivacyComponent lang={lang} />
         <CtaComponent lang={lang} />
       </main>
-      <FooterComponent lang={lang} />
-    </>
+      <FooterComponent lang={lang} homeTheme />
+    </div>
   );
 }
