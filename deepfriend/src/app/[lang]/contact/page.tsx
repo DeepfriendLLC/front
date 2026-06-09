@@ -1,5 +1,7 @@
 import "@/styles/global.css";
 
+import homeStyles from "@/styles/HomePage.module.css";
+
 import { ContactComponent } from "@/components/contact/contact";
 import FooterComponent from "@/components/basic/footer";
 import NavbarComponent from "@/components/basic/navbar";
@@ -13,7 +15,7 @@ export async function generateMetadata({
   params: Promise<{ lang: string }>;
 }): Promise<Metadata> {
   return GENERATE_METADATA({ params, route: "/contact" });
-};
+}
 
 export default async function Contact({
   params,
@@ -23,12 +25,12 @@ export default async function Contact({
   const lang = pickLocale((await params).lang);
 
   return (
-    <>
-      <NavbarComponent lang={lang} />
+    <div className={homeStyles["page"]}>
+      <NavbarComponent lang={lang} homeTheme />
       <main>
         <ContactComponent lang={lang} />
       </main>
-      <FooterComponent lang={lang} />
-    </>
+      <FooterComponent lang={lang} homeTheme />
+    </div>
   );
 }

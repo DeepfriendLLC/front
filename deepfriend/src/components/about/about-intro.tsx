@@ -7,11 +7,17 @@ export default function AboutIntroComponent({ lang }: { lang: Locale }) {
   const t = TranslationTexts[lang];
 
   return (
-    <section className={styles['section']}>
-      <div className={`df-shell ${styles['shell']}`}>
-        <span className={styles['eyebrow']}>{t.about_eyebrow}</span>
-        <h1 className={styles['title']}>{t.about_title}</h1>
-        <p className={styles['intro']}>{t.about_intro}</p>
+    <section className={styles["section"]} aria-labelledby="about-title">
+      <div className={styles["gridBg"]} aria-hidden />
+      <div className={`df-shell ${styles["shell"]}`}>
+        <span className={styles["eyebrow"]}>
+          <span className={styles["dot"]} aria-hidden />
+          {t.about_eyebrow}
+        </span>
+        <h1 id="about-title" className={styles["title"]}>
+          {t.about_title}
+        </h1>
+        <p className={styles["intro"]}>{t.about_intro}</p>
       </div>
     </section>
   );

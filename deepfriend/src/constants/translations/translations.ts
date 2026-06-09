@@ -138,44 +138,49 @@ const es = {
   about_title:
     "Una iniciativa independiente para acercar la psicología basada en evidencia.",
   about_intro:
-    "Deepfriend nace de una experiencia personal: ver de cerca la falta de ayuda real en salud mental y descubrir, en ese proceso, que la TCC es la única gran rama de la psicología con base científica sólida. Esta web cuenta cómo y por qué.",
+    "Deepfriend nace de una experiencia personal: ver de cerca la falta de ayuda real en salud mental y descubrir que la TCC es la rama de la psicología con mayor respaldo científico. Una persona, un proyecto — esta página cuenta cómo y por qué.",
 
   about_mission_title: "Misión",
   about_mission_text:
-    "Hacer accesible la psicología basada en evidencia. Ofrecer una compañía emocional de calidad, científica, privada y libre de intereses comerciales sobre tus datos.",
+    "Acercar y acelerar el acceso a la psicología basada en evidencia. Ofrecer compañía emocional de calidad, científica, privada y libre de intereses comerciales sobre tus datos.",
   about_values_title: "Valores",
   about_values_text:
     "Ciencia primero. Privacidad real. Accesibilidad. Honestidad sobre lo que la tecnología puede y no puede hacer por tu salud mental.",
 
+  about_story_eyebrow: "La historia",
   about_story_title: "Por qué Deepfriend",
   about_story_text:
-    "La idea nace después de que una persona cercana atravesara una depresión severa. En ese proceso comprobé las carencias de los servicios públicos y descubrí que gran parte de la psicología sigue sin basarse en evidencia. Tras investigar, encontré la TCC, la única rama de la psicología con respaldo científico sólido. Con la mentoría de Adrián González, profesional de la TCC, decidí construir Deepfriend de una forma segura y eficaz.",
+    "La idea nace después de que una persona cercana atravesara una depresión severa. En ese proceso comprobé las carencias de los servicios públicos y descubrí que gran parte de la psicología sigue sin basarse en evidencia. Tras investigar, encontré la TCC — el enfoque con mayor respaldo científico — y decidí construir Deepfriend. Lo desarrollo yo solo; el producto se ha ido moldeando con feedback de profesionales especializados, sin un equipo clínico permanente detrás.",
 
+  about_team_title: "Una persona. Un proyecto.",
   about_pablo_title: "Fundador",
   about_pablo_role: "Ingeniero de software · Barcelona, España",
   about_pablo_name: "Pablo Vallejo",
   about_pablo_text:
-    "Ingeniero de software con experiencia en producto. Deepfriend es mi forma de aportar al campo de la salud mental: combinar tecnología con conocimiento científico riguroso para crear algo útil de verdad, sin atajos.",
+    "Ingeniero de software con experiencia en producto. Construyo Deepfriend de forma independiente — tecnología y ciencia rigurosa, sin atajos ni inversores.",
 
-  about_psy_title: "Asesor clínico",
-  about_psy_role: "Psicólogo TCC",
-  about_psy_name: "Adrián González",
+  about_psy_title: "Feedback profesional",
+  about_psy_role: "Profesionales especializados",
+  about_psy_name: "Revisión externa",
   about_psy_text:
-    "Psicólogo especializado en terapia cognitivo-conductual. Supervisa los flujos clínicos y técnicas de Deepfriend para asegurar que todo lo que llega a los usuarios está basado en evidencia.",
+    "Profesionales de la salud mental aportan feedback para orientar el producto. No forman parte del equipo ni supervisan de forma continua.",
 
   about_independent_title: "Un proyecto independiente",
   about_independent_text:
-    "Deepfriend ha sido creado por una sola persona, con el asesoramiento de un profesional. No somos una multinacional. Esa es exactamente la razón por la que podemos comprometernos a no vender tus datos: no respondemos ante inversores.",
+    "Deepfriend lo creo yo solo. No somos una multinacional ni hay inversores externos. He ido moldeando el producto con feedback de profesionales especializados — no hay un equipo clínico empleado ni supervisión continua. Esa independencia es la razón por la que puedo comprometerme a no vender tus datos.",
 
   // — Contact
   contact_eyebrow: "Contacto",
-  contact_title: "Hablamos. Tu feedback mejora Deepfriend.",
+  contact_title: "Escríbenos. Te leemos de verdad.",
   contact_text:
-    "Deepfriend se construye escuchando. Si tienes preguntas, ideas, críticas constructivas o necesitas ayuda con la app, escríbenos. Leo todos los correos personalmente.",
+    "Deepfriend se construye escuchando. Elige el correo que mejor encaje con lo que necesitas — leo todos los mensajes personalmente.",
   contact_email_title: "Correo general",
-  contact_help_title: "Soporte",
-  contact_response_title: "Tiempo de respuesta",
-  contact_response_text: "Habitualmente respondemos en 24–48 horas laborables.",
+  contact_email_desc:
+    "Preguntas, ideas, feedback o colaboraciones. Para todo lo que no sea soporte técnico de la app.",
+  contact_help_title: "Soporte de la app",
+  contact_help_desc:
+    "Problemas con Blue, dudas sobre cómo usar Deepfriend o incidencias técnicas. Aquí te ayudamos.",
+  contact_note: "Proyecto independiente · Hecho con cuidado en España.",
 
   // — Banner titles for legal pages
   banner_about_title: "Acerca de Deepfriend",
@@ -323,43 +328,48 @@ const en: TranslationDictionary = {
   about_title:
     "An independent initiative to bring evidence-based psychology closer.",
   about_intro:
-    "Deepfriend was born from a personal experience: seeing first-hand how little real help exists in mental health, and discovering, in that process, that CBT is the only major branch of psychology with a solid scientific foundation. This page tells how and why.",
+    "Deepfriend was born from a personal experience: seeing first-hand how little real help exists in mental health, and discovering that CBT is the branch of psychology with the strongest scientific backing. One person, one project — this page tells how and why.",
 
   about_mission_title: "Mission",
   about_mission_text:
-    "Make evidence-based psychology accessible. Offer quality emotional companionship that is scientific, private and free from commercial interest over your data.",
+    "Bring evidence-based psychology closer and make it faster to access. Offer quality emotional companionship that is scientific, private and free from commercial interest over your data.",
   about_values_title: "Values",
   about_values_text:
     "Science first. True privacy. Accessibility. Honesty about what technology can and cannot do for your mental health.",
 
+  about_story_eyebrow: "The story",
   about_story_title: "Why Deepfriend",
   about_story_text:
-    "The idea was born after a close person went through a severe depression. I saw the gaps in public services and learnt that much of psychology still isn't based on evidence. After researching, I found CBT, the only branch of psychology with strong scientific backing. With the mentorship of Adrián González, a CBT professional, I built Deepfriend in a safe and effective way.",
+    "The idea was born after a close person went through a severe depression. I saw the gaps in public services and learnt that much of psychology still isn't based on evidence. After researching, I found CBT — the approach with the strongest scientific backing — and decided to build Deepfriend. I develop it alone; the product has been shaped over time with feedback from specialized professionals, without a permanent clinical team behind it.",
 
+  about_team_title: "One person. One project.",
   about_pablo_title: "Founder",
   about_pablo_role: "Software engineer · Barcelona, Spain",
   about_pablo_name: "Pablo Vallejo",
   about_pablo_text:
-    "Software engineer with product experience. Deepfriend is my way of contributing to mental health: combining technology with rigorous scientific knowledge to build something truly useful, without shortcuts.",
+    "Software engineer with product experience. I build Deepfriend independently — rigorous technology and science, no shortcuts and no investors.",
 
-  about_psy_title: "Clinical advisor",
-  about_psy_role: "CBT psychologist",
-  about_psy_name: "Adrián González",
+  about_psy_title: "Professional feedback",
+  about_psy_role: "Specialized professionals",
+  about_psy_name: "External review",
   about_psy_text:
-    "Psychologist specialized in cognitive behavioral therapy. He supervises Deepfriend's clinical flows and techniques to ensure everything that reaches users is based on evidence.",
+    "Mental health professionals provide feedback to guide the product. They are not part of the team and do not supervise on an ongoing basis.",
 
   about_independent_title: "An independent project",
   about_independent_text:
-    "Deepfriend has been built by a single person, advised by a professional. We are not a multinational. That is precisely why we can commit to not selling your data: we do not answer to investors.",
+    "I build Deepfriend alone. We are not a multinational and there are no outside investors. I have shaped the product with feedback from specialized professionals — there is no employed clinical team or continuous supervision. That independence is why I can commit to never selling your data.",
 
   contact_eyebrow: "Contact",
-  contact_title: "Let's talk. Your feedback makes Deepfriend better.",
+  contact_title: "Write to us. We read every message.",
   contact_text:
-    "Deepfriend is built by listening. If you have questions, ideas, constructive criticism, or need help with the app, write to us. I read every email personally.",
+    "Deepfriend is built by listening. Choose the email that best fits what you need — I read every message personally.",
   contact_email_title: "General email",
-  contact_help_title: "Support",
-  contact_response_title: "Response time",
-  contact_response_text: "We usually reply within 24–48 business hours.",
+  contact_email_desc:
+    "Questions, ideas, feedback or collaborations. For anything that isn't app technical support.",
+  contact_help_title: "App support",
+  contact_help_desc:
+    "Issues with Blue, questions about using Deepfriend or technical problems. We're here to help.",
+  contact_note: "Independent project · Made with care in Spain.",
 
   banner_about_title: "About Deepfriend",
   banner_contact_title: "Get in touch",
@@ -500,44 +510,48 @@ const de: TranslationDictionary = {
   about_title:
     "Eine unabhängige Initiative, um evidenzbasierte Psychologie zugänglich zu machen.",
   about_intro:
-    "Deepfriend ist aus einer persönlichen Erfahrung entstanden: aus nächster Nähe zu sehen, wie wenig echte Hilfe es im Bereich mentale Gesundheit gibt – und dabei zu entdecken, dass die KVT der einzige große Zweig der Psychologie mit solider wissenschaftlicher Grundlage ist. Diese Seite erzählt, wie und warum.",
+    "Deepfriend ist aus einer persönlichen Erfahrung entstanden: aus nächster Nähe zu sehen, wie wenig echte Hilfe es in der mentalen Gesundheit gibt – und zu entdecken, dass die KVT der Zweig der Psychologie mit dem stärksten wissenschaftlichen Rückhalt ist. Eine Person, ein Projekt — diese Seite erzählt, wie und warum.",
 
   about_mission_title: "Mission",
   about_mission_text:
-    "Evidenzbasierte Psychologie zugänglich machen. Eine qualitativ hochwertige, wissenschaftliche, private emotionale Begleitung anbieten – frei von kommerziellen Interessen an deinen Daten.",
+    "Evidenzbasierte Psychologie näherbringen und den Zugang beschleunigen. Eine qualitativ hochwertige, wissenschaftliche, private emotionale Begleitung anbieten — frei von kommerziellen Interessen an deinen Daten.",
   about_values_title: "Werte",
   about_values_text:
     "Wissenschaft zuerst. Echte Privatsphäre. Zugänglichkeit. Ehrlichkeit darüber, was Technologie für deine mentale Gesundheit leisten kann und was nicht.",
 
+  about_story_eyebrow: "Die Geschichte",
   about_story_title: "Warum Deepfriend",
   about_story_text:
-    "Die Idee entstand, nachdem eine nahestehende Person eine schwere Depression durchlebte. Ich sah die Lücken im öffentlichen Versorgungssystem und erkannte, dass ein großer Teil der Psychologie nicht auf Evidenz beruht. Nach Recherchen fand ich die KVT, den einzigen Zweig mit solidem wissenschaftlichem Fundament. Mit der Beratung von Adrián González, einem KVT-Profi, habe ich Deepfriend sicher und wirksam entwickelt.",
+    "Die Idee entstand, nachdem eine nahestehende Person eine schwere Depression durchlebte. Ich sah die Lücken im öffentlichen Versorgungssystem und erkannte, dass ein großer Teil der Psychologie nicht auf Evidenz beruht. Nach Recherchen fand ich die KVT — den Ansatz mit dem stärksten wissenschaftlichen Rückhalt — und beschloss, Deepfriend zu bauen. Ich entwickle es allein; das Produkt hat sich mit Feedback von Fachleuten weiterentwickelt, ohne ein permanentes klinisches Team dahinter.",
 
+  about_team_title: "Eine Person. Ein Projekt.",
   about_pablo_title: "Gründer",
   about_pablo_role: "Software-Ingenieur · Barcelona, Spanien",
   about_pablo_name: "Pablo Vallejo",
   about_pablo_text:
-    "Software-Ingenieur mit Produkterfahrung. Deepfriend ist mein Beitrag zur mentalen Gesundheit: Technologie mit rigorosem wissenschaftlichem Wissen verbinden, um etwas wirklich Nützliches zu bauen – ohne Abkürzungen.",
+    "Software-Ingenieur mit Produkterfahrung. Ich baue Deepfriend unabhängig — rigorose Technologie und Wissenschaft, ohne Abkürzungen und ohne Investoren.",
 
-  about_psy_title: "Klinischer Berater",
-  about_psy_role: "KVT-Psychologe",
-  about_psy_name: "Adrián González",
+  about_psy_title: "Professionelles Feedback",
+  about_psy_role: "Fachleute",
+  about_psy_name: "Externe Prüfung",
   about_psy_text:
-    "Psychologe mit Spezialisierung auf kognitive Verhaltenstherapie. Er überwacht die klinischen Abläufe und Techniken von Deepfriend, um sicherzustellen, dass alles, was die Nutzer erreicht, evidenzbasiert ist.",
+    "Fachleute für mentale Gesundheit geben Feedback zur Produktausrichtung. Sie gehören nicht zum Team und überwachen nicht fortlaufend.",
 
   about_independent_title: "Ein unabhängiges Projekt",
   about_independent_text:
-    "Deepfriend wurde von einer einzelnen Person entwickelt, beraten durch einen Fachmann. Wir sind kein multinationaler Konzern. Genau deshalb können wir uns dazu verpflichten, deine Daten nicht zu verkaufen: Wir sind keinen Investoren verpflichtet.",
+    "Deepfriend entwickle ich allein. Wir sind kein multinationaler Konzern und es gibt keine externen Investoren. Ich habe das Produkt mit Feedback von Fachleuten weiterentwickelt — es gibt kein angestelltes klinisches Team und keine kontinuierliche Supervision. Genau diese Unabhängigkeit ermöglicht es mir, deine Daten nie zu verkaufen.",
 
   contact_eyebrow: "Kontakt",
-  contact_title: "Sprich mit uns. Dein Feedback macht Deepfriend besser.",
+  contact_title: "Schreib uns. Wir lesen jede Nachricht.",
   contact_text:
-    "Deepfriend entsteht durch Zuhören. Wenn du Fragen, Ideen, konstruktive Kritik hast oder Hilfe mit der App brauchst, schreib uns. Ich lese jede E-Mail persönlich.",
+    "Deepfriend entsteht durch Zuhören. Wähle die E-Mail, die am besten passt — ich lese jede Nachricht persönlich.",
   contact_email_title: "Allgemeine E-Mail",
-  contact_help_title: "Support",
-  contact_response_title: "Antwortzeit",
-  contact_response_text:
-    "Wir antworten in der Regel innerhalb von 24–48 Werkstunden.",
+  contact_email_desc:
+    "Fragen, Ideen, Feedback oder Kooperationen. Für alles, was kein technischer App-Support ist.",
+  contact_help_title: "App-Support",
+  contact_help_desc:
+    "Probleme mit Blue, Fragen zur Nutzung von Deepfriend oder technische Vorfälle. Hier helfen wir dir.",
+  contact_note: "Unabhängiges Projekt · Mit Sorgfalt in Spanien gemacht.",
 
   banner_about_title: "Über Deepfriend",
   banner_contact_title: "Kontakt aufnehmen",

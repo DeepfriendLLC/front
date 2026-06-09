@@ -10,57 +10,41 @@ export default function TeamComponent({ lang }: { lang: Locale }) {
   const t = TranslationTexts[lang];
 
   return (
-    <section className={styles['section']}>
-      <div className={`df-shell ${styles['shell']}`}>
-        <div className={styles['head']}>
-          <span className={styles['eyebrow']}>{t.about_pablo_title} · {t.about_psy_title}</span>
-          <h2 className={styles['title']}>
-            {lang === "es"
-              ? "Las personas detrás de Deepfriend."
-              : lang === "de"
-                ? "Die Menschen hinter Deepfriend."
-                : "The people behind Deepfriend."}
+    <section className={styles["section"]} aria-labelledby="about-team-title">
+      <div className={`df-shell ${styles["shell"]}`}>
+        <header className={styles["head"]}>
+          <span className={styles["eyebrow"]}>
+            <span className={styles["dot"]} aria-hidden />
+            {t.about_pablo_title}
+          </span>
+          <h2 id="about-team-title" className={styles["title"]}>
+            {t.about_team_title}
           </h2>
-        </div>
+        </header>
 
-        <div className={styles['grid']}>
-          <article className={styles['card']}>
-            <div className={styles['media']}>
-              <Image
-                alt={t.about_pablo_name}
-                src={PabloImage}
-                className={styles['image']}
-              />
-            </div>
-            <div className={styles['body']}>
-              <span className={styles['label']}>{t.about_pablo_title}</span>
-              <h3 className={styles['name']}>{t.about_pablo_name}</h3>
-              <span className={styles['role']}>{t.about_pablo_role}</span>
-              <p className={styles['text']}>{t.about_pablo_text}</p>
-            </div>
-          </article>
+        <article className={styles["card"]}>
+          <div className={styles["media"]}>
+            <Image
+              alt={t.about_pablo_name}
+              src={PabloImage}
+              className={styles["image"]}
+            />
+          </div>
+          <div className={styles["body"]}>
+            <span className={styles["label"]}>{t.about_pablo_title}</span>
+            <h3 className={styles["name"]}>{t.about_pablo_name}</h3>
+            <span className={styles["role"]}>{t.about_pablo_role}</span>
+            <p className={styles["text"]}>{t.about_pablo_text}</p>
+          </div>
+        </article>
 
-        </div>
-
-        <div className={styles['independent']}>
-          <h3 className={styles['independentTitle']}>{t.about_independent_title}</h3>
-          <p className={styles['independentText']}>{t.about_independent_text}</p>
-        </div>
+        <aside className={styles["independent"]} aria-labelledby="about-independent-title">
+          <h3 id="about-independent-title" className={styles["independentTitle"]}>
+            {t.about_independent_title}
+          </h3>
+          <p className={styles["independentText"]}>{t.about_independent_text}</p>
+        </aside>
       </div>
     </section>
   );
 }
-
-/*
-<article className={`${styles['card']} ${styles['cardAdvisor']}`}>
-  <div className={`${styles['media']} ${styles['mediaAdvisor']}`} aria-hidden>
-    <span className={styles['monogram']}>AG</span>
-  </div>
-  <div className={styles['body']}>
-    <span className={styles['label']}>{t.about_psy_title}</span>
-    <h3 className={styles['name']}>{t.about_psy_name}</h3>
-    <span className={styles['role']}>{t.about_psy_role}</span>
-    <p className={styles['text']}>{t.about_psy_text}</p>
-  </div>
-</article>
-*/

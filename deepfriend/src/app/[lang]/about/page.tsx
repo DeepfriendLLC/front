@@ -1,5 +1,7 @@
 import "@/styles/global.css";
 
+import homeStyles from "@/styles/HomePage.module.css";
+
 import AboutIntroComponent from "@/components/about/about-intro";
 import AboutWhyComponent from "@/components/about/why";
 import TeamComponent from "@/components/about/team";
@@ -17,7 +19,7 @@ export async function generateMetadata({
   params: Promise<{ lang: string }>;
 }): Promise<Metadata> {
   return GENERATE_METADATA({ params, route: "/about" });
-};
+}
 
 export default async function About({
   params,
@@ -27,8 +29,8 @@ export default async function About({
   const lang = pickLocale((await params).lang);
 
   return (
-    <>
-      <NavbarComponent lang={lang} />
+    <div className={homeStyles["page"]}>
+      <NavbarComponent lang={lang} homeTheme />
       <main>
         <AboutIntroComponent lang={lang} />
         <MissionAndValuesComponent lang={lang} />
@@ -36,7 +38,7 @@ export default async function About({
         <TeamComponent lang={lang} />
         <CtaComponent lang={lang} />
       </main>
-      <FooterComponent lang={lang} />
-    </>
+      <FooterComponent lang={lang} homeTheme />
+    </div>
   );
-};
+}
