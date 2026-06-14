@@ -4,6 +4,16 @@ import { TranslationTexts } from "@/constants/translations/translations";
 import { Locale } from "@/i18n/config";
 
 function PhoneMockup() {
+  const frame = { x: 20, y: 8, w: 160, h: 344, rx: 24 };
+  const screen = { x: 32, y: 48, w: 136, h: 280, rx: 12 };
+  const pad = 12;
+  const contentL = screen.x + pad;
+  const contentR = screen.x + screen.w - pad;
+  const contentW = contentR - contentL;
+  const screenBottom = screen.y + screen.h;
+  const frameBottom = frame.y + frame.h;
+  const homeY = (screenBottom + frameBottom) / 2;
+
   return (
     <figure className={styles["phone"]}>
       <svg
@@ -13,31 +23,111 @@ function PhoneMockup() {
         role="img"
         aria-hidden
       >
+        <defs>
+          <clipPath id="pro-patients-screen">
+            <rect
+              x={screen.x}
+              y={screen.y}
+              width={screen.w}
+              height={screen.h}
+              rx={screen.rx}
+            />
+          </clipPath>
+        </defs>
+
         <rect
-          x="20"
-          y="8"
-          width="160"
-          height="344"
-          rx="24"
+          x={frame.x}
+          y={frame.y}
+          width={frame.w}
+          height={frame.h}
+          rx={frame.rx}
           className={styles["phoneFrame"]}
         />
         <rect
-          x="32"
-          y="48"
-          width="136"
-          height="280"
-          rx="12"
+          x={screen.x}
+          y={screen.y}
+          width={screen.w}
+          height={screen.h}
+          rx={screen.rx}
           className={styles["phoneScreen"]}
         />
-        <rect x="80" y="24" width="40" height="6" rx="3" className={styles["phoneLine"]} />
-        <rect x="48" y="72" width="72" height="28" rx="10" className={styles["phoneBubble"]} />
-        <rect x="48" y="108" width="56" height="8" rx="3" className={styles["phoneLine"]} />
-        <rect x="48" y="122" width="64" height="8" rx="3" className={styles["phoneLine"]} />
-        <rect x="88" y="156" width="64" height="24" rx="10" className={styles["phoneBubbleUser"]} />
-        <rect x="48" y="196" width="80" height="28" rx="10" className={styles["phoneBubble"]} />
-        <rect x="48" y="232" width="48" height="8" rx="3" className={styles["phoneLine"]} />
-        <rect x="48" y="268" width="104" height="32" rx="10" className={styles["phoneBubble"]} />
-        <circle cx="100" cy="340" r="16" fill="rgba(36, 153, 139, 0.35)" />
+
+        <rect
+          x={100 - 20}
+          y={frame.y + 14}
+          width={40}
+          height={5}
+          rx={2.5}
+          className={styles["phoneLine"]}
+        />
+
+        <g clipPath="url(#pro-patients-screen)">
+          <rect
+            x={contentL}
+            y={68}
+            width={70}
+            height={24}
+            rx={10}
+            className={styles["phoneBubble"]}
+          />
+          <rect
+            x={contentL}
+            y={100}
+            width={54}
+            height={5}
+            rx={2.5}
+            className={styles["phoneLine"]}
+          />
+          <rect
+            x={contentL}
+            y={111}
+            width={62}
+            height={5}
+            rx={2.5}
+            className={styles["phoneLine"]}
+          />
+          <rect
+            x={contentR - 64}
+            y={132}
+            width={64}
+            height={22}
+            rx={10}
+            className={styles["phoneBubbleUser"]}
+          />
+          <rect
+            x={contentL}
+            y={168}
+            width={78}
+            height={24}
+            rx={10}
+            className={styles["phoneBubble"]}
+          />
+          <rect
+            x={contentL}
+            y={200}
+            width={46}
+            height={5}
+            rx={2.5}
+            className={styles["phoneLine"]}
+          />
+          <rect
+            x={contentL}
+            y={218}
+            width={Math.min(92, contentW)}
+            height={28}
+            rx={10}
+            className={styles["phoneBubble"]}
+          />
+        </g>
+
+        <rect
+          x={100 - 24}
+          y={homeY - 2.5}
+          width={48}
+          height={5}
+          rx={2.5}
+          className={styles["phoneHome"]}
+        />
       </svg>
     </figure>
   );
