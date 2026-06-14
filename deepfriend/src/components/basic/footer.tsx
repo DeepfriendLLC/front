@@ -71,6 +71,11 @@ export default function FooterComponent({
                 </Link>
               </li>
               <li>
+                <Link href={`/${lang}/professionals` as never} className={styles['link']}>
+                  {t.footer_company_professionals}
+                </Link>
+              </li>
+              <li>
                 <Link href={`/${lang}/contact` as never} className={styles['link']}>
                   {t.footer_company_contact}
                 </Link>

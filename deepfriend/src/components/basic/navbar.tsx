@@ -40,6 +40,9 @@ export default function NavbarComponent({
           <Link href={`/${lang}/about` as never} className={styles['navLink']}>
             {t.nav_about}
           </Link>
+          <Link href={`/${lang}/professionals` as never} className={styles['navLink']}>
+            {t.nav_professionals}
+          </Link>
           <Link href={`/${lang}/contact` as never} className={styles['navLink']}>
             {t.nav_contact}
           </Link>
