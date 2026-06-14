@@ -4,6 +4,7 @@ const es = {
   // — Navbar / footer
   nav_about: "Acerca de",
   nav_contact: "Contacto",
+  nav_professionals: "Profesionals",
   nav_cta: "Descargar",
 
   footer_tagline:
@@ -15,6 +16,7 @@ const es = {
   footer_company: "Empresa",
   footer_company_about: "Acerca de",
   footer_company_contact: "Contacto",
+  footer_company_professionals: "Profesionals",
   footer_legal: "Legal",
   footer_legal_privacy: "Política de privacidad",
   footer_legal_terms: "Términos de uso",
@@ -27,6 +29,7 @@ const es = {
   head_home_title: "Deepfriend",
   head_about_title: "Acerca de",
   head_contact_title: "Contacto",
+  head_professionals_title: "Profesionals",
   head_legal_terms_title: "Términos legales",
   head_privacy_policy_title: "Política de privacidad",
 
@@ -198,6 +201,114 @@ const es = {
   // — Misc UI
   ui_learn_more: "Saber más",
   ui_back_home: "Volver al inicio",
+
+  // — Professionals (B2B)
+  pro_hero_eyebrow: "Profesionals",
+  pro_hero_title: "Extiende tu atención entre sesiones.",
+  pro_hero_highlight: "sesiones",
+  pro_hero_subtitle:
+    "Un dashboard interactivo para gestionar a tus pacientes y controlar a Blue — compañía emocional con IA basada en TCC, bajo tu supervisión clínica total.",
+  pro_hero_cta_primary: "Contáctanos",
+  pro_hero_cta_secondary: "Ver el dashboard",
+
+  pro_trust_cbt: "Centrado en TCC",
+  pro_trust_control: "Control profesional total",
+  pro_trust_notes: "Informes clínicos automáticos",
+  pro_trust_crisis: "Protocolos de crisis",
+
+  pro_dashboard_eyebrow: "El dashboard",
+  pro_dashboard_title: "Un panel. Visibilidad completa.",
+  pro_dashboard_highlight: "completa",
+  pro_dashboard_text:
+    "Gestiona la ficha técnica, el historial terapéutico y cada conversación entre tu paciente y Blue. Todo lo que defines aquí nutre a la IA para acompañar con precisión clínica.",
+  pro_dashboard_mock_patient: "Perfil del paciente",
+  pro_dashboard_mock_sheet: "Ficha técnica",
+  pro_dashboard_mock_behavior: "Comportamiento de Blue",
+  pro_dashboard_mock_history: "Historial",
+  pro_dashboard_mock_phases: "Fase terapéutica",
+  pro_dashboard_card_1_title: "Ficha técnica del paciente",
+  pro_dashboard_card_1_text:
+    "Define el perfil clínico que alimenta a Blue: diagnóstico orientativo, objetivos terapéuticos y contexto del paciente.",
+  pro_dashboard_card_2_title: "Historial completo de conversaciones",
+  pro_dashboard_card_2_text:
+    "Lee cada interacción paciente-IA. Control total sobre lo que ocurre entre sesiones, sin perder ningún detalle.",
+  pro_dashboard_card_3_title: "Dirección de la IA en tiempo real",
+  pro_dashboard_card_3_text:
+    "Ajusta instrucciones, cambia el rumbo terapéutico y comprueba al instante cómo responde Blue a tus indicaciones.",
+
+  pro_benefits_eyebrow: "Para ti",
+  pro_benefits_title: "Más tiempo de terapia. Menos tiempo administrativo.",
+  pro_benefit_1_title: "Ahorra horas cada semana",
+  pro_benefit_1_text:
+    "La IA genera automáticamente cada día una ficha técnica y un historial completo. Llegas a la sesión con todo lo que pasó entre visitas — sin perder tiempo en recapitular.",
+  pro_benefit_2_title: "Ofrece apoyo TCC 24/7",
+  pro_benefit_2_text:
+    "Tus pacientes tienen a Blue entre sesiones: compañía emocional científica, siempre disponible. Un servicio que ningún competidor ofrece con este nivel de control.",
+  pro_benefit_3_title: "Mantén el control total",
+  pro_benefit_3_text:
+    "Editas ficha, historial y datos de usuario. Defines alertas de crisis, notificaciones y protocolos de emergencia según tu criterio clínico.",
+
+  pro_features_eyebrow: "Funcionalidades",
+  pro_features_title: "Todo lo que necesitas entre sesiones.",
+  pro_feature_1_title: "Seguimiento de ánimo diario",
+  pro_feature_1_text:
+    "Puntuación de 1 a 5 cada día con historial completo. Visualiza la evolución del estado de ánimo de un vistazo.",
+  pro_feature_2_title: "Seguimiento de tareas terapéuticas",
+  pro_feature_2_text:
+    "Blue recuerda y acompaña las tareas que asignas. El paciente avanza entre sesiones con seguimiento real.",
+  pro_feature_3_title: "Informe técnico diario automático",
+  pro_feature_3_text:
+    "Cada día, la IA resume la actividad del paciente en un informe clínico listo para revisar antes de tu próxima sesión.",
+  pro_feature_4_title: "Alertas de crisis configurables",
+  pro_feature_4_text:
+    "Recibe un correo o notificación cuando detectes señales de riesgo — a las 3 de la mañana o cuando lo necesites.",
+  pro_feature_5_title: "Gestión de crisis personalizada",
+  pro_feature_5_text:
+    "Define si Blue redirige a emergencias, te notifica directamente o sigue tu protocolo clínico específico.",
+  pro_feature_6_title: "Seguridad y privacidad",
+  pro_feature_6_text:
+    "Datos nunca vendidos. Prácticas alineadas con estándares de salud, incluyendo requisitos HIPAA.",
+
+  pro_patients_eyebrow: "Para tus pacientes",
+  pro_patients_label: "Blue entre sesiones",
+  pro_patients_title: "Un acompañamiento que marca la diferencia.",
+  pro_patients_text:
+    "Tus pacientes reciben compañía emocional de calidad entre visitas — segura, científica y bajo tu supervisión. No es terapia sustituta: es continuidad de cuidado.",
+  pro_patients_bullet_1: "Disponible 24/7 — sin cita previa, sin esperas.",
+  pro_patients_bullet_2:
+    "IA basada en TCC — técnicas con evidencia científica.",
+  pro_patients_bullet_3: "Completamente segura y controlada por ti.",
+
+  pro_workflow_eyebrow: "Cómo funciona",
+  pro_workflow_title: "Tres pasos. Control desde el primer día.",
+  pro_workflow_step_1_title: "Configuras el perfil del paciente.",
+  pro_workflow_step_1_text:
+    "Creas la ficha técnica, defines el plan terapéutico y das instrucciones iniciales a Blue sobre cómo acompañar.",
+  pro_workflow_step_2_title: "El paciente habla con Blue entre sesiones.",
+  pro_workflow_step_2_text:
+    "Blue acompaña con las técnicas TCC que has definido. Registra ánimo, tareas y conversaciones automáticamente.",
+  pro_workflow_step_3_title: "Revisas los informes antes de la sesión.",
+  pro_workflow_step_3_text:
+    "Llegas preparado con el historial completo de la semana. Más tiempo de terapia, menos tiempo de puesta al día.",
+  pro_workflow_disclaimer:
+    "Blue es compañía emocional con IA, no un psicólogo. Professionals extiende tu práctica; no la sustituye.",
+
+  pro_safety_eyebrow: "Control y seguridad",
+  pro_safety_title: "Tú defines los límites. Blue los respeta.",
+  pro_safety_text:
+    "La IA actúa bajo tu supervisión clínica. Configuras protocolos de crisis, alertas y el alcance de cada interacción.",
+  pro_safety_point_1: "Protocolos de crisis personalizables.",
+  pro_safety_point_2: "Alertas por correo o notificación en tiempo real.",
+  pro_safety_point_3: "Redirección a emergencias según tu criterio.",
+  pro_safety_point_4: "Cifrado HTTPS y estándares de datos de salud.",
+  pro_safety_point_5: "Datos nunca vendidos ni compartidos.",
+  pro_safety_point_6: "Blue acompaña; no sustituye la terapia presencial.",
+
+  pro_cta_title:
+    "¿Listo para integrar Deepfriend Professionals en tu práctica?",
+  pro_cta_text:
+    "Escríbenos para conocer cómo Blue puede extender tu atención entre sesiones.",
+  pro_cta_button: "Contáctanos",
 } as const;
 
 export type TranslationKey = keyof typeof es;
@@ -206,6 +317,7 @@ export type TranslationDictionary = Record<TranslationKey, string>;
 const en: TranslationDictionary = {
   nav_about: "About",
   nav_contact: "Contact",
+  nav_professionals: "Professionals",
   nav_cta: "Download",
 
   footer_tagline:
@@ -217,6 +329,7 @@ const en: TranslationDictionary = {
   footer_company: "Company",
   footer_company_about: "About",
   footer_company_contact: "Contact",
+  footer_company_professionals: "Professionals",
   footer_legal: "Legal",
   footer_legal_privacy: "Privacy Policy",
   footer_legal_terms: "Terms of Use",
@@ -228,6 +341,7 @@ const en: TranslationDictionary = {
   head_home_title: "Deepfriend",
   head_about_title: "About",
   head_contact_title: "Contact",
+  head_professionals_title: "Professionals",
   head_legal_terms_title: "Legal terms",
   head_privacy_policy_title: "Privacy policy",
 
@@ -385,11 +499,118 @@ const en: TranslationDictionary = {
 
   ui_learn_more: "Learn more",
   ui_back_home: "Back to home",
+
+  pro_hero_eyebrow: "Professionals",
+  pro_hero_title: "Extend your care between sessions.",
+  pro_hero_highlight: "sessions",
+  pro_hero_subtitle:
+    "An interactive dashboard to manage your patients and control Blue — a CBT-based AI emotional companion under your full clinical supervision.",
+  pro_hero_cta_primary: "Contact us",
+  pro_hero_cta_secondary: "See the dashboard",
+
+  pro_trust_cbt: "CBT-centered",
+  pro_trust_control: "Full professional control",
+  pro_trust_notes: "Automated clinical notes",
+  pro_trust_crisis: "Crisis protocols",
+
+  pro_dashboard_eyebrow: "The dashboard",
+  pro_dashboard_title: "One dashboard. Complete visibility.",
+  pro_dashboard_highlight: "Complete",
+  pro_dashboard_text:
+    "Manage the technical profile, therapeutic history and every conversation between your patient and Blue. Everything you define here feeds the AI to accompany with clinical precision.",
+  pro_dashboard_mock_patient: "Patient profile",
+  pro_dashboard_mock_sheet: "Technical sheet",
+  pro_dashboard_mock_behavior: "Blue behavior",
+  pro_dashboard_mock_history: "History",
+  pro_dashboard_mock_phases: "Therapeutic phase",
+  pro_dashboard_card_1_title: "Technical patient profile",
+  pro_dashboard_card_1_text:
+    "Define the clinical profile that feeds Blue: orientative diagnosis, therapeutic goals and patient context.",
+  pro_dashboard_card_2_title: "Full conversation history",
+  pro_dashboard_card_2_text:
+    "Read every patient-AI interaction. Full control over what happens between sessions — no detail missed.",
+  pro_dashboard_card_3_title: "Real-time AI steering",
+  pro_dashboard_card_3_text:
+    "Adjust instructions, change the therapeutic direction and see instantly how Blue responds to your guidance.",
+
+  pro_benefits_eyebrow: "For you",
+  pro_benefits_title: "More therapy time. Less admin time.",
+  pro_benefit_1_title: "Save hours every week",
+  pro_benefit_1_text:
+    "The AI automatically generates a daily technical sheet and full history. You arrive at the session with everything that happened between visits — no time lost recapping.",
+  pro_benefit_2_title: "Offer 24/7 CBT support",
+  pro_benefit_2_text:
+    "Your patients have Blue between sessions: scientific emotional companionship, always available. A service no competitor offers with this level of control.",
+  pro_benefit_3_title: "Stay in full control",
+  pro_benefit_3_text:
+    "Edit the technical sheet, history and user data. Define crisis alerts, notifications and emergency protocols on your clinical terms.",
+
+  pro_features_eyebrow: "Features",
+  pro_features_title: "Everything you need between sessions.",
+  pro_feature_1_title: "Daily mood tracking",
+  pro_feature_1_text:
+    "A 1-to-5 score every day with full history. See mood trends at a glance.",
+  pro_feature_2_title: "Therapeutic task follow-up",
+  pro_feature_2_text:
+    "Blue remembers and supports the tasks you assign. Patients progress between sessions with real follow-through.",
+  pro_feature_3_title: "Automated daily technical report",
+  pro_feature_3_text:
+    "Every day, the AI summarizes patient activity in a clinical report ready to review before your next session.",
+  pro_feature_4_title: "Configurable crisis alerts",
+  pro_feature_4_text:
+    "Receive an email or notification when risk signals appear — at 3 a.m. or whenever you need.",
+  pro_feature_5_title: "Custom crisis management",
+  pro_feature_5_text:
+    "Define whether Blue redirects to emergencies, notifies you directly or follows your specific clinical protocol.",
+  pro_feature_6_title: "Security and privacy",
+  pro_feature_6_text:
+    "Data never sold. Practices aligned with health data standards, including HIPAA requirements.",
+
+  pro_patients_eyebrow: "For your patients",
+  pro_patients_label: "Blue between sessions",
+  pro_patients_title: "Companionship that makes the difference.",
+  pro_patients_text:
+    "Your patients receive quality emotional support between visits — safe, scientific and under your supervision. Not a therapy substitute: continuity of care.",
+  pro_patients_bullet_1: "Available 24/7 — no appointment, no waiting.",
+  pro_patients_bullet_2: "CBT-based AI — techniques backed by science.",
+  pro_patients_bullet_3: "Completely safe and controlled by you.",
+
+  pro_workflow_eyebrow: "How it works",
+  pro_workflow_title: "Three steps. Control from day one.",
+  pro_workflow_step_1_title: "Configure the patient profile.",
+  pro_workflow_step_1_text:
+    "Create the technical sheet, define the therapeutic plan and give Blue initial instructions on how to accompany.",
+  pro_workflow_step_2_title: "The patient talks to Blue between sessions.",
+  pro_workflow_step_2_text:
+    "Blue accompanies with the CBT techniques you have defined. Mood, tasks and conversations are recorded automatically.",
+  pro_workflow_step_3_title: "Review reports before the session.",
+  pro_workflow_step_3_text:
+    "Arrive prepared with the full week's history. More therapy time, less catch-up time.",
+  pro_workflow_disclaimer:
+    "Blue is AI emotional companionship, not a psychologist. Professionals extends your practice; it does not replace it.",
+
+  pro_safety_eyebrow: "Control and safety",
+  pro_safety_title: "You set the boundaries. Blue respects them.",
+  pro_safety_text:
+    "The AI acts under your clinical supervision. Configure crisis protocols, alerts and the scope of each interaction.",
+  pro_safety_point_1: "Customizable crisis protocols.",
+  pro_safety_point_2: "Real-time email or push alerts.",
+  pro_safety_point_3: "Emergency redirection on your terms.",
+  pro_safety_point_4: "HTTPS encryption and health data standards.",
+  pro_safety_point_5: "Data never sold or shared.",
+  pro_safety_point_6:
+    "Blue accompanies; it does not replace in-person therapy.",
+
+  pro_cta_title: "Ready to bring Professionals into your practice?",
+  pro_cta_text:
+    "Write to us to learn how Blue can extend your care between sessions.",
+  pro_cta_button: "Contact us",
 };
 
 const de: TranslationDictionary = {
   nav_about: "Über uns",
   nav_contact: "Kontakt",
+  nav_professionals: "Professionals",
   nav_cta: "Herunterladen",
 
   footer_tagline:
@@ -401,6 +622,7 @@ const de: TranslationDictionary = {
   footer_company: "Unternehmen",
   footer_company_about: "Über uns",
   footer_company_contact: "Kontakt",
+  footer_company_professionals: "Professionals",
   footer_legal: "Rechtliches",
   footer_legal_privacy: "Datenschutzerklärung",
   footer_legal_terms: "Nutzungsbedingungen",
@@ -412,6 +634,7 @@ const de: TranslationDictionary = {
   head_home_title: "Deepfriend",
   head_about_title: "Über uns",
   head_contact_title: "Kontakt",
+  head_professionals_title: "Professionals",
   head_legal_terms_title: "Rechtliche Hinweise",
   head_privacy_policy_title: "Datenschutzerklärung",
 
@@ -571,6 +794,113 @@ const de: TranslationDictionary = {
 
   ui_learn_more: "Mehr erfahren",
   ui_back_home: "Zurück zur Startseite",
+
+  pro_hero_eyebrow: "Professionals",
+  pro_hero_title: "Erweitere deine Betreuung zwischen den Sitzungen.",
+  pro_hero_highlight: "Sitzungen",
+  pro_hero_subtitle:
+    "Ein interaktives Dashboard zur Patientenverwaltung und Blue-Steuerung — KVT-basierte KI-Begleitung unter deiner vollständigen klinischen Aufsicht.",
+  pro_hero_cta_primary: "Kontakt aufnehmen",
+  pro_hero_cta_secondary: "Dashboard ansehen",
+
+  pro_trust_cbt: "KVT im Zentrum",
+  pro_trust_control: "Volle professionelle Kontrolle",
+  pro_trust_notes: "Automatische klinische Berichte",
+  pro_trust_crisis: "Krisenprotokolle",
+
+  pro_dashboard_eyebrow: "Das Dashboard",
+  pro_dashboard_title: "Ein Panel. Volle Transparenz.",
+  pro_dashboard_highlight: "Transparenz",
+  pro_dashboard_text:
+    "Verwalte das technische Profil, die Therapiehistorie und jedes Gespräch zwischen Patient und Blue. Alles, was du hier definierst, speist die KI für präzise klinische Begleitung.",
+  pro_dashboard_mock_patient: "Patientenprofil",
+  pro_dashboard_mock_sheet: "Technisches Blatt",
+  pro_dashboard_mock_behavior: "Blue-Verhalten",
+  pro_dashboard_mock_history: "Verlauf",
+  pro_dashboard_mock_phases: "Therapiephase",
+  pro_dashboard_card_1_title: "Technisches Patientenprofil",
+  pro_dashboard_card_1_text:
+    "Definiere das klinische Profil für Blue: orientierende Diagnose, Therapieziele und Patientenkontext.",
+  pro_dashboard_card_2_title: "Vollständiger Gesprächsverlauf",
+  pro_dashboard_card_2_text:
+    "Lies jede Patient-KI-Interaktion. Volle Kontrolle über das, was zwischen Sitzungen passiert — kein Detail geht verloren.",
+  pro_dashboard_card_3_title: "KI-Steuerung in Echtzeit",
+  pro_dashboard_card_3_text:
+    "Passe Anweisungen an, ändere die therapeutische Richtung und sieh sofort, wie Blue auf deine Vorgaben reagiert.",
+
+  pro_benefits_eyebrow: "Für dich",
+  pro_benefits_title: "Mehr Therapiezeit. Weniger Verwaltungsaufwand.",
+  pro_benefit_1_title: "Spare Stunden pro Woche",
+  pro_benefit_1_text:
+    "Die KI erstellt täglich automatisch ein technisches Blatt und einen vollständigen Verlauf. Du kommst zur Sitzung mit allem, was zwischen den Terminen passiert ist — ohne Zeit für Rekapitulation.",
+  pro_benefit_2_title: "Biete 24/7 KVT-Unterstützung",
+  pro_benefit_2_text:
+    "Deine Patienten haben Blue zwischen den Sitzungen: wissenschaftliche emotionale Begleitung, immer verfügbar. Ein Service, den kein Wettbewerber mit diesem Kontrollniveau bietet.",
+  pro_benefit_3_title: "Behalte die volle Kontrolle",
+  pro_benefit_3_text:
+    "Bearbeite technisches Blatt, Verlauf und Nutzerdaten. Definiere Krisenalarme, Benachrichtigungen und Notfallprotokolle nach deinen klinischen Kriterien.",
+
+  pro_features_eyebrow: "Funktionen",
+  pro_features_title: "Alles, was du zwischen Sitzungen brauchst.",
+  pro_feature_1_title: "Tägliches Stimmungstracking",
+  pro_feature_1_text:
+    "Tägliche Bewertung von 1 bis 5 mit vollständigem Verlauf. Sieh Stimmungstrends auf einen Blick.",
+  pro_feature_2_title: "Therapieaufgaben-Nachverfolgung",
+  pro_feature_2_text:
+    "Blue erinnert und unterstützt die Aufgaben, die du vergibst. Patienten machen zwischen Sitzungen mit echtem Follow-up Fortschritte.",
+  pro_feature_3_title: "Automatischer täglicher Technikbericht",
+  pro_feature_3_text:
+    "Jeden Tag fasst die KI die Patientenaktivität in einem klinischen Bericht zusammen — bereit zur Prüfung vor der nächsten Sitzung.",
+  pro_feature_4_title: "Konfigurierbare Krisenalarme",
+  pro_feature_4_text:
+    "Erhalte eine E-Mail oder Benachrichtigung bei Risikosignalen — um 3 Uhr morgens oder wann immer du es brauchst.",
+  pro_feature_5_title: "Individuelles Krisenmanagement",
+  pro_feature_5_text:
+    "Lege fest, ob Blue zu Notdiensten weiterleitet, dich direkt benachrichtigt oder deinem spezifischen klinischen Protokoll folgt.",
+  pro_feature_6_title: "Sicherheit und Datenschutz",
+  pro_feature_6_text:
+    "Daten werden nie verkauft. Praktiken im Einklang mit Gesundheitsdatenstandards, einschließlich HIPAA-Anforderungen.",
+
+  pro_patients_eyebrow: "Für deine Patienten",
+  pro_patients_label: "Blue zwischen Sitzungen",
+  pro_patients_title: "Begleitung, die den Unterschied macht.",
+  pro_patients_text:
+    "Deine Patienten erhalten qualitativ hochwertige emotionale Unterstützung zwischen Terminen — sicher, wissenschaftlich und unter deiner Aufsicht. Kein Therapieersatz: Kontinuität der Versorgung.",
+  pro_patients_bullet_1:
+    "Rund um die Uhr verfügbar — ohne Termin, ohne Wartezeit.",
+  pro_patients_bullet_2:
+    "KVT-basierte KI — wissenschaftlich fundierte Techniken.",
+  pro_patients_bullet_3: "Vollständig sicher und von dir kontrolliert.",
+
+  pro_workflow_eyebrow: "So funktioniert es",
+  pro_workflow_title: "Drei Schritte. Kontrolle ab dem ersten Tag.",
+  pro_workflow_step_1_title: "Konfiguriere das Patientenprofil.",
+  pro_workflow_step_1_text:
+    "Erstelle das technische Blatt, definiere den Therapieplan und gib Blue erste Anweisungen zur Begleitung.",
+  pro_workflow_step_2_title: "Der Patient spricht zwischen Sitzungen mit Blue.",
+  pro_workflow_step_2_text:
+    "Blue begleitet mit den von dir definierten KVT-Techniken. Stimmung, Aufgaben und Gespräche werden automatisch erfasst.",
+  pro_workflow_step_3_title: "Prüfe Berichte vor der Sitzung.",
+  pro_workflow_step_3_text:
+    "Komm vorbereitet mit dem vollständigen Wochenverlauf. Mehr Therapiezeit, weniger Aufholzeit.",
+  pro_workflow_disclaimer:
+    "Blue ist KI-Begleitung, kein Psychologe. Professionals erweitert deine Praxis — es ersetzt sie nicht.",
+
+  pro_safety_eyebrow: "Kontrolle und Sicherheit",
+  pro_safety_title: "Du setzt die Grenzen. Blue respektiert sie.",
+  pro_safety_text:
+    "Die KI handelt unter deiner klinischen Aufsicht. Konfiguriere Krisenprotokolle, Alarme und den Umfang jeder Interaktion.",
+  pro_safety_point_1: "Anpassbare Krisenprotokolle.",
+  pro_safety_point_2: "Echtzeit-E-Mail- oder Push-Benachrichtigungen.",
+  pro_safety_point_3: "Notfallweiterleitung nach deinen Kriterien.",
+  pro_safety_point_4: "HTTPS-Verschlüsselung und Gesundheitsdatenstandards.",
+  pro_safety_point_5: "Daten werden nie verkauft oder geteilt.",
+  pro_safety_point_6: "Blue begleitet — es ersetzt keine Präsenztherapie.",
+
+  pro_cta_title: "Bereit, Professionals in deine Praxis zu integrieren?",
+  pro_cta_text:
+    "Schreib uns, um zu erfahren, wie Blue deine Betreuung zwischen Sitzungen erweitern kann.",
+  pro_cta_button: "Kontakt aufnehmen",
 };
 
 export const TranslationTexts: Record<Locale, TranslationDictionary> = {
