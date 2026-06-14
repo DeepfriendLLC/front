@@ -152,10 +152,16 @@
     gap: 24px;
     border-radius: var(--radius-card, 20px);
   }
-}
 
-@media (max-width: 560px) {
   .cta {
+    align-self: center;
     width: 100%;
+    min-height: 48px;
+    height: auto;
+    padding: 14px 24px;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.35;
+    text-wrap: balance;
   }
 }
