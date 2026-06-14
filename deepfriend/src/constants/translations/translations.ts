@@ -45,6 +45,17 @@ const es = {
   hero_micro_downloads: "+1.000 personas ya han probado Blue",
   hero_micro_privacy: "Datos nunca vendidos",
 
+  // — Home: professionals CTAs
+  home_pro_teaser: "Eres profesional, esto es para ti",
+  home_pro_promo_eyebrow: "Para profesionales",
+  home_pro_promo_title: "Tenemos un espacio y una herramienta pensada para ti",
+  home_pro_promo_text:
+    "Si acompañas personas en su bienestar emocional, Deepfriend te ayuda a extender tu atención entre sesiones con seguimiento claro y apoyo estructurado.",
+  home_pro_promo_bullet_1: "Dashboard para ver el progreso de tus pacientes",
+  home_pro_promo_bullet_2: "Notas y seguimiento entre sesiones",
+  home_pro_promo_bullet_3: "Privacidad y seguridad de nivel clínico",
+  home_pro_promo_cta: "Descubrir Deepfriend para profesionales",
+
   // — Trust strip
   trust_cbt: "Centrado en TCC",
   trust_clinical: "Feedback clínico externo",
@@ -356,6 +367,16 @@ const en: TranslationDictionary = {
   hero_micro_downloads: "+1,000 people have already tried Blue",
   hero_micro_privacy: "Data never sold",
 
+  home_pro_teaser: "You're a professional — this is for you",
+  home_pro_promo_eyebrow: "For professionals",
+  home_pro_promo_title: "We have a space and a tool built for you",
+  home_pro_promo_text:
+    "If you support people in their emotional wellbeing, Deepfriend helps you extend your care between sessions with clear tracking and structured support.",
+  home_pro_promo_bullet_1: "Dashboard to see your patients' progress",
+  home_pro_promo_bullet_2: "Notes and follow-up between sessions",
+  home_pro_promo_bullet_3: "Clinical-grade privacy and security",
+  home_pro_promo_cta: "Discover Deepfriend for professionals",
+
   trust_cbt: "CBT-centered",
   trust_clinical: "External clinical feedback",
   trust_privacy: "Data never sold",
@@ -648,6 +669,16 @@ const de: TranslationDictionary = {
   hero_micro_rating: "Bewertungen bei Google Play",
   hero_micro_downloads: "+1.000 Menschen haben Blue bereits ausprobiert",
   hero_micro_privacy: "Daten werden nie verkauft",
+
+  home_pro_teaser: "Sie sind Fachkraft — das ist für Sie",
+  home_pro_promo_eyebrow: "Für Fachkräfte",
+  home_pro_promo_title: "Wir haben einen Bereich und ein Tool für Sie",
+  home_pro_promo_text:
+    "Wenn Sie Menschen in ihrem emotionalen Wohlbefinden begleiten, hilft Ihnen Deepfriend, Ihre Betreuung zwischen Sitzungen mit klarer Nachverfolgung und strukturierter Unterstützung zu erweitern.",
+  home_pro_promo_bullet_1: "Dashboard für den Fortschritt Ihrer Patienten",
+  home_pro_promo_bullet_2: "Notizen und Nachverfolgung zwischen Sitzungen",
+  home_pro_promo_bullet_3: "Datenschutz und Sicherheit auf klinischem Niveau",
+  home_pro_promo_cta: "Deepfriend für Fachkräfte entdecken",
 
   trust_cbt: "KVT im Zentrum",
   trust_clinical: "Externes klinisches Feedback",
