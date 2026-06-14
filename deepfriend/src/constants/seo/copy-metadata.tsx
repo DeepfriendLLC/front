@@ -62,6 +62,23 @@ export const COPY: CopyMetadataType = {
         "Fragen, Support oder Feedback zu Deepfriend? Schreib mir direkt. Ich lese jede Nachricht persönlich.",
     },
   },
+  "/professionals": {
+    es: {
+      title: "Profesionales | IA basada en TCC entre sesiones",
+      description:
+        "Dashboard clínico para psicólogos: informes automáticos, control total de Blue, seguimiento de ánimo y protocolos de crisis configurables.",
+    },
+    en: {
+      title: "Professionals | CBT-Based AI Between Sessions",
+      description:
+        "Clinical dashboard for psychologists: automated reports, full Blue control, mood tracking and configurable crisis protocols.",
+    },
+    de: {
+      title: "Professionals | KVT-basierte KI zwischen Sitzungen",
+      description:
+        "Klinisches Dashboard für Psychologen: automatische Berichte, volle Blue-Kontrolle, Stimmungsverlauf und konfigurierbare Krisenprotokolle.",
+    },
+  },
   "/legal-terms": {
     es: {
       title: "Términos de uso",
