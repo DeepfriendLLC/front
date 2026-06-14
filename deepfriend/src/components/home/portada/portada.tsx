@@ -3,6 +3,7 @@ import styles from "@/styles/Portada.module.css";
 import Image from "next/image";
 import { TranslationTexts } from "@/constants/translations/translations";
 import { Locale } from "@/i18n/config";
+import ProfessionalsTeaserComponent from "@/components/home/professionals-teaser/professionals-teaser";
 
 import GooglePlayLogo from "@/../public/icons/google-play/logo.png";
 
@@ -70,6 +71,8 @@ export default function PortadaComponent({ lang }: { lang: Locale }) {
             <li>{t.hero_micro_privacy}</li>
             <li>{t.hero_micro_rating}</li>
           </ul>
+
+          <ProfessionalsTeaserComponent lang={lang} />
         </div>
       </div>
     </section>

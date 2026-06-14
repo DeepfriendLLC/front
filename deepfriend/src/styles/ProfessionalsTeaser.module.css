@@ -1,0 +1,20 @@
+.link {
+  display: inline-block;
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+  font-family: var(--f-sans);
+  font-size: var(--type-micro);
+  line-height: var(--type-micro-lh);
+  font-weight: var(--fw-sans-semibold);
+  color: var(--teal, var(--brand));
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  transition: color 0.2s var(--ease);
+}
+
+.link:hover {
+  color: var(--teal-deep, var(--brand-deep));
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
