@@ -13,6 +13,7 @@ import HowItWorksComponent from "@/components/home/how-it-works/how-it-works";
 import ProductExtrasComponent from "@/components/home/products/product-extras";
 import PrivacyComponent from "@/components/home/privacy/privacy";
 import CtaComponent from "@/components/home/cta/cta";
+import ProfessionalsPromoComponent from "@/components/home/professionals-promo/professionals-promo";
 
 import { pickLocale } from "@/i18n/config";
 
@@ -35,6 +36,7 @@ export default async function Home({
         <PrivacyComponent lang={lang} />
         <ProductExtrasComponent lang={lang} />
         <CtaComponent lang={lang} />
+        <ProfessionalsPromoComponent lang={lang} />
       </main>
       <FooterComponent lang={lang} homeTheme />
     </div>
