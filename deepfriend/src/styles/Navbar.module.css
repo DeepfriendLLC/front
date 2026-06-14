@@ -85,8 +85,18 @@
   .shell {
     height: 64px;
   }
+  .brand {
+    gap: 11px;
+  }
+  .logo {
+    width: 36px;
+    height: 36px;
+  }
   .brandName {
-    font-size: var(--type-body, 20px);
+    /* Explicit size — avoids home page --type-body (16px) shrinking the wordmark */
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: -0.012em;
   }
   .nav {
     display: none;
