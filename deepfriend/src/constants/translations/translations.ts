@@ -38,15 +38,15 @@ const es = {
   hero_title: "Siente alivio. Recupera tu calma.",
   hero_highlight: "alivio",
   hero_subtitle:
-    "Cuando la cabeza no para, Blue te escucha — sin juicio, sin prisa. Métodos con evidencia científica para ansiedad, estrés e insomnio. Privado. Disponible 24/7.",
+    "Cuando la cabeza no para, Blue te escucha sin juicio y sin prisa. Métodos con evidencia científica para ansiedad, estrés e insomnio. Privado. Disponible 24/7.",
   hero_cta_primary: "Descargar en Google Play",
   hero_cta_secondary: "Ver cómo funciona",
-  hero_micro_rating: "Valoraciones en Google Play",
-  hero_micro_downloads: "+1.000 personas ya han probado Blue",
-  hero_micro_privacy: "Datos nunca vendidos",
+  hero_micro_rating: "92% valoraciones positivas",
+  hero_micro_downloads: "Más de 1.000 usuarios",
+  hero_micro_privacy: "Basado en ciencia",
 
   // — Home: professionals CTAs
-  home_pro_teaser: "Eres profesional, esto es para ti",
+  home_pro_teaser: "¿Eres profesional? Esto es para ti",
   home_pro_promo_eyebrow: "Para profesionales",
   home_pro_promo_title: "Tenemos un espacio y una herramienta pensada para ti",
   home_pro_promo_text:
@@ -65,35 +65,35 @@ const es = {
   // — Section: science
   science_eyebrow: "¿Por qué esto es distinto?",
   science_title:
-    "Has probado otras cosas. Deepfriend está construido para funcionar.",
-  science_highlight: "funcionar",
+    "Has probado otras cosas. Deepfriend está hecho con ciencia para funcionar.",
+  science_highlight: "ciencia",
   science_text:
-    "Es normal dudar. Muchas apps prometen calma con frases bonitas — sin base científica. Deepfriend es diferente: cada técnica que usa Blue ha sido validada bajo el método científico. La TCC es el centro; el resto son herramientas complementarias, siempre con evidencia.",
+    "Es normal dudar. Muchas apps prometen calma con frases bonitas, pero sin base científica. Deepfriend es diferente: cada técnica que usa Blue ha sido validada bajo el método científico. La TCC es el centro; el resto son herramientas complementarias, siempre con evidencia.",
   science_diagram_thought: "Pensamiento",
   science_diagram_emotion: "Emoción",
   science_diagram_behavior: "Conducta",
   science_pillar_1_title: "Métodos publicados y trazables",
   science_pillar_1_text:
-    "Reestructuración cognitiva, exposición gradual, higiene del sueño — técnicas con respaldo en literatura revisada por pares.",
+    "Reestructuración cognitiva, exposición gradual, higiene del sueño: técnicas con respaldo en literatura revisada por pares.",
   science_pillar_2_title: "Centrado en TCC, multimodal con evidencia",
   science_pillar_2_text:
-    "Blue no improvisa. Parte del marco cognitivo-conductual — el estándar con mayor respaldo empírico — e integra otras técnicas validadas cuando aportan.",
+    "Blue no improvisa. Parte del marco cognitivo-conductual, el estándar con mayor respaldo empírico, e integra otras técnicas validadas cuando aportan.",
   science_pillar_3_title: "Feedback externo de profesionales TCC",
   science_pillar_3_text:
-    "El producto se ha ido moldeando con feedback de psicólogos especializados. Criterio clínico externo y puntual — no supervisión continua ni equipo clínico empleado.",
+    "El producto se ha ido moldeando con feedback de psicólogos especializados. Criterio clínico externo y puntual, no supervisión continua ni equipo clínico empleado.",
 
   // — Section: products
   products_blue_eyebrow: "Producto principal",
   product_blue_label: "Blue AI",
-  product_blue_title: "Blue. Ahí cuando lo necesitas.",
+  product_blue_title: "Blue, ahí cuando lo necesitas.",
   product_blue_text:
-    "Una presencia que te escucha de verdad. Para desahogarte, pensar en voz alta o sentirte acompañado — sin juicio, sin prisa. Como ese amigo en quien confías, con herramientas que no improvisan.",
+    "Una presencia que te escucha de verdad. Para desahogarte, pensar en voz alta o sentirte acompañado, sin juicio y sin prisa. Como ese amigo en quien confías, con herramientas que no improvisan.",
   product_blue_bullet_1:
-    "Habla cuando lo necesites — alivio desde la primera conversación.",
+    "Habla cuando lo necesites: alivio desde la primera conversación.",
   product_blue_bullet_2:
-    "Chat y llamada de voz — elige cómo te sientes más cómodo.",
+    "Chat y llamada de voz: elige cómo te sientes más cómodo.",
   product_blue_bullet_3:
-    "Te conoce con el tiempo — recuerda lo importante y acompaña con contexto.",
+    "Te conoce con el tiempo: recuerda lo importante y acompaña con contexto.",
   product_blue_note_title: "Feedback de profesionales TCC",
   product_blue_note_text:
     "Deepfriend incorpora feedback de psicólogos especializados en TCC. Acompaña; no sustituye terapia.",
@@ -360,14 +360,14 @@ const en: TranslationDictionary = {
   hero_title: "Feel relief. Reclaim your calm.",
   hero_highlight: "relief",
   hero_subtitle:
-    "When your mind won't stop, Blue listens — no judgment, no rush. Evidence-based methods for anxiety, stress and insomnia. Private. Available 24/7.",
+    "When your mind won't stop, Blue listens without judgment and without rush. Evidence-based methods for anxiety, stress and insomnia. Private. Available 24/7.",
   hero_cta_primary: "Download on Google Play",
   hero_cta_secondary: "See how it works",
-  hero_micro_rating: "Ratings on Google Play",
-  hero_micro_downloads: "+1,000 people have already tried Blue",
-  hero_micro_privacy: "Data never sold",
+  hero_micro_rating: "92% positive ratings",
+  hero_micro_downloads: "Over 1,000 users",
+  hero_micro_privacy: "Science-based",
 
-  home_pro_teaser: "You're a professional — this is for you",
+  home_pro_teaser: "Are you a professional? This is for you",
   home_pro_promo_eyebrow: "For professionals",
   home_pro_promo_title: "We have a space and a tool built for you",
   home_pro_promo_text:
@@ -383,34 +383,34 @@ const en: TranslationDictionary = {
   trust_24_7: "Available 24/7",
 
   science_eyebrow: "Why this is different",
-  science_title: "You've tried other options. Deepfriend is built to work.",
-  science_highlight: "work",
+  science_title: "You've tried other options. Deepfriend is built with science to work.",
+  science_highlight: "science",
   science_text:
-    "It's normal to doubt. Many apps promise calm with nice phrases — with no scientific basis. Deepfriend is different: every technique Blue uses has been validated through the scientific method. CBT is the core; everything else is complementary, always evidence-based.",
+    "It's normal to doubt. Many apps promise calm with nice phrases, but with no scientific basis. Deepfriend is different: every technique Blue uses has been validated through the scientific method. CBT is the core; everything else is complementary, always evidence-based.",
   science_diagram_thought: "Thought",
   science_diagram_emotion: "Emotion",
   science_diagram_behavior: "Behavior",
   science_pillar_1_title: "Published, traceable methods",
   science_pillar_1_text:
-    "Cognitive restructuring, gradual exposure, sleep hygiene — techniques backed by peer-reviewed literature.",
+    "Cognitive restructuring, gradual exposure, sleep hygiene: techniques backed by peer-reviewed literature.",
   science_pillar_2_title: "CBT-centered, multimodal with evidence",
   science_pillar_2_text:
-    "Blue doesn't improvise. It starts from the cognitive behavioral framework — the standard with the strongest empirical backing — and integrates other validated techniques when they add value.",
+    "Blue doesn't improvise. It starts from the cognitive behavioral framework, the standard with the strongest empirical backing, and integrates other validated techniques when they add value.",
   science_pillar_3_title: "External feedback from CBT professionals",
   science_pillar_3_text:
-    "The product has been shaped through feedback from specialized psychologists. External, periodic clinical input — not ongoing supervision or an employed clinical team.",
+    "The product has been shaped through feedback from specialized psychologists. External, periodic clinical input, not ongoing supervision or an employed clinical team.",
 
   products_blue_eyebrow: "Main product",
   product_blue_label: "Blue AI",
-  product_blue_title: "Blue. There when you need it.",
+  product_blue_title: "Blue, there when you need it.",
   product_blue_text:
-    "A presence that truly listens. To vent, think out loud, or feel accompanied — no judgment, no rush. Like that friend you trust, with tools that don't improvise.",
+    "A presence that truly listens. To vent, think out loud, or feel accompanied, without judgment and without rush. Like that friend you trust, with tools that don't improvise.",
   product_blue_bullet_1:
-    "Talk whenever you need to — relief from the very first conversation.",
+    "Talk whenever you need to: relief from the very first conversation.",
   product_blue_bullet_2:
-    "Chat and voice calls — choose what feels most comfortable.",
+    "Chat and voice calls: choose what feels most comfortable.",
   product_blue_bullet_3:
-    "Gets to know you over time — remembers what matters and accompanies you with context.",
+    "Gets to know you over time: remembers what matters and accompanies you with context.",
   product_blue_note_title: "Feedback from CBT professionals",
   product_blue_note_text:
     "Deepfriend incorporates feedback from CBT-specialized psychologists. It accompanies; it does not replace therapy.",
@@ -663,14 +663,14 @@ const de: TranslationDictionary = {
   hero_title: "Spüre Erleichterung. Finde deine Ruhe wieder.",
   hero_highlight: "Erleichterung",
   hero_subtitle:
-    "Wenn der Kopf nicht zur Ruhe kommt, hört Blue zu — ohne Urteil, ohne Eile. Evidenzbasierte Methoden bei Angst, Stress und Schlaflosigkeit. Privat. Rund um die Uhr verfügbar.",
+    "Wenn der Kopf nicht zur Ruhe kommt, hört Blue zu, ohne Urteil und ohne Eile. Evidenzbasierte Methoden bei Angst, Stress und Schlaflosigkeit. Privat. Rund um die Uhr verfügbar.",
   hero_cta_primary: "Bei Google Play herunterladen",
   hero_cta_secondary: "So funktioniert es",
-  hero_micro_rating: "Bewertungen bei Google Play",
-  hero_micro_downloads: "+1.000 Menschen haben Blue bereits ausprobiert",
-  hero_micro_privacy: "Daten werden nie verkauft",
+  hero_micro_rating: "92% positive Bewertungen",
+  hero_micro_downloads: "Mehr als 1.000 Nutzer",
+  hero_micro_privacy: "Wissenschaftlich fundiert",
 
-  home_pro_teaser: "Sie sind Fachkraft — das ist für Sie",
+  home_pro_teaser: "Sind Sie Fachkraft? Das ist für Sie",
   home_pro_promo_eyebrow: "Für Fachkräfte",
   home_pro_promo_title: "Wir haben einen Bereich und ein Tool für Sie",
   home_pro_promo_text:
@@ -687,34 +687,34 @@ const de: TranslationDictionary = {
 
   science_eyebrow: "Warum das anders ist",
   science_title:
-    "Du hast schon anderes ausprobiert. Deepfriend setzt auf Bewährtes.",
-  science_highlight: "Bewährtes",
+    "Du hast schon anderes ausprobiert. Deepfriend ist mit Wissenschaft gemacht, um zu wirken.",
+  science_highlight: "Wissenschaft",
   science_text:
-    "Zweifeln ist normal. Viele Apps versprechen Ruhe mit schönen Worten — ohne wissenschaftliche Grundlage. Deepfriend ist anders: Jede Technik, die Blue nutzt, wurde nach wissenschaftlicher Methode validiert. Die KVT steht im Zentrum; alles andere sind ergänzende, evidenzbasierte Werkzeuge.",
+    "Zweifeln ist normal. Viele Apps versprechen Ruhe mit schönen Worten, aber ohne wissenschaftliche Grundlage. Deepfriend ist anders: Jede Technik, die Blue nutzt, wurde nach wissenschaftlicher Methode validiert. Die KVT steht im Zentrum; alles andere sind ergänzende, evidenzbasierte Werkzeuge.",
   science_diagram_thought: "Gedanke",
   science_diagram_emotion: "Emotion",
   science_diagram_behavior: "Verhalten",
   science_pillar_1_title: "Publizierte, nachvollziehbare Methoden",
   science_pillar_1_text:
-    "Kognitive Umstrukturierung, schrittweise Exposition, Schlafhygiene — Techniken mit Rückhalt in peer-reviewter Literatur.",
+    "Kognitive Umstrukturierung, schrittweise Exposition, Schlafhygiene: Techniken mit Rückhalt in peer-reviewter Literatur.",
   science_pillar_2_title: "KVT im Zentrum, multimodal mit Evidenz",
   science_pillar_2_text:
-    "Blue improvisiert nicht. Es baut auf dem kognitiv-verhaltenstherapeutischen Rahmen auf — dem Standard mit dem stärksten empirischen Rückhalt — und integriert andere validierte Techniken, wenn sie Mehrwert bieten.",
+    "Blue improvisiert nicht. Es baut auf dem kognitiv-verhaltenstherapeutischen Rahmen auf, dem Standard mit dem stärksten empirischen Rückhalt, und integriert andere validierte Techniken, wenn sie Mehrwert bieten.",
   science_pillar_3_title: "Externes Feedback von KVT-Fachleuten",
   science_pillar_3_text:
-    "Das Produkt wurde mit Feedback von spezialisierten Psychologen weiterentwickelt. Externes, punktuelles klinisches Feedback — keine fortlaufende Supervision und kein angestelltes klinisches Team.",
+    "Das Produkt wurde mit Feedback von spezialisierten Psychologen weiterentwickelt. Externes, punktuelles klinisches Feedback, keine fortlaufende Supervision und kein angestelltes klinisches Team.",
 
   products_blue_eyebrow: "Hauptprodukt",
   product_blue_label: "Blue AI",
-  product_blue_title: "Blue. Da, wenn du es brauchst.",
+  product_blue_title: "Blue, da, wenn du es brauchst.",
   product_blue_text:
-    "Eine Präsenz, die dir wirklich zuhört. Zum Reden, laut Denken oder um dich begleitet zu fühlen — ohne Urteil, ohne Eile. Wie ein Freund, dem du vertraust, mit Werkzeugen, die nicht improvisieren.",
+    "Eine Präsenz, die dir wirklich zuhört. Zum Reden, laut Denken oder um dich begleitet zu fühlen, ohne Urteil und ohne Eile. Wie ein Freund, dem du vertraust, mit Werkzeugen, die nicht improvisieren.",
   product_blue_bullet_1:
-    "Sprich, wann immer du musst — Erleichterung ab dem ersten Gespräch.",
+    "Sprich, wann immer du musst: Erleichterung ab dem ersten Gespräch.",
   product_blue_bullet_2:
-    "Chat und Sprachanruf — wähle, was sich am angenehmsten anfühlt.",
+    "Chat und Sprachanruf: wähle, was sich am angenehmsten anfühlt.",
   product_blue_bullet_3:
-    "Lernt dich mit der Zeit kennen — erinnert sich an Wichtiges und begleitet mit Kontext.",
+    "Lernt dich mit der Zeit kennen: erinnert sich an Wichtiges und begleitet mit Kontext.",
   product_blue_note_title: "Feedback von KVT-Fachleuten",
   product_blue_note_text:
     "Deepfriend integriert Feedback von KVT-spezialisierten Psychologen. Es begleitet — es ersetzt keine Therapie.",
