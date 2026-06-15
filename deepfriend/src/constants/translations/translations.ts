@@ -48,11 +48,14 @@ const es = {
   // — Home: professionals CTAs
   home_pro_teaser: "¿Eres profesional? Esto es para ti",
   home_pro_promo_eyebrow: "Para profesionales",
-  home_pro_promo_title: "Tenemos un espacio y una herramienta pensada para ti",
+  home_pro_promo_title:
+    "Eres psicólogo titulado. Esta herramienta te ahorra tiempo entre sesiones.",
   home_pro_promo_text:
-    "Si acompañas personas en su bienestar emocional, Deepfriend te ayuda a extender tu atención entre sesiones con seguimiento claro y apoyo estructurado.",
-  home_pro_promo_bullet_1: "Dashboard para ver el progreso de tus pacientes",
-  home_pro_promo_bullet_2: "Notas y seguimiento entre sesiones",
+    "Si ejerces la psicología con pacientes en consulta, Deepfriend te permite extender tu acompañamiento entre sesiones: seguimiento claro, notas estructuradas y apoyo basado en TCC sin sumar carga administrativa.",
+  home_pro_promo_bullet_1:
+    "Dashboard para ver el progreso de tus pacientes entre sesiones",
+  home_pro_promo_bullet_2:
+    "Notas y seguimiento continuo, listos cuando vuelves a consulta",
   home_pro_promo_bullet_3: "Privacidad y seguridad de nivel clínico",
   home_pro_promo_cta: "Descubrir Deepfriend para profesionales",
 
@@ -103,13 +106,13 @@ const es = {
   how_title: "Así empieza tu camino.",
   how_step_1_title: "Abres la app. Blue te recibe.",
   how_step_1_text:
-    "Sin registros complicados. Sin formularios clínicos. Solo descargar y empezar a hablar — como mandar un mensaje a alguien de confianza.",
+    "Descarga la app y empieza en segundos. Sin registros largos ni formularios clínicos. Blue te recibe con la misma naturalidad que hablar con alguien de confianza.",
   how_step_2_title: "Cuéntale lo que llevas dentro.",
   how_step_2_text:
-    "Por chat o por voz, como prefieras. Cuando el día pesa o la noche no llega, Blue escucha — sin juzgar, sin prisa.",
-  how_step_3_title: "Poco a poco, notas el cambio.",
+    "Habla por chat o por voz, cuando te venga mejor. Si el día se hace cuesta arriba o la noche no te deja descansar, Blue te escucha sin juzgar y con el tiempo que necesites.",
+  how_step_3_title: "Cada conversación te acerca a sentirte mejor.",
   how_step_3_text:
-    "Blue recuerda tu historia. Las conversaciones construyen contexto. No es magia: es acompañamiento constante con herramientas que la ciencia respalda.",
+    "Blue recuerda lo que compartís y construye contexto con cada charla. No es magia: es acompañamiento constante con herramientas basadas en evidencia para que ganes claridad, hábitos y calma en tu día a día.",
   how_disclaimer:
     "Blue es compañía emocional con IA, no un psicólogo. Si necesitas ayuda profesional, Deepfriend te lo indicará con claridad.",
 
@@ -119,7 +122,7 @@ const es = {
   product_library_label: "Biblioteca",
   product_library_title: "Conocimiento que calma.",
   product_library_text:
-    "Técnicas y recursos validados para la ansiedad, el insomnio y el estrés. Lecturas de menos de un minuto — breves, efectivas y aplicables al momento. Cada una con referencia al estudio científico que la respalda.",
+    "Técnicas y recursos validados para la ansiedad, el insomnio y el estrés. Lecturas breves de menos de un minuto, efectivas y aplicables al momento. Cada una con referencia al estudio científico que la respalda.",
   product_library_bullet_1: "Ansiedad, insomnio y estrés.",
   product_library_bullet_2: "Menos de un minuto de lectura.",
   product_library_bullet_3: "Aplicables al momento, con referencia al estudio.",
@@ -127,7 +130,7 @@ const es = {
   product_mindfulness_label: "Mindfulness",
   product_mindfulness_title: "Tu espacio de calma.",
   product_mindfulness_text:
-    "Vídeos de fondo, sonidos ambiente y meditaciones guiadas para crear la atmósfera perfecta — meditar, descansar o concentrarte, donde quieras.",
+    "Vídeos de fondo, sonidos ambiente y meditaciones guiadas para crear la atmósfera que necesitas: meditar, descansar o concentrarte, estés donde estés.",
   product_mindfulness_bullet_1: "Fondos visuales para inmersión.",
   product_mindfulness_bullet_2: "Paisajes sonoros configurables.",
   product_mindfulness_bullet_3: "Meditaciones guiadas paso a paso.",
@@ -143,7 +146,7 @@ const es = {
   privacy_point_3: "Sin inversores externos.",
   privacy_point_4: "Cifrado HTTPS en tránsito.",
   privacy_point_5:
-    "Prácticas de seguridad conformes a los estándares de la industria para datos de salud, incluyendo los requisitos HIPAA.",
+    "Arquitectura de seguridad alineada con los requisitos HIPAA de la industria.",
 
   // — Final CTA
   cta_title: "Empieza hoy. Tu primer paso es gratis.",
@@ -369,11 +372,14 @@ const en: TranslationDictionary = {
 
   home_pro_teaser: "Are you a professional? This is for you",
   home_pro_promo_eyebrow: "For professionals",
-  home_pro_promo_title: "We have a space and a tool built for you",
+  home_pro_promo_title:
+    "You're a licensed psychologist. This tool saves you time between sessions.",
   home_pro_promo_text:
-    "If you support people in their emotional wellbeing, Deepfriend helps you extend your care between sessions with clear tracking and structured support.",
-  home_pro_promo_bullet_1: "Dashboard to see your patients' progress",
-  home_pro_promo_bullet_2: "Notes and follow-up between sessions",
+    "If you practice psychology with patients in clinical care, Deepfriend lets you extend your support between sessions: clear tracking, structured notes and CBT-based support without adding administrative burden.",
+  home_pro_promo_bullet_1:
+    "Dashboard to see your patients' progress between sessions",
+  home_pro_promo_bullet_2:
+    "Continuous notes and follow-up, ready when you return to clinic",
   home_pro_promo_bullet_3: "Clinical-grade privacy and security",
   home_pro_promo_cta: "Discover Deepfriend for professionals",
 
@@ -419,13 +425,13 @@ const en: TranslationDictionary = {
   how_title: "This is how your journey begins.",
   how_step_1_title: "Open the app. Blue welcomes you.",
   how_step_1_text:
-    "No complicated signup. No clinical forms. Just download and start talking — like texting someone you trust.",
+    "Download the app and get started in seconds. No long signups or clinical forms. Blue welcomes you as naturally as talking to someone you trust.",
   how_step_2_title: "Tell Blue what's on your mind.",
   how_step_2_text:
-    "By chat or voice, however you prefer. When the day weighs on you or sleep won't come, Blue listens — no judgment, no rush.",
-  how_step_3_title: "Gradually, you notice the change.",
+    "Talk by chat or voice, whichever suits you. When the day feels heavy or sleep won't come, Blue listens without judgment and at your own pace.",
+  how_step_3_title: "Every conversation moves you closer to feeling better.",
   how_step_3_text:
-    "Blue remembers your story. Conversations build context. It's not magic: it's steady companionship with tools science supports.",
+    "Blue remembers what you share and builds context with every chat. It's not magic: it's steady companionship with evidence-based tools to help you gain clarity, habits and calm in your daily life.",
   how_disclaimer:
     "Blue is AI emotional companionship, not a psychologist. If you need professional help, Deepfriend will indicate that clearly.",
 
@@ -435,7 +441,7 @@ const en: TranslationDictionary = {
   product_library_label: "Library",
   product_library_title: "Knowledge that calms.",
   product_library_text:
-    "Validated techniques and resources for anxiety, insomnia and stress. Brief reads of under a minute — effective and ready to apply. Each linked to the scientific study behind it.",
+    "Validated techniques and resources for anxiety, insomnia and stress. Brief reads of under a minute, effective and ready to apply. Each linked to the scientific study behind it.",
   product_library_bullet_1: "Anxiety, insomnia and stress.",
   product_library_bullet_2: "Under a minute to read.",
   product_library_bullet_3: "Use right away, with study reference.",
@@ -443,7 +449,7 @@ const en: TranslationDictionary = {
   product_mindfulness_label: "Mindfulness",
   product_mindfulness_title: "Your calm space.",
   product_mindfulness_text:
-    "Background videos, ambient sounds and guided meditations to create the perfect atmosphere — meditate, rest or focus, wherever you are.",
+    "Background videos, ambient sounds and guided meditations to create the atmosphere you need: meditate, rest or focus, wherever you are.",
   product_mindfulness_bullet_1: "Immersive visual backgrounds.",
   product_mindfulness_bullet_2: "Customizable soundscapes.",
   product_mindfulness_bullet_3: "Step-by-step guided meditations.",
@@ -458,7 +464,7 @@ const en: TranslationDictionary = {
   privacy_point_3: "No outside investors.",
   privacy_point_4: "HTTPS encryption in transit.",
   privacy_point_5:
-    "Security practices aligned with industry standards for health data, including HIPAA requirements.",
+    "Security architecture aligned with industry HIPAA requirements.",
 
   cta_title: "Start today. Your first step is free.",
   cta_text: "Available on Google Play. One download, no payment, to meet Blue.",
@@ -672,11 +678,14 @@ const de: TranslationDictionary = {
 
   home_pro_teaser: "Sind Sie Fachkraft? Das ist für Sie",
   home_pro_promo_eyebrow: "Für Fachkräfte",
-  home_pro_promo_title: "Wir haben einen Bereich und ein Tool für Sie",
+  home_pro_promo_title:
+    "Sie sind staatlich anerkannter Psychologe. Dieses Tool spart Ihnen Zeit zwischen den Sitzungen.",
   home_pro_promo_text:
-    "Wenn Sie Menschen in ihrem emotionalen Wohlbefinden begleiten, hilft Ihnen Deepfriend, Ihre Betreuung zwischen Sitzungen mit klarer Nachverfolgung und strukturierter Unterstützung zu erweitern.",
-  home_pro_promo_bullet_1: "Dashboard für den Fortschritt Ihrer Patienten",
-  home_pro_promo_bullet_2: "Notizen und Nachverfolgung zwischen Sitzungen",
+    "Wenn Sie Psychologie mit Patienten in der Praxis ausüben, ermöglicht Ihnen Deepfriend, Ihre Begleitung zwischen Sitzungen zu erweitern: klare Nachverfolgung, strukturierte Notizen und KVT-basierte Unterstützung ohne zusätzlichen Verwaltungsaufwand.",
+  home_pro_promo_bullet_1:
+    "Dashboard für den Fortschritt Ihrer Patienten zwischen Sitzungen",
+  home_pro_promo_bullet_2:
+    "Fortlaufende Notizen und Nachverfolgung, bereit bei Ihrer Rückkehr in die Praxis",
   home_pro_promo_bullet_3: "Datenschutz und Sicherheit auf klinischem Niveau",
   home_pro_promo_cta: "Deepfriend für Fachkräfte entdecken",
 
@@ -723,13 +732,13 @@ const de: TranslationDictionary = {
   how_title: "So beginnt dein Weg.",
   how_step_1_title: "Du öffnest die App. Blue empfängt dich.",
   how_step_1_text:
-    "Keine komplizierte Anmeldung. Keine klinischen Formulare. Einfach herunterladen und anfangen zu sprechen — wie eine Nachricht an jemanden, dem du vertraust.",
+    "Lade die App herunter und starte in Sekunden. Keine langen Anmeldungen oder klinischen Formulare. Blue empfängt dich so natürlich wie ein Gespräch mit jemandem, dem du vertraust.",
   how_step_2_title: "Erzähl, was in dir vorgeht.",
   how_step_2_text:
-    "Per Chat oder Sprache, wie du möchtest. Wenn der Tag schwer ist oder der Schlaf ausbleibt, hört Blue zu — ohne Urteil, ohne Eile.",
-  how_step_3_title: "Nach und nach spürst du den Unterschied.",
+    "Sprich per Chat oder Stimme, wie es dir passt. Wenn der Tag schwer wird oder der Schlaf ausbleibt, hört Blue zu, ohne zu urteilen und in deinem Tempo.",
+  how_step_3_title: "Jedes Gespräch bringt dich näher an ein besseres Gefühl.",
   how_step_3_text:
-    "Blue erinnert sich an deine Geschichte. Gespräche bauen Kontext auf. Keine Magie: beständige Begleitung mit Werkzeugen, die die Wissenschaft stützt.",
+    "Blue erinnert sich an das, was du teilst, und baut mit jedem Gespräch Kontext auf. Keine Magie: beständige Begleitung mit evidenzbasierten Werkzeugen, damit du Klarheit, Gewohnheiten und Ruhe in deinen Alltag gewinnst.",
   how_disclaimer:
     "Blue ist KI-Begleitung für emotionales Wohlbefinden, kein Psychologe. Bei Bedarf an professioneller Hilfe weist Deepfriend klar darauf hin.",
 
@@ -739,7 +748,7 @@ const de: TranslationDictionary = {
   product_library_label: "Bibliothek",
   product_library_title: "Wissen, das beruhigt.",
   product_library_text:
-    "Validierte Techniken und Ressourcen bei Angst, Schlaflosigkeit und Stress. Kurze Lektüre von unter einer Minute — wirksam und sofort anwendbar. Jede mit Verweis auf die wissenschaftliche Studie dahinter.",
+    "Validierte Techniken und Ressourcen bei Angst, Schlaflosigkeit und Stress. Kurze Lektüre von unter einer Minute, wirksam und sofort anwendbar. Jede mit Verweis auf die wissenschaftliche Studie dahinter.",
   product_library_bullet_1: "Angst, Schlaflosigkeit und Stress.",
   product_library_bullet_2: "Weniger als eine Minute Lesezeit.",
   product_library_bullet_3: "Sofort anwendbar, mit Studienverweis.",
@@ -747,7 +756,7 @@ const de: TranslationDictionary = {
   product_mindfulness_label: "Mindfulness",
   product_mindfulness_title: "Dein Raum der Ruhe.",
   product_mindfulness_text:
-    "Hintergrundvideos, Umgebungsgeräusche und geführte Meditationen für die perfekte Atmosphäre — meditieren, ausruhen oder konzentrieren, wo immer du bist.",
+    "Hintergrundvideos, Umgebungsgeräusche und geführte Meditationen für die Atmosphäre, die du brauchst: meditieren, ausruhen oder konzentrieren, wo immer du bist.",
   product_mindfulness_bullet_1: "Immersive Hintergründe.",
   product_mindfulness_bullet_2: "Anpassbare Klanglandschaften.",
   product_mindfulness_bullet_3: "Geführte Meditationen Schritt für Schritt.",
@@ -762,7 +771,7 @@ const de: TranslationDictionary = {
   privacy_point_3: "Keine externen Investoren.",
   privacy_point_4: "HTTPS-Verschlüsselung bei der Übertragung.",
   privacy_point_5:
-    "Sicherheitspraktiken gemäß Branchenstandards für Gesundheitsdaten, einschließlich HIPAA-Anforderungen.",
+    "Sicherheitsarchitektur ausgerichtet an branchenüblichen HIPAA-Anforderungen.",
 
   cta_title: "Fange heute an. Dein erster Schritt ist kostenlos.",
   cta_text:
