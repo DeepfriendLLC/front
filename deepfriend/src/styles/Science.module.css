@@ -100,64 +100,82 @@
   min-height: clamp(240px, 32vw, 320px);
 }
 
-.diagram {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
+.phone {
+  width: min(100%, 280px);
   margin: 0;
-  width: min(100%, 320px);
+  filter: drop-shadow(0 16px 40px rgba(14, 26, 43, 0.14));
 }
 
-.diagramSvg {
-  width: 100%;
-  height: auto;
+.phoneFrame {
+  fill: var(--ink);
 }
 
-.diagramTriangle {
-  fill: rgba(255, 255, 255, 0.72);
-  stroke: rgba(51, 55, 189, 0.18);
+.phoneScreen {
+  fill: #1a2332;
+}
+
+.phoneLine {
+  fill: rgba(255, 255, 255, 0.15);
+}
+
+.phoneHome {
+  fill: rgba(36, 153, 139, 0.45);
+}
+
+.screenBg {
+  fill: rgba(255, 255, 255, 0.04);
+}
+
+.screenTriangle {
+  fill: rgba(51, 55, 189, 0.12);
+  stroke: rgba(51, 55, 189, 0.28);
   stroke-width: 1.5;
 }
 
-.diagramLine {
-  stroke: rgba(36, 153, 139, 0.22);
-  stroke-width: 1;
-  stroke-dasharray: 4 4;
+.screenLine {
+  stroke: rgba(36, 153, 139, 0.45);
+  stroke-width: 1.5;
 }
 
-.diagramNode {
+.screenLineInner {
+  stroke: rgba(255, 255, 255, 0.12);
+  stroke-width: 1;
+  stroke-dasharray: 3 3;
+}
+
+.screenNode {
   fill: var(--science, #3337bd);
 }
 
-.diagramNodeAccent {
+.screenNodeAccent {
   fill: var(--teal, #24998b);
 }
 
-.diagramNodeCenter {
-  fill: rgba(26, 29, 29, 0.2);
+.screenNodeCenter {
+  fill: rgba(255, 255, 255, 0.08);
+  stroke: rgba(36, 153, 139, 0.35);
+  stroke-width: 1;
 }
 
-.diagramLabels {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 12px;
-  width: 100%;
-  text-align: center;
-}
-
-.diagramLabel,
-.diagramLabelAccent {
+.screenCbtLabel {
   font-family: var(--f-sans);
-  font-size: var(--type-caption);
-  line-height: var(--type-caption-lh);
-  font-weight: var(--fw-sans-semibold);
-  letter-spacing: 0.02em;
-  color: var(--ink);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  fill: rgba(255, 255, 255, 0.85);
 }
 
-.diagramLabelAccent {
-  color: var(--teal, #24998b);
+.screenLabel,
+.screenLabelAccent {
+  font-family: var(--f-sans);
+  font-size: 8px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  fill: rgba(255, 255, 255, 0.7);
+}
+
+.screenLabelAccent {
+  fill: rgba(36, 153, 139, 0.9);
 }
 
 .grid {
@@ -229,14 +247,5 @@
 
   .grid {
     grid-template-columns: 1fr;
-  }
-
-  .diagramLabels {
-    gap: 8px;
-  }
-
-  .diagramLabel,
-  .diagramLabelAccent {
-    font-size: var(--type-micro);
   }
 }

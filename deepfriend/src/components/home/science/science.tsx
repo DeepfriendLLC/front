@@ -1,5 +1,6 @@
 import styles from "@/styles/Science.module.css";
 
+import PhoneMockup, { type PhoneMockupClasses } from "@/components/ui/phone-mockup";
 import { TranslationTexts } from "@/constants/translations/translations";
 import { Locale } from "@/i18n/config";
 import type { TranslationDictionary } from "@/constants/translations/translations";
@@ -17,44 +18,152 @@ function highlightWord(text: string, word: string, className: string) {
   );
 }
 
-function CbtTriangleDiagram({
+function ScienceVisual({
   labels,
+  cbtLabel,
 }: {
   labels: Pick<
     TranslationDictionary,
     "science_diagram_thought" | "science_diagram_emotion" | "science_diagram_behavior"
   >;
+  cbtLabel: string;
 }) {
+  const cx = 100;
+  const side = 108;
+  const height = (side * Math.sqrt(3)) / 2;
+  const centroidY = 178;
+  const yTop = centroidY - (2 * height) / 3;
+  const yBase = yTop + height;
+  const halfBase = side / 2;
+
+  const triTop = { x: cx, y: yTop };
+  const triLeft = { x: cx - halfBase, y: yBase };
+  const triRight = { x: cx + halfBase, y: yBase };
+  const triCenter = { x: cx, y: centroidY };
+
+  const phoneClasses: PhoneMockupClasses = {
+    phone: styles["phone"] ?? "",
+    phoneFrame: styles["phoneFrame"] ?? "",
+    phoneScreen: styles["phoneScreen"] ?? "",
+    phoneLine: styles["phoneLine"] ?? "",
+    phoneHome: styles["phoneHome"] ?? "",
+  };
+
+  const ariaLabel = `TCC: ${labels.science_diagram_thought}, ${labels.science_diagram_emotion}, ${labels.science_diagram_behavior}`;
+
   return (
-    <figure className={styles["diagram"]}>
-      <svg
-        className={styles["diagramSvg"]}
-        viewBox="0 0 320 280"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-        role="img"
-        aria-label={`TCC: ${labels.science_diagram_thought}, ${labels.science_diagram_emotion}, ${labels.science_diagram_behavior}`}
+    <PhoneMockup
+      clipPathId="science-screen"
+      classes={phoneClasses}
+      ariaLabel={ariaLabel}
+    >
+      <rect
+        x={40}
+        y={56}
+        width={120}
+        height={264}
+        rx={8}
+        className={styles["screenBg"]}
+      />
+
+      <polygon
+        points={`${triTop.x},${triTop.y} ${triLeft.x},${triLeft.y} ${triRight.x},${triRight.y}`}
+        className={styles["screenTriangle"]}
+      />
+
+      <line
+        x1={triTop.x}
+        y1={triTop.y}
+        x2={triLeft.x}
+        y2={triLeft.y}
+        className={styles["screenLine"]}
+      />
+      <line
+        x1={triTop.x}
+        y1={triTop.y}
+        x2={triRight.x}
+        y2={triRight.y}
+        className={styles["screenLine"]}
+      />
+      <line
+        x1={triLeft.x}
+        y1={triLeft.y}
+        x2={triRight.x}
+        y2={triRight.y}
+        className={styles["screenLine"]}
+      />
+
+      <line
+        x1={triTop.x}
+        y1={triTop.y}
+        x2={triCenter.x}
+        y2={triCenter.y}
+        className={styles["screenLineInner"]}
+      />
+      <line
+        x1={triLeft.x}
+        y1={triLeft.y}
+        x2={triCenter.x}
+        y2={triCenter.y}
+        className={styles["screenLineInner"]}
+      />
+      <line
+        x1={triRight.x}
+        y1={triRight.y}
+        x2={triCenter.x}
+        y2={triCenter.y}
+        className={styles["screenLineInner"]}
+      />
+
+      <circle cx={triTop.x} cy={triTop.y} r={7} className={styles["screenNode"]} />
+      <circle cx={triLeft.x} cy={triLeft.y} r={7} className={styles["screenNode"]} />
+      <circle
+        cx={triRight.x}
+        cy={triRight.y}
+        r={7}
+        className={styles["screenNodeAccent"]}
+      />
+      <circle
+        cx={triCenter.x}
+        cy={triCenter.y}
+        r={18}
+        className={styles["screenNodeCenter"]}
+      />
+
+      <text
+        x={triCenter.x}
+        y={triCenter.y + 4}
+        textAnchor="middle"
+        className={styles["screenCbtLabel"]}
       >
-        <polygon
-          points="160,36 288,228 32,228"
-          className={styles["diagramTriangle"]}
-        />
-        <line x1="160" y1="36" x2="32" y2="228" className={styles["diagramLine"]} />
-        <line x1="160" y1="36" x2="288" y2="228" className={styles["diagramLine"]} />
-        <line x1="32" y1="228" x2="288" y2="228" className={styles["diagramLine"]} />
-        <circle cx="160" cy="36" r="6" className={styles["diagramNode"]} />
-        <circle cx="32" cy="228" r="6" className={styles["diagramNode"]} />
-        <circle cx="288" cy="228" r="6" className={styles["diagramNodeAccent"]} />
-        <circle cx="160" cy="132" r="5" className={styles["diagramNodeCenter"]} />
-      </svg>
-      <figcaption className={styles["diagramLabels"]}>
-        <span className={styles["diagramLabel"]}>{labels.science_diagram_thought}</span>
-        <span className={styles["diagramLabel"]}>{labels.science_diagram_emotion}</span>
-        <span className={styles["diagramLabelAccent"]}>
-          {labels.science_diagram_behavior}
-        </span>
-      </figcaption>
-    </figure>
+        {cbtLabel}
+      </text>
+
+      <text
+        x={triTop.x}
+        y={triTop.y - 14}
+        textAnchor="middle"
+        className={styles["screenLabel"]}
+      >
+        {labels.science_diagram_thought}
+      </text>
+      <text
+        x={triLeft.x}
+        y={triLeft.y + 22}
+        textAnchor="start"
+        className={styles["screenLabel"]}
+      >
+        {labels.science_diagram_emotion}
+      </text>
+      <text
+        x={triRight.x}
+        y={triRight.y + 22}
+        textAnchor="end"
+        className={styles["screenLabelAccent"]}
+      >
+        {labels.science_diagram_behavior}
+      </text>
+    </PhoneMockup>
   );
 }
 
@@ -66,6 +175,9 @@ export default function ScienceComponent({ lang }: { lang: Locale }) {
     { num: "02", title: t.science_pillar_2_title, text: t.science_pillar_2_text },
     { num: "03", title: t.science_pillar_3_title, text: t.science_pillar_3_text },
   ];
+
+  const cbtLabel =
+    lang === "en" ? "CBT" : lang === "de" ? "KVT" : "TCC";
 
   return (
     <section className={styles["section"]} id="science" aria-labelledby="science-title">
@@ -88,12 +200,13 @@ export default function ScienceComponent({ lang }: { lang: Locale }) {
           </div>
 
           <div className={styles["visual"]}>
-            <CbtTriangleDiagram
+            <ScienceVisual
               labels={{
                 science_diagram_thought: t.science_diagram_thought,
                 science_diagram_emotion: t.science_diagram_emotion,
                 science_diagram_behavior: t.science_diagram_behavior,
               }}
+              cbtLabel={cbtLabel}
             />
           </div>
         </div>
