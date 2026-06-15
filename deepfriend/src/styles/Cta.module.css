@@ -1,5 +1,5 @@
 .section {
-  padding: 80px 0 16px;
+  padding: 80px 0 clamp(40px, 5vw, 56px);
   background: var(--white, var(--bg));
 }
 
@@ -56,4 +56,10 @@
 .icon {
   width: 20px;
   height: 20px;
+}
+
+@media (max-width: 880px) {
+  .section {
+    padding: clamp(56px, 10vw, 80px) 0 clamp(56px, 10vw, 72px);
+  }
 }
