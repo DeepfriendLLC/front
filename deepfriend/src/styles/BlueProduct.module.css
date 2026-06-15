@@ -173,12 +173,13 @@
   align-items: center;
   justify-content: center;
   min-height: clamp(280px, 36vw, 420px);
+  padding: 0 clamp(24px, 5vw, 48px);
 }
 
 .whaleBackdrop {
   position: absolute;
-  width: clamp(220px, 30vw, 340px);
-  height: clamp(220px, 30vw, 340px);
+  width: clamp(260px, 36vw, 420px);
+  height: clamp(240px, 34vw, 380px);
   border-radius: var(--radius-panel, 24px);
   background: linear-gradient(
     145deg,
@@ -190,7 +191,7 @@
 
 .whale {
   position: relative;
-  width: clamp(200px, 28vw, 320px);
+  width: clamp(220px, 32vw, 380px);
   height: auto;
   object-fit: contain;
   filter: drop-shadow(0 12px 32px rgba(36, 153, 139, 0.15));
