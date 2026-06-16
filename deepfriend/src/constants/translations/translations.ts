@@ -100,6 +100,7 @@ const es = {
   product_blue_note_title: "Feedback de profesionales TCC",
   product_blue_note_text:
     "Deepfriend incorpora feedback de psicólogos especializados en TCC. Acompaña; no sustituye terapia.",
+  product_blue_note_link: "Descubre cómo Deepfriend potencia tu terapia",
 
   // — Section: how it works
   how_eyebrow: "Así funciona",
@@ -420,6 +421,7 @@ const en: TranslationDictionary = {
   product_blue_note_title: "Feedback from CBT professionals",
   product_blue_note_text:
     "Deepfriend incorporates feedback from CBT-specialized psychologists. It accompanies; it does not replace therapy.",
+  product_blue_note_link: "Discover how Deepfriend powers your therapy",
 
   how_eyebrow: "How it works",
   how_title: "This is how your journey begins.",
@@ -727,6 +729,7 @@ const de: TranslationDictionary = {
   product_blue_note_title: "Feedback von KVT-Fachleuten",
   product_blue_note_text:
     "Deepfriend integriert Feedback von KVT-spezialisierten Psychologen. Es begleitet — es ersetzt keine Therapie.",
+  product_blue_note_link: "Entdecke, wie Deepfriend deine Therapie stärkt",
 
   how_eyebrow: "So funktioniert es",
   how_title: "So beginnt dein Weg.",

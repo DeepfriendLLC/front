@@ -1,5 +1,6 @@
 import styles from "@/styles/BlueProduct.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 import { TranslationTexts } from "@/constants/translations/translations";
 import { Locale } from "@/i18n/config";
@@ -65,6 +66,12 @@ export default function BlueProductComponent({ lang }: { lang: Locale }) {
                   {t.product_blue_note_title}
                 </strong>
                 <p className={styles["noteText"]}>{t.product_blue_note_text}</p>
+                <Link
+                  href={`/${lang}/professionals` as never}
+                  className={styles["noteLink"]}
+                >
+                  {t.product_blue_note_link}
+                </Link>
               </div>
             </aside>
           </div>

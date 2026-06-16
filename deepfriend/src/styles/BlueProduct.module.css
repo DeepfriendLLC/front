@@ -167,6 +167,21 @@
   margin: 0;
 }
 
+.noteLink {
+  font-family: var(--f-sans);
+  font-size: var(--type-body-sm);
+  line-height: var(--type-body-sm-lh);
+  font-weight: var(--fw-sans-semibold);
+  color: var(--slate, var(--ink-soft));
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.2s var(--ease);
+}
+
+.noteLink:hover {
+  color: var(--teal-deep, var(--brand-deep));
+}
+
 .visual {
   position: relative;
   display: flex;
