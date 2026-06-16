@@ -68,11 +68,10 @@ const es = {
 
   // — Section: science
   science_eyebrow: "¿Por qué esto es distinto?",
-  science_title:
-    "Has probado otras cosas. Deepfriend está hecho con ciencia para funcionar.",
-  science_highlight: "ciencia",
+  science_title: "Ciencia, el secreto que hace que las cosas funcionen",
+  science_highlight: "Ciencia",
   science_text:
-    "Es normal dudar. Muchas apps prometen calma con frases bonitas, pero sin base científica. Deepfriend es diferente: cada técnica que usa Blue ha sido validada bajo el método científico. La TCC es el centro; el resto son herramientas complementarias, siempre con evidencia.",
+    "La gran diferencia con otras apps es la base científica. Deepfriend es diferente: cada técnica que usa Blue ha sido validada bajo el método científico. La TCC es el centro; el resto son herramientas complementarias, siempre con evidencia.",
   science_diagram_thought: "Pensamiento",
   science_diagram_emotion: "Emoción",
   science_diagram_behavior: "Conducta",
@@ -106,7 +105,7 @@ const es = {
   // — Section: how it works
   how_eyebrow: "Así funciona",
   how_title: "Así empieza tu camino.",
-  how_step_1_title: "Abres la app. Blue te recibe.",
+  how_step_1_title: "Abres la app y conoces a Blue.",
   how_step_1_text:
     "Descarga la app y empieza en segundos. Sin registros largos ni formularios clínicos. Blue te recibe con la misma naturalidad que hablar con alguien de confianza.",
   how_step_2_title: "Cuéntale lo que llevas dentro.",
@@ -133,16 +132,16 @@ const es = {
   product_mindfulness_title: "Tu espacio de calma.",
   product_mindfulness_text:
     "Vídeos de fondo, sonidos ambiente y meditaciones guiadas para crear la atmósfera que necesitas: meditar, descansar o concentrarte, estés donde estés.",
-  product_mindfulness_bullet_1: "Fondos visuales para inmersión.",
-  product_mindfulness_bullet_2: "Paisajes sonoros configurables.",
+  product_mindfulness_bullet_1: "Fondos visuales configurables.",
+  product_mindfulness_bullet_2: "Sonidos ambiente inmersivos.",
   product_mindfulness_bullet_3: "Meditaciones guiadas paso a paso.",
 
   // — Privacy commitment
   privacy_eyebrow: "Compromiso de privacidad",
   privacy_title:
-    "Tus datos nunca se venden ni se comparten. Nunca. Bajo ningún contexto.",
+    "Tu privacidad importa, aquí tus datos nunca se venden ni se comparten. Nunca. Bajo ningún contexto.",
   privacy_text:
-    "Deepfriend es independiente: sin inversores, sin agencias, sin gobierno. Lo que compartes con Blue queda entre tú y Blue. Este principio no cambia.",
+    "Deepfriend es independiente: sin inversores, sin agencias ni gobiernos. Lo que compartes con Blue queda entre tú y Blue. Este principio no cambia.",
   privacy_point_1: "Sin venta de datos.",
   privacy_point_2: "Sin compartición con terceros.",
   privacy_point_3: "Sin inversores externos.",
@@ -151,7 +150,7 @@ const es = {
     "Arquitectura de seguridad alineada con los requisitos HIPAA de la industria.",
 
   // — Final CTA
-  cta_title: "Empieza hoy. Tu primer paso es gratis.",
+  cta_title: "Empieza hoy. Tu primer paso es fácil y gratis.",
   cta_text:
     "Disponible en Google Play, sin pagos ni registros largos para conocer a Blue.",
   cta_button: "Descargar en Google Play",
