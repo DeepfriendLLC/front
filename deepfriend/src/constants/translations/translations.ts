@@ -41,22 +41,23 @@ const es = {
     "Cuando la cabeza no para, Blue te escucha sin juicio y sin prisa. Métodos con evidencia científica para ansiedad, estrés e insomnio. Privado. Disponible 24/7.",
   hero_cta_primary: "Descargar en Google Play",
   hero_cta_secondary: "Ver cómo funciona",
-  hero_micro_rating: "92% valoraciones positivas",
-  hero_micro_downloads: "Más de 1.000 usuarios",
+  hero_micro_rating: "Compatible con terapia",
+  hero_micro_downloads: "+1.000 usuarios",
   hero_micro_privacy: "Basado en ciencia",
 
   // — Home: professionals CTAs
   home_pro_teaser: "¿Eres profesional? Esto es para ti",
   home_pro_promo_eyebrow: "Para profesionales",
   home_pro_promo_title:
-    "Eres psicólogo titulado. Esta herramienta te ahorra tiempo entre sesiones.",
+    "¿Psicólogo titulado? Esta herramienta te ahorra tiempo entre sesiones.",
   home_pro_promo_text:
-    "Si ejerces la psicología con pacientes en consulta, Deepfriend te permite extender tu acompañamiento entre sesiones: seguimiento claro, notas estructuradas y apoyo basado en TCC sin sumar carga administrativa.",
+    "Deepfriend te permite extender y mejorar tu acompañamiento entre sesiones: seguimiento claro, notas estructuradas y apoyo basado en TCC sin sumar carga administrativa.",
   home_pro_promo_bullet_1:
     "Dashboard para ver el progreso de tus pacientes entre sesiones",
   home_pro_promo_bullet_2:
     "Notas y seguimiento continuo, listos cuando vuelves a consulta",
-  home_pro_promo_bullet_3: "Privacidad y seguridad de nivel clínico",
+  home_pro_promo_bullet_3:
+    "Control absoluto de Blue, privacidad y seguridad de nivel clínico",
   home_pro_promo_cta: "Descubrir Deepfriend para profesionales",
 
   // — Trust strip
@@ -90,7 +91,7 @@ const es = {
   product_blue_label: "Blue AI",
   product_blue_title: "Blue, ahí cuando lo necesitas.",
   product_blue_text:
-    "Una presencia que te escucha de verdad. Para desahogarte, pensar en voz alta o sentirte acompañado, sin juicio y sin prisa. Como ese amigo en quien confías, con herramientas que no improvisan.",
+    "Tu compañero que te escucha de verdad. Para desahogarte, pensar en voz alta o sentirte acompañado, sin juicio y sin prisa. Como ese amigo en quien confías, siempre con herramientas probadas científicamente, sin improvisar.",
   product_blue_bullet_1:
     "Habla cuando lo necesites: alivio desde la primera conversación.",
   product_blue_bullet_2:
@@ -152,7 +153,7 @@ const es = {
   // — Final CTA
   cta_title: "Empieza hoy. Tu primer paso es gratis.",
   cta_text:
-    "Disponible en Google Play. Una descarga, sin pagar, para conocer a Blue.",
+    "Disponible en Google Play, sin pagos ni registros largos para conocer a Blue.",
   cta_button: "Descargar en Google Play",
 
   // — About
@@ -390,7 +391,8 @@ const en: TranslationDictionary = {
   trust_24_7: "Available 24/7",
 
   science_eyebrow: "Why this is different",
-  science_title: "You've tried other options. Deepfriend is built with science to work.",
+  science_title:
+    "You've tried other options. Deepfriend is built with science to work.",
   science_highlight: "science",
   science_text:
     "It's normal to doubt. Many apps promise calm with nice phrases, but with no scientific basis. Deepfriend is different: every technique Blue uses has been validated through the scientific method. CBT is the core; everything else is complementary, always evidence-based.",
