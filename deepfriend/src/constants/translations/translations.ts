@@ -390,11 +390,10 @@ const en: TranslationDictionary = {
   trust_24_7: "Available 24/7",
 
   science_eyebrow: "Why this is different",
-  science_title:
-    "You've tried other options. Deepfriend is built with science to work.",
-  science_highlight: "science",
+  science_title: "Science, what makes things actually work",
+  science_highlight: "Science",
   science_text:
-    "It's normal to doubt. Many apps promise calm with nice phrases, but with no scientific basis. Deepfriend is different: every technique Blue uses has been validated through the scientific method. CBT is the core; everything else is complementary, always evidence-based.",
+    "The big difference from other apps is the scientific foundation. Deepfriend is different: every technique Blue uses has been validated through the scientific method. CBT is the core; everything else is complementary, always evidence-based.",
   science_diagram_thought: "Thought",
   science_diagram_emotion: "Emotion",
   science_diagram_behavior: "Behavior",
@@ -426,7 +425,7 @@ const en: TranslationDictionary = {
 
   how_eyebrow: "How it works",
   how_title: "This is how your journey begins.",
-  how_step_1_title: "Open the app. Blue welcomes you.",
+  how_step_1_title: "Open the app and meet Blue.",
   how_step_1_text:
     "Download the app and get started in seconds. No long signups or clinical forms. Blue welcomes you as naturally as talking to someone you trust.",
   how_step_2_title: "Tell Blue what's on your mind.",
@@ -453,15 +452,15 @@ const en: TranslationDictionary = {
   product_mindfulness_title: "Your calm space.",
   product_mindfulness_text:
     "Background videos, ambient sounds and guided meditations to create the atmosphere you need: meditate, rest or focus, wherever you are.",
-  product_mindfulness_bullet_1: "Immersive visual backgrounds.",
-  product_mindfulness_bullet_2: "Customizable soundscapes.",
+  product_mindfulness_bullet_1: "Customizable visual backgrounds.",
+  product_mindfulness_bullet_2: "Immersive ambient sounds.",
   product_mindfulness_bullet_3: "Step-by-step guided meditations.",
 
   privacy_eyebrow: "Privacy commitment",
   privacy_title:
-    "Your data is never sold or shared. Never. Under any circumstances.",
+    "Your privacy matters. Here, your data is never sold or shared. Never. Under any circumstances.",
   privacy_text:
-    "Deepfriend is independent: no investors, no agencies, no governments. What you share with Blue stays between you and Blue. This principle will not change.",
+    "Deepfriend is independent: no investors, no agencies or governments. What you share with Blue stays between you and Blue. This principle will not change.",
   privacy_point_1: "No data selling.",
   privacy_point_2: "No third-party sharing.",
   privacy_point_3: "No outside investors.",
@@ -469,7 +468,7 @@ const en: TranslationDictionary = {
   privacy_point_5:
     "Security architecture aligned with industry HIPAA requirements.",
 
-  cta_title: "Start today. Your first step is free.",
+  cta_title: "Start today. Your first step is easy and free.",
   cta_text: "Available on Google Play. One download, no payment, to meet Blue.",
   cta_button: "Download on Google Play",
 
@@ -698,11 +697,10 @@ const de: TranslationDictionary = {
   trust_24_7: "Rund um die Uhr",
 
   science_eyebrow: "Warum das anders ist",
-  science_title:
-    "Du hast schon anderes ausprobiert. Deepfriend ist mit Wissenschaft gemacht, um zu wirken.",
+  science_title: "Wissenschaft — warum es wirklich funktioniert",
   science_highlight: "Wissenschaft",
   science_text:
-    "Zweifeln ist normal. Viele Apps versprechen Ruhe mit schönen Worten, aber ohne wissenschaftliche Grundlage. Deepfriend ist anders: Jede Technik, die Blue nutzt, wurde nach wissenschaftlicher Methode validiert. Die KVT steht im Zentrum; alles andere sind ergänzende, evidenzbasierte Werkzeuge.",
+    "Der große Unterschied zu anderen Apps ist die wissenschaftliche Grundlage. Deepfriend ist anders: Jede Technik, die Blue nutzt, wurde nach wissenschaftlicher Methode validiert. Die KVT steht im Zentrum; alles andere sind ergänzende, evidenzbasierte Werkzeuge.",
   science_diagram_thought: "Gedanke",
   science_diagram_emotion: "Emotion",
   science_diagram_behavior: "Verhalten",
@@ -734,7 +732,7 @@ const de: TranslationDictionary = {
 
   how_eyebrow: "So funktioniert es",
   how_title: "So beginnt dein Weg.",
-  how_step_1_title: "Du öffnest die App. Blue empfängt dich.",
+  how_step_1_title: "Du öffnest die App und lernst Blue kennen.",
   how_step_1_text:
     "Lade die App herunter und starte in Sekunden. Keine langen Anmeldungen oder klinischen Formulare. Blue empfängt dich so natürlich wie ein Gespräch mit jemandem, dem du vertraust.",
   how_step_2_title: "Erzähl, was in dir vorgeht.",
@@ -761,15 +759,15 @@ const de: TranslationDictionary = {
   product_mindfulness_title: "Dein Raum der Ruhe.",
   product_mindfulness_text:
     "Hintergrundvideos, Umgebungsgeräusche und geführte Meditationen für die Atmosphäre, die du brauchst: meditieren, ausruhen oder konzentrieren, wo immer du bist.",
-  product_mindfulness_bullet_1: "Immersive Hintergründe.",
-  product_mindfulness_bullet_2: "Anpassbare Klanglandschaften.",
+  product_mindfulness_bullet_1: "Anpassbare visuelle Hintergründe.",
+  product_mindfulness_bullet_2: "Immersive Umgebungsgeräusche.",
   product_mindfulness_bullet_3: "Geführte Meditationen Schritt für Schritt.",
 
   privacy_eyebrow: "Datenschutz-Versprechen",
   privacy_title:
-    "Deine Daten werden nie verkauft oder geteilt. Niemals. Unter keinen Umständen.",
+    "Deine Privatsphäre ist wichtig. Hier werden deine Daten nie verkauft oder geteilt. Nie. Unter keinen Umständen.",
   privacy_text:
-    "Deepfriend ist unabhängig: keine Investoren, keine Agenturen, keine Regierungen. Was du mit Blue teilst, bleibt zwischen dir und Blue. Dieses Prinzip wird sich nicht ändern.",
+    "Deepfriend ist unabhängig: keine Investoren, keine Agenturen oder Regierungen. Was du mit Blue teilst, bleibt zwischen dir und Blue. Dieses Prinzip wird nicht ändern.",
   privacy_point_1: "Kein Datenverkauf.",
   privacy_point_2: "Keine Weitergabe an Dritte.",
   privacy_point_3: "Keine externen Investoren.",
@@ -777,7 +775,7 @@ const de: TranslationDictionary = {
   privacy_point_5:
     "Sicherheitsarchitektur ausgerichtet an branchenüblichen HIPAA-Anforderungen.",
 
-  cta_title: "Fange heute an. Dein erster Schritt ist kostenlos.",
+  cta_title: "Fange heute an. Dein erster Schritt ist einfach und kostenlos.",
   cta_text:
     "Verfügbar bei Google Play. Ein Download, kostenlos, um Blue kennenzulernen.",
   cta_button: "Bei Google Play herunterladen",
