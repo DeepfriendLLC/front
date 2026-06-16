@@ -31,10 +31,6 @@ export default function PortadaComponent({ lang }: { lang: Locale }) {
       <div className={styles['grid']} aria-hidden />
       <div className={`df-shell ${styles['shell']}`}>
         <div className={styles['copy']}>
-          <span className={styles['eyebrow']}>
-            <span className={styles['dot']} aria-hidden />
-            {t.hero_eyebrow}
-          </span>
 
           <h1 className={styles['title']}>
             {highlightWord(
