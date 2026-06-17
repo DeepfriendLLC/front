@@ -13,7 +13,7 @@ function BannerShell({ eyebrow, title }: { eyebrow: string; title: string }) {
     </section>
   );
 }
-
+/*
 export function AboutBannerComponent({ lang }: { lang: Locale }) {
   const t = getT(lang);
   return <BannerShell eyebrow="Deepfriend" title={t.banner_about_title} />;
@@ -23,7 +23,7 @@ export function ContactBannerComponent({ lang }: { lang: Locale }) {
   const t = getT(lang);
   return <BannerShell eyebrow={t.contact_eyebrow} title={t.banner_contact_title} />;
 }
-
+*/
 export function PrivacyPolicyBannerComponent({ lang }: { lang: Locale }) {
   const t = getT(lang);
   return <BannerShell eyebrow={t.footer_legal} title={t.banner_privacy_policy_title} />;
