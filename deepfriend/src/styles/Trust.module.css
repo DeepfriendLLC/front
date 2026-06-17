@@ -10,6 +10,11 @@
   padding-bottom: 24px;
 }
 
+.shell-professionals {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

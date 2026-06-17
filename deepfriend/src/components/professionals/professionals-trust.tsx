@@ -46,7 +46,7 @@ export default function ProfessionalsTrustComponent({ lang }: { lang: Locale }) 
 
   return (
     <section className={styles["section"]} aria-label="Professionals trust">
-      <div className={`df-shell ${styles["shell"]}`}>
+      <div className={`df-shell ${styles["shell-professionals"]}`}>
         <ul className={styles["grid"]}>
           {items.map((it, i) => (
             <li key={i} className={styles["item"]}>
