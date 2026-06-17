@@ -156,11 +156,10 @@ const es = {
   cta_button: "Descargar en Google Play",
 
   // — About
-  about_eyebrow: "Acerca de Deepfriend",
   about_title:
     "Una iniciativa independiente para acercar la psicología basada en evidencia.",
   about_intro:
-    "Deepfriend nace de una experiencia personal: ver de cerca la falta de ayuda real en salud mental y descubrir que la TCC es la rama de la psicología con mayor respaldo científico. Una persona, un proyecto — esta página cuenta cómo y por qué.",
+    "Deepfriend nace de una experiencia personal: ver de cerca la falta de ayuda real en salud mental y descubrir que la TCC es la rama de la psicología con mayor respaldo científico. Una persona, un proyecto, esta página cuenta cómo y por qué.",
 
   about_mission_title: "Misión",
   about_mission_text:
@@ -172,7 +171,7 @@ const es = {
   about_story_eyebrow: "La historia",
   about_story_title: "Por qué Deepfriend",
   about_story_text:
-    "La idea nace después de que una persona cercana atravesara una depresión severa. En ese proceso comprobé las carencias de los servicios públicos y descubrí que gran parte de la psicología sigue sin basarse en evidencia. Tras investigar, encontré la TCC — el enfoque con mayor respaldo científico — y decidí construir Deepfriend. Lo desarrollo yo solo; el producto se ha ido moldeando con feedback de profesionales especializados, sin un equipo clínico permanente detrás.",
+    "La idea nace después de que una persona cercana atravesara una depresión severa. En ese proceso comprobé las carencias de los servicios públicos y descubrí que gran parte de la psicología sigue sin basarse en evidencia. Tras investigar, encontré la TCC, el enfoque con mayor respaldo científico, y decidí construir Deepfriend. El producto se ha ido moldeando con feedback de profesionales especializados, sin un equipo clínico permanente detrás.",
 
   about_team_title: "Una persona. Un proyecto.",
   about_pablo_title: "Fundador",
@@ -189,13 +188,12 @@ const es = {
 
   about_independent_title: "Un proyecto independiente",
   about_independent_text:
-    "Deepfriend es un proyecto creado y desarrollado por una sola persona. No es una multinacional ni cuenta con inversores externos. El producto se ha ido moldeando con feedback de profesionales especializados — sin equipo clínico empleado ni supervisión continua. Esa independencia permite comprometerse a no vender tus datos.",
+    "Deepfriend es un proyecto creado y desarrollado solo por mi, Pablo. No es una multinacional ni cuenta con inversores externos. El producto se ha ido moldeando con feedback de profesionales especializados, sin equipo clínico empleado ni supervisión continua. Esa independencia me permite mantener el compromiso con tu privacidad y a no vender tus datos.",
 
   // — Contact
-  contact_eyebrow: "Contacto",
-  contact_title: "Escríbeme. Cada mensaje cuenta.",
+  contact_title: "Aquí para esucharte. Cada mensaje cuenta.",
   contact_text:
-    "Deepfriend se construye escuchando. Elige el correo que mejor encaje con lo que necesitas — leo cada mensaje de forma personal.",
+    "Deepfriend se construye escuchando. Elige el correo que mejor encaje con lo que necesitas, leo cada mensaje de forma personal.",
   contact_email_title: "Correo general",
   contact_email_desc:
     "Preguntas, ideas, feedback o colaboraciones. Para todo lo que no sea soporte técnico de la app.",
@@ -218,7 +216,6 @@ const es = {
   ui_back_home: "Volver al inicio",
 
   // — Professionals (B2B)
-  pro_hero_eyebrow: "Profesionals",
   pro_hero_title: "Extiende tu atención entre sesiones.",
   pro_hero_highlight: "sesiones",
   pro_hero_subtitle:
@@ -472,7 +469,6 @@ const en: TranslationDictionary = {
   cta_text: "Available on Google Play. One download, no payment, to meet Blue.",
   cta_button: "Download on Google Play",
 
-  about_eyebrow: "About Deepfriend",
   about_title:
     "An independent initiative to bring evidence-based psychology closer.",
   about_intro:
@@ -507,7 +503,6 @@ const en: TranslationDictionary = {
   about_independent_text:
     "Deepfriend is built and developed by a single person. It is not a multinational, and there are no outside investors. The product has been shaped through feedback from specialized professionals — with no employed clinical team or ongoing supervision. That independence is what makes it possible to commit to never selling your data.",
 
-  contact_eyebrow: "Contact",
   contact_title: "Write to me. Every message counts.",
   contact_text:
     "Deepfriend is built on listening. Choose the email that best fits your need — I read every message personally.",
@@ -529,7 +524,6 @@ const en: TranslationDictionary = {
   ui_learn_more: "Learn more",
   ui_back_home: "Back to home",
 
-  pro_hero_eyebrow: "Professionals",
   pro_hero_title: "Extend your care between sessions.",
   pro_hero_highlight: "sessions",
   pro_hero_subtitle:
@@ -780,7 +774,6 @@ const de: TranslationDictionary = {
     "Verfügbar bei Google Play. Ein Download, kostenlos, um Blue kennenzulernen.",
   cta_button: "Bei Google Play herunterladen",
 
-  about_eyebrow: "Über Deepfriend",
   about_title:
     "Eine unabhängige Initiative, um evidenzbasierte Psychologie zugänglich zu machen.",
   about_intro:
@@ -815,7 +808,6 @@ const de: TranslationDictionary = {
   about_independent_text:
     "Deepfriend wird von einer einzelnen Person entwickelt. Es ist kein multinationaler Konzern und es gibt keine externen Investoren. Das Produkt wurde mit Feedback von Fachleuten weiterentwickelt — ohne angestelltes klinisches Team und ohne fortlaufende Supervision. Diese Unabhängigkeit ermöglicht es, deine Daten nie zu verkaufen.",
 
-  contact_eyebrow: "Kontakt",
   contact_title: "Schreib mir. Jede Nachricht zählt.",
   contact_text:
     "Deepfriend entsteht durch Zuhören. Wähle die passende E-Mail — ich lese jede Nachricht persönlich.",
@@ -837,7 +829,6 @@ const de: TranslationDictionary = {
   ui_learn_more: "Mehr erfahren",
   ui_back_home: "Zurück zur Startseite",
 
-  pro_hero_eyebrow: "Professionals",
   pro_hero_title: "Erweitere deine Betreuung zwischen den Sitzungen.",
   pro_hero_highlight: "Sitzungen",
   pro_hero_subtitle:
