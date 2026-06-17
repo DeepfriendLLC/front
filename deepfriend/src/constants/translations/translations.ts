@@ -219,7 +219,7 @@ const es = {
   pro_hero_title: "Extiende tu atención entre sesiones.",
   pro_hero_highlight: "sesiones",
   pro_hero_subtitle:
-    "Un dashboard interactivo para gestionar a tus pacientes y controlar a Blue — compañía emocional con IA basada en TCC, bajo tu supervisión clínica total.",
+    "Un dashboard interactivo para gestionar a tus pacientes y controlar a Blue, compañía emocional con IA basada en TCC, bajo tu supervisión clínica total.",
   pro_hero_cta_primary: "Contáctanos",
   pro_hero_cta_secondary: "Ver el dashboard",
 
@@ -232,15 +232,16 @@ const es = {
   pro_dashboard_title: "Un panel. Visibilidad completa.",
   pro_dashboard_highlight: "completa",
   pro_dashboard_text:
-    "Gestiona la ficha técnica, el historial terapéutico y cada conversación entre tu paciente y Blue. Todo lo que defines aquí nutre a la IA para acompañar con precisión clínica.",
+    "Gestiona la ficha técnica, el historial terapéutico y cada conversación entre tu paciente y Blue. Todo lo que defines aquí determina a la IA para acompañar con precisión clínica.",
   pro_dashboard_mock_patient: "Perfil del paciente",
   pro_dashboard_mock_sheet: "Ficha técnica",
   pro_dashboard_mock_behavior: "Comportamiento de Blue",
   pro_dashboard_mock_history: "Historial",
   pro_dashboard_mock_phases: "Fase terapéutica",
-  pro_dashboard_card_1_title: "Ficha técnica del paciente",
+  pro_dashboard_card_1_title:
+    "Ficha técnica del paciente actualizada automaticamente",
   pro_dashboard_card_1_text:
-    "Define el perfil clínico que alimenta a Blue: diagnóstico orientativo, objetivos terapéuticos y contexto del paciente.",
+    "Deja que Blue te quite el peso de actualizar el perfil clínico manteniendo siempre el control: diagnóstico orientativo, objetivos terapéuticos y contexto del paciente.",
   pro_dashboard_card_2_title: "Historial completo de conversaciones",
   pro_dashboard_card_2_text:
     "Lee cada interacción paciente-IA. Control total sobre lo que ocurre entre sesiones, sin perder ningún detalle.",
@@ -252,10 +253,10 @@ const es = {
   pro_benefits_title: "Más tiempo de terapia. Menos tiempo administrativo.",
   pro_benefit_1_title: "Ahorra horas cada semana",
   pro_benefit_1_text:
-    "La IA genera automáticamente cada día una ficha técnica y un historial completo. Llegas a la sesión con todo lo que pasó entre visitas — sin perder tiempo en recapitular.",
+    "La IA genera automáticamente cada día una ficha técnica y un historial completo. Llegas a la sesión con todo lo que pasó entre visitas, sin perder tiempo en recapitular.",
   pro_benefit_2_title: "Ofrece apoyo TCC 24/7",
   pro_benefit_2_text:
-    "Tus pacientes tienen a Blue entre sesiones: compañía emocional científica, siempre disponible. Un servicio que ningún competidor ofrece con este nivel de control.",
+    "Tus pacientes tienen a Blue entre sesiones: compañía emocional científica, siempre disponible, siempre bajo tu control. Un servicio que ningún competidor ofrece.",
   pro_benefit_3_title: "Mantén el control total",
   pro_benefit_3_text:
     "Editas ficha, historial y datos de usuario. Defines alertas de crisis, notificaciones y protocolos de emergencia según tu criterio clínico.",
@@ -273,7 +274,7 @@ const es = {
     "Cada día, la IA resume la actividad del paciente en un informe clínico listo para revisar antes de tu próxima sesión.",
   pro_feature_4_title: "Alertas de crisis configurables",
   pro_feature_4_text:
-    "Recibe un correo o notificación cuando detectes señales de riesgo — a las 3 de la mañana o cuando lo necesites.",
+    "Recibe un correo o notificación cuando detectes señales de riesgo, a las 3 de la mañana o cuando lo necesites.",
   pro_feature_5_title: "Gestión de crisis personalizada",
   pro_feature_5_text:
     "Define si Blue redirige a emergencias, te notifica directamente o sigue tu protocolo clínico específico.",
@@ -285,10 +286,9 @@ const es = {
   pro_patients_label: "Blue entre sesiones",
   pro_patients_title: "Un acompañamiento que marca la diferencia.",
   pro_patients_text:
-    "Tus pacientes reciben compañía emocional de calidad entre visitas — segura, científica y bajo tu supervisión. No es terapia sustituta: es continuidad de cuidado.",
-  pro_patients_bullet_1: "Disponible 24/7 — sin cita previa, sin esperas.",
-  pro_patients_bullet_2:
-    "IA basada en TCC — técnicas con evidencia científica.",
+    "Tus pacientes reciben compañía emocional de calidad entre visitas: segura, científica y bajo tu supervisión. No es terapia sustituta, es continuidad de cuidado.",
+  pro_patients_bullet_1: "Disponible 24/7. Sin cita previa, sin esperas.",
+  pro_patients_bullet_2: "IA basada en TCC. Técnicas con evidencia científica.",
   pro_patients_bullet_3: "Completamente segura y controlada por ti.",
 
   pro_workflow_eyebrow: "Cómo funciona",
