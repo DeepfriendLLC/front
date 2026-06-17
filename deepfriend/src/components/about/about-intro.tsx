@@ -10,10 +10,6 @@ export default function AboutIntroComponent({ lang }: { lang: Locale }) {
     <section className={styles["section"]} aria-labelledby="about-title">
       <div className={styles["gridBg"]} aria-hidden />
       <div className={`df-shell ${styles["shell"]}`}>
-        <span className={styles["eyebrow"]}>
-          <span className={styles["dot"]} aria-hidden />
-          {t.about_eyebrow}
-        </span>
         <h1 id="about-title" className={styles["title"]}>
           {t.about_title}
         </h1>

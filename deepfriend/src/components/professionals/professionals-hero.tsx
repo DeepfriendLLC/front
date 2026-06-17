@@ -30,10 +30,6 @@ export default function ProfessionalsHeroComponent({ lang }: { lang: Locale }) {
       <div className={styles["gridBg"]} aria-hidden />
       <div className={`df-shell ${styles["shell"]}`}>
         <div className={styles["copy"]}>
-          <span className={styles["eyebrow"]}>
-            <span className={styles["dot"]} aria-hidden />
-            {t.pro_hero_eyebrow}
-          </span>
 
           <h1 id="pro-hero-title" className={styles["title"]}>
             {highlightWord(

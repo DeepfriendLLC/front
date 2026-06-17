@@ -41,10 +41,6 @@ export function ContactComponent({ lang }: { lang: Locale }) {
       <div className={styles["gridBg"]} aria-hidden />
       <div className={`df-shell ${styles["shell"]}`}>
         <header className={styles["head"]}>
-          <span className={styles["eyebrow"]}>
-            <span className={styles["dot"]} aria-hidden />
-            {t.contact_eyebrow}
-          </span>
           <h1 id="contact-title" className={styles["title"]}>
             {t.contact_title}
           </h1>
