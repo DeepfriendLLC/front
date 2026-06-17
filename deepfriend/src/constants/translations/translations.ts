@@ -527,7 +527,7 @@ const en: TranslationDictionary = {
   pro_hero_title: "Extend your care between sessions.",
   pro_hero_highlight: "sessions",
   pro_hero_subtitle:
-    "An interactive dashboard to manage your patients and control Blue — a CBT-based AI emotional companion under your full clinical supervision.",
+    "An interactive dashboard to manage your patients and control Blue, a CBT-based AI emotional companion under your full clinical supervision.",
   pro_hero_cta_primary: "Contact us",
   pro_hero_cta_secondary: "See the dashboard",
 
@@ -540,15 +540,16 @@ const en: TranslationDictionary = {
   pro_dashboard_title: "One dashboard. Complete visibility.",
   pro_dashboard_highlight: "Complete",
   pro_dashboard_text:
-    "Manage the technical profile, therapeutic history and every conversation between your patient and Blue. Everything you define here feeds the AI to accompany with clinical precision.",
+    "Manage the technical profile, therapeutic history and every conversation between your patient and Blue. Everything you define here determines how the AI accompanies with clinical precision.",
   pro_dashboard_mock_patient: "Patient profile",
   pro_dashboard_mock_sheet: "Technical sheet",
   pro_dashboard_mock_behavior: "Blue behavior",
   pro_dashboard_mock_history: "History",
   pro_dashboard_mock_phases: "Therapeutic phase",
-  pro_dashboard_card_1_title: "Technical patient profile",
+  pro_dashboard_card_1_title:
+    "Patient technical sheet automatically updated",
   pro_dashboard_card_1_text:
-    "Define the clinical profile that feeds Blue: orientative diagnosis, therapeutic goals and patient context.",
+    "Let Blue take the burden of updating the clinical profile off your shoulders while you stay in full control: orientative diagnosis, therapeutic goals and patient context.",
   pro_dashboard_card_2_title: "Full conversation history",
   pro_dashboard_card_2_text:
     "Read every patient-AI interaction. Full control over what happens between sessions — no detail missed.",
@@ -560,10 +561,10 @@ const en: TranslationDictionary = {
   pro_benefits_title: "More therapy time. Less admin time.",
   pro_benefit_1_title: "Save hours every week",
   pro_benefit_1_text:
-    "The AI automatically generates a daily technical sheet and full history. You arrive at the session with everything that happened between visits — no time lost recapping.",
+    "The AI automatically generates a daily technical sheet and full history. You arrive at the session with everything that happened between visits, no time lost recapping.",
   pro_benefit_2_title: "Offer 24/7 CBT support",
   pro_benefit_2_text:
-    "Your patients have Blue between sessions: scientific emotional companionship, always available. A service no competitor offers with this level of control.",
+    "Your patients have Blue between sessions: scientific emotional companionship, always available, always under your control. A service no competitor offers.",
   pro_benefit_3_title: "Stay in full control",
   pro_benefit_3_text:
     "Edit the technical sheet, history and user data. Define crisis alerts, notifications and emergency protocols on your clinical terms.",
@@ -581,7 +582,7 @@ const en: TranslationDictionary = {
     "Every day, the AI summarizes patient activity in a clinical report ready to review before your next session.",
   pro_feature_4_title: "Configurable crisis alerts",
   pro_feature_4_text:
-    "Receive an email or notification when risk signals appear — at 3 a.m. or whenever you need.",
+    "Receive an email or notification when risk signals appear, at 3 a.m. or whenever you need.",
   pro_feature_5_title: "Custom crisis management",
   pro_feature_5_text:
     "Define whether Blue redirects to emergencies, notifies you directly or follows your specific clinical protocol.",
@@ -593,9 +594,9 @@ const en: TranslationDictionary = {
   pro_patients_label: "Blue between sessions",
   pro_patients_title: "Companionship that makes the difference.",
   pro_patients_text:
-    "Your patients receive quality emotional support between visits — safe, scientific and under your supervision. Not a therapy substitute: continuity of care.",
-  pro_patients_bullet_1: "Available 24/7 — no appointment, no waiting.",
-  pro_patients_bullet_2: "CBT-based AI — techniques backed by science.",
+    "Your patients receive quality emotional support between visits: safe, scientific and under your supervision. Not a therapy substitute, continuity of care.",
+  pro_patients_bullet_1: "Available 24/7. No appointment, no waiting.",
+  pro_patients_bullet_2: "CBT-based AI. Techniques backed by science.",
   pro_patients_bullet_3: "Completely safe and controlled by you.",
 
   pro_workflow_eyebrow: "How it works",
@@ -832,7 +833,7 @@ const de: TranslationDictionary = {
   pro_hero_title: "Erweitere deine Betreuung zwischen den Sitzungen.",
   pro_hero_highlight: "Sitzungen",
   pro_hero_subtitle:
-    "Ein interaktives Dashboard zur Patientenverwaltung und Blue-Steuerung — KVT-basierte KI-Begleitung unter deiner vollständigen klinischen Aufsicht.",
+    "Ein interaktives Dashboard zur Patientenverwaltung und Blue-Steuerung, KVT-basierte KI-Begleitung unter deiner vollständigen klinischen Aufsicht.",
   pro_hero_cta_primary: "Kontakt aufnehmen",
   pro_hero_cta_secondary: "Dashboard ansehen",
 
@@ -845,15 +846,16 @@ const de: TranslationDictionary = {
   pro_dashboard_title: "Ein Panel. Volle Transparenz.",
   pro_dashboard_highlight: "Transparenz",
   pro_dashboard_text:
-    "Verwalte das technische Profil, die Therapiehistorie und jedes Gespräch zwischen Patient und Blue. Alles, was du hier definierst, speist die KI für präzise klinische Begleitung.",
+    "Verwalte das technische Profil, die Therapiehistorie und jedes Gespräch zwischen Patient und Blue. Alles, was du hier definierst, bestimmt, wie die KI mit klinischer Präzision begleitet.",
   pro_dashboard_mock_patient: "Patientenprofil",
   pro_dashboard_mock_sheet: "Technisches Blatt",
   pro_dashboard_mock_behavior: "Blue-Verhalten",
   pro_dashboard_mock_history: "Verlauf",
   pro_dashboard_mock_phases: "Therapiephase",
-  pro_dashboard_card_1_title: "Technisches Patientenprofil",
+  pro_dashboard_card_1_title:
+    "Technisches Patientenblatt automatisch aktualisiert",
   pro_dashboard_card_1_text:
-    "Definiere das klinische Profil für Blue: orientierende Diagnose, Therapieziele und Patientenkontext.",
+    "Lass Blue dir die Last der Aktualisierung des klinischen Profils abnehmen, während du stets die Kontrolle behältst: orientierende Diagnose, Therapieziele und Patientenkontext.",
   pro_dashboard_card_2_title: "Vollständiger Gesprächsverlauf",
   pro_dashboard_card_2_text:
     "Lies jede Patient-KI-Interaktion. Volle Kontrolle über das, was zwischen Sitzungen passiert — kein Detail geht verloren.",
@@ -865,10 +867,10 @@ const de: TranslationDictionary = {
   pro_benefits_title: "Mehr Therapiezeit. Weniger Verwaltungsaufwand.",
   pro_benefit_1_title: "Spare Stunden pro Woche",
   pro_benefit_1_text:
-    "Die KI erstellt täglich automatisch ein technisches Blatt und einen vollständigen Verlauf. Du kommst zur Sitzung mit allem, was zwischen den Terminen passiert ist — ohne Zeit für Rekapitulation.",
+    "Die KI erstellt täglich automatisch ein technisches Blatt und einen vollständigen Verlauf. Du kommst zur Sitzung mit allem, was zwischen den Terminen passiert ist, ohne Zeit für Rekapitulation.",
   pro_benefit_2_title: "Biete 24/7 KVT-Unterstützung",
   pro_benefit_2_text:
-    "Deine Patienten haben Blue zwischen den Sitzungen: wissenschaftliche emotionale Begleitung, immer verfügbar. Ein Service, den kein Wettbewerber mit diesem Kontrollniveau bietet.",
+    "Deine Patienten haben Blue zwischen den Sitzungen: wissenschaftliche emotionale Begleitung, immer verfügbar, immer unter deiner Kontrolle. Ein Service, den kein Wettbewerber bietet.",
   pro_benefit_3_title: "Behalte die volle Kontrolle",
   pro_benefit_3_text:
     "Bearbeite technisches Blatt, Verlauf und Nutzerdaten. Definiere Krisenalarme, Benachrichtigungen und Notfallprotokolle nach deinen klinischen Kriterien.",
@@ -886,7 +888,7 @@ const de: TranslationDictionary = {
     "Jeden Tag fasst die KI die Patientenaktivität in einem klinischen Bericht zusammen — bereit zur Prüfung vor der nächsten Sitzung.",
   pro_feature_4_title: "Konfigurierbare Krisenalarme",
   pro_feature_4_text:
-    "Erhalte eine E-Mail oder Benachrichtigung bei Risikosignalen — um 3 Uhr morgens oder wann immer du es brauchst.",
+    "Erhalte eine E-Mail oder Benachrichtigung bei Risikosignalen, um 3 Uhr morgens oder wann immer du es brauchst.",
   pro_feature_5_title: "Individuelles Krisenmanagement",
   pro_feature_5_text:
     "Lege fest, ob Blue zu Notdiensten weiterleitet, dich direkt benachrichtigt oder deinem spezifischen klinischen Protokoll folgt.",
@@ -898,11 +900,11 @@ const de: TranslationDictionary = {
   pro_patients_label: "Blue zwischen Sitzungen",
   pro_patients_title: "Begleitung, die den Unterschied macht.",
   pro_patients_text:
-    "Deine Patienten erhalten qualitativ hochwertige emotionale Unterstützung zwischen Terminen — sicher, wissenschaftlich und unter deiner Aufsicht. Kein Therapieersatz: Kontinuität der Versorgung.",
+    "Deine Patienten erhalten qualitativ hochwertige emotionale Unterstützung zwischen Terminen: sicher, wissenschaftlich und unter deiner Aufsicht. Kein Therapieersatz, sondern Kontinuität der Versorgung.",
   pro_patients_bullet_1:
-    "Rund um die Uhr verfügbar — ohne Termin, ohne Wartezeit.",
+    "Rund um die Uhr verfügbar. Ohne Termin, ohne Wartezeit.",
   pro_patients_bullet_2:
-    "KVT-basierte KI — wissenschaftlich fundierte Techniken.",
+    "KVT-basierte KI. Wissenschaftlich fundierte Techniken.",
   pro_patients_bullet_3: "Vollständig sicher und von dir kontrolliert.",
 
   pro_workflow_eyebrow: "So funktioniert es",
