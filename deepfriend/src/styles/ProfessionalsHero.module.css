@@ -103,16 +103,18 @@
   font-size: var(--type-btn);
   font-weight: var(--fw-sans-semibold);
   color: var(--white, #ffffff);
-  background: var(--ink);
-  border: 1px solid var(--ink);
+  background: var(--teal, #24998b);
+  border: 1px solid var(--teal, #24998b);
   border-radius: var(--radius-pill, 980px);
   transition:
     background 0.2s var(--ease),
+    border-color 0.2s var(--ease),
     transform 0.2s var(--ease);
 }
 
 .ctaPrimary:hover {
-  background: var(--ink-soft, #2a3535);
+  background: var(--teal-deep, var(--brand-deep));
+  border-color: var(--teal-deep, var(--brand-deep));
   transform: translateY(-1px);
 }
 
