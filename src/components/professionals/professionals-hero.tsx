@@ -7,7 +7,7 @@ import { Locale } from "@/i18n/config";
 import BlueWhale from "@/../public/images/blue/blue-turquesa.png";
 
 const CONTACT_HREF =
-  "mailto:hello@dfbubbles.com?subject=Professionals";
+  "mailto:hello@deepfriend.es?subject=Professionals";
 
 function highlightWord(text: string, word: string, className: string) {
   const index = text.indexOf(word);

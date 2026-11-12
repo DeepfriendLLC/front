@@ -109,13 +109,13 @@ export default function FooterComponent({
             <h4 className={styles['colTitle']}>{t.footer_contact_title}</h4>
             <ul className={styles['list']}>
               <li>
-                <a href="mailto:hello@dfbubbles.com" className={styles['link']}>
-                  hello@dfbubbles.com
+                <a href="mailto:hello@deepfriend.es" className={styles['link']}>
+                  hello@deepfriend.es
                 </a>
               </li>
               <li>
-                <a href="mailto:help@dfbubbles.com" className={styles['link']}>
-                  help@dfbubbles.com
+                <a href="mailto:help@deepfriend.es" className={styles['link']}>
+                  help@deepfriend.es
                 </a>
               </li>
             </ul>

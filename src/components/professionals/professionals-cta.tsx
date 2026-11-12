@@ -4,7 +4,7 @@ import { TranslationTexts } from "@/constants/translations/translations";
 import { Locale } from "@/i18n/config";
 
 const CONTACT_HREF =
-  "mailto:hello@dfbubbles.com?subject=Professionals";
+  "mailto:hello@deepfriend.es?subject=Professionals";
 
 export default function ProfessionalsCtaComponent({ lang }: { lang: Locale }) {
   const t = TranslationTexts[lang];

@@ -1,6 +1,6 @@
 # Deepfriend — Frontend
 
-**Live:** [dfbubbles.com](https://dfbubbles.com) · Deployed on [Vercel](https://vercel.com)
+**Live:** [deepfriend.es](https://deepfriend.es) · Deployed on [Vercel](https://vercel.com)
 
 The official web frontend for **Deepfriend**, a CBT-based AI emotional companion. Talk to Blue — an AI companion grounded in Cognitive Behavioral Therapy (CBT) — for anxiety, stress, and insomnia. Private, available 24/7, and your data is never sold.
 
@@ -90,7 +90,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Deployment
 
-The app is continuously deployed on **Vercel** and available at **[dfbubbles.com](https://dfbubbles.com)**.
+The app is continuously deployed on **Vercel** and available at **[deepfriend.es](https://deepfriend.es)**.
 
 ---
 
@@ -109,6 +109,6 @@ This project is licensed under the **[AGPL-3.0-only](https://www.gnu.org/license
 
 ## Author
 
-Built with care by **Pablo Vallejo**, founder of [Deepfriend](https://dfbubbles.com).
+Built with care by **Pablo Vallejo**, founder of [Deepfriend](https://deepfriend.es).
 
 > *Hope it helps the community.*

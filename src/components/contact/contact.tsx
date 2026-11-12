@@ -5,8 +5,8 @@ import { Locale } from "@/i18n/config";
 
 const CHANNELS = [
   {
-    href: "mailto:hello@dfbubbles.com",
-    email: "hello@dfbubbles.com",
+    href: "mailto:hello@deepfriend.es",
+    email: "hello@deepfriend.es",
     titleKey: "contact_email_title" as const,
     descKey: "contact_email_desc" as const,
     variant: "general" as const,
@@ -18,8 +18,8 @@ const CHANNELS = [
     ),
   },
   {
-    href: "mailto:help@dfbubbles.com",
-    email: "help@dfbubbles.com",
+    href: "mailto:help@deepfriend.es",
+    email: "help@deepfriend.es",
     titleKey: "contact_help_title" as const,
     descKey: "contact_help_desc" as const,
     variant: "support" as const,
