@@ -6,8 +6,7 @@ import Link from "next/link";
 import Logo from "@/../public/icon-clean.png";
 
 import { TranslationTexts } from "@/constants/translations/translations";
-import { Locale } from "@/i18n/config";
-import LangSwitcher from "@/components/basic/lang-switcher";
+import { type Locale } from "@/i18n/config";
 
 const GOOGLE_PLAY =
   "https://play.google.com/store/apps/details?id=com.dfbubbles.deepfriend";
@@ -49,7 +48,6 @@ export default function NavbarComponent({
         </nav>
 
         <div className={styles['actions']}>
-          <LangSwitcher current={lang} />
           <a
             href={GOOGLE_PLAY}
             target="_blank"
